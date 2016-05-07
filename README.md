@@ -3,16 +3,19 @@ Miles Wiki
 
 Just a Note.
 
-Quick Link
-----------
+Common
+------
 
-* [Event](event.md)
-* [Application](application.md)
-* [Mac](mac.md)
-* [Cloud Computing](cloud-computing.md)
-* [Wiki Engine](wiki-engine.md)
-* [License](license.md)
-* [Resource](resource.md)
+* [Symbol](symbol.md)
+* [Pattern](pattern.md)
+* [UML](uml.md)
+* [VCS](vcs.md)
+* [PMIS](pmis.md)
+* [Agile](agile.md)
+* [Scrum](scrum.md)
+* [Kanban](kanban.md)
+* [DevOps](devops.md)
+
 
 Server
 ------
@@ -24,49 +27,27 @@ Server
 * [Docker](docker.md)
 * [Container OS](container-os.md)
 
-Service
--------
-
-* [TargetProcess](target-process.md)
-
-Flows
------
-
-* [Pattern](pattern.md)
-* [Agile](agile.md)
-* [Scrum](scrum.md)
-* [Kanban](kanban.md)
-
-Common
-------
-
-* [Symbol](symbol.md)
-* [Readable Code](readable-code.md)
-* [UML](uml.md)
-* [IDE](ide.md)
-* [VCS](vcs.md)
-* [PMIS](pmis.md)
-* [CI](ci.md)
-
-Back-end
---------
+Programming
+-----------
 
 * [Development](development.md)
-* [Data Structure](data-structure.md)
 * [Algorithm](algorithm.md)
 * [PDL](pdl.md)
-* [Library](library.md)
 * [Framework](framework.md)
 * [Design Pattern](design-pattern.md)
-* [Unit Testing](unit-testing.md)
-* [End-to-End Test](e2e-test.md)
+* [Testing](testing.md)
+* [Data Structure](data-structure.md)
 * [Database](database.md)
 * [NoSQL](nosql.md)
+* [WebDesign](web-design.md)
 * [RESTful](restful.md)
 * [OAuth](oahuth.md)
 
-Front-end
----------
+Else
+----
 
-* [WebDesign](web-design.md)
-* [jQuery](library/jquery.md)
+* [Application](application.md)
+* [Cloud Computing](cloud-computing.md)
+* [Wiki Engine](wiki-engine.md)
+* [Resource](resource.md)
+* [License](license.md)
