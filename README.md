@@ -15,7 +15,7 @@ General
 * [DevOps](devops.md)
 
 
-Server
+Operations
 ------
 
 * [Network](network.md)
@@ -25,12 +25,12 @@ Server
 * [Docker](docker.md)
 * [Container OS](container-os.md)
 
-Programming
+Development
 -----------
 
-* [Development](development.md)
+* [Programming](programming.md)
 * [Algorithm](algorithm.md)
-* [PDL](pdl.md)
+* [Program Design Language](pdl)
 * [Framework](framework.md)
 * [Design Pattern](design-pattern.md)
 * [Testing](testing.md)
