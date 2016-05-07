@@ -1,10 +1,8 @@
-Miles Wiki
-==========
+Wiki
+====
 
-Just a Note.
-
-Common
-------
+General
+-------
 
 * [Symbol](symbol.md)
 * [Pattern](pattern.md)
