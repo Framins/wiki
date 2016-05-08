@@ -20,6 +20,7 @@ Operations
 
 * [Network](network.md)
 * [Linux](linux.md)
+* [Regex](regex)
 * [Server](server.md)
 * [VM](vm.md)
 * [Docker](docker.md)
