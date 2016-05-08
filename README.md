@@ -19,7 +19,7 @@ Operations
 ------
 
 * [Network](network.md)
-* [Linux](linux.md)
+* [Linux](linux)
 * [Regex](regex)
 * [Server](server.md)
 * [VM](vm.md)
