@@ -55,7 +55,7 @@ Structural Patterns
 * Decorator Pattern
 * Flyweight Pattern
 * Facade Pattern
-* Adapter Pattern
+* [Adapter Pattern](adapter-pattern)
 * Composite Pattern
 
 Behavioral Patterns
