@@ -28,5 +28,37 @@ Terms
 * *Container* 容器 - 執行應用，它可以被啟動、開始、停止、刪除，每個容器都是互相隔離的。
 * *Repository* 倉庫 - 集中存放映像檔的地方，公開的如 [Docker Hub](https://hub.docker.com/)
 
-
 > 映像檔是唯讀的，容器是在映像檔上多加一層可寫層
+
+FAQ
+---
+
+### 時區問題
+
+建 image 時執行這個指令：
+
+```dockerfile
+RUN echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata
+```
+
+或是 container 直接執行也可以：
+
+```bash
+docker exec -ti containerID echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata
+```
+
+### 對所有容器做一樣的操作
+
+參考： http://knktc.com/2014/08/09/docker-cheat-sheet/
+
+停止所有容器：
+
+```bash
+docker stop $(docker ps -a -q) 
+```
+
+刪除所有容器
+
+```bash
+docker rm $(docker ps -a -q)
+```
