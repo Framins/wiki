@@ -30,7 +30,7 @@ Git裡每個東西都是互相有關係，學習上如果能靈活思考，就�
   * branch 原理
   * branch to Branch
 * 基本指令
-  * [config](config]
+  * [config](config)
   * init
   * status
   * add
