@@ -26,6 +26,7 @@ Git裡每個東西都是互相有關係，學習上如果能靈活思考，就�
 * 查詢指令
   * status
   * [log](log.md)
+  * [reflog](reflog.md)
   * [diff](diff.md)
 * 檔案管理
   * add
