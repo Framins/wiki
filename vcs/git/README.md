@@ -43,7 +43,7 @@ Git裡每個東西都是互相有關係，學習上如果能靈活思考，就�
   * fetch
   * push
   * pull
-  * clone
+  * [clone](clone.md)
 * 分支操作
   * merge
   * rebase
