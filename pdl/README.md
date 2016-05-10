@@ -35,6 +35,7 @@ Markup Language
 [Markup Language][]，標記式語言。將文字和文字相關的其他訊息結合，以表現出文件結構和資料處理細節。而文字外的訊息是使用標記來標識，所以稱之為標記式語言。
 
 * [HTML](html.md)
+* [YAML](yaml.md)
 
 Lightweight Markup Language
 ---------------------------
