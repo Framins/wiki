@@ -33,7 +33,7 @@ Development
 * [Algorithm](algorithm.md)
 * [Program Design Language](pdl)
 * [Framework](framework.md)
-* [Design Pattern](design-pattern.md)
+* [Design Pattern](design-pattern)
 * [Testing](testing.md)
 * [Data Structure](data-structure.md)
 * [Database](database.md)
