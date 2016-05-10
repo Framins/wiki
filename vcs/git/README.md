@@ -98,4 +98,5 @@ Reference
 * [Git Reference](http://gitref.org/) - 一些常用指令的參考
 * [Git 版本控制系統](http://ihower.tw/git/) - iHower 大哥寫的 git 教學
 * [連猴子都能懂的Git入門指南](http://backlogtool.com/git-guide/tw/)
+* [tree-ish](http://stackoverflow.com/questions/4044368/what-does-tree-ish-mean-in-git)
 * https://ihower.tw/git/files/ihower-git-workflow.pdf
