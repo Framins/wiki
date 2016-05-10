@@ -3,19 +3,6 @@ Git
 
 [用 Git 寫書的小故事](story.md)
 
-線上學習資源：
-
-  * [ProGit](http://git-scm.com/book) - 官方的學習參考資料
-  * [官方指令說明文件](https://www.kernel.org/pub/software/scm/git/docs/)
-  * [30 天精通 Git 版本控管](https://github.com/doggy8088/Learn-Git-in-30-days)
-  * [寫給大家的 Git 教學](http://littleb.tc/slides/2012/everyone/git.html#slide-0)
-  * [Learn Git Branching](http://pcottle.github.io/learnGitBranching/) - 看你能闖幾關
-  * [官方的教學](https://try.github.io/levels/1/challenges/1)
-  * [Git Reference](http://gitref.org/) - 一些常用指令的參考
-  * [Git 版本控制系統](http://ihower.tw/git/) - iHower 大哥寫的 git 教學
-  * [連猴子都能懂的Git入門指南](http://backlogtool.com/git-guide/tw/)
-  * https://ihower.tw/git/files/ihower-git-workflow.pdf
-
 Roadmap
 -------
 
@@ -38,7 +25,7 @@ Git裡每個東西都是互相有關係，學習上如果能靈活思考，就�
 * 查詢指令
   * status
   * [log](log.md)
-  * diff
+  * [diff](diff.md)
 * 檔案管理
   * add
   * rm (--cache)
@@ -69,7 +56,6 @@ Git裡每個東西都是互相有關係，學習上如果能靈活思考，就�
   * push branch
   * remove remote branch
   * pull request
-* Flow
 
 Git伺服器選擇
 -------------
@@ -102,3 +88,13 @@ Reference
 * [Git 情境劇](http://blog.gogojimmy.net/2012/02/29/git-scenario/)
 * [Linux 的小烏龜](http://rabbitvcs.org/)
 * [MsysGit](http://msysgit.github.io/)
+* [ProGit](http://git-scm.com/book) - 官方的學習參考資料
+* [官方指令說明文件](https://www.kernel.org/pub/software/scm/git/docs/)
+* [30 天精通 Git 版本控管](https://github.com/doggy8088/Learn-Git-in-30-days)
+* [寫給大家的 Git 教學](http://littleb.tc/slides/2012/everyone/git.html#slide-0)
+* [Learn Git Branching](http://pcottle.github.io/learnGitBranching/) - 看你能闖幾關
+* [官方的教學](https://try.github.io/levels/1/challenges/1)
+* [Git Reference](http://gitref.org/) - 一些常用指令的參考
+* [Git 版本控制系統](http://ihower.tw/git/) - iHower 大哥寫的 git 教學
+* [連猴子都能懂的Git入門指南](http://backlogtool.com/git-guide/tw/)
+* https://ihower.tw/git/files/ihower-git-workflow.pdf
