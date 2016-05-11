@@ -20,10 +20,10 @@ Design Principles
 
 六大設計原則。
 
-* Single Responsibility Principle
-* Liskov Substitution Principle
+* [Single Responsibility Principle](single-responsibility-principle.md)
+* [Liskov Substitution Principle](liskov-substitution-principle.md)
 * Dependency Inversion Principle
-* Interface Segregation Principle
+* [Interface Segregation Principle](interface-segregation-principle.md)
 * Least Knowledge Principle
 * Open Close Principle
 
@@ -34,11 +34,11 @@ Creational Patterns
 
 基本的物件建立方式會有設計上的問題，或是增加設計的複雜度，所以可以靠此一類型的設計模式來控制物件的建立，並解決實際的問題。
 
-* Singleton Pattern
+* [Singleton Pattern](singleton-pattern.md)
 * Simple Factory Pattern
 * Factory Method Pattern
 * Abstract Factory Pattern
-* Builder Pattern
+* [Builder Pattern](builder-pattern.md)
 * Prototype Pattern
 
 加強的 Pattern：
