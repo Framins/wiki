@@ -35,7 +35,7 @@ Development
 * [Framework](framework.md)
 * [Design Pattern](design-pattern)
 * [Testing](testing.md)
-* [Data Structure](data-structure.md)
+* [Data Structure](data-structure)
 * [Database](database.md)
 * [NoSQL](nosql.md)
 * [WebDesign](web-design.md)
