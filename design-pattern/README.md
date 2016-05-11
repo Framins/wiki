@@ -36,10 +36,10 @@ Creational Patterns
 
 * [Singleton Pattern](singleton-pattern.md)
 * Simple Factory Pattern
-* Factory Method Pattern
+* [Factory Method Pattern](factory-method-pattern.md)
 * Abstract Factory Pattern
 * [Builder Pattern](builder-pattern.md)
-* Prototype Pattern
+* [Prototype Pattern](prototype-pattern.md)
 
 加強的 Pattern：
 
@@ -51,7 +51,7 @@ Structural Patterns
 結構型模式。
 
 * Proxy Pattern
-* Bridge Pattern
+* [Bridge Pattern](bridge-pattern.md)
 * Decorator Pattern
 * Flyweight Pattern
 * Facade Pattern
@@ -63,12 +63,12 @@ Behavioral Patterns
 
 行為型模式。此類型的模式主要是用來實現物件之間的交流方法，並增加物件交流時的彈性。
 
-* Template Method Pattern
+* [Template Method Pattern](template-method-pattern.md)
 * Command Pattern
 * Strategy Pattern
 * Chain-of-responsibility Pattern
 * Iterator Pattern
-* Observer Pattern
+* [Observer Pattern](observer-pattern.md)
 * Interpreter Pattern
 * State Pattern
 * Mediator Pattern
