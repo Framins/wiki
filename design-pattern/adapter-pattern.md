@@ -12,6 +12,12 @@ Adapter Pattern 的定義：
 UML
 ---
 
+類別圖
+
+![](http://plantuml.com/plantuml/png/Iyv9B2vMSCx9JCqhuUBAp2j9BKfBJ4vL24aiIayjKQZcKb3GLYXABInDBIxHqEIgvKe6Qt1CIIm0AaNXfK9L5nUa9cUcPIO78UdYWjYWe6i7DPaBQe5DZPuUt3Ge3L85Cz8AQ60YX0q0)
+
+PlantUML code
+
 ```uml
 class Client
 
@@ -109,15 +115,15 @@ Pros and Cons
 
 ### Pros
 
-* 兩個無關的類別，只要有了 Adapter 搞定它們，就可以放在一起執行。
-* Client 只會知道 Target 提供的方法，不會知道 Adaptee 的實作，符合 Least Knowledge Principle 。
-* 原本的類別都沒做任何修改，所以一樣都還是可以再被其他類別正常使用。
-* 靈活度高，想用 Adapter 就用，不想用就刪，其他程式碼都不用修改。
+* 兩個無關的類別，只要有了 Adapter 搞定它們，就可以放在一起執行
+* Client 只會知道 Target 提供的方法，不會知道 Adaptee 的實作，符合 Least Knowledge Principle
+* 原本的類別都沒做任何修改，所以一樣都還是可以再被其他類別正常使用
+* 靈活度高，想用 Adapter 就用，不想用就刪，其他程式碼都不用修改
 
 ### Cons
 
-* 轉換的過程有可能很麻煩。
-* 中間隔了一層，效能可能會有影響
+* 轉換的過程有可能很複雜
+* 承上，中間隔了一層，效能會比較差
 
 > 在「完美」的設計裡，是不需要 Adapter Pattern 的。通常用在事後的補救居多。
 
