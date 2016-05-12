@@ -29,7 +29,7 @@ Operations
 Development
 -----------
 
-* [Programming](programming.md)
+* [Programming](programming)
 * [Algorithm](algorithm.md)
 * [Program Design Language](pdl)
 * [Framework](framework.md)
