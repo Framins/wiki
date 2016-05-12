@@ -5,7 +5,7 @@ Unified Modeling Language ，統一塑模語言
 
 * Structure diagrams
   * Static diagrams
-    * Class Diagram
+    * [Class Diagram](class-diagram.md)
     * Object Diagram
     * Package Diagram
   * Implementation diagrams
