@@ -6,6 +6,8 @@ Developer
 Basic
 -----
 
+* [Basic Concept](basic-concept.md)
+
 程式設計入門需要必備的基礎知識。
 
 ### Function and Subroutine
@@ -24,6 +26,9 @@ Advanced
 --------
 
 進階的程式設計相關知識。
+
+* [MVC](mvc.md)
+* [ORM](orm.md)
 
 ### Exception Handling
 
