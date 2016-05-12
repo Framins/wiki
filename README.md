@@ -6,7 +6,7 @@ General
 
 * [Symbol](symbol.md)
 * [Pattern](pattern.md)
-* [UML](uml.md)
+* [UML](uml)
 * [VCS](vcs.md)
 * [PMIS](pmis.md)
 * [Agile](agile.md)
