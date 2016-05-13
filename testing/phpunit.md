@@ -67,3 +67,19 @@ Composer
 * "phpunit/php-invoker": "*"
 * "phpunit/dbunit": ">=1.2"
 * "phpunit/phpunit-selenium": ">=1.2"
+
+Codeception
+-----------
+
+基於 PHPUnit 的 BDD framework
+
+* Acceptance Testing
+* Functional Testing
+* API Testing
+* Unit Test
+
+看起來好像很厲害
+
+### Example
+
+  * [[https://github.com/Codeception/sample-l4-app|Example for Laravel 4]]
