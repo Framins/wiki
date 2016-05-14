@@ -138,9 +138,19 @@ var add = function(a, b) {
 }
 ```
 
-原因是，直譯器載入檔案後，會先處理所有宣告，包括變數宣告和函式宣告，接著才開始執行程式。  
-第一個例子因為函式宣告已處理過了，所以可以正常呼叫。  
+原因是，直譯器載入檔案後，會先處理所有宣告，包括變數宣告和函式宣告，接著才開始執行程式，這就是所謂的變數跟函數的提升(hoisting)，提升是一種可以將變數或函數宣告移到作用域(Scope)頂端的行為。
+
+第一個例子因為函式宣告已處理過了，所以可以正常呼叫。
+
 第二個例子因為變數宣告雖然有，可是執行到 `add()` 時，還沒有指定值給 add ，因此 add 會是 `undefined` 。
+
+但是要注意的是 ES6 的 Class 是無法提升的。
+
+```javascript
+'use strict';
+new foo(); // ReferenceError: foo is not defined
+class foo {}
+```
 
 最後，JavaScript 對於 Function 的這些概念，會引發一些問題：
 
@@ -153,3 +163,5 @@ Reference
 * [JavaScript 語言核心（9）不可輕忽的函式基礎](http://www.codedata.com.tw/javascript/essential-javascript-9-function-abc/)
 * [JavaScript 語言核心（10）初探一級函式](http://www.codedata.com.tw/javascript/essential-javascript-10-first-class-function/)
 * [JavaScript Essence: Function 實例](http://openhome.cc/Gossip/JavaScript/FunctionInstance.html)
+* [Hoisting - Glossary | MDN](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+* [Classes - Javascript | MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes#Hoisting)
