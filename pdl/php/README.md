@@ -18,6 +18,10 @@ Advanced
 --------
 
 * Socket
+  * [Ratchet](https://github.com/ratchetphp/Ratchet)
+  * [BrainSocket.php](https://github.com/BrainBoxLabs/brain-socket)
+  * [PHP-Websockers](https://github.com/ghedipunk/PHP-Websockets)
+  * [Latchet](https://github.com/sidneywidmer/Latchet)
 
 Extensions
 ----------
