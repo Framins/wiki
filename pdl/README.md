@@ -29,6 +29,8 @@ Dynamically Typed Language
 
 動態語言，特色是邊編譯邊執行程式碼。
 
+* [JavaScript](javascript)
+
 Markup Language
 ---------------
 
