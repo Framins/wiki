@@ -29,6 +29,7 @@ Advanced
 
 * [MVC](mvc.md)
 * [ORM](orm.md)
+* [Refactoring](refactoring.md)
 
 ### Exception Handling
 
