@@ -15,6 +15,20 @@ RDBMS 與 MongoDB 的名詞對照表：
 | Value   | Value |
 | Records / Rows | Document / Object |
 
+DataType
+--------
+
+* *String* 可以是一般的字串或空字串
+* *Integer* 整數
+* *Boolean* True 或 False
+* *Double* 小數
+* *null* 不是 0 也不是空
+* *array* 陣列
+* *object* 物件，可以是值、變數、函式或是資料結構
+* *timestamp*
+* *Internationalized Strings* UTF8 字串
+* *Object IDs* 每個 Document 都需要一個 ID 來識別，通常都用 Object IDs
+
 Reference
 ---------
 
