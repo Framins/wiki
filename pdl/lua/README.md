@@ -20,7 +20,7 @@ Basic
 
 此筆記是以 5.1 做測試的
 
-* Lexical Conventions
+* [Lexical Conventions](lexical-conventions.md)
 * Variables
 * Statements
 * Expressions
