@@ -1,6 +1,10 @@
 Retro
 =====
 
+* Starfish = Stop->Less->Keep->More->Start
+* Sun(好的/助力), Rocks(阻礙), Risks(風險), Wind(不好的)
+* ORID
+
 Noname
 ------
 
