@@ -12,5 +12,5 @@ Django
 Basic
 -----
 
-* Getting Started
-* Structure
+* [Getting Started](getting-started.md)
+* [Structure](structure.md)
