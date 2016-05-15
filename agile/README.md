@@ -16,3 +16,15 @@ User Story 有個範本：
 * 必須要從客戶角度出發
 * 必須要有商業價值
 * 必須要有驗收條件
+
+Scurm
+-----
+
+* Daily Scrum
+
+Reference
+---------
+
+* http://scrum.tw
+* http://teddy-chen-tw.blogspot.tw/2011/12/scrum-1.html
+* http://teddy-chen-tw.blogspot.tw/2012/01/scrum-7daily-scrum.html
