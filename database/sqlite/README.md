@@ -5,7 +5,7 @@ SQLite
 
 以下筆記以 SQLite 3 為主。
 
-* DataType
+* [DataType](datatype.md)
 
 Create
 ------
