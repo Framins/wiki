@@ -11,7 +11,7 @@ Based on Ruby
 Based on Python
 ---------------
 
-* Django
+* [Django](django)
 
 Based on JavaScript
 -------------------
@@ -31,13 +31,13 @@ Based on PHP
 ------------
 
 * Zend Framework
-* Phalcon
+* [Phalcon](phalcon)
 * Laravel
 * Windwalker
 * Slim
 * FuelPHP
 * CodeIgniter
-* Symfony
+* [Symfony](symfony)
 * [CakePHP](http://cakephp.org/)
 * [Doctrine](http://www.doctrine-project.org/)
 * [Joomla Platform](https://github.com/joomla/joomla-platform)
