@@ -17,6 +17,14 @@ User Story 有個範本：
 * 必須要有商業價值
 * 必須要有驗收條件
 
+Specification by Example
+------------------------
+
+* [官網](http://specificationbyexample.com/)
+* [實例化需求到底是什麼?(by David Ko)](http://kojenchieh.pixnet.net/blog/post/338272616)
+* [為什麼要實例化需求(by David Ko)](http://kojenchieh.pixnet.net/blog/post/341172233)
+* [如何進行實例化需求(by David Ko)](http://kojenchieh.pixnet.net/blog/post/344847323)
+
 Scurm
 -----
 
