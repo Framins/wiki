@@ -42,3 +42,8 @@ Template method 裡面的演算法有三種變化：
 1. abstract
 2. default
 3. hook
+
+Example
+-------
+
+* [Example code](template-method-pattern-example.md)
