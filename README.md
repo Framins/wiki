@@ -38,8 +38,8 @@ Development
 * [Data Structure](data-structure)
 * [Database](database)
 * [NoSQL](nosql)
-* [WebDesign](web-design.md)
-* [RESTful](restful.md)
+* [Web](web)
+* [RESTful](restful)
 * [OAuth](oahuth.md)
 
 Else
