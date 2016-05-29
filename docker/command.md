@@ -21,6 +21,10 @@ docker images
     ubuntu              12.04               69c02692b0c1        6 days ago          131.3 MB
     mysql               latest              aca96d9e6b5c        7 days ago          282.7 MB
 
+可用參數
+
+* `-q` : quiet
+
 裡面幾個 terms ：
 
 * *REPOSITORY* 來自哪個倉庫
@@ -45,6 +49,50 @@ docker run
 建立容器 執行完即刪除
 
     docker run --rm -it <image name>
+
+docker exec
+----------
+
+Run a command in a running container
+
+    docker exec -it <container id/name> bash
+
+docker ps
+----------
+
+List all containers
+
+    docker ps -a
+
+* `-a` : all
+* `-q` : quiet
+    
+docker stop
+----------
+
+    docker stop <constianer Id/name>
+
+docker rm
+----------
+
+Remove container
+
+    docker rm -vf <container Id/name>
+
+* `-v` : 刪除 volume
+* `-f` : Force
+
+Remove **ALL** container
+
+    docker rm -vf $(docker ps -a -q)
+
+docker rmi
+----------
+
+Remove image
+
+    # rm all IMAGE
+    docker rmi -f $(docker images -q)
 
 docker commit
 -------------
