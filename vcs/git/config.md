@@ -166,4 +166,12 @@ cp /usr/local/etc/bash_completion.d/git-completion.bash ~/.git-bash-completion.s
 [ -f ~/.git-bash-completion.sh ] && . ~/.git-bash-completion.sh
 ```
 
+或是
+
+```bash
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+```
+
 完成，重開終端機即可
