@@ -100,9 +100,8 @@ ArrayAccess {
 * *offsetSet* - 設定該指標的值
 * *offsetUnset* - 刪除該指標的值
 
-Reference
----------
+===== Reference =====
 
-* [[http://www.php.net/manual/en/reserved.interfaces.php|PHP: Predefined Interfaces]]
-* [[http://www.php.net/manual/en/class.arrayaccess.php|PHP: ArrayIterator]]
-* [[http://www.php.net/manual/en/language.oop5.iterations.php|PHP: Object Iteration]]
+* [PHP: Predefined Interfaces](http://www.php.net/manual/en/reserved.interfaces.php)
+* [PHP: ArrayIterator](http://www.php.net/manual/en/class.arrayaccess.php)
+* [PHP: Object Iteration](http://www.php.net/manual/en/language.oop5.iterations.php)
