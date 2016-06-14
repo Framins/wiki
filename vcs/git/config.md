@@ -78,6 +78,8 @@ Desktop.ini
 	email = jangconan@gmail.com
 [core]
 	editor = vim
+[push]
+	default = simple
 [color]
 	diff = auto
 	status = auto
