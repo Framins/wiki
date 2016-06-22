@@ -46,4 +46,4 @@ Terms
 Reference
 ---------
 
-  * [[http://teddy-chen-tw.blogspot.tw/2013/08/observer-pattern.html|Teddy 大師的教學]]
+  * [Teddy 大師的教學](http://teddy-chen-tw.blogspot.tw/2013/08/observer-pattern.html)
