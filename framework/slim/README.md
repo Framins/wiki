@@ -1,8 +1,12 @@
-Slim Framework
-==============
+# [Slim Framework](http://www.slimframework.com/)
 
-http://www.slimframework.com/
+`Micro Framework` `PHP`
 
-Slim(C) + Redbean ORM(M) + lightncandy(V)
+Slim 目前有兩大分支
 
-http://asika.windspeaker.co/post/3495-php-slim-framework-twig
+* 2.x
+* 3.x
+
+## References
+
+* [Slim(C) + Redbean ORM(M) + lightncandy(V)](http://asika.windspeaker.co/post/3495-php-slim-framework-twig)
