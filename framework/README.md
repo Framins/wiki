@@ -36,7 +36,7 @@ Based on PHP
 * Windwalker
 * Slim
 * FuelPHP
-* CodeIgniter
+* [CodeIgniter](codeigniter)
 * [Symfony](symfony)
 * [CakePHP](http://cakephp.org/)
 * [Doctrine](http://www.doctrine-project.org/)
