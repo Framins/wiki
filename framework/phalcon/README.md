@@ -1,10 +1,8 @@
-Phalcon
-=======
+# Phalcon
 
 應該是 2014 年最快的 PHP framework
 
-Basic
------
+## Basic
 
 * [Started](started.md)
 * Routing
@@ -12,13 +10,11 @@ Basic
 * Model
 * View
 
-Advanced
---------
+## Advanced
 
 * Security
 
-Reference
----------
+## Reference
 
 官方 Example
 

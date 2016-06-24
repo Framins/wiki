@@ -23,11 +23,11 @@ CodeIgniter官方所提到的設計目標：
 * 承上， OO 的概念不夠明確，對於未來要寫 OO 概念強的 framework 會有影響。
 * 缺少 ORM 與 HMVC 元件。第三方有出外掛，但都是 for 5.x 。
 
-===== Basic =====
+## Basic
 
 * [Started](started.md)
 
-===== Integrations =====
+## Integrations
 
 CodeIgniter 與其他 Project 的整合。
 
