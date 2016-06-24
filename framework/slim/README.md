@@ -5,7 +5,7 @@
 Slim Framework 框架如其名，又瘦又小的，速度也是非常的快。目前有兩大分支
 
 * 2.x
-* 3.x
+* [3.x](3/)
 
 ## References
 
