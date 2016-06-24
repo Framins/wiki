@@ -1,5 +1,6 @@
-Django
-======
+# Django
+
+`Python` `Web Framework`
 
 [官方網站](https://www.djangoproject.com/)
 
@@ -9,8 +10,7 @@ Django
 * [Instagram](https://www.instagram.com/)
 * [Disqus](https://disqus.com/)
 
-Basic
------
+## Basic
 
 * [Getting Started](getting-started.md)
 * [Structure](structure.md)

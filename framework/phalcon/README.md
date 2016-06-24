@@ -1,5 +1,7 @@
 # Phalcon
 
+`PHP` `C++` `Web Framework` `Micro Framework` `ORM` `ODM`
+
 應該是 2014 年最快的 PHP framework
 
 ## Basic
