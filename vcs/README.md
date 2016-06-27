@@ -92,3 +92,7 @@ History of Collaborative Work
 如果把專案維護者的負擔都分攤給每位開發者，讓大家一起預覽並討論程式是否可行，這樣除了整體效率能夠上升之外，每位開發者也能對於每一部分的程式碼都會有所了解。當然這個方法的缺點大概就是每位開發者必需要遵守團隊開發原則了。
 
 [Version Controll]: https://en.wikipedia.org/wiki/Version_control
+
+## References
+
+* [版本控制系統的基礎觀念](https://dotblogs.com.tw/huanlin/archive/2008/04/23/3198.aspx)
