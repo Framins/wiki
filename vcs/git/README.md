@@ -102,3 +102,4 @@ Reference
 * [連猴子都能懂的Git入門指南](http://backlogtool.com/git-guide/tw/)
 * [tree-ish](http://stackoverflow.com/questions/4044368/what-does-tree-ish-mean-in-git)
 * https://ihower.tw/git/files/ihower-git-workflow.pdf
+* [Git caret and tilde](http://www.paulboxley.com/blog/2011/06/git-caret-and-tilde)
