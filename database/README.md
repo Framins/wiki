@@ -9,6 +9,5 @@ RDBMS
 
 關聯式資料庫
 
-* MySQL
-* Oracle
-* SQLite
+* [MySQL](mysql)
+* [SQLite](sqlite)
