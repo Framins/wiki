@@ -27,7 +27,7 @@ Extensions
 ----------
 
 * PEAR
-* Composer
+* [Composer](composer.md)
 * codesniffer
 * curl
 
