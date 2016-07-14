@@ -21,6 +21,14 @@ Composer 可以輕易地解決 PHP 套件下載、安裝、更新、管理等問
 
 [Mac OSX 出錯的解決方法](https://github.com/composer/composer/issues/2839)
 
+### Docker
+
+Add the following statement in `.bash_profile`:
+
+    alias composer="docker run -i -t --rm -v \$PWD:/app composer/composer:1.1-alpine"
+
+> Default PHP version is 7
+
 ## Usage
 
 查套件的地方：
@@ -121,8 +129,11 @@ http://getcomposer.ycnets.com/doc/05-repositories.md#hosting-your-own
 
 * 使用 [Packagist](https://github.com/composer/packagist)
 * 使用 [Satis](https://github.com/composer/satis) 上傳的 repository 記得要標版號，不然就算使用 * 也是找不到的。不過可以用 `dev-master` 來得到最新的 master 。
+* See [Toran Proxy][] (Non-free)
 
 ## Composer Package Repository
 
 * [Satis](http://getcomposer.ycnets.com/doc/articles/handling-private-packages-with-satis.md)
 * https://github.com/smstw/Development-Tools/issues/1
+
+[Toran Proxy]: https://toranproxy.com/
