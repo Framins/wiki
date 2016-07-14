@@ -25,6 +25,7 @@ Operations
 * [VM](vm)
 * [Docker](docker)
 * [Container OS](containeros)
+* [Monitoring](monitoring)
 
 Development
 -----------
@@ -41,11 +42,6 @@ Development
 * [Web](web)
 * [RESTful](restful)
 * [OAuth](oahuth.md)
-
-Deployment
-----------
-
-* [Monitoring](monitoring)
 
 Else
 ----
