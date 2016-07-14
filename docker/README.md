@@ -47,19 +47,3 @@ RUN echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigure -f noninteractive tzd
 ```bash
 docker exec -ti containerID echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata
 ```
-
-### 對所有容器做一樣的操作
-
-參考： http://knktc.com/2014/08/09/docker-cheat-sheet/
-
-停止所有容器：
-
-```bash
-docker stop $(docker ps -a -q) 
-```
-
-刪除所有容器
-
-```bash
-docker rm $(docker ps -a -q)
-```
