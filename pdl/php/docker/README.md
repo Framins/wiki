@@ -14,4 +14,11 @@ Extensions
 
 ### memcached
 
+    apt-get install libmemcached-dev
+    pecl install memcached
+    echo "extension=memcached.so" > /usr/local/etc/php/conf.d/memcached.ini
+
 ### soap
+
+    apt-get install libxml2-dev
+    docker-php-ext-install soap
