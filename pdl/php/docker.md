@@ -22,3 +22,13 @@ Extensions
 
     apt-get install libxml2-dev
     docker-php-ext-install soap
+
+### zip
+
+    apt-get install zlib1g-dev
+    docker-php-ext-install zip
+
+### xdebug
+
+    pecl install xdebug
+    echo "zend_extension=/usr/local/lib/php/extensions/no-debug-non-zts-20121212/xdebug.so" > /usr/local/etc/php/conf.d/xdebug.ini 
