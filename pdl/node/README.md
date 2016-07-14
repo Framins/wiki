@@ -28,6 +28,12 @@ Setup Development Environment
 Node.js Package Manager
 -----------------------
 
+### Using npm in Docker
+
+    alias npm="docker run -i -t --rm -v \$PWD:/usr/src/app -w /usr/src/app node:6.3-slim npm"
+
+### Usage
+
 設定好開發環境後，就可以使用 npm 了
 全域安裝指令，有時候有的套件有提供 cli 命令，這時可能就需要用到 `-g`
 
