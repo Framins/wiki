@@ -4,9 +4,9 @@ PHP
 * Change Log
 * [Docker](docker)
 * PHP FIG
-* Magic Method
+* [Magic Method](magic-method.md)
 * Performance
-* Predefined Interfaces
+* [Predefined Interfaces](predefined-interfaces.md)
 
 Basic
 -----
