@@ -6,6 +6,7 @@ General
 
 * [Symbol](symbol.md)
 * [Pattern](pattern.md)
+* [Editors](editors)
 * [UML](uml)
 * [VCS](vcs.md)
 * [PMIS](pmis.md)
