@@ -1,7 +1,7 @@
 Container OS
 ============
 
-* Rancher
+* [Rancher](rancher.md)
 * CoreOS
 
 Reference
