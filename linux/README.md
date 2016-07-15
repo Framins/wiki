@@ -29,9 +29,7 @@ Topics
 一些主題性的內容
 
 * [LVM](lvm.md)
-* [Debian](debian.md)
-* [Setup](setup.md)
-* [Instruction](instruction.md)
+* [tmux](tmux.md)
 
 Instructions
 ------------
