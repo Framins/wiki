@@ -3,6 +3,7 @@ Container OS
 
 * [Rancher](rancher.md)
 * CoreOS
+  * [gitbook](https://joshhu.gitbooks.io/docker_theory_install/content/DockerBible/dockercoreos.html)
 
 Reference
 ---------
