@@ -11,14 +11,20 @@ Install
 Command
 -----------
 
-    man tmux        Commands Manual
+    man tmux        		Commands Manual
+    tmux list-keys			lists out every bound key and the tmux command it runs
+	tmux list-commands    	lists out every tmux command and its arguments
+    
 
 #### Session
-    tmux                                    create
+    tmux                                    create a session, default start with name 0
+    tmux new -s <session name> 				create a session with name
     tmux ls                                 list sessions
-    tmux att -t <session name>              reattach
+    tmux attach -t <session name>			reattach
     tmux kill-session -t <session name>     kill session
-
+    
+#### Server
+    tmux kill-server						kill server and clients, destroy all windows/sessions
 
 Shortcuts
 -----------
@@ -99,5 +105,6 @@ Reference
 -----------
 
 * [Tmux: A Simple Start](https://www.sitepoint.com/tmux-a-simple-start/)
-* https://wiki.frugalware.org/index.php/Tmux
+* [The tao of tmux] (http://tmuxp.readthedocs.io/en/latest/about_tmux.html#the-tao-of-tmux)
 * Brief introduce && Custom hotkeys [PART 1](http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/) / [PART 2](http://blog.hawkhost.com/2010/07/02/tmux-%e2%80%93-the-terminal-multiplexer-part-2/)
+* https://wiki.frugalware.org/index.php/Tmux
