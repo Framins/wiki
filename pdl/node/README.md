@@ -43,6 +43,8 @@ Node.js Package Manager
 
     alias npm="docker run -i -t --rm -v \$PWD:/usr/src/app -w /usr/src/app node:6.3-slim npm"
 
+> 如果不想為了測試簡單功能而裝 Node 的話，會很好用。但開發環境還是直接裝 nvm 會比較適合
+
 ### Usage
 
 設定好開發環境後，就可以使用 npm 了
