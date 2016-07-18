@@ -25,6 +25,17 @@ Setup Development Environment
     nvm use 0.10              # 使用目前已安裝的 0.10.x 最新版
     nvm alias default 0.10    # 設定預設的版本號
 
+### Mac
+
+Mac nvm 安裝方法，建議使用 brew 比較簡單
+
+    brew install nvm
+    mkdir ~/.nvm
+    echo "export NVM_DIR=\"\$HOME/.nvm\"" >> ~/.bash_profile
+    echo ". \"\$(brew --prefix nvm)/nvm.sh\"" >> ~/.bash_profile
+
+接著重啟終端機，就可以開始用 nvm 指令了
+
 Node.js Package Manager
 -----------------------
 
