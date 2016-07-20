@@ -48,6 +48,8 @@ Testing
 -------
 
 * PHPUnit
+* [phpspec](http://www.phpspec.net/)
+* [Codeception](http://codeception.com/)
 
 Debug or Benchmark
 ------------------
