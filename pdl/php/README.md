@@ -3,15 +3,14 @@ PHP
 
 * Change Log
 * [Docker](docker.md)
-* PHP FIG
-* [Magic Method](magic-method.md)
-* Performance
-* [Predefined Interfaces](predefined-interfaces.md)
+* [Coding Style](coding-style.md)
+* [Notice](notice.md)
 
 Basic
 -----
 
-* DataType
+* [DataType](types.md)
+* [How To](how-to.md)
 
 Advanced
 --------
@@ -21,6 +20,9 @@ Advanced
   * [BrainSocket.php](https://github.com/BrainBoxLabs/brain-socket)
   * [PHP-Websockers](https://github.com/ghedipunk/PHP-Websockets)
   * [Latchet](https://github.com/sidneywidmer/Latchet)
+* [Magic Method](magic-method.md)
+* [Performance](performance.md)
+* [Predefined Interfaces](predefined-interfaces.md)
 
 Extensions
 ----------
