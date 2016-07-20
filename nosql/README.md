@@ -7,6 +7,7 @@ NoSQL 有時也稱作 Not only SQL 。
 * MongoDB
 * Cassandra
 * Memcached
+  * [Cheatsheet](http://lzone.de/cheat-sheet/memcached)
 
 Reference
 ---------
