@@ -45,5 +45,12 @@ Extensions
 
 ### xdebug
 
+7.0
+
+    pecl install xdebug
+    echo "zend_extension=/usr/local/lib/php/extensions/no-debug-non-zts-20151012/xdebug.so" > /usr/local/etc/php/conf.d/xdebug.ini 
+
+5.x
+
     pecl install xdebug
     echo "zend_extension=/usr/local/lib/php/extensions/no-debug-non-zts-20121212/xdebug.so" > /usr/local/etc/php/conf.d/xdebug.ini 
