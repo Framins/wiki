@@ -63,6 +63,7 @@ Scripting Language
 [Scripting Language][]，指令碼語言，通常使用在電腦自動化上。
 
 * [Batch File](batch-file.md)
+* [Shell Script)(shell-script.md)
 
 [Program Design Language]: https://en.wikipedia.org/wiki/Program_Design_Language
 [Markup Language]: https://en.wikipedia.org/wiki/Markup_language
