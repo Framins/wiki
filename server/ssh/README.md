@@ -1,7 +1,7 @@
 SSH
 ===
 
-  * Generate Key
+  * [Generate Key](generate-key.md)
   * [免密碼登入](http://www.gtwang.org/2014/05/linux-ssh-public-key-authentication.html)
 
 Debian 系列安裝：
