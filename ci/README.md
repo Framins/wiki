@@ -26,7 +26,7 @@ CI 是一層品質的防護網，這層防護網是將其他每個維持品質�
 Implements
 ----------
 
-* [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+* [GitLab CI](gitlab-ci.md)
 * [Jenkins CI](http://jenkins-ci.org/)
 * [Circle CI](https://circleci.com/)
 * [Travis CI](https://travis-ci.org/)
