@@ -28,6 +28,11 @@ Implements
 
 * [GitLab CI](https://about.gitlab.com/gitlab-ci/)
 * [Jenkins CI](http://jenkins-ci.org/)
+* [Circle CI](https://circleci.com/)
+* [Travis CI](https://travis-ci.org/)
+* [Drone.io](https://drone.io/)
+* [TeamCity](https://www.jetbrains.com/teamcity/) (JetBrains 家出的 CI)
+* [Bamboo](https://www.atlassian.com/software/bamboo) (Atlassian 家出的 CI)
 
 Reference
 ---------
