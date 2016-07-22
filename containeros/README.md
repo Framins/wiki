@@ -2,6 +2,10 @@ Container OS
 ============
 
 * [Rancher](rancher.md)
+* Kubernetes
+  * [Minikube](minikube.md)
+* Mesos
+* Swarm
 * CoreOS
   * [gitbook](https://joshhu.gitbooks.io/docker_theory_install/content/DockerBible/dockercoreos.html)
 
