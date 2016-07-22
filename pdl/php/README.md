@@ -79,4 +79,4 @@ Reference
 * Memcache
 * MongoDB
 * [Redis](https://github.com/phpredis/phpredis)
-* http://laravel-taiwan.github.io/php-the-right-way/
+* [PHP: The Right Way](http://laravel-taiwan.github.io/php-the-right-way/)
