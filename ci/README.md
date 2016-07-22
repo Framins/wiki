@@ -13,11 +13,6 @@ CI 的特色
 * 可以讓任何一個開發人簡單的取得最新可以執行的程式
 * 每一個人可以看到自動化測試的結果
 
-CI 的實作
-
-* [GitLab CI](https://about.gitlab.com/gitlab-ci/)
-* [Jenkins CI](http://jenkins-ci.org/)
-
 CI 是一種概念，也是驅動所有系統品質工具的引擎
 
 * 有了 CI ，不懂技術的管理者，可以光看報表就知道系統的健康狀況。
@@ -27,6 +22,12 @@ CI 是一種概念，也是驅動所有系統品質工具的引擎
 * 有了 CI ，可以貫穿整個系統開發生命週期，為了品質所花的任何一份力氣，都不會白費而有所累積。
 
 CI 是一層品質的防護網，這層防護網是將其他每個維持品質的工具組織起來，整合起來，不斷不斷的持續整合，並即時產生回饋給所有成員。
+
+Implements
+----------
+
+* [GitLab CI](https://about.gitlab.com/gitlab-ci/)
+* [Jenkins CI](http://jenkins-ci.org/)
 
 Reference
 ---------
