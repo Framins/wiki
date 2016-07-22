@@ -96,3 +96,4 @@ Reference
 ---------
 
 * http://xyz.cinc.biz/2015/02/memcached-command-example.html?m=1
+* [Cheatsheet](http://lzone.de/cheat-sheet/memcached)
