@@ -9,9 +9,9 @@
 Composer 可以輕易地解決 PHP 套件下載、安裝、更新、管理等問題。
 
 > Composer 之於 PHP 感覺就很像 
-> * npm 之於 Node
-> * gem 之於 Ruby
-> * pip 之於 Python
+> * npm 之於 [Node](/pdl/node)
+> * gem 之於 [Ruby](/pdl/ruby)
+> * pip 之於 [Python](/pdl/python)
 
 ## Installation
 
@@ -97,7 +97,7 @@ create-project
 
 ## Create Package
 
-可以參考 [Packagist 首頁說明](https://packagist.org/) ，和 [Composer 語法說明](https://getcomposer.org/doc/04-schema.md)
+可以參考 [Packagist](https://packagist.org/) 首頁說明 ，和 [Composer 語法說明](https://getcomposer.org/doc/04-schema.md)
 
 建立自己的 package ，首先要在專案根目錄建立一個 `composer.json` 檔案：
 
@@ -123,17 +123,14 @@ create-project
 }
 ```
 
-## Private Composer
+## Use Private Repositories
 
-http://getcomposer.ycnets.com/doc/05-repositories.md#hosting-your-own
+[官方說明](https://getcomposer.org/doc/05-repositories.md#hosting-your-own)
 
 * 使用 [Packagist](https://github.com/composer/packagist)
-* 使用 [Satis](https://github.com/composer/satis) 上傳的 repository 記得要標版號，不然就算使用 * 也是找不到的。不過可以用 `dev-master` 來得到最新的 master 。
-* See [Toran Proxy][] (Non-free)
+* 使用 [Satis][] 上傳的 repository 記得要標版號，不然就算使用 * 也是找不到的。不過可以用 `dev-master` 來得到最新的 master 。
+  * [範例](https://github.com/smstw/Development-Tools/issues/1)
+* 使用 [Toran Proxy][] (Non-free)
 
-## Composer Package Repository
-
-* [Satis](http://getcomposer.ycnets.com/doc/articles/handling-private-packages-with-satis.md)
-* https://github.com/smstw/Development-Tools/issues/1
-
+[Satis]: https://github.com/composer/satis
 [Toran Proxy]: https://toranproxy.com/
