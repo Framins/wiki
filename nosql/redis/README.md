@@ -19,3 +19,4 @@ Reference
 
 * http://redis.io/
 * [中文指令參考](http://redis.readthedocs.org/en/latest/index.html)
+* http://www.hoterran.info/redis_kv_design
