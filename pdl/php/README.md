@@ -1,7 +1,7 @@
 PHP
 ===
 
-* Change Log
+* [Change Log](changelog.md)
 * [Docker](docker.md)
 * [Coding Style](coding-style.md)
 * [Notice](notice.md)
@@ -58,9 +58,9 @@ Debug or Benchmark
 
 * [XDebug](http://xdebug.org/)
 * KCachegrind
-* http://blog.crboy.net/2012/06/xdebug-remote-debugging.html
-* http://victorjonsson.github.io/PHP-Benchmark/
-* http://www.ruilog.com/blog/view/b6f0e42cf705.html
+* [Xdebug 遠端除錯 (Remote Debugging)](http://blog.crboy.net/2012/06/xdebug-remote-debugging.html)
+* [PHP-Benchmark](http://victorjonsson.github.io/PHP-Benchmark/)
+* [PHP Framework MVC Benchmark - v20111201-4](http://www.ruilog.com/blog/view/b6f0e42cf705.html)
 
 Editors
 -------
