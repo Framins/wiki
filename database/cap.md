@@ -14,3 +14,5 @@ References
 
 * [CAP定理](https://zh.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86)
 * [NoSQL學習筆記(二)之CAP理論](http://myblog-maurice.blogspot.tw/2012/08/nosqlcap.html)
+* [CAP理論十二年回顧："規則"變了](http://myblog-maurice.blogspot.tw/2012/08/cap_21.html)
+* [分布式系統理論基礎 - CAP](https://read01.com/y2x0nB.html)
