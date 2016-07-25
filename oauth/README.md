@@ -77,5 +77,6 @@ Reference
 
 * http://oauth.net/2/
 * http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html
+* https://backstage.forgerock.com/#!/docs/openam/10.1.0/admin-guide/chap-oauth2
 * [OAuth 2.0 筆記 (1) 世界觀](http://blog.yorkxin.org/posts/2013/09/30/oauth2-1-introduction/)
 * [OAuth 2.0 Authorization Protocol](https://malalanayake.wordpress.com/2013/01/17/oauth-2-0-authorization-protocol/)
