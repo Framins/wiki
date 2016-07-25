@@ -17,7 +17,10 @@ pre-commit
 * 把程式碼先做過 Formatting 後，再 commit 。
 * 先做 unit test 或 coding style 檢查，當通過才能 commit 。
 
-[先做 JSlint 再 commit 例子](http://rettamkrad.blogspot.tw/2014/03/git-hook-how-to-use-git-pre-commit-hook.html)
+### Examples:
+
+* [Git Hook in PHP](/pdl/php/tricks.md)
+* [先做 JSlint 再 commit 例子](http://rettamkrad.blogspot.tw/2014/03/git-hook-how-to-use-git-pre-commit-hook.html)
 
 post-checkout
 -------------
