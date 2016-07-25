@@ -5,6 +5,7 @@ PHP
 * [Docker](docker.md)
 * [Coding Style](coding-style.md)
 * [Notice](notice.md)
+* [Tricks](tricks.md)
 
 Basic
 -----
