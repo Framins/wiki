@@ -41,4 +41,5 @@ Reference
   * [持續整合所需準備事項](http://kojenchieh.pixnet.net/blog/post/378870311)
   * [執行持續整合所需要的紀律](http://kojenchieh.pixnet.net/blog/post/379112090)
   * [十件有關CI的事情](http://kojenchieh.pixnet.net/blog/post/75411763)
+  * [內修敏捷開發心法 + 外練持續整合招式](https://blog.toright.com/posts/4139)
   * [Git Workflows and Continuous Delivery](http://blogs.wandisco.com/2013/07/24/git-workflows-and-continuous-delivery-using-multisite-replication-to-facilitate-a-global-mainline/)
