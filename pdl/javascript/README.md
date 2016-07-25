@@ -1,6 +1,8 @@
 JavaScript
 ==========
 
+* [Library](library.md)
+
 Basic
 -----
 
