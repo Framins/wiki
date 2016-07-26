@@ -29,3 +29,7 @@
 官方額外的 extension
 
 * https://github.com/phalcon/incubator
+
+其他
+
+* [Phalcon 日志记录（Logging）](http://blog.csdn.net/qzfzz/article/details/39995715)
