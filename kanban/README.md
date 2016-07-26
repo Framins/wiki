@@ -8,8 +8,18 @@ Let's Kanban
 
 | Name | Platform |
 | ---- | ----------- |
-| [Trello](https://trello.com/) | Web / iOS / Android |
-| [Kanbanchi](http://www.kanbanchi.com/) | Web only |
-| [ZenHub](https://www.zenhub.com/) | GitHub + Kanban, Chrome extension only |
-| [GitLab kanban board](http://kanban.leanlabs.io/) | GitLab + Kanban, Web only |
-| [Wekan](https://wekan.io/) | Open source kanban, Web only |
+| [Trello][] | Web / iOS / Android |
+| [Kanbanchi][] | Web only |
+| [ZenHub][] | [GitHub][] + Kanban, Chrome extension only |
+| [GitLab kanban board][] | [GitLab][] + Kanban, Web only |
+| [Wekan][] | Open source kanban, Web only |
+
+
+
+[GitHub]: /vcs/git/github.md
+[GitLab]: /ci/gitlab-ci.md
+[Trello]: https://trello.com/
+[Kanbanchi]: http://www.kanbanchi.com/
+[ZenHub]: https://www.zenhub.com/
+[GitLab kanban board]: http://kanban.leanlabs.io/
+[Wekan]: https://wekan.io/
