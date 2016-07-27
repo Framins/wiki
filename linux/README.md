@@ -30,6 +30,8 @@ Topics
 
 * [LVM](lvm.md)
 * [tmux](tmux.md)
+* [date](date.md)
+* [make](make.md)
 
 Instructions
 ------------
@@ -49,3 +51,8 @@ Instructions
 | `cp <file1> <file2>` | 複製檔案 |
 | `cp -r <directory1> <directory2>` | 複製目錄，目標目錄不存在時會建立 |
 | `mv <file1> <file2>` | 移動檔案，或是更改名稱 |
+
+FAQs
+----
+
+* [SublimeText2 中文輸入問題解](http://samwlinux.blogspot.tw/2014/04/ubuntusublimetext2deb.html)
