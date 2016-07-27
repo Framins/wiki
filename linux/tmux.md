@@ -93,6 +93,14 @@ vim ~/.tmux.conf
 
     # Set status bar
     set -g status-bg cyan
+    
+	# Enable scroll pane under cursor on mouse up and enter copy mode
+	set-option -g mouse on
+	bind-key -T root WheelUpPane select-pane -t =\; copy-mode -e\; send-keys -M
+
+	# Enable copying using Cmd+C in copy mode
+	bind-key -t vi-copy MouseDragEnd1Pane copy-pipe "pbcopy"
+	
 
 
 Just remember that after every modification, tmux must be refreshed to take new settings into account.
