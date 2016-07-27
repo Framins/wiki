@@ -18,7 +18,7 @@
 參考：
 
 * http://www.htaccesseditor.com/ - 線上做 `.htaccess` ，沒想到連這種東西也有...
-* [http://en.wikipedia.org/wiki/.htaccess](Wiki 說明)
+* [Wiki 說明](http://en.wikipedia.org/wiki/.htaccess)
 
 ## Virtual Host
 
