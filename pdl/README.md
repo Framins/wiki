@@ -45,6 +45,8 @@ Markup Language
 
 * [HTML](html.md)
 * [YAML](yaml.md)
+* [Tex](tex.md)
+* [CSS](css)
 * [SASS](sass.md)
 
 Lightweight Markup Language
