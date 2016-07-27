@@ -49,3 +49,21 @@ RUN echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigure -f noninteractive tzd
 ```bash
 docker exec -ti containerID echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata
 ```
+
+### Docker 「進容器」的方法
+
+開啟的時候直接打開 bash shell
+
+```bash
+docker run -it --name=some-php php:7.0-apache bash
+```
+
+一般離開是直接打 `exit` ，但同時會把容器關閉，如果不想關掉的話，可以按 `Ctrl` + `P` + `Q` 回到 host 上
+
+> 這快速鍵好像是 bash 獨有的，不是很確定
+
+要再回去執行 bash 的容器裡的指令
+
+```bash
+docker attach some-php
+```
