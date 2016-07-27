@@ -15,7 +15,6 @@ General
 * [Kanban](kanban.md)
 * [DevOps](devops.md)
 
-
 Operations
 ------
 
@@ -34,6 +33,7 @@ Development
 * [Programming](programming)
 * [Algorithm](algorithm.md)
 * [Program Design Language](pdl)
+* [Library](library)
 * [Framework](framework)
 * [Design Pattern](design-pattern)
 * [Testing](testing)
