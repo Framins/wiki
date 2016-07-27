@@ -28,7 +28,7 @@ Ruby 的環境架設參考 iHower 的 [Ruby on Rails 實戰聖經](http://ihower
 
 ### Docker
 
-[Docker Image](https://registry.hub.docker.com/_/ruby/) 下載
+[Docker Image](https://registry.hub.docker.com/_/ruby/) 下載
 
 ## Basic
 
