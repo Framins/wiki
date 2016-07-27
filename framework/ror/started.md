@@ -11,8 +11,8 @@
 
 ## Common
 
-  * 設定 git 相關環境
-  * 安裝 node.js ， rails 啟動內建伺服器必須
+* 設定 git 相關環境
+* 安裝 node.js ， rails 啟動內建伺服器必須
 
 伺服器，看需求再選擇裝哪一種，目前大部分就是 Apache 和 Nginx 的選擇，再搭配 [Passenger](https://www.phusionpassenger.com/) 即可
 

@@ -36,6 +36,7 @@ Dynamically Typed Language
 * [Lua](lua)
 * [Node](node)
 * [PHP](php)
+* [Ruby](ruby)
 
 Markup Language
 ---------------
