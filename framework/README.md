@@ -25,7 +25,7 @@
 
 * [Zend Framework 1](zf1)
 * [Phalcon](phalcon)
-* Laravel
+* [Laravel](laravel)
 * Windwalker
 * Slim
 * FuelPHP
