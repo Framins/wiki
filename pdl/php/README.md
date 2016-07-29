@@ -33,6 +33,16 @@ Extensions
 * codesniffer
 * [curl](curl.md)
 
+Library
+-------
+
+### ORM
+
+* [Doctrine](http://www.doctrine-project.org/)
+* [RedBeanPHP](http://www.redbeanphp.com/index.php)
+* [Eloquent ORM](https://laravel.com/docs/5.1/eloquent)
+* [Propel](http://propelorm.org/)
+
 Template engine
 ---------------
 
