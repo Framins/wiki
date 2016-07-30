@@ -1,4 +1,5 @@
-# .gitignore for Zend Framework
+.gitignore for Zend Framework
+=============================
 
 ```gitignore
 # Composer files

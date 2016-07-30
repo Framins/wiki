@@ -1,7 +1,6 @@
 Algorithm
 =========
 
-
 Reference
 ---------
 

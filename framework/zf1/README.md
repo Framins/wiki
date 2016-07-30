@@ -16,8 +16,8 @@
 * [application.ini](https://github.com/feibeck/application.ini)
 * [Router](router.md)
 * [Controller](controller.md)
-* [Action Helpers](action-helper.md)
-* [FrontController](frontcontroller.md)
+* [Action Helper](action-helper.md)
+* [FrontController](front-controller.md)
 * View
 * Layout
 * Model

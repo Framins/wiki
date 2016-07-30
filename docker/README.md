@@ -1,22 +1,6 @@
 Docker
 ======
 
-* [Docker 首頁](https://www.docker.com/)
-* [Command Line 語法](https://docs.docker.com/reference/commandline/cli/)
-* [如何把資料傳到 docker container](https://docs.docker.com/userguide/dockervolumes/)
-* [Docker —— 從入門到實踐](http://philipzheng.gitbooks.io/docker_practice/)
-* [Command](command.md)
-* [Cheat Sheet](http://zeroturnaround.com/wp-content/uploads/2016/03/Docker-cheat-sheet-by-RebelLabs.png)
-* [Docker in Docker](dind.md)
-* [Tricks](tricks.md)
-
-Docker Orchestration Tools
---------------------------
-
-* [Machine](https://docs.docker.com/machine/) - 從零到有幫你佈署 Docker 環境
-* [Swarm](https://docs.docker.com/swarm/) - 用 Docker 建立 cluster 應用
-* Compose - 定義並執行複雜的 Docker 應用
-
 Why Docker
 ----------
 
@@ -24,14 +8,29 @@ Why Docker
 * 系統資源使用率高
 * 可以同時執行更多 AP
 
+Docker Orchestration Tools
+--------------------------
+
+* **[Docker Machine][]:** 從零到有幫你佈署 Docker 環境
+* **[Docker Swarm][]:** 用 Docker 建立 cluster 應用
+* **[Docker Compose](compose.md):** 定義並執行複雜的 Docker 應用
+
 Terms
 -----
 
-* *Image* 映像檔 - 可以稱之為一個 read-only template ，如 ubuntu + apache ，映像檔可以建立容器。
-* *Container* 容器 - 執行應用，它可以被啟動、開始、停止、刪除，每個容器都是互相隔離的。
-* *Repository* 倉庫 - 集中存放映像檔的地方，公開的如 [Docker Hub](https://hub.docker.com/)
+* **Image:** 映像檔，可以稱之為一個 read-only template ，如 ubuntu + apache ，映像檔可以建立容器
+* **Container:** 容器，執行應用，它可以被啟動、開始、停止、刪除，每個容器都是互相隔離的
+* **Repository:** 倉庫，集中存放映像檔的地方，公開的如 [Docker Hub][]
 
-> 映像檔是唯讀的，容器是在映像檔上多加一層可寫層
+Note: 映像檔是唯讀的，容器是在映像檔上多加一層可寫層
+
+Usage
+-----
+
+* [Command](command.md)
+* [Dockerfile](dockerfile.md)
+* [Tricks](tricks.md)
+* [Docker in Docker](dind.md)
 
 FAQ
 ---
@@ -58,12 +57,26 @@ docker exec -ti containerID echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigu
 docker run -it --name=some-php php:7.0-apache bash
 ```
 
-一般離開是直接打 `exit` ，但同時會把容器關閉，如果不想關掉的話，可以按 `Ctrl` + `P` + `Q` 回到 host 上
+一般離開是直接打 `exit` ，但同時會把容器關閉，如果不想關掉的話，可以按 `Ctrl + P + Q` 回到 host 上
 
-> 這快速鍵好像是 bash 獨有的，不是很確定
+Warning: 這快速鍵好像是 bash 獨有的，不是很確定
 
 要再回去執行 bash 的容器裡的指令
 
 ```bash
 docker attach some-php
 ```
+
+References
+----------
+
+* [Docker](https://www.docker.com/)
+* [Command Line 語法](https://docs.docker.com/reference/commandline/cli/)
+* [如何把資料傳到 docker container](https://docs.docker.com/userguide/dockervolumes/)
+* [Docker —— 從入門到實踐](http://philipzheng.gitbooks.io/docker_practice/)
+* [Cheat Sheet](http://zeroturnaround.com/wp-content/uploads/2016/03/Docker-cheat-sheet-by-RebelLabs.png)
+
+[Docker Hub]: https://hub.docker.com/
+[Docker Machine]: https://docs.docker.com/machine/
+[Docker Swarm]: https://docs.docker.com/swarm/
+[Docker Compose]: https://docs.docker.com/compose/

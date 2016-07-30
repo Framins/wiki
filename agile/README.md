@@ -30,6 +30,11 @@ Scurm
 
 * Daily Scrum
 
+Kanban
+------
+
+* [Kanban](kanban.md)
+
 Reference
 ---------
 

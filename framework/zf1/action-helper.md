@@ -1,4 +1,5 @@
-# Action Helpers
+Action Helper
+=============
 
 [Action Helpers](http://framework.zend.com/manual/1.12/en/zend.controller.actionhelpers.html) 是給 controller 重複使用的 function
 

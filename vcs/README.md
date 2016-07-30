@@ -1,13 +1,15 @@
 Version Control System
 ======================
 
-程式開發的過程中，總是會遇到一種問題：「我上次到底做了什麼？」  
-通常會有這個問題都是原本程式compile很正常，一修改完就出現錯誤。  
-情況輕微是程式執行發生Fatal Error，還能看得出在哪一行錯誤。情況嚴重就是compile過，可是執行結果是錯誤的。
+程式開發的過程中，總是會遇到一種問題：「我上次到底做了什麼？」。通常會有這個問題都是原本程式 compile 很正常，一修改完就出現錯誤。情況輕微是程式執行發生 Fatal Error ，還能看得出在哪一行錯誤。情況嚴重就是 compile 過，可是執行結果是錯誤的。
 
 這時就建議可以來學習 [Version Controll][] 了。
 
-Without SCM
+以下是目前有實作的 VCS
+
+* [Git](git/README.md)
+
+Without VCS
 -----------
 
 相信大型專案或是多人開發時，一定會出現下列問題：
@@ -22,7 +24,7 @@ Before Start
 
 開始之前，先了解一個重要的問題：
 
-**真的有需要用到SCM嗎？**
+**真的有需要用到 SCM 嗎？**
 
 當然 SCM 的好用是用過的人才會知道，但是學習曲線太高，導致會有人不想花時間投資在學 SCM 上。其實最重要的一個關鍵點就是，當用 SCM 能大幅減少專案執行失誤的話，相信這是需要投資的時刻了。
 
@@ -91,8 +93,8 @@ History of Collaborative Work
 
 如果把專案維護者的負擔都分攤給每位開發者，讓大家一起預覽並討論程式是否可行，這樣除了整體效率能夠上升之外，每位開發者也能對於每一部分的程式碼都會有所了解。當然這個方法的缺點大概就是每位開發者必需要遵守團隊開發原則了。
 
-[Version Controll]: https://en.wikipedia.org/wiki/Version_control
-
 ## References
 
 * [版本控制系統的基礎觀念](https://dotblogs.com.tw/huanlin/archive/2008/04/23/3198.aspx)
+
+[Version Controll]: https://en.wikipedia.org/wiki/Version_control

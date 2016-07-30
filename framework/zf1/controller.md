@@ -22,7 +22,7 @@ throw new Zend_Controller_Action_Exception($errorMessage, $errorCode);
 
 |  Type  |  Description  |
 |  ----  |  -----------  |
-| `Zend_Controller_Plugin_ErrorHandler::EXCEPTION_NO_CONTROLLER` | 找不到 Controller |
-| `Zend_Controller_Plugin_ErrorHandler::EXCEPTION_NO_ACTION` | 找不到 Action |
-| `Zend_Controller_Plugin_ErrorHandler::EXCEPTION_NO_ROUTE` | 沒有可用的的 Router |
-| `Zend_Controller_Plugin_ErrorHandler::EXCEPTION_OTHER` | 其他 Exception ，通常這就算是 500 了 |
+| Zend_Controller_Plugin_ErrorHandler::EXCEPTION_NO_CONTROLLER | 找不到 Controller |
+| Zend_Controller_Plugin_ErrorHandler::EXCEPTION_NO_ACTION | 找不到 Action |
+| Zend_Controller_Plugin_ErrorHandler::EXCEPTION_NO_ROUTE | 沒有可用的的 Router |
+| Zend_Controller_Plugin_ErrorHandler::EXCEPTION_OTHER | 其他 Exception ，通常這就算是 500 了 |

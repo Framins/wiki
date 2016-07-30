@@ -1,6 +1,6 @@
 # Zend_Controller
 
-  * [Zend Controller 官方文件](http://framework.zend.com/manual/1.12/en/zend.controller.html)
+* [Zend Controller 官方文件](http://framework.zend.com/manual/1.12/en/zend.controller.html)
 
 ## The Request Object
 

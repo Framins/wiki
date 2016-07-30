@@ -44,11 +44,10 @@ PlantUML 太好用了，以這個做說明
 5. 到系統設定 java 和 jar 的位置，改成 Local render
 6. Done
 
-> 中文字體需要另外裝，不然會出現亂碼...  
-> ```
-> apt-get install ttf-wqy-zenhei
-> fc-cache -v
-> ```
+中文字體需要另外裝，不然會出現亂碼...  
+
+    apt-get install ttf-wqy-zenhei
+    fc-cache -v
 
 #### IntelliJ IDEA
 

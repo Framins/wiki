@@ -1,4 +1,5 @@
-# Zend_Auth
+Zend_Auth
+=========
 
 [Zend_Auth](http://framework.zend.com/manual/1.12/en/zend.auth.html) 是用來驗證使用者的工具，它支援以下的驗證方法 (橋接器的介面：[Zend_Auth_Adapter_Interface](http://framework.zend.com/apidoc/1.12/files/Auth.Adapter.Interface.html))：
 

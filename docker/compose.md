@@ -1,25 +1,16 @@
 Compose
 =======
 
-如果想建立一個複雜的 Docker 環境的話，別懷疑，用 Docker Compose 就對了！
+如果想建立一個複雜的 Docker 環境的話，別懷疑，用 [Docker Compose][] 就對了！
 
 它使用 YAML 格式定義環境所需要的 Container ，只需一行指令就可以啟動並執行相關初始化或聯結
 
 因為是從 [fig][] 過來的，所以也可以參考 fig 指令
 
-  * [Docker Compose](https://docs.docker.com/compose/)
-
 Installation
 ------------
 
-[GitHub](https://github.com/docker/compose/releases) 上隨時會有更新，可以參考上面的說明安裝：
-
-1.3.3 穩定版的安裝方式
-
-```bash
-curl -L https://github.com/docker/compose/releases/download/1.3.3/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
-```
+[GitHub](https://github.com/docker/compose/releases) 上隨時會有更新，可以參考上面的說明安裝
 
 Command
 -------
@@ -32,80 +23,68 @@ Command
 
 加上 `-d` 參數後， container 會在背景執行
 
-```
-# docker-compose up -d
-Creating dockerfile_web_1...
-Creating dockerfile_redis_1...
-Creating dockerfile_mysql_1...
-```
+    # docker-compose up -d
+    Creating dockerfile_web_1...
+    Creating dockerfile_redis_1...
+    Creating dockerfile_mysql_1...
 
 有趣的是，如果已經 create 過的話，再下 up 指令，它會有重新建立的訊息，但實際上會有點像重開機
 
-```
-# docker-compose up -d
-Recreating dockerfile_web_1...
-Recreating dockerfile_redis_1...
-Recreating dockerfile_mysql_1...
-```
+    # docker-compose up -d
+    Recreating dockerfile_web_1...
+    Recreating dockerfile_redis_1...
+    Recreating dockerfile_mysql_1...
 
 ### docker-compose start/stop/restart
 
 啟動或停止 container
 
-```
-# docker-compose start
-Starting dockerfile_web_1...
-Starting dockerfile_redis_1...
-Starting dockerfile_mysql_1...
+    # docker-compose start
+    Starting dockerfile_web_1...
+    Starting dockerfile_redis_1...
+    Starting dockerfile_mysql_1...
 
-# docker-compose stop
-Stopping dockerfile_mysql_1...
-Stopping dockerfile_redis_1...
-Stopping dockerfile_web_1...
+    # docker-compose stop
+    Stopping dockerfile_mysql_1...
+    Stopping dockerfile_redis_1...
+    Stopping dockerfile_web_1...
 
-# docker-compose restart
-Restarting dockerfile_web_1...
-Restarting dockerfile_redis_1...
-Restarting dockerfile_mysql_1...
-```
+    # docker-compose restart
+    Restarting dockerfile_web_1...
+    Restarting dockerfile_redis_1...
+    Restarting dockerfile_mysql_1...
 
 ### docker-compose rm
 
 刪除 container ，這指令只會刪除已停止的 container
 
-```
-# docker-compose rm
-Going to remove dockerfile_mysql_1, dockerfile_redis_1, dockerfile_web_1
-Are you sure? [yN] y
-Removing dockerfile_web_1...
-Removing dockerfile_redis_1...
-Removing dockerfile_mysql_1...
-```
+    # docker-compose rm
+    Going to remove dockerfile_mysql_1, dockerfile_redis_1, dockerfile_web_1
+    Are you sure? [yN] y
+    Removing dockerfile_web_1...
+    Removing dockerfile_redis_1...
+    Removing dockerfile_mysql_1...
 
 ### docker-compose scale
 
 調整執行實體數量，如果有綁定 port 的 service 不能調整
 
-```
-# docker-compose scale mysql=3
-Creating dockerfile_mysql_2...
-Creating dockerfile_mysql_3...
-Starting dockerfile_mysql_2...
-Starting dockerfile_mysql_3...
-```
+    # docker-compose scale mysql=3
+    Creating dockerfile_mysql_2...
+    Creating dockerfile_mysql_3...
+    Starting dockerfile_mysql_2...
+    Starting dockerfile_mysql_3...
 
 ### docker-compose ps
 
 觀看目前 container 的運行狀況
 
-```
-# docker-compose ps
-       Name                    Command             State                     Ports                   
-----------------------------------------------------------------------------------------------------
-dockerfile_mysql_1   /entrypoint.sh redis-server   Up      3306/tcp, 6379/tcp                        
-dockerfile_redis_1   /entrypoint.sh redis-server   Up      6379/tcp                                  
-dockerfile_web_1     apache2 -DFOREGROUND          Up      0.0.0.0:10022->22/tcp, 0.0.0.0:80->80/tcp 
-```
+    # docker-compose ps
+           Name                    Command             State                     Ports                   
+    ----------------------------------------------------------------------------------------------------
+    dockerfile_mysql_1   /entrypoint.sh redis-server   Up      3306/tcp, 6379/tcp                        
+    dockerfile_redis_1   /entrypoint.sh redis-server   Up      6379/tcp                                  
+    dockerfile_web_1     apache2 -DFOREGROUND          Up      0.0.0.0:10022->22/tcp, 0.0.0.0:80->80/tcp
 
 YAML Define
 -----------
@@ -118,7 +97,7 @@ web:
   # 用 Dockerfile 建置 service ，後面接的是目錄路徑
   build: .
   # 定義對外開放的 port，等同 docker run -p 的參數
-  ports:
+  ports:    
     - "8080:80"
     - "422:22"
   # 掛載目錄到容器裡
@@ -149,3 +128,4 @@ mysql:
 ```
 
 [fig]: http://www.fig.sh/
+[Docker Compose]: https://docs.docker.com/compose/

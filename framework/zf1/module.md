@@ -1,6 +1,6 @@
 # Module
 
-* module-structure
+* [module-structure](module-structure.md)
 
 ## FAQ
 
@@ -44,7 +44,8 @@ blog.resources.db.params.password = "password"
 blog.resources.db.params.dbname = "dbname"
 ```
 
-## References
+References
+----------
 
 * http://www.fanli7.net/a/bianchengyuyan/PHP/20130909/379297.html
 * http://framework.zend.com/manual/1.12/en/zend.controller.modular.html
