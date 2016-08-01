@@ -33,6 +33,7 @@ Implements
 * [Drone.io](https://drone.io/)
 * [TeamCity](https://www.jetbrains.com/teamcity/) (JetBrains 家出的 CI)
 * [Bamboo](https://www.atlassian.com/software/bamboo) (Atlassian 家出的 CI)
+* [PHPCI](https://www.phptesting.org/)
 
 Reference
 ---------
