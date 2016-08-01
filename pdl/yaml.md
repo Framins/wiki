@@ -3,7 +3,7 @@ YAML
 
 [YAML][] 是一個可讀性比較高，表達資料的格式。它可以使用縮排來表達資料結構，或是設定檔等。也因為這樣的格式，在 Python / Ruby 裡就很好操作使用
 
-JSON 是它的子集，所以有些東西會跟 JSON 很像。
+[JSON][] 是它的子集，所以有些東西會跟 JSON 很像。
 
 Usage
 -----
@@ -41,3 +41,4 @@ text: |
 ```
 
 [YAML]: http://www.yaml.org/
+[JSON]: json.md

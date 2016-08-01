@@ -6,7 +6,7 @@
 
     sudo gem install sass
 
-> 要先有 [Ruby](/pdl/ruby) ，才能透過 gem 安裝 sass ：
+> 要先有 [Ruby](/pdl/ruby/README.md) ，才能透過 gem 安裝 sass ：
 
 安裝好後，就可以用 `sass` / `scss` 指令了
 

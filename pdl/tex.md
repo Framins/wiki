@@ -17,6 +17,6 @@ TeX 是個排版軟體，應用在學術界，特別是數學、物理學、電�
 | [PHPLatex](http://phplatex.scarfboy.com/) | [PHP][] | |
 
 
-[Java]: /pdl/java
-[JavaScript]: /pdl/javascript
-[PHP]: /pdl/php
+[Java]: /pdl/java/README.md
+[JavaScript]: /pdl/javascript/README.md
+[PHP]: /pdl/php/README.md

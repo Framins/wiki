@@ -8,10 +8,10 @@
 
 Composer 可以輕易地解決 PHP 套件下載、安裝、更新、管理等問題。
 
-> Composer 之於 PHP 感覺就很像 
-> * npm 之於 [Node](/pdl/node)
-> * gem 之於 [Ruby](/pdl/ruby)
-> * pip 之於 [Python](/pdl/python)
+> Composer 之於 PHP 感覺就很像
+> * npm 之於 [Node](/pdl/node/README.md)
+> * gem 之於 [Ruby](/pdl/ruby/README.md)
+> * pip 之於 [Python](/pdl/python/README.md)
 
 ## Installation
 

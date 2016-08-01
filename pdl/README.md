@@ -24,19 +24,19 @@ Statically Typed Language
 
 靜態語言，特色是需要先編譯才能執行程式碼。
 
-- [Go](go)
-- [Swift](swift)
+- [Go](go/README.md)
+- [Swift](swift/README.md)
 
 Dynamically Typed Language
 --------------------------
 
 動態語言，特色是邊編譯邊執行程式碼。
 
-* [JavaScript](javascript)
-* [Lua](lua)
-* [Node](node)
-* [PHP](php)
-* [Ruby](ruby)
+* [JavaScript](javascript/README.md)
+* [Lua](lua/README.md)
+* [Node](node/README.md)
+* [PHP](php/README.md)
+* [Ruby](ruby/README.md)
 
 Markup Language
 ---------------
@@ -46,7 +46,7 @@ Markup Language
 * [HTML](html.md)
 * [YAML](yaml.md)
 * [Tex](tex.md)
-* [CSS](css)
+* [CSS](css/README.md)
 * [SASS](sass.md)
 
 Lightweight Markup Language
