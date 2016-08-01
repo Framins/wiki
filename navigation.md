@@ -3,9 +3,8 @@ Framins' wiki
 
 [Operation]()
 
-* [Network](network.md)
+* [Network](network/README.md)
 * [Linux](linux/README.md)
-* [Regex](regex/README.md)
 * [Server](server/README.md)
 * [VM](vm/README.md)
 * [Docker](docker/README.md)
@@ -14,6 +13,8 @@ Framins' wiki
 
 [Development]()
 
+* [Editors](editors/README.md)
+* [VCS](vcs/README.md)
 * [Programming](programming/README.md)
 * [Algorithm](algorithm.md)
 * [Program Design Language](pdl/README.md)
@@ -24,6 +25,7 @@ Framins' wiki
 * [Data Structure](data-structure/README.md)
 * [Database](database/README.md)
 * [NoSQL](nosql/README.md)
+* [Regex](regex/README.md)
 * [Web](web/README.md)
 * [RESTful](restful/README.md)
 * [OAuth](oahuth.md)

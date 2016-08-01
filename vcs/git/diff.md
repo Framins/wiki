@@ -18,7 +18,7 @@ Other Tools
 參考網頁：
 
 * [How to setup Git to use Diffmerge](http://adventuresincoding.com/2010/04/how-to-setup-git-to-use-diffmerge)
-* [DiffMerge: 一套不錯的Diff軟體, 支援Windows, Mac, Linux](http://www.haostudio.idv.tw/blog/?p=211)
+* [DiffMerge: 一套不錯的 Diff 軟體, 支援 Windows, Mac, Linux](http://www.haostudio.idv.tw/blog/?p=211)
 
 ### Linux
 

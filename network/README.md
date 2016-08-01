@@ -28,4 +28,5 @@ IPv4
 References
 ----------
 
+[鳥哥的 Linux 私房菜 - 基礎網路概念](http://linux.vbird.org/linux_server/0110network_basic.php)
 [Wiki](https://en.wikipedia.org/wiki/Reserved_IP_addresses)

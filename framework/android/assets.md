@@ -4,7 +4,7 @@
 
 ## 圖片匯入
 
-[Android Studio](/ide/android-studio) 內建匯入圖片功能，叫 Asset Studio。
+[Android Studio](/editors/ide/android-studio) 內建匯入圖片功能，叫 Asset Studio。
 
 執行方法為：按 Alt+1 叫出 Project 目錄，然後在 res 目錄上點右鍵 -> New -> Image Asset 即可叫出影像資源匯入的對話盒。
 
@@ -33,4 +33,4 @@ Color 就只是 Color 而已，當選 `Clipart` 或 `Text` 時，會雬要選 `F
 
 `Notification icons` 是做通知列的Icon，它會分別產生v11和預設的，因為通知列的底色不同。
 
-當然Android Studio這些功能其實都還算是基本而已，有人針對這部分做了一個可以產圖的程式： [Android Asset Studio](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html)。裡面除了上面提到的功能外，還有其他延伸功能。
+當然 Android Studio 這些功能其實都還算是基本而已，有人針對這部分做了一個可以產圖的程式： [Android Asset Studio](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html)。裡面除了上面提到的功能外，還有其他延伸功能。
