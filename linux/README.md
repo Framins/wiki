@@ -21,6 +21,13 @@ Distributions
 cat /etc/issue
 ```
 
+Network
+-------
+
+[網路相關指令](network-commands.md)
+
+> 網路基礎知識可以參考[這裡](/network/README.md)
+
 Topics
 ------
 
