@@ -81,3 +81,4 @@ Usage
 * [Installation](installation.md)
 * [RancherOS](rancher-os.md)
 * [Stack](stack.md)
+* [Service](service.md)
