@@ -74,3 +74,10 @@ docker run -d --privileged -v /var/run/docker.sock:/var/run/docker.sock rancher/
 ```bash
 docker run -e CATTLE_AGENT_IP=192.168.1.1 -d --privileged -v /var/run/docker.sock:/var/run/docker.sock rancher/agent:v0.7.10 http://172.17.0.3:8080/v1/scripts/<token>
 ```
+
+Usage
+-----
+
+* [Installation](installation.md)
+* [RancherOS](rancher-os.md)
+* [Stack](stack.md)
