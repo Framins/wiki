@@ -101,6 +101,8 @@ vim ~/.tmux.conf
 	# Enable copying using Cmd+C in copy mode
 	bind-key -t vi-copy MouseDragEnd1Pane copy-pipe "pbcopy"
 	
+	# Increase scrollback buffer (default is 2000)
+	set-option history-limit 60000
 
 
 Just remember that after every modification, tmux must be refreshed to take new settings into account.
