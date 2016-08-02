@@ -5,6 +5,8 @@ Node.js
 
 以下以 Linux/Mac 系列的系統做測試
 
+* [started](started.md)
+
 Setup Development Environment
 -----------------------------
 
@@ -90,17 +92,17 @@ Express Structure
 * router/
 * views/ - 樣版
 * node_modules/ - package.json 裡的 npm 安裝後會放到這裡
-  
+
 express 詳細語法：
 
 ```
 express [options]
 Options:
 -h, --help
--V, --version 
+-V, --version
 -e, --ejs (default to jade)
 -H, --hogan
 -c, --css [less|stylus|compass]
--f, --force 
+-f, --force
 ```
 > nvm 安裝 express 的話，除非建 link，不然就需要再加前面的完整目錄，如： `$ ~/.nvm/v0.10.29/bin/express <ProjectName>`
