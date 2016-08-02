@@ -1,7 +1,7 @@
 Android
 =======
 
-除了用 Android Studio 或 Android SDK 開發外，還可以用 [App Inventor](mit-app-inventor) 開發
+除了用 Android Studio 或 Android SDK 開發外，還可以用 [App Inventor](mit-app-inventor/README.md) 開發
 
 Configuration
 -------------
@@ -13,11 +13,11 @@ Components
 
 主要元件：
 
-* [Activity](activity)
+* [Activity](activity/README.md)
   * [Fragment](fragment.md)
   * [Intent](intent.md)
 * [BroadcastReceiver](broadcast-receiver.md)
-* [ContentProvider](content-provider)
+* [ContentProvider](content-provider/README.md)
 
 其他元件
 
@@ -29,11 +29,11 @@ Components
 | [AsyncTask](asynctask.md) | 非同步任務 |
 | [Database](database.md) | 資料庫 |
 | [Drawable](drawable.md) | 圖像資源 |
-| [Hardware](hardware.md) | 硬體資源 |
+| [Hardware](hardware/README.md) | 硬體資源 |
 | [Gestures](gestures.md)] | 手勢 |
 | [Media](media.md)] | 多媒體實作 |
 | [Navigation Drawer](navigation-drawer.md) | 側邊選單 |
-| [Network](network.md)] | 網路操作 |
+| [Network](network/README.md)] | 網路操作 |
 | [Notification](notification.md)] | 通知實作 |
 | [Resource](resource.md) | 靜態資源 |
 | [Screens Support](screens-support.md) | 多螢幕支援 |
@@ -42,9 +42,9 @@ Components
 | [Style](style.md) | 風格 ｜
 | [System Service](system-service.md) | 系統服務 |
 | [Theme](theme.md) | 主題 |
-| [View](view.md) | 可見元件 |
+| [View](view/view.md) | 可見元件 |
 
-[第三方套件](library.md)
+[第三方套件](library/README.md)
 
 Google API
 ----------

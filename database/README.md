@@ -9,5 +9,5 @@ RDBMS
 
 關聯式資料庫
 
-* [MySQL](mysql)
-* [SQLite](sqlite)
+* [MySQL](mysql/README.md)
+* [SQLite](sqlite/README.md)

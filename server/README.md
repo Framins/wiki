@@ -1,14 +1,14 @@
 # Server
 
 * [Basic](basic.md)
-* [Firewall](firewall)
-* [SSH](ssh)
+* [Firewall](firewall.md)
+* [SSH](ssh/README.md)
 * [Apache](apache.md)
 * [Nginx](nginx.md)
-* [GitLab](gitlab)
-* [Redmine](redmine)
+* [GitLab](gitlab/README.md)
+* [Redmine](redmine/README.md)
 
 Reference
 ---------
 
-[httpd比較](http://jetfar.com/apache-nginx-lighttpd-future-compared/)
+[httpd 比較](http://jetfar.com/apache-nginx-lighttpd-future-compared/)

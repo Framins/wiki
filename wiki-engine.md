@@ -10,7 +10,7 @@ Wiki Engine
 
 |  Wiki Engine  |  標記語言  |  程式語言  |  資料庫  |  特殊功能  |
 |  -----------  |  --------  |  --------  |  ------  |  --------  |
-| [MDwiki](https://github.com/Dynalon/mdwiki) | | HTML5 | | 神輕量 wiki |
+| [MDwiki](https://github.com/Dynalon/mdwiki) | MarkDown | HTML5 | | 神輕量 wiki |
 | [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) | | PHP5 | MySQL, PostgreSQL | |
 | [DokuWiki](https://www.dokuwiki.org/) | | PHP5 | File | 可做成 Portable 版 |
 | [Instiki](http://www.instiki.org/) | | Ruby | SQLite | 支援 Tex 語言 |

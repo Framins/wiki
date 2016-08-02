@@ -15,7 +15,7 @@ Integrated Development Environment (IDE)
 ----------------------------------------
 
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/) (Non-free)
-* [Android Studio](ide/android-studio/README.md)
+* [Android Studio](android-studio/README.md)
 * [Eclipse](https://eclipse.org)
 * [Netbeans](https://netbeans.org/)
 

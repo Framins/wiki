@@ -32,12 +32,10 @@ Framins' wiki
 
 [Else]()
 
-* [Application](application.md)
-* [Cloud Computing](cloud-computing.md)
-* [Wiki Engine](wiki-engine.md)
 * [Resource](resource.md)
 * [License](license.md)
+* [Wiki Engine](wiki-engine.md)
 
-[gimmick:theme (inverse: false)](spacelab)
+[gimmick:theme (inverse: false)](journal)
 
 [gimmick:ThemeChooser](Change theme)

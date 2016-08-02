@@ -1,7 +1,7 @@
 Resource
 ========
 
-收集網路上免費的資源、素材或線上工具，單機工具在 [Application](application.md) 裡，自行架設的伺服器工具在 [Server](server.md) 裡
+收集網路上免費的資源、素材或線上工具
 
 原始資料
 --------
@@ -17,7 +17,6 @@ Resource
 * 有免費的線上中文字型 - [justfont](http://www.justfont.com/)
 * 線上自動隨機產圖，給可網頁做測試用 - [lorempixel](http://lorempixel.com/)
 * 線上製作 Android 的 Asset - [Android Asset Studio](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html)
-* GitHub免費空間 - http://atifans.net/articles/host-html-website-on-github/
 * 圖案字型 - [Ligature Symbols](http://kudakurage.com/ligature_symbols/)
 * Wordpress Free Template - http://www.themeshaker.com/price/free
 * Free Template - http://goodly.belllo.com/
