@@ -39,8 +39,8 @@ Import
 
 > 記得 SQL 檔裡的每個 SQL 命令結尾都必須加上分號 `;`
 
-Reference
----------
+References
+----------
 
 * http://mybeauty.pixnet.net/blog/post/26492636-sqlite%E7%B0%A1%E4%BB%8B
 * http://www.tutorialspoint.com/sqlite/

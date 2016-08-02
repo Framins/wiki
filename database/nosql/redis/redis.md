@@ -15,8 +15,8 @@ Management
 
 * [Redis Commander](http://joeferner.github.io/redis-commander/) (written by [NodeJS](/pdl/node))
 
-Reference
----------
+References
+----------
 
 * http://redis.io/
 * [中文指令參考](http://redis.readthedocs.org/en/latest/index.html)

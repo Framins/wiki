@@ -100,7 +100,7 @@ redis-server \
 
 會研究這麼多設定方法，最主要是因為 Rancher 在使用設定檔，或 runtime 調整都是很麻煩的事；使用 parameter 配合 Docker 的 CMD ，相對就很適合在 Rancher 上執行，並能很快速的建立起一群 Slave 和 Load Balancer
 
-## Reference
+## References
 
 * [Single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 * [最小知識原則(迪米特原則)](http://ithelp.ithome.com.tw/question/10101265)

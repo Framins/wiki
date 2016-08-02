@@ -1,7 +1,7 @@
 Memcached
 =========
 
-參考： 
+參考：
 
 使用 telnet 連接 server 就可以操作了
 
@@ -92,8 +92,8 @@ get
     miles
     END
 
-Reference
----------
+References
+----------
 
 * http://xyz.cinc.biz/2015/02/memcached-command-example.html?m=1
 * [Cheatsheet](http://lzone.de/cheat-sheet/memcached)

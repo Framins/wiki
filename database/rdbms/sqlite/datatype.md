@@ -60,8 +60,8 @@ Comparison Expressions
 
 SQLite 可能會在 INTEGER, REAL, TEXT 互相比較時，轉換成相同的儲存類別。規則請參考原文。
 
-Reference
----------
+References
+----------
 
 * [SQLite語法表](http://jimmy0222.pixnet.net/blog/post/37025726-sqlite%E8%AA%9E%E6%B3%95%E8%A1%A8) @ [吉米.NET](http://jimmy0222.pixnet.net/blog)
 * [SQLite Query Language: Datatypes In SQLite](http://jyhshin.pixnet.net/blog/post/31988011-sqlite-query-language%3A-datatypes-in-sqlite) @ [邱小新の工作筆記](http://jyhshin.pixnet.net/blog)

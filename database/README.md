@@ -9,8 +9,8 @@ RDBMS
 
 關聯式資料庫
 
-* [MySQL](rdbms/mysql/README.md)
-* [SQLite](rdbms/sqlite/README.md)
+* [MySQL](rdbms/mysql/mysql.md)
+* [SQLite](rdbms/sqlite/sqlite.md)
 
 資料結構
 
@@ -21,9 +21,9 @@ NoSQL
 
 NoSQL 有時也稱作 Not only SQL 。
 
-* [Redis](redis/README.md)
-* [MongoDB](mongodb/README.md)
-* [Memcached](memcached/README.md)
+* [Redis](nosql/redis/redis.md)
+* [MongoDB](nosql/mongo/mongo.md)
+* [Memcached](nosql/memcached/memcached.md)
 
 References
 ----------

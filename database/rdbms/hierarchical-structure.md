@@ -58,7 +58,7 @@ SELECT node.name
 FROM nested_category AS node,
      nested_category AS parent
 WHERE node.lft BETWEEN parent.lft AND
-      parent.rgt AND 
+      parent.rgt AND
       parent.name = 'rootName'
 ORDER BY node.lft;
 ```
@@ -87,8 +87,8 @@ WHERE node.lft BETWEEN parent.lft AND
 ORDER BY node.lft;
 ```
 
-Reference
----------
+References
+----------
 
 * [MANAGING HIERARCHICAL DATA IN MYSQL](http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/)
 * [用 Nested Set Model 建立巢狀資料表](http://lab.asika.tw/programming/theories-and-concepts/26-nested-set-model.html)

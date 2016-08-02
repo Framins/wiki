@@ -29,8 +29,8 @@ DataType
 * *Internationalized Strings* UTF8 字串
 * *Object IDs* 每個 Document 都需要一個 ID 來識別，通常都用 Object IDs
 
-Reference
----------
+References
+----------
 
 * http://www.mongodb.org/
 * http://calos-tw.blogspot.tw/2010/03/mongodb.html
