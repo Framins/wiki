@@ -7,7 +7,7 @@ Replication
 
 ## Context
 
-最近工作有個需求：有台 service 會定期寫資料進一台 Redis ，僅僅一台 Redis
+有台 service 會定期寫資料進一台 Redis ，僅僅一台 Redis
 
 如果其他 client 單純是讀取的話，是沒問題的。問題在於其他 client 也需要寫入，而寫入資料又會因為各 client 環境不同而有所不同，接著就會發生「 A 寫入資料， B 沒做什麼事卻突然壞掉」的怪事，可是有資料的 Redis 又只有一台，無法每個人都分一台
 
