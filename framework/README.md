@@ -17,22 +17,22 @@ Backend Framework
 ### Based on PHP
 
 * [Zend Framework 1](zf1/README.md)
+* [Symfony](symfony/README.md)
+* [Slim](slim/README.md)
 * [Phalcon](phalcon/README.md)
 * [Laravel](laravel/README.md)
-* [Slim](slim/README.md)
 * [FuelPHP](fuelphp/README.md)
 * [CodeIgniter](codeigniter/README.md)
-* [Symfony](symfony/README.md)
 * [Windwalker](http://windwalker.io/)
 * [CakePHP](http://cakephp.org/)
-* [Doctrine](http://www.doctrine-project.org/)
 * [Joomla Platform](https://github.com/joomla/joomla-platform)
 * [Kohana](http://kohanaframework.org/)
 * [Yii](http://www.yiiframework.com/)
 
-#### CMS
+#### CMS / Library
 
 * [WordPress](http://wordpress.org/)
+* [Doctrine](http://www.doctrine-project.org/)
 
 ### Based on Ruby
 
