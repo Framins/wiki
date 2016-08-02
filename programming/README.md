@@ -27,6 +27,7 @@ Advanced
 
 進階的程式設計相關知識。
 
+* [Regex](regex.md)
 * [MVC](mvc.md)
 * [ORM](orm.md)
 * [Refactoring](refactoring.md)

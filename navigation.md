@@ -24,8 +24,6 @@ Framins' wiki
 * [Testing](testing/README.md)
 * [Data Structure](data-structure/README.md)
 * [Database](database/README.md)
-* [NoSQL](nosql/README.md)
-* [Regex](regex/README.md)
 * [Web](web/README.md)
 * [RESTful](restful/README.md)
 * [OAuth](oahuth.md)
