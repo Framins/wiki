@@ -80,5 +80,25 @@ Usage
 
 * [Installation](installation.md)
 * [RancherOS](rancher-os.md)
+* [Host](host.md)
 * [Stack](stack.md)
 * [Service](service.md)
+
+Notice
+------
+
+雖然 Rancher 用起來很像用 Docker / Docker Compose ，但還是有些細節不大一樣。
+
+以下記錄掃雷過程，和發現的 bug ...
+
+### Store volume when Rancher Upgrade
+
+這目前踩到一個大雷，當我想升級 image 且資料要保留的時候
+
+- Docker 要 upgrade 的話需要手動利用 volume 功能處理
+- Docker Compose 在 upgrade (利用 `--force-recreate` ) 的時候， volume 是自動處理好的
+- Rancher Upgrade 功能寫這麼清楚，應該會很聰明的幫我自動保存，結果它就是真的完全砍掉，重開新的....
+
+Rancher 有限制 `volume form` 要同個 host ，假設新的 container 是建立在其他 host ，那 volume 不能保存，好像也沒什麼不對。所以應該要用 Rancher v0.47 提供的 [Storage Service](http://docs.rancher.com/rancher/rancher-services/storage-service/) 功能來解決。目前還正在嘗試中... 剛推出感覺 bug 很多，使用上也不是很直覺，應該未來還會在改善吧...
+
+> 同個道理，關閉 A host 轉移到 B host 時，也是全部重開新的
