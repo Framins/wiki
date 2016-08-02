@@ -8,6 +8,7 @@ Basic
 
 * [DataType](datatype.md)
 * Command
+* [Replication](replication.md)
 
 Management
 ----------

@@ -3,10 +3,10 @@ NoSQL
 
 NoSQL 有時也稱作 Not only SQL 。
 
-* [Redis](redis)
-* [MongoDB](mongodb)
+* [Redis](redis/README.md)
+* [MongoDB](mongodb/README.md)
 * Cassandra
-* [Memcached](memcached)
+* [Memcached](memcached/README.md)
 
 Reference
 ---------
