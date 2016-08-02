@@ -13,8 +13,6 @@
 
 `AllowOverride` 的意思是允許用 `.htaccess` 去覆寫原本 `apache` 的設定。
 
-參考：
-
 ## Virtual Host
 
 Name-based virtual host example
