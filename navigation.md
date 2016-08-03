@@ -10,6 +10,7 @@ Framins' wiki
 * [Docker](docker/README.md)
 * [Container OS](containeros/README.md)
 * [Monitoring](monitoring/README.md)
+* [Cloud Platform](cloud-computing/README.md)
 
 [Development]()
 
