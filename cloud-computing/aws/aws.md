@@ -20,3 +20,4 @@ Amazon Web Services
 輔助核心功能
 
 * [Elastic Load Balancing](https://aws.amazon.com/tw/elasticloadbalancing/)
+* [CLI](cli.md)
