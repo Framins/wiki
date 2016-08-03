@@ -9,7 +9,7 @@ Amazon Web Services
 * [Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/tw/s3/)
 * [Amazon Elastic Block Store (Amazon EBS)](https://aws.amazon.com/tw/ebs/)
 * [Amazon Virtual Private Cloud (Amazon VPC)](vpc.md)
-* [AWS Identity and Access Management (IAM)](https://aws.amazon.com/tw/iam/)
+* [AWS Identity and Access Management (IAM)](iam.md)
 * [Amazon Relational Database Service (Amazon RDS)](https://aws.amazon.com/tw/rds/)
 
 ## 核心擴充出來的功能
@@ -25,3 +25,8 @@ Amazon Web Services
 
 * [AWS Tools](https://aws.amazon.com/tw/tools/)
 * [AWS CLI](cli.md)
+
+## References
+
+* [Amazon雲端服務活用術](http://www.ithome.com.tw/article/88754)
+* [常用的AWS服務](http://www.tts.bz/archives/2450)
