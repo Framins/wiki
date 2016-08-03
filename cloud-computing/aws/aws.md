@@ -8,7 +8,7 @@ Amazon Web Services
 * [Amazon Elastic Compute Cloud (Amazon EC2)](https://aws.amazon.com/tw/ec2/)
 * [Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/tw/s3/)
 * [Amazon Elastic Block Store (Amazon EBS)](https://aws.amazon.com/tw/ebs/)
-* [Amazon Virtual Private Cloud (Amazon VPC)](https://aws.amazon.com/tw/vpc/)
+* [Amazon Virtual Private Cloud (Amazon VPC)](vpc.md)
 * [AWS Identity and Access Management (IAM)](https://aws.amazon.com/tw/iam/)
 * [Amazon Relational Database Service (Amazon RDS)](https://aws.amazon.com/tw/rds/)
 
