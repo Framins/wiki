@@ -7,6 +7,8 @@ Database
 RDBMS
 -----
 
+[SQL](rdbms/sql.md)
+
 關聯式資料庫
 
 * [MySQL](rdbms/mysql/mysql.md)
