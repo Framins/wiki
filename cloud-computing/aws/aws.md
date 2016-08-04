@@ -5,7 +5,7 @@ Amazon Web Services
 
 ## 主要核心功能
 
-* [Amazon Elastic Compute Cloud (Amazon EC2)](https://aws.amazon.com/tw/ec2/)
+* [Amazon Elastic Compute Cloud (Amazon EC2)](ec2.md)
 * [Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/tw/s3/)
 * [Amazon Elastic Block Store (Amazon EBS)](https://aws.amazon.com/tw/ebs/)
 * [Amazon Virtual Private Cloud (Amazon VPC)](vpc.md)
