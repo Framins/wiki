@@ -50,6 +50,14 @@ Template engine
 * [Twig](http://twig.sensiolabs.org/)
 * [Smarty](http://www.smarty.net/)
 
+Analysis Tools
+--------------
+
+* [PhpMetrics](http://www.phpmetrics.org/)
+* [PHP 程式碼靜態分析工具](http://phpqatools.org/)
+* http://stackoverflow.com/questions/4156157/tool-for-php-code-analysis
+* http://ithelp.ithome.com.tw/articles/10138375
+
 Tools
 -----
 
