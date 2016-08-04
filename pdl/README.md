@@ -33,6 +33,7 @@ Dynamically Typed Language
 動態語言，特色是邊編譯邊執行程式碼。
 
 * [JavaScript](javascript/README.md)
+  * [CoffeeScript](coffeescript/README.md)
 * [Lua](lua/README.md)
 * [Node](node/README.md)
 * [PHP](php/README.md)
@@ -47,7 +48,7 @@ Markup Language
 * [YAML](yaml.md)
 * [Tex](tex.md)
 * [CSS](css/README.md)
-* [SASS](sass.md)
+  * [SASS](sass.md)
 
 Lightweight Markup Language
 ---------------------------
