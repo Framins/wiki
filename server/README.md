@@ -7,6 +7,7 @@
 * [Nginx](nginx.md)
 * [GitLab](gitlab/README.md)
 * [Redmine](redmine/README.md)
+* [Message Queue](mq/message-queue.md)
 
 Reference
 ---------
