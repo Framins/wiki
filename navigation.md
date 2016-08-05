@@ -28,6 +28,7 @@ Framins' wiki
 * [Web](web/README.md)
 * [RESTful](restful/README.md)
 * [OAuth](oahuth.md)
+* [Software Metric](software-metric.md)
 
 [Else]()
 
