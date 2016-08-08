@@ -33,8 +33,12 @@ Extensions
 * codesniffer
 * [curl](curl.md)
 
-Library
--------
+Packages
+--------
+
+### Dependency Injection Container
+
+* [Pimple](pimple.md)
 
 ### ORM
 
