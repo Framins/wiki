@@ -29,6 +29,7 @@ Advanced
 
 * [Regex](regex.md)
 * [MVC](mvc.md)
+* [Dependency injection](di.md)
 * [ORM](orm.md)
 * [Refactoring](refactoring.md)
 
