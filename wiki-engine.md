@@ -1,8 +1,6 @@
 Wiki
 ====
 
-雖然目前是用 DokuWiki 簡單好用，但身為一個 Programmer ，就是會想去玩看看更多不一樣的。
-
 Wiki Engine
 -----------
 
@@ -28,7 +26,5 @@ Wiki Service
 Reference
 ---------
 
-* http://zh.scratchpad.wikia.com/wiki/%E5%85%8D%E8%B2%BBwiki%E6%9C%8D%E5%8B%99%E5%88%97%E8%A1%A8?variant=zh-tw
-* http://wiki.planetoid.info/index.php/Wiki_hosting
-* http://zh.wikipedia.org/wiki/Wiki%E5%BC%95%E6%93%8E
-* http://www.wikimatrix.org/
+* [Wiki軟體](http://zh.wikipedia.org/wiki/Wiki%E5%BC%95%E6%93%8E)
+* [WikiMatrix](http://www.wikimatrix.org/)
