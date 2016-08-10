@@ -11,11 +11,12 @@
     brew install php54-phalcon
     brew install php55-phalcon
     brew install php56-phalcon
+    brew install php70-phalcon
 
 測試
 
     echo "<?php echo Phalcon\Version::get() . \"\n\"; ?>" | php
-    2.0.0
+    3.0.0
 
 ### Ubuntu
 
@@ -23,13 +24,13 @@
 
     sudo apt-get install php5-dev libpcre3-dev gcc make
     git clone --depth=1 git://github.com/phalcon/cphalcon.git
-    cd cphalcon/build && ./install
+    cd cphalcon/build && git checkout v3.0.0 && ./install
     sudo echo "extension=phalcon.so" > /etc/php5/cli/conf.d/30-phalcon.ini
 
 測試
 
     echo "<?php echo Phalcon\Version::get() . \"\n\"; ?>" | php
-    2.0.0
+    3.0.0
 
 ### Vagrant
 
@@ -60,18 +61,24 @@ end
 使用 Docker 建置環境，範例：
 
 ```dockerfile
-ROM php:5.6-apache
+FROM php:7.0-apache
 MAINTAINER MilesChou <jangconan@gmail.com>
 
-# Install require extension
-RUN apt-get update -y && apt-get install -y git && apt-get clean && rm -r /var/lib/apt/lists/*
-
-RUN git clone git://github.com/phalcon/cphalcon.git /usr/local/src/cphalcon;\
-    cd /usr/local/src/cphalcon/build && git checkout phalcon-v2.0.9 && ./install ;\
-    echo "extension=phalcon.so" > /usr/local/etc/php/conf.d/phalcon.ini
+# Compile Phalcon
+RUN set -xe && \
+        curl -LO https://github.com/phalcon/cphalcon/archive/v3.0.0.tar.gz && \
+        tar xzf v3.0.0.tar.gz && cd cphalcon-3.0.0/build && ./install && \
+        echo "extension=phalcon.so" > /usr/local/etc/php/conf.d/phalcon.ini && \
+        cd ../.. && rm -rf v3.0.0.tar.gz cphalcon-3.0.0
 ```
 
 > 用 Vagrant 測試過，記憶體需設定 2G 以上才能 compile
+
+測試
+
+    docker run -it --rm phalon-image bash
+    echo "<?php echo Phalcon\Version::get() . \"\n\"; ?>" | php
+    3.0.0
 
 ## Phalcon Developer tools
 
@@ -82,7 +89,6 @@ RUN git clone git://github.com/phalcon/cphalcon.git /usr/local/src/cphalcon;\
 ### Git
 
 安裝與測試
-
 
     git clone https://github.com/phalcon/phalcon-devtools
     ./phalcon-devtools/phalcon.sh

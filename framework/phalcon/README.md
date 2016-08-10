@@ -4,6 +4,8 @@
 
 應該是 2014 年最快的 PHP framework
 
+> 3.0.0 開始支援 PHP 7
+
 ## Basic
 
 * [Started](started.md)
