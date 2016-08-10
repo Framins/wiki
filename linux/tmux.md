@@ -14,7 +14,7 @@ Command
     man tmux        		Commands Manual
     tmux list-keys			lists out every bound key and the tmux command it runs
 	tmux list-commands    	lists out every tmux command and its arguments
-    
+    tmux show-options -g	show current global session options
 
 #### Session
     tmux                                    create a session, default start with name 0
@@ -102,7 +102,7 @@ vim ~/.tmux.conf
 	bind-key -t vi-copy MouseDragEnd1Pane copy-pipe "pbcopy"
 	
 	# Increase scrollback buffer (default is 2000)
-	set-option history-limit 60000
+	set-option -g history-limit 60000
 
 
 Just remember that after every modification, tmux must be refreshed to take new settings into account.
