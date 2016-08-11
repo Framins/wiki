@@ -8,7 +8,8 @@
 
 ## Basic
 
-* [Started](started.md)
+* [Setup](setup.md)
+* [Quick Start](quick-start.md)
 * Routing
 * Controller
 * Model

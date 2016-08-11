@@ -1,4 +1,4 @@
-# Started
+# Setup
 
 最麻煩的安裝...
 
@@ -133,3 +133,7 @@ RUN set -xe && \
       scaffold (alias of: create-scaffold)
       migration (alias of: create-migration)
       webtools (alias of: create-webtools)
+
+或是直接裝 global
+
+    composer global require phalcon/devtools
