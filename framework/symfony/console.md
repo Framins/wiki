@@ -17,6 +17,19 @@ Composer 安裝：
 }
 ```
 
+Trick
+-----
+
+Symfony Console 有提供類似 [Docker](/docker/README.md) / [Git](/vcs/git/README.md) 的偷懶別名功能
+
+比方說 [Artisan](/framework/laravel/5.0/README.md) 有一個 `key:generate` 的指令的話，可以用下面這些指令代替
+
+    php artisan k:g
+    php artisan ke:g
+    php artisan k:ge
+
+> 依 `:` 分隔，只要前面比對是唯一的， Symfony Console 都會認可
+
 Coloring
 --------
 
