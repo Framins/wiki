@@ -45,3 +45,8 @@ $style = new OutputFormatterStyle('red', 'yellow', array('bold', 'blink'));
 $output->getFormatter()->setStyle('fire', $style);
 $output->writeln('<fire>foo</fire>');
 ```
+
+Using Packages Command
+----------------------
+
+https://akrabat.com/using-doctrine-migrations-outside-of-doctrine-orm-or-symfony/
