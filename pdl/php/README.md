@@ -13,6 +13,12 @@ Basic
 * [DataType](types.md)
 * [How To](how-to.md)
 
+找 ini 設定檔在哪的懶人指令
+
+```
+php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"
+```
+
 Advanced
 --------
 
