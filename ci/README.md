@@ -29,11 +29,12 @@ Implements
 * [GitLab CI](gitlab-ci.md)
 * [Jenkins CI](http://jenkins-ci.org/)
 * [Circle CI](https://circleci.com/)
-* [Travis CI](https://travis-ci.org/)
+* [Travis CI](https://travis-ci.org/) SaaS 服務
 * [Drone.io](https://drone.io/)
 * [TeamCity](https://www.jetbrains.com/teamcity/) (JetBrains 家出的 CI)
 * [Bamboo](https://www.atlassian.com/software/bamboo) (Atlassian 家出的 CI)
 * [PHPCI](https://www.phptesting.org/)
+* [Codeship](https://codeship.com/) SaaS 服務，跟 [AWS](/cloud-computing/aws/README.md) 整合良好
 
 其他好用的工具
 
