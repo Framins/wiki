@@ -35,6 +35,10 @@ Implements
 * [Bamboo](https://www.atlassian.com/software/bamboo) (Atlassian 家出的 CI)
 * [PHPCI](https://www.phptesting.org/)
 
+其他好用的工具
+
+* [Shields.io](http://shields.io/) - 用圖表示目前專案的健康度
+
 Reference
 ---------
 
