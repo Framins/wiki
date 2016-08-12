@@ -11,6 +11,10 @@ Amazon Web Services
 * [Amazon Virtual Private Cloud (Amazon VPC)](vpc.md)
 * [AWS Identity and Access Management (IAM)](iam.md)
 * [Amazon Relational Database Service (Amazon RDS)](https://aws.amazon.com/tw/rds/)
+* [Amazon Simple Queue Service (Amazon SQS)](https://aws.amazon.com/tw/sqs/)
+* [AWS Lambda](https://aws.amazon.com/tw/lambda/)
+* [Amazon DynamoDB](https://aws.amazon.com/tw/dynamodb/)
+* [Amazon Redshift](https://aws.amazon.com/tw/redshift/)
 
 ## 核心擴充出來的功能
 
