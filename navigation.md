@@ -27,7 +27,7 @@ Framins' wiki
 * [Database](database/README.md)
 * [Web](web/README.md)
 * [RESTful](restful/README.md)
-* [OAuth](oahuth.md)
+* [OAuth](oauth/README.md)
 * [Software Metric](software-metric.md)
 
 [Else]()
