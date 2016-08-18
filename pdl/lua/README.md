@@ -9,6 +9,11 @@ Lua
 * Lua 的可移植性極高。
 * Lua 是用 ANSI C 寫的
 
+LuaJIT
+------
+
+[LuaJIT][] 全名是 *Lua Just-In-Time Compiler* 它跟 Lua 5.1 相容，重要的是它的效能比 Lua 改善很多。
+
 Basic
 -----
 
@@ -18,10 +23,16 @@ Basic
 * [5.2](http://www.lua.org/manual/5.2/)
 * [5.3](http://www.lua.org/manual/5.3/)
 
+安裝好後，直接打 `lua` 即可啟動 Lua 的指令互動環境，再按 Ctrl + C 即可離開
+
+    $ lua
+    Lua 5.1.5  Copyright (C) 1994-2012 Lua.org, PUC-Rio
+    >
+
 此筆記是以 5.1 做測試的
 
 * [Lexical Conventions](lexical-conventions.md)
-* Variables
+* [Values and Types](values-and-types.md)
 * Statements
 * Expressions
 * Visibility Rules
@@ -30,3 +41,9 @@ Reference
 ---------
 
 * [Scripting 系統概論與 Lua 簡介](http://blog.monkeypotion.net/gameprog/beginner/introduction-of-scripting-system-and-lua)
+* [官方 Manual](http://www.lua.org/manual/5.1/)
+* [Lua教學](http://www2.kimicat.com/lua%E6%95%99%E5%AD%B8)
+* [LuaUnit](http://luaunit.readthedocs.io/en/latest/)
+* [Lua coding style](http://wuzhiwei.net/lua_style_guide/)
+
+[LuaJIT]: http://luajit.org/luajit.html

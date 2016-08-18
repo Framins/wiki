@@ -36,6 +36,7 @@ Dynamically Typed Language
 * [JavaScript](javascript/README.md)
   * [CoffeeScript](coffeescript/README.md)
 * [Lua](lua/README.md)
+  * [MoonScript](http://moonscript.org/)
 * [Node](node/README.md)
 * [PHP](php/README.md)
 * [Ruby](ruby/README.md)
