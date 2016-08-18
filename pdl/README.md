@@ -24,8 +24,9 @@ Statically Typed Language
 
 靜態語言，特色是需要先編譯才能執行程式碼。
 
-- [Go](go/README.md)
-- [Swift](swift/README.md)
+* [Go](go/README.md)
+* [Swift](swift/README.md)
+* [Crystal](https://crystal-lang.org/)
 
 Dynamically Typed Language
 --------------------------
