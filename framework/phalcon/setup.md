@@ -58,11 +58,14 @@ end
 
 ### Docker
 
-使用 Docker 建置環境，範例：
+可參考其他人做的 image
+
+* [mileschou/phalcon](https://hub.docker.com/r/mileschou/phalcon/)
+
+或是自己寫 `Dockerfile` 範例：
 
 ```dockerfile
 FROM php:7.0-apache
-MAINTAINER MilesChou <jangconan@gmail.com>
 
 # Compile Phalcon
 RUN set -xe && \
@@ -72,7 +75,7 @@ RUN set -xe && \
         cd ../.. && rm -rf v3.0.0.tar.gz cphalcon-3.0.0
 ```
 
-> 用 Vagrant 測試過，記憶體需設定 2G 以上才能 compile
+> compile 2.x 時，記憶體需設定 2G 以上才能成功
 
 測試
 
@@ -84,7 +87,7 @@ RUN set -xe && \
 
 要使用開發者工具前，要先安裝好上面的 [Extension](#Phalcon Extension) 。
 
-如果要當全域指令，建議用 [Git](#Git) 下載；如果沒有的話，建議使用 [Composer](#Compose) 下載
+如果要當全域指令，建議用 [Git](#Git) 下載；如果沒有的話，建議使用 [Composer](#Composer) 下載
 
 ### Git
 
