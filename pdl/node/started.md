@@ -1,4 +1,4 @@
-以下用 Docker][] 來快速建置環境與練習
+以下用 [Docker][] 來快速建置環境與練習
 
 可以參考 [Docker Hub](https://hub.docker.com/_/node/) 選擇 Docker image 版本，這裡使用 `node:4.4` 做練習
 
@@ -23,11 +23,10 @@ docker run --rm -v `pwd`:/usr/src/app -w /usr/src/app node:4.4 node app.js
 
     $ docker run --rm -v `pwd`:/usr/src/app -w /usr/src/app node:4.4 node app.js
     HelloWorld
-    $
 
 # HTTP Server
 
-Node.js 有內建基本的 *HTTP Server* 可以直接使用，程式碼如下：
+Node.js 有內建基本的 HTTP Server 可以直接使用，程式碼如下：
 
 ```javascript
 var server;
@@ -102,7 +101,8 @@ docker build -t=mynode .
 docker run --rm -it -v `pwd`:/usr/src/app -w /usr/src/app mynode express
 ```
 
-# Reference
+References
+----------
 
 * [Docker 指令參考](https://docs.docker.com/engine/reference/run/)
 * [node.js 基本教學](http://dreamerslab.com/blog/tw/node-js-basics/)
