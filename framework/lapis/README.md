@@ -40,6 +40,8 @@ Hint: 到此 Lapis 的部分就算安裝完成了，只是還要另外去裝 Ope
 
 ### Docker
 
+參考 https://github.com/MilesChou/docker-lapis
+
 ```dockerfile
 FROM debian:jessie
 
