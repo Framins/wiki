@@ -11,8 +11,8 @@ Setup
     curl -L https://github.com/docker/machine/releases/download/v0.7.0/docker-machine-`uname -s`-`uname -m` > /usr/local/bin/docker-machine
     chmod +x /usr/local/bin/docker-machine
 
-Startup
--------
+Quick Start
+-----------
 
 `create` 指令可以直接 provision 機器， `--driver` 參數為必要，會決定要建機器在哪個地方，以下以 [Google Cloud Platform][] 為例
 
