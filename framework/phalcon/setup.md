@@ -65,14 +65,23 @@ end
 或是自己寫 `Dockerfile` 範例：
 
 ```dockerfile
-FROM php:7.0-apache
+FROM php:7.0
+MAINTAINER MilesChou <jangconan@gmail.com>
+
+ENV PHALCON_VERSION=3.0.0
 
 # Compile Phalcon
 RUN set -xe && \
-        curl -LO https://github.com/phalcon/cphalcon/archive/v3.0.0.tar.gz && \
-        tar xzf v3.0.0.tar.gz && cd cphalcon-3.0.0/build && ./install && \
+        curl -LO https://github.com/phalcon/cphalcon/archive/v${PHALCON_VERSION}.tar.gz && \
+        tar xzf v${PHALCON_VERSION}.tar.gz && cd cphalcon-${PHALCON_VERSION}/build && ./install && \
         echo "extension=phalcon.so" > /usr/local/etc/php/conf.d/phalcon.ini && \
-        cd ../.. && rm -rf v3.0.0.tar.gz cphalcon-3.0.0
+        cd ../.. && rm -rf v${PHALCON_VERSION}.tar.gz cphalcon-${PHALCON_VERSION} && \
+        # Insall Phalcon Devtools, see https://github.com/phalcon/phalcon-devtools/
+        curl -LO https://github.com/phalcon/phalcon-devtools/archive/v${PHALCON_VERSION}.tar.gz && \
+        tar xzf v${PHALCON_VERSION}.tar.gz && \
+        mv phalcon-devtools-${PHALCON_VERSION} /usr/local/phalcon-devtools && \
+        ln -s /usr/local/phalcon-devtools/phalcon.php /usr/local/bin/phalcon
+
 ```
 
 > compile 2.x 時，記憶體需設定 2G 以上才能成功
@@ -93,20 +102,22 @@ RUN set -xe && \
 
 安裝與測試
 
-    git clone https://github.com/phalcon/phalcon-devtools
-    ./phalcon-devtools/phalcon.sh
+    $ git clone https://github.com/phalcon/phalcon-devtools
+    $ ln -s ./phalcon-devtools/phalcon.php /usr/local/bin/phalcon
+    $ phalcon
 
-    Phalcon DevTools (2.0.0)
+    Phalcon DevTools (3.0.0)
 
     Available commands:
-      commands (alias of: list, enumerate)
-      controller (alias of: create-controller)
-      model (alias of: create-model)
-      all-models (alias of: create-all-models)
-      project (alias of: create-project)
-      scaffold (alias of: create-scaffold)
-      migration (alias of: create-migration)
-      webtools (alias of: create-webtools)
+      commands         (alias of: list, enumerate)
+      controller       (alias of: create-controller)
+      module           (alias of: create-module)
+      model            (alias of: create-model)
+      all-models       (alias of: create-all-models)
+      project          (alias of: create-project)
+      scaffold         (alias of: create-scaffold)
+      migration        (alias of: create-migration)
+      webtools         (alias of: create-webtools)
 
 ### Composer
 
@@ -115,7 +126,7 @@ RUN set -xe && \
 ```javascript
 {
     "require": {
-        "phalcon/devtools": "dev-master"
+        "phalcon/devtools": "3.0.0"
     }
 }
 ```
@@ -125,18 +136,19 @@ RUN set -xe && \
     composer install
     php vendor/bin/phalcon.php
 
-    Phalcon DevTools (2.0.0)
+    Phalcon DevTools (3.0.0)
 
     Available commands:
-      commands (alias of: list, enumerate)
-      controller (alias of: create-controller)
-      model (alias of: create-model)
-      all-models (alias of: create-all-models)
-      project (alias of: create-project)
-      scaffold (alias of: create-scaffold)
-      migration (alias of: create-migration)
-      webtools (alias of: create-webtools)
+      commands         (alias of: list, enumerate)
+      controller       (alias of: create-controller)
+      module           (alias of: create-module)
+      model            (alias of: create-model)
+      all-models       (alias of: create-all-models)
+      project          (alias of: create-project)
+      scaffold         (alias of: create-scaffold)
+      migration        (alias of: create-migration)
+      webtools         (alias of: create-webtools)
 
 或是直接裝 global
 
-    composer global require phalcon/devtools
+    composer global require phalcon/devtools=3.0.0
