@@ -67,7 +67,13 @@ List all containers
 
 * `-a` : all
 * `-q` : quiet
-    
+
+可以加上自定義的 template 比方說只想看到 port 被佔用的情況
+
+    docker ps --format "{{.Names}}: {{.Ports}}"
+
+Hint: template 的用法可以下 `man docker-ps` 參考線上說明文件
+
 docker stop
 ----------
 
