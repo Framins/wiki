@@ -11,8 +11,8 @@ Why Docker
 Docker Orchestration Tools
 --------------------------
 
-* **[Docker Machine][]:** 從零到有幫你佈署 Docker 環境
-* **[Docker Swarm][]:** 用 Docker 建立 cluster 應用
+* **[Docker Machine](machine.md):** 從零到有幫你佈署 Docker 環境
+* **[Docker Swarm](swarm.md):** 用 Docker 建立 cluster 應用
 * **[Docker Compose](compose.md):** 定義並執行複雜的 Docker 應用
 
 Terms
@@ -77,6 +77,3 @@ References
 * [Cheat Sheet](http://zeroturnaround.com/wp-content/uploads/2016/03/Docker-cheat-sheet-by-RebelLabs.png)
 
 [Docker Hub]: https://hub.docker.com/
-[Docker Machine]: https://docs.docker.com/machine/
-[Docker Swarm]: https://docs.docker.com/swarm/
-[Docker Compose]: https://docs.docker.com/compose/
