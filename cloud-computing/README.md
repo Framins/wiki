@@ -10,17 +10,17 @@ Cloud Computing
 各種雲端比較
 ----------
 
-|  EnterpriseIT   |  IaaS         |  PaaS         |  SaaS  |
-|  -------------  |  -----------  |  -----------  |  ----  |
-|  Application    |  Application  |  Application  |        |
-|  Sectity        |  Sectity      |               |        |
-|  Database       |  Database     |               |        |
-|  OS             |  OS           |               |        |
-|  Virtualization |               |               |        |
-|  Servers        |               |               |        |
-|  Storage        |               |               |        |
-|  Network        |               |               |        |
-|  Data Centers   |               |               |        |
+|  Component      |  EnterpriseIT   |  IaaS  |  PaaS  |  SaaS  |
+|  -------------  |  -------------  |  ----  |  ----  |  ----  |
+|  Application    |  ✓              |  ✓     |  ✓     |        |
+|  Security       |  ✓              |  ✓     |        |        |
+|  Database       |  ✓              |  ✓     |        |        |
+|  OS             |  ✓              |  ✓     |        |        |
+|  Virtualization |  ✓              |        |        |        |
+|  Servers        |  ✓              |        |        |        |
+|  Storage        |  ✓              |        |        |        |
+|  Network        |  ✓              |        |        |        |
+|  Data Centers   |  ✓              |        |        |        |
 
 Note: `IaaS` 的特點應該是可以操作系統層級， `PaaS` 是可以撰寫指定的語言， `SaaS` 則是只能使用軟體
 
