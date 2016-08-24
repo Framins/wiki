@@ -7,7 +7,7 @@ Basic
 -----
 
 * [Basic Concept](basic-concept.md)
-
+* [Statement & Expression](statement-n-expression.md)
 程式設計入門需要必備的基礎知識。
 
 ### Function and Subroutine
