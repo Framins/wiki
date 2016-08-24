@@ -15,7 +15,8 @@ Shell Script 能做到許多神奇的事情
 * 簡易的資料處理
 * 跨平台支援與學習歷程較短
 
-## Hello World
+Hello World
+-----------
 
 首先使用編輯器建立一個檔案取名叫 `helloworld.sh`
 
@@ -34,7 +35,8 @@ $ chmoe +x ./helloworld.sh
 $ sh ./helloworld.sh
 ```
 
-## read
+read
+----
 
 讀取使用者輸入的字串，這樣就可以做出簡易選單了
 
@@ -49,6 +51,28 @@ case $key in
         ;;
 esac
 ```
+
+Check file
+----------
+
+基本檢查檔案是否存在的方法
+
+```bash
+# 存在會回傳 Found
+[ -e filename ] && echo "Found"
+
+# 不存在會回傳 Not Found
+[ -e filename ] || echo "Not Found"
+
+# 存在會回傳 Found ，且不存在會回傳 Not Found
+[ -e filename ] && echo "Found" || echo "Not Found"
+```
+
+參數參考
+
+* `-e` 單純判斷檔案在不在
+* `-d` 判斷檔案存在並且是個目錄
+* `-f` 判斷檔案存在並且就是檔案
 
 Variables
 ---------
