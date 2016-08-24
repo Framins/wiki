@@ -30,7 +30,7 @@ Regions 選法：不同的 Regions 會有不同的價格，像東京比較貴，
 * **Glacier:** 備份需求會用到，檔案讀取需要數小時
 * **Snowball:** 大檔傳送到 AWS 時可以用
 * **Storage Gateway:** 提供一個空間，可以同步到 S3
-* [Amazon Elastic Block Store (Amazon EBS)](https://aws.amazon.com/tw/ebs/)
+* [**Amazon Elastic Block Store (EBS):**](https://aws.amazon.com/tw/ebs/) 它是硬碟
 
 ### Database
 
