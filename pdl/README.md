@@ -26,6 +26,7 @@ Statically Typed Language
 
 * [Go](go/README.md)
 * [Swift](swift/README.md)
+* [Rust](rust/README.md)
 * [Crystal](https://crystal-lang.org/)
 
 Dynamically Typed Language
