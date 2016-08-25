@@ -1,7 +1,7 @@
 Rust
 ====
 
-Rust 的家世可以查查 [wiki](https://zh.wikipedia.org/wiki/Rust) ，另外跟其他語言的比較也可以參考看看[這篇](https://buzzorange.com/techorange/2015/11/18/which-can-replace-language-c/)
+[Rust][] 的家世可以查查 [wiki](https://zh.wikipedia.org/wiki/Rust) ，另外跟其他語言的比較也可以參考看看[這篇](https://buzzorange.com/techorange/2015/11/18/which-can-replace-language-c/)
 
 Setup
 -----
@@ -70,7 +70,7 @@ Hello, world!
 Cargo
 -----
 
-Cargo 是一個類似 Composer / NPM 的套件管理工具，同樣具備開發新專案的功能
+Cargo 是一個類似 [Composer][] / [NPM][] 的套件管理工具，同樣具備開發新專案的功能
 
 比方說官方網站的範例是建一個 `guessing_game` 專案，可以這樣下指令
 
@@ -96,5 +96,6 @@ References
 
 * [Rust 程式語言正體中文版](http://askeing.github.io/rust-book/)
 
+[Rust]: https://www.rust-lang.org/en-US/
 [Composer]: /pdl/php/composer.md
 [NPM]: /pdl/node/README.md
