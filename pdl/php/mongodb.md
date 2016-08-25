@@ -1,7 +1,7 @@
 MongoDB
 =======
 
-[Mongo](http://www.php.net/manual/en/class.mongo.php)已停用，可以換使用[MongoClient](http://www.php.net/manual/en/class.mongoclient.php)
+[Mongo](http://www.php.net/manual/en/class.mongo.php) 已停用，可以換使用 [MongoClient](http://www.php.net/manual/en/class.mongoclient.php)
 
 階層由大至小為：
 
