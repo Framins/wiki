@@ -5,7 +5,7 @@ Container OS
 * Kubernetes
   * [Minikube](minikube.md)
 * Mesos
-* Swarm
+* [Swarm](/docker/swarm.md)
 * CoreOS
   * [gitbook](https://joshhu.gitbooks.io/docker_theory_install/content/DockerBible/dockercoreos.html)
 
