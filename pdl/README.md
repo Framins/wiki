@@ -49,6 +49,7 @@ Markup Language
 
 * [HTML](html.md)
 * [YAML](yaml.md)
+* [TOML](https://github.com/toml-lang/toml) - Tom's Obvious, Minimal Language, by Tom.
 * [Tex](tex.md)
 * [CSS](css/README.md)
   * [SASS](sass.md)
