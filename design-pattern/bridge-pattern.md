@@ -37,10 +37,10 @@ Implementor <|-- ConcreteImplementor
 Terms
 -----
 
-* *Abstraction* - 抽象化角色，使用這個物件的抽象行為，通常會是抽象類別
-* *RefinedAbstraction* - 修正抽象化角色，抽象行為的實作
-* *Implementor* - 實作化角色，可以是介面或抽象類別
-* *ConcreteImplementor* - 具體實作化角色
+* **Abstraction:** - 抽象化角色，使用這個物件的抽象行為，通常會是抽象類別
+* **RefinedAbstraction:** - 修正抽象化角色，抽象行為的實作
+* **Implementor:** - 實作化角色，可以是介面或抽象類別
+* **ConcreteImplementor:** - 具體實作化角色
 
 Example
 -------
@@ -52,15 +52,15 @@ interface DrawingAPI
 }
 
 class DrawingAPI1 implements DrawingAPI
-{ 
+{
     public function drawCircle($dX, $dY, $dRadius)
     {
         echo "API1.circle at $dX:$dY radius $dRadius.<br/>";
     }
 }
- 
+
 class DrawingAPI2 implements DrawingAPI
-{ 
+{
     public function drawCircle($dX, $dY, $dRadius)
     {
         echo "API2.circle at $dX:$dY radius $dRadius.<br/>";
@@ -68,12 +68,12 @@ class DrawingAPI2 implements DrawingAPI
 }
 
 abstract class Shape
-{ 
+{
     protected $oDrawingAPI;
- 
+
     public abstract function draw();
     public abstract function resizeByPercentage($dPct);
- 
+
     protected function __construct(DrawingAPI $oDrawingAPI)
     {
         $this->oDrawingAPI = $oDrawingAPI;
@@ -81,11 +81,11 @@ abstract class Shape
 }
 
 class CircleShape extends Shape
-{ 
+{
     private $dX;
     private $dY;
     private $dRadius;
- 
+
     public function __construct($dX, $dY, $dRadius, DrawingAPI $oDrawingAPI)
     {
         parent::__construct($oDrawingAPI);
@@ -101,7 +101,7 @@ class CircleShape extends Shape
                 $this->dRadius
         );
     }
- 
+
     public function resizeByPercentage($dPct)
     {
         $this->dRadius *= $dPct;
@@ -112,7 +112,7 @@ $aShapes = array(
     new CircleShape(1, 3, 7,  new DrawingAPI1()),
     new CircleShape(5, 7, 11, new DrawingAPI2()),
 );
- 
+
 foreach ($aShapes as $shape) {
     $shape->resizeByPercentage(2.5);
     $shape->draw();

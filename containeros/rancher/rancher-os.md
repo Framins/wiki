@@ -20,9 +20,9 @@ sudo ifconfig eth0 192.168.1.10
 sudo route add default gw 192.168.1.254
 ```
 
-- 準備一個設定檔 `cloud-config.yml` 。測試時，是把這個 yml 檔放在網路上的空間，之後用 wget 下載來用。這個設定檔有幾個重要的東西要調整：一個是 SSH public key ，另一個是網路設定。因為一開始安裝好後，只能靠 SSH 的方式進去操作系統。沒網路，沒 public key 等同無法操作...以下是一個比較完整的設定範例
+準備一個設定檔 `cloud-config.yml` 。測試時，是把這個 yml 檔放在網路上的空間，之後用 wget 下載來用。這個設定檔有幾個重要的東西要調整：一個是 SSH public key ，另一個是網路設定。因為一開始安裝好後，只能靠 SSH 的方式進去操作系統。沒網路，沒 public key 等同無法操作...以下是一個比較完整的設定範例
 
-```
+```yml
 hostname: rancher-01
 ssh_authorized_keys:
   - ssh-rsa ...

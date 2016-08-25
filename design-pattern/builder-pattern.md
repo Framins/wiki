@@ -10,10 +10,10 @@ Builder Pattern 的定義：
 Terms
 -----
 
-  * *Product* - 產品類別，通常會實作 Template Method Pattern ，會有模板方法和基本方法。
-  * *Builder* - 抽象建造者，規範產品的組建，會由子類別實作。
-  * *ConcreteBuilder* - 具體建造者，實作 Builder 定義的所有方法，並返回一個組建好的物件。
-  * *Director* - 導演類別。它會用 ConcreteBuilder 設置零件，然後再取得物件。
+  * **Product:** - 產品類別，通常會實作 Template Method Pattern ，會有模板方法和基本方法。
+  * **Builder:** - 抽象建造者，規範產品的組建，會由子類別實作。
+  * **ConcreteBuilder:** - 具體建造者，實作 Builder 定義的所有方法，並返回一個組建好的物件。
+  * **Director:** - 導演類別。它會用 ConcreteBuilder 設置零件，然後再取得物件。
 
 Pros and Cons
 -------------

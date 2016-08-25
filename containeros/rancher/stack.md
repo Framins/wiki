@@ -11,9 +11,9 @@ Rancher Stack
 
 其實要開始並不難，如果有用過 [Docker Compose][] 的人會知道，這兩個是完全一樣的東西：
 
-- Stack 等同於 Project name
-- Service 定義是一樣的，一樣也具備 link 其他 service 的定義
-- Container 定義也是一樣的，且一樣具有 scaling 的空間
+* Stack 等同於 Project name
+* Service 定義是一樣的，一樣也具備 link 其他 service 的定義
+* Container 定義也是一樣的，且一樣具有 scaling 的空間
 
 ## How to clone
 
@@ -25,7 +25,7 @@ Rancher Stack
 
 以下是 `docker-compose.yml` 範例
 
-```
+```yml
 sentry:
   restart: always
   environment:
@@ -61,7 +61,7 @@ Stack 對外的 port 要設定在 sentry service 上，它的設定是 `EXPOSE 9
 
 # Notice
 
-- Code 要上線到 Rancher 的 Stack 上，建議使用 build image &amp; pull image 的方式上線
-- 因 Docker Container 基本性質是隔離的，所以在 Stack 裡的 container 建議不要直接對外
+* Code 要上線到 Rancher 的 Stack 上，建議使用 build image &amp; pull image 的方式上線
+* 因 Docker Container 基本性質是隔離的，所以在 Stack 裡的 container 建議不要直接對外
 
 [Docker Compose]: /docker/compose.md

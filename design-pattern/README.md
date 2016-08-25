@@ -12,20 +12,19 @@ Glossary of terms
 
 設計模式裡面也蠻多專有名詞的。除了下面六大原則和那一堆模式外，其他可以簡單介紹的名詞，就在這裡面說明了。
 
-* *robust* 強健性。
-* *client* 通常泛指「相對」的上層模組。
+* **robust:** 強健性。
+* **client:** 通常泛指「相對」的上層模組。
 
 Design Principles
 -----------------
 
-六大設計原則。
+五大設計原則，剛好變成一個單字 SOLID 。
 
 * [Single Responsibility Principle](single-responsibility-principle.md)
-* [Liskov Substitution Principle](liskov-substitution-principle.md)
-* Dependency Inversion Principle
-* [Interface Segregation Principle](interface-segregation-principle.md)
-* Least Knowledge Principle
 * Open Close Principle
+* [Liskov Substitution Principle](liskov-substitution-principle.md)
+* [Interface Segregation Principle](interface-segregation-principle.md)
+* Dependency Inversion Principle
 
 Creational Patterns
 -------------------
