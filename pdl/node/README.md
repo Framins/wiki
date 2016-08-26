@@ -71,3 +71,8 @@ Node.js Package Manager
 
     cd /path/to/project
     npm uninstall
+
+Packages
+--------
+
+* [Vorpal](http://vorpal.js.org/) - CLI Framework

@@ -59,3 +59,8 @@ Extreme
 -------
 
 程式設計到了最後，當然是要學如何控制程式版本和多人多工了。
+
+References
+----------
+
+* [工程師生涯 30 年：真希望在菜鳥時期就懂得的這些事](https://buzzorange.com/techorange/2016/02/15/lessons-from-my-lifetime-of-being-a-programmer-during-30-years/)

@@ -81,3 +81,4 @@ Reference
 * [OAuth 2.0 筆記 (1) 世界觀](http://blog.yorkxin.org/posts/2013/09/30/oauth2-1-introduction/)
 * [OAuth 2.0 Authorization Protocol](https://malalanayake.wordpress.com/2013/01/17/oauth-2-0-authorization-protocol/)
 * [簡單易懂的 OAuth 2.0](https://speakerdeck.com/chitsaou/jian-dan-yi-dong-de-oauth-2-dot-0)
+* [OAuth 2.0 筆記 (6) Bearer Token 的使用方法](https://blog.yorkxin.org/2013/09/30/oauth2-6-bearer-token)

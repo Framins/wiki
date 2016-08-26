@@ -47,5 +47,10 @@ Docker Image 存放空間
 References
 ----------
 
+* [DevOps 是什麼 ?](http://www.arthurtoday.com/2011/10/devops.html)
+* [Twelve DevOps Anti-Patterns](https://blog.devopsguys.com/2013/02/20/twelve-devops-anti-patterns/)
 * [DevOps：更容易做正確的事](https://teddy-chen-tw.blogspot.tw/2016/07/devops.html)
 * [推薦！國外工程師整理的系統管理員資源大全](https://buzzorange.com/techorange/2015/05/07/data/)
+* [DevOps：建造開發維運的跨界之橋](http://www.slideshare.net/warfan/devops-53161280)
+* [馬上能用的DevOps工具包](http://www.ithome.com.tw/news/96864)
+* [從找到對的DevOps工具開始，實現基礎架構程式化的第一步](http://www.ithome.com.tw/news/99282)

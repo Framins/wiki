@@ -19,3 +19,4 @@
 * [淺談 REST 軟體架構風格 (Part.I) - 從了解 REST 到設計 RESTful！](http://blog.toright.com/posts/725)
 * [淺談 REST 軟體架構風格 (Part.II) - 如何設計 RESTful Web Service？](http://blog.toright.com/posts/1399)
 * [什麼是REST跟RESTful?](https://ihower.tw/blog/archives/1542)
+* [理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
