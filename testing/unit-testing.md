@@ -5,32 +5,31 @@ Unit Testing
 
 Unit testing 是個蠻抽象的東西。常常會看到「期望」這個字眼，到底是要期望什麼東西啊？講清楚呀！結論通常還是需要自己想 ...
 
-Keyword:
-
-* Rubber Duck Debugging: ㄧ行ㄧ行解釋程式碼在做什麼
-* Test-driven development: 測試驅動開發
-* Behavior-driven development: 行為驅動開發
-* integra test: 整合測試。只管整體的行為是否正確，不管元件內部行為是不是正確。
-  * bahavier test = 行為測試。只管元件內部行為是否正確，不管它與其他元件是否能共存。
-    * 某個上層模組，會用到多個下層模組。只要跨過這個模組與模組的界線，就屬於 bahavier test 了
-  * unit test = 單元測試。針對程式最小單位，來進行正確性的檢驗。
-    * 即使裡面會有互相行為上的測試，仍然可被歸類為 unit test
-    * constructor 通常不需要測，需要測的話，整體的設計就需要檢討了。
-    * getter/setter 也不需要特別寫 unit test 測，只需要測有邏輯性的功能，如加減乘除等。
-    * database schema 通常不需要測，因為當 schema 變動時，product code 要改，test code 也要改，影響整體太多了。這種測試感覺比較像為了測試寫測試，如果有 ORM 之類的套件可以做單一文件控管，此測試就會完全失去它的必要性了。
-  * Mock object = 模擬物件。
-    * 模擬的物件，主要知道使用它的上層模組，到底會如何使用這個模擬的物件，e.g. 一個算開根號的模組，一定會用到除法模組，但如果使用除法模組時，不該讓除數會等於 0，這時用模擬物件就可以測出這個除法模組在開根號模組裡，是正常被使用的。
+* 即使裡面會有互相行為上的測試，仍然可被歸類為 unit test
+* constructor 通常不需要測，需要測的話，整體的設計就需要檢討了
+* getter/setter 也不需要特別寫 unit test 測，只需要測有邏輯性的功能，如加減乘除等
+* database schema 通常不需要測，因為當 schema 變動時，production code 要改，test code 也要改，影響整體太多了。這種測試感覺比較像為了測試寫測試，如果有 ORM 之類的套件可以做單一文件控管，此測試就會完全失去它的必要性了
 
 Feature
 -------
 
 單元測試的特性有五個特性，剛好是 `FIRST` ：
 
-  * *Fast* 快
-  * *Independent* 獨立
-  * *Repeatable* 可重複，任何環境都能正常執行
-  * *Self-Validating* 可以直接反應驗證的結果
-  * *Timely* 及時，會跟 production code 同步
+* *Fast* 快
+* *Independent* 獨立
+* *Repeatable* 可重複，任何環境都能正常執行
+* *Self-Validating* 可以直接反應驗證的結果
+* *Timely* 及時，會跟 production code 同步
+
+Frameworks
+----------
+
+* [JUnit](http://junit.org/junit4/) `Java`
+* [PHPUnit](/pdl/php/phpunit.md) `PHP`
+* [Codeception](http://codeception.com/) `PHP`
+* [RSpec](http://rspec.info/) `Ruby`
+* [QUnit](https://qunitjs.com/) `JavaScript`
+* [Mocha](https://mochajs.org/) `JavaScript`
 
 Mock
 ----
