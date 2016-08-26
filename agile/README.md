@@ -1,6 +1,19 @@
 Agile
 =====
 
+[敏捷軟體開發宣言](http://agilemanifesto.org/iso/zhcht/)，共勉之！
+
+### 開發流程相關
+
+* [TDD](https://en.wikipedia.org/wiki/Test-driven_development): Test–Driven Development
+* [BDD](bdd.md): Behavior-Driven Development
+* [ATDD](atdd.md): Acceptance Test–Driven Development
+* [XP](https://en.wikipedia.org/wiki/Extreme_programming): Extreme Programming
+* [Specification by Example](https://en.wikipedia.org/wiki/Specification_by_example)
+
+User Story
+----------
+
 通常在建構應用程式的時候，你會從使用者故事 (user story) 開始著手，然後從場景 (scenario) 整理出驗收標準 (acceptance criteria) ，再進一步產生單元測試 (unit test) 。
 
 User Story 是一個很單純的描述，說明了使用者想要完成的某種動作。如：「身為一個 wiki 訪客，我想要可以看到 wiki 頁面」。
@@ -25,7 +38,7 @@ Specification by Example
 * [為什麼要實例化需求(by David Ko)](http://kojenchieh.pixnet.net/blog/post/341172233)
 * [如何進行實例化需求(by David Ko)](http://kojenchieh.pixnet.net/blog/post/344847323)
 
-Scurm
+Scrum
 -----
 
 * Daily Scrum

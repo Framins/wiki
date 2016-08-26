@@ -15,7 +15,6 @@ Let's Kanban
 | [Wekan][] | Open source kanban, Web only |
 
 
-
 [GitHub]: /vcs/git/github.md
 [GitLab]: /ci/gitlab-ci.md
 [Trello]: https://trello.com/
