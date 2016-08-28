@@ -38,6 +38,12 @@ Topics
 * [date](date.md)
 * [make](make.md)
 
+命令提示字元
+
+* https://blog.gtwang.org/linux/how-to-make-a-fancy-and-useful-bash-prompt-in-linux-1/
+* Powerline: http://cenalulu.github.io/linux/mac-powerline/
+* Powerline: https://blog.gtwang.org/linux/powerline-adds-powerful-statuslines-and-prompts-to-vim-and-bash/
+
 FAQs
 ----
 
