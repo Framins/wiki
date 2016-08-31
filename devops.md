@@ -22,6 +22,11 @@ Continuous Integration
 * Bamboo
 * Codeship
 
+原始碼檢測報告平台
+
+* [Coveralls](https://coveralls.io/) - coverage 報告
+* [Code Climate](https://codeclimate.com/) - coverage 報告
+
 Continuous Deployment
 ---------------------
 
