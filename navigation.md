@@ -35,6 +35,7 @@ Framins' wiki
 * [Resource](resource.md)
 * [License](license.md)
 * [Wiki Engine](wiki-engine.md)
+* [Mac](mac.md)
 
 [gimmick:theme (inverse: false)](journal)
 
