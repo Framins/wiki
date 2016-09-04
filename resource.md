@@ -12,8 +12,8 @@ Resource
 資源
 ----
 
-* Bootstrap的免費主題 - [Bootswatch](http://bootswatch.com/)
-* Bootstrap的免費主題2 - [WrapBootstrap](https://wrapbootstrap.com/)
+* Bootstrap 的免費主題 - [Bootswatch](http://bootswatch.com/)
+* Bootstrap 的免費主題2 - [WrapBootstrap](https://wrapbootstrap.com/)
 * 有免費的線上中文字型 - [justfont](http://www.justfont.com/)
 * 線上自動隨機產圖，給可網頁做測試用 - [lorempixel](http://lorempixel.com/)
 * 線上製作 Android 的 Asset - [Android Asset Studio](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html)

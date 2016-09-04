@@ -32,6 +32,12 @@ Framins' wiki
 
 [Else]()
 
+* [Symbol](symbol.md)
+* [Pattern](pattern.md)
+* [UML](uml/README.md)
+* [Agile](agile/README.md)
+* [DevOps](devops.md)
+* [Specification](specification/README.md)
 * [Resource](resource.md)
 * [License](license.md)
 * [Wiki Engine](wiki-engine.md)

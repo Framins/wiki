@@ -1,3 +1,3 @@
 # Library
 
-* [jQuery](jquery)
+* [jQuery](jquery/README.md)
