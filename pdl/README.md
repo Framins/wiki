@@ -75,6 +75,11 @@ Scripting Language
 * [Batch File](batch-file.md)
 * [Shell Script](shell-script.md)
 
+Functional Programming
+----------------------
+
+* [Clojure](clojure.md)
+
 [Program Design Language]: https://en.wikipedia.org/wiki/Program_Design_Language
 [Markup Language]: https://en.wikipedia.org/wiki/Markup_language
 [Lightweight Markup Language]: https://en.wikipedia.org/wiki/Lightweight_Markup_Language
