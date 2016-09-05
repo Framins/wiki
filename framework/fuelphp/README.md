@@ -1,6 +1,8 @@
 FuelPHP
 =======
 
+`Full-stack Framework`
+
 [FuelPHP](http://fuelphp.com/)
 
 Getting Started

@@ -1,5 +1,7 @@
 # Zend Framework 1
 
+`Full-stack Framework`
+
 ## Setup
 
 可以直接使用 PHP 環境配合 Zend Framework 主程式，或是直接使用 Zend Server

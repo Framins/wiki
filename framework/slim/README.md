@@ -1,6 +1,6 @@
 # Slim Framework
 
-`PHP` `Micro Framework`
+`PHP` [`Micro Framework`](/term/micro-framework.md)
 
 Slim Framework 框架如其名，又瘦又小的，速度也是非常的快。目前有兩大分支
 

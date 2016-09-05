@@ -1,6 +1,6 @@
 # Phalcon
 
-`PHP` `C++` `Web Framework` `Micro Framework` `ORM` `ODM`
+`PHP` `C++` `Full-stack Framework` [`Micro Framework`](/term/micro-framework.md) `ORM` `ODM`
 
 應該是 2014 年最快的 PHP framework
 

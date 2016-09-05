@@ -1,6 +1,8 @@
 Ruby on Rails 5
 ===============
 
+`Full-stack Framework`
+
 [Ruby on Rails 5][] 應該是目前的最新版， [Ruby][] 要 2.2.2 以上
 
 Installation

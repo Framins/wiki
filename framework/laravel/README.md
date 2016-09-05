@@ -1,5 +1,7 @@
 # Laravel
 
+`Full-stack Framework`
+
 Laravel 基於 PHP 5.3 ，使用了許多 namespace 和閉包的概念實作框架功能。
 
 * [Laravel 官方網站](http://laravel.com/)

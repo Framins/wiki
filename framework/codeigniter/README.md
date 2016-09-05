@@ -1,6 +1,6 @@
 # CodeIgniter
 
-`PHP` `Web Framework`
+`PHP` `Full-stack Framework`
 
 * [官方連結](http://ellislab.com/codeigniter)
 * [中文使用手冊](http://www.codeigniter.org.tw/user_guide/)

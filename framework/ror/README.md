@@ -1,6 +1,6 @@
 # [Ruby on Rails](http://rubyonrails.org/)
 
-`Ruby` `Web Framework`
+`Ruby` `Full-stack Framework`
 
 簡稱為 `RoR` ，或是 `Rails` 。是一個建構在 Ruby 上的 MVC 框架。
 

@@ -1,6 +1,6 @@
 # Django
 
-`Python` `Web Framework`
+`Python` `Full-stack Framework`
 
 [官方網站](https://www.djangoproject.com/)
 
