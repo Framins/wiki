@@ -29,16 +29,16 @@ Command
 
 #### Cursor movement
 
-    e   jump to the end of a word
-
-    0   jump to the start of the line  
-    $   jump to the end of the line
-
-    {   jump to previous paragraph
-    }   jump to next paragraph
-
-    gg  go to the first line of the document
-    G   go to the last line of the document
+| Key   | Action |
+| ----- | ------ |
+| `e`   | jump to the end of a word |
+| `0`   | jump to the start of the line |
+| `^`   | jump to the start word of the line |
+| `$`   | jump to the end of the line |
+| `{`   | jump to previous para`graph |
+| `}`   | jump to next paragraph |
+| `gg`  | go to the first line of the document |
+| `G`   | go to the last line of the document |
 
 #### Cut and paste
 
