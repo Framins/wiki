@@ -26,7 +26,7 @@ Statically Typed Language
 
 * [Go](go/README.md)
 * [Swift](swift/README.md)
-* [Rust](rust/README.md)
+* [Rust](https://mileschou.gitbooks.io/rust-note/content/) - 另開 Gitbook 來寫筆記
 * [Crystal](https://crystal-lang.org/)
 
 Dynamically Typed Language
