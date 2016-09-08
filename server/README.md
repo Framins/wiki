@@ -9,6 +9,16 @@
 * [Redmine](redmine/README.md)
 * [Message Queue](mq/message-queue.md)
 
+Hadoop
+------
+
+難...
+
+* https://hadoop.apache.org/docs/r2.7.2/hadoop-yarn/hadoop-yarn-site/DockerContainerExecutor.html
+* http://www.powerxing.com/install-hadoop-cluster/
+* https://github.com/alvinhenrick/hadoop-mutinode/
+* http://www.cc.ntu.edu.tw/chinese/epaper/0036/20160321_3609.html
+
 Sentry
 ------
 
