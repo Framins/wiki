@@ -23,6 +23,38 @@ CI 是一種概念，也是驅動所有系統品質工具的引擎
 
 CI 是一層品質的防護網，這層防護網是將其他每個維持品質的工具組織起來，整合起來，不斷不斷的持續整合，並即時產生回饋給所有成員。
 
+Practice
+--------
+
+以下參考 Teddy 的文章
+
+* [開發人員應遵循的七項持續整合要領](http://teddy-chen-tw.blogspot.tw/2012/07/blog-post.html)
+* [持續整合工程師應遵循的十項要領（上）](http://teddy-chen-tw.blogspot.tw/2012/07/blog-post_04.html)
+* [持續整合工程師應遵循的十項要領（下）](http://teddy-chen-tw.blogspot.tw/2012/07/blog-post_05.html)
+
+Developer 應該了解的要點
+
+1. Commit code frequently
+2. Don’t commit broken code
+3. Fix broken builds immediately
+4. Write automated developers tests
+5. All tests and inspections must pass
+6. Run private builds
+7. Avoid getting broken code
+
+CI Engineer 應該了解的要點
+
+1. Automate builds
+2. Perform single command builds
+3. Separate build scripts from your IDE
+4. Centralize software assets
+5. Create a consistent directory structure
+6. Fail builds fast
+7. Build for any environment
+8. Use a dedicated CI machine and a CI server
+9. Run fast builds
+10. State builds
+
 Implements
 ----------
 
@@ -43,9 +75,9 @@ Implements
 Reference
 ---------
 
-  * [漫談持續整合](http://kojenchieh.pixnet.net/blog/post/378400769)
-  * [持續整合所需準備事項](http://kojenchieh.pixnet.net/blog/post/378870311)
-  * [執行持續整合所需要的紀律](http://kojenchieh.pixnet.net/blog/post/379112090)
-  * [十件有關CI的事情](http://kojenchieh.pixnet.net/blog/post/75411763)
-  * [內修敏捷開發心法 + 外練持續整合招式](https://blog.toright.com/posts/4139)
-  * [Git Workflows and Continuous Delivery](http://blogs.wandisco.com/2013/07/24/git-workflows-and-continuous-delivery-using-multisite-replication-to-facilitate-a-global-mainline/)
+* [漫談持續整合](http://kojenchieh.pixnet.net/blog/post/378400769)
+* [持續整合所需準備事項](http://kojenchieh.pixnet.net/blog/post/378870311)
+* [執行持續整合所需要的紀律](http://kojenchieh.pixnet.net/blog/post/379112090)
+* [十件有關CI的事情](http://kojenchieh.pixnet.net/blog/post/75411763)
+* [內修敏捷開發心法 + 外練持續整合招式](https://blog.toright.com/posts/4139)
+* [Git Workflows and Continuous Delivery](http://blogs.wandisco.com/2013/07/24/git-workflows-and-continuous-delivery-using-multisite-replication-to-facilitate-a-global-mainline/)
