@@ -16,6 +16,31 @@ VPC 的四種模式
 * 12 是公有雲； 3 是混合雲 ； 4 是私有雲
 * 1 跟 2 的差別為， 2 的某些服務是不對外公開的
 
+Keyword
+-------
+
+* Subnet
+* Internet Gateway
+* NAT Gateway - 需指定 Subnet
+* Route table
+* Security Group - 來源可以是 Security Group ID
+
+### ACL
+
+* Subnet Layer Firewall
+* Stateless Firewall
+* 編號設定優先順序，越低越優先
+* 符合規則就會進行動作
+* Subnet 只能也一定會 associate 一個 ACL
+
+### Security Group
+
+* Host Layer Firewall
+* Stateful Firewall
+* 只能設定 Allow
+* Security Group 可以 attach 給無限多個
+* 每個 ENI 只能設定 5 個 Security Group
+
 References
 ----------
 
