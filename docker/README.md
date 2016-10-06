@@ -77,5 +77,6 @@ References
 * [Cheat Sheet](http://zeroturnaround.com/wp-content/uploads/2016/03/Docker-cheat-sheet-by-RebelLabs.png)
 * [用Nginx来做私有docker registry的安全控制](http://www.larrycaiyu.com/2014/12/01/private-docker-registry-with-nginx.html)
 * [Galley: Orchestrator for local container](http://cepave.com/galley/)
+* [Docker 導入：障礙與對策](http://www.slideshare.net/williamyeh/docker-66222654)
 
 [Docker Hub]: https://hub.docker.com/
