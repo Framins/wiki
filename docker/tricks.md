@@ -1,16 +1,10 @@
 Tricks
 ======
 
-停止所有容器：
+Stop all running container :
 
 ```bash
 docker stop $(docker ps -a -q) 
-```
-
-刪除所有容器
-
-```bash
-docker rm $(docker ps -a -q)
 ```
 
 Official docker installation script :
@@ -19,7 +13,7 @@ Official docker installation script :
 curl -fsSL https://get.docker.com/ | sh
 ```
 
-Remove all stopped containers :
+Remove all containers :
 
 ```bash
 docker rm $(docker ps -a -q)
