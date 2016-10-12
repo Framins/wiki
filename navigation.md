@@ -6,11 +6,15 @@ Framins' wiki
 * [Network](network/README.md)
 * [Linux](linux/README.md)
 * [Server](server/README.md)
-* [VM](vm/README.md)
+* [Virtual Machine](vm/README.md)
 * [Docker](docker/README.md)
 * [Container OS](containeros/README.md)
-* [Monitoring](monitoring/README.md)
 * [Cloud](cloud/README.md)
+
+---
+
+* [Continuous Integration](ci/README.md)
+* [Monitoring](monitoring/README.md)
 
 [Development]()
 
@@ -35,9 +39,15 @@ Framins' wiki
 * [Symbol](symbol.md)
 * [Pattern](pattern.md)
 * [UML](uml/README.md)
+
+---
+
 * [Agile](agile/README.md)
 * [DevOps](devops.md)
 * [Specification](specification/README.md)
+
+---
+
 * [Resource](resource.md)
 * [License](license.md)
 * [Wiki Engine](wiki-engine.md)
