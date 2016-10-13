@@ -5,8 +5,16 @@ FAQs
 ---
 
 ### CMD 與 ENTRYPOINT 的差別
+> CMD 是 `docker run` 的 default command
+
+### CMD 與 ENTRYPOINT 搭配使用
+> https://docs.docker.com/engine/reference/builder/#understand-how-cmd-and-entrypoint-interact
 
 ### ADD 與 COPY 的差別
+> ADD 與 COPY 功能相似, 只是 ADD 多了下面兩個功能
+> - ADD allows `<src>` to be an URL
+> - If the `<src>` parameter of ADD is an archive in a recognised compression format, it will be unpacked
+
 
 Multiprocess in Docker container
 ---
