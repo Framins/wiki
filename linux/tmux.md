@@ -11,20 +11,20 @@ Install
 Command
 -----------
 
-    man tmux        		Commands Manual
-    tmux list-keys			lists out every bound key and the tmux command it runs
-	tmux list-commands    	lists out every tmux command and its arguments
-    tmux show-options -g	show current global session options
+    man tmux                        Commands Manual
+    tmux list-keys                  lists out every bound key and the tmux command it runs
+    tmux list-commands              lists out every tmux command and its arguments
+    tmux show-options -g            show current global session options
 
 #### Session
     tmux                                    create a session, default start with name 0
-    tmux new -s <session name> 				create a session with name
+    tmux new -s <session name>              create a session with name
     tmux ls                                 list sessions
-    tmux attach -t <session name>			reattach
+    tmux attach -t <session name>           reattach
     tmux kill-session -t <session name>     kill session
     
 #### Server
-    tmux kill-server						kill server and clients, destroy all windows/sessions
+    tmux kill-server                        kill server and clients, destroy all windows/sessions
 
 Shortcuts
 -----------
@@ -54,6 +54,10 @@ In tmux, hit the prefix ctrl+b (my modified prefix is ctrl+a) and then type key:
     &                   kill the current window
     
     <window number>     jump between windows
+
+#### Session
+    s                   show session list/ switch session
+    $                   rename
 
 #### Misc
     ?  list shortcuts
@@ -94,27 +98,27 @@ vim ~/.tmux.conf
     # Set status bar
     set -g status-bg cyan
     
-	# Enable scroll pane under cursor on mouse up and enter copy mode
-	set-option -g mouse on
-	bind-key -T root WheelUpPane select-pane -t =\; copy-mode -e\; send-keys -M
+    # Enable scroll pane under cursor on mouse up and enter copy mode
+    set-option -g mouse on
+    bind-key -T root WheelUpPane select-pane -t =\; copy-mode -e\; send-keys -M
 
-	# Enable copying using Cmd+C in copy mode
-	bind-key -t vi-copy MouseDragEnd1Pane copy-pipe "pbcopy"
-	
-	# Increase scrollback buffer (default is 2000)
-	set-option -g history-limit 60000
+    # Enable copying using Cmd+C in copy mode
+    bind-key -t vi-copy MouseDragEnd1Pane copy-pipe "pbcopy"
+    
+    # Increase scrollback buffer (default is 2000)
+    set-option -g history-limit 60000
 
 
 Just remember that after every modification, tmux must be refreshed to take new settings into account.
 This can be achieved either by restarting it or by typing in:
 
-	tmux source-file .tmux.conf
+    tmux source-file .tmux.conf
 
 
 Reference
 -----------
 
 * [Tmux: A Simple Start](https://www.sitepoint.com/tmux-a-simple-start/)
-* [The tao of tmux] (http://tmuxp.readthedocs.io/en/latest/about_tmux.html#the-tao-of-tmux)
+* [The tao of tmux](http://tmuxp.readthedocs.io/en/latest/about_tmux.html#the-tao-of-tmux)
 * Brief introduce && Custom hotkeys [PART 1](http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/) / [PART 2](http://blog.hawkhost.com/2010/07/02/tmux-%e2%80%93-the-terminal-multiplexer-part-2/)
 * https://wiki.frugalware.org/index.php/Tmux
