@@ -39,7 +39,7 @@ Implements
 * [GitLab CI](gitlab-ci.md) GitLab built-in Service
 * [Pipelines](https://bitbucket.org/product/features/pipelines) Bitbucket built-in Service
 * [Jenkins CI](http://jenkins-ci.org/)
-* [Circle CI](https://circleci.com/)
+* [Circle CI](circle-ci.md)
 * [Travis CI](https://travis-ci.org/)
 * [Drone.io](https://drone.io/)
 * [TeamCity](https://www.jetbrains.com/teamcity/) JetBrains 家出的 CI
