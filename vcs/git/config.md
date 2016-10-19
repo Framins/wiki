@@ -29,6 +29,12 @@ git config --global core.editor vim
 git config --global merge.tool vimdiff
 ```
 
+建議設定大小寫敏感，原因請參考[這裡](https://blog.avisi.nl/2013/03/27/stop-ignoring-my-capitals-git/)
+
+```bash
+git config --global core.ignorecase false
+```
+
 設定下 push 指令的預設方法：
 
 ```bash
@@ -78,6 +84,7 @@ Desktop.ini
 	email = jangconan@gmail.com
 [core]
 	editor = vim
+	ignorecase = false
 [push]
 	default = simple
 [color]
