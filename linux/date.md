@@ -1,4 +1,5 @@
-# date
+Date
+-------------
 
 最常見的日期顯示方式
 
@@ -25,6 +26,18 @@ date "+%Y%m%d%H%M.%S"  # 產生 201401012359.59 ，這個格式可以再拿來�
 date 201401012359.59
 ```
 
+查看時區
+
+```bash
+sudo dpkg-reconfigure --frontend noninteractive tzdata
+```
+
+設定時區
+
+```bash
+ echo "Australia/Adelaide" | sudo tee /etc/timezone
+```
+
 網路直接校時
 
 ```bash
@@ -32,6 +45,8 @@ ntpdate watch.stdtime.gov.tw
 ntpdate time.stdtime.gov.tw
 ```
 
-## Reference
+Reference
+-------------
 
  * http://maxding.blogspot.tw/2009/07/linux.html
+ * [UbuntuTime official site](https://help.ubuntu.com/community/UbuntuTime)
