@@ -1,4 +1,4 @@
 Framins' wiki
 ====
 
-see http://framins.github.io/wiki/
+see http://wiki.framins.com/
