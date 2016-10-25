@@ -1,6 +1,12 @@
 MAC
 ===
 
+Homebrew 管理器
+
+http://homebrew-file.readthedocs.io/en/latest/index.html
+
+---
+
 MacOS 冷知識
 
 開關動畫效果
