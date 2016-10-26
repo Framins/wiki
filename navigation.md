@@ -1,6 +1,8 @@
 Framins' wiki
 =============
 
+[Community](community.md)
+
 [Operation]()
 
 * [Network](network/README.md)
