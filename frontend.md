@@ -11,9 +11,9 @@
 
 ## Library
 
-- [jQuery][http://jquery.com/]
-- [MooTools][http://mootools.net/]
-- [AngularJS][https://angularjs.org/]
+- [jQuery](http://jquery.com/)
+- [MooTools](http://mootools.net/)
+- [AngularJS](https://angularjs.org/)
 
 ## Browser Hack
 
@@ -27,7 +27,7 @@
 
 ## Testing
 
-- [QUnit][http://qunitjs.com/]
+- [QUnit](http://qunitjs.com/)
 
 ## Algorithm
 
