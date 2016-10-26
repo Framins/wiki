@@ -32,8 +32,8 @@ Terms
 * DOC - Depended On Component, 測試要依賴的元件
 * Fixture - 基境
 * Test Double - 測試替身
-  * Dummy Object
-  * Test Stub
-  * Test Spy
-  * Mock Object
-  * Fake Object
+  - **Dummy Object:** 測試需要的物件，可是測試的過程不會用到它
+  - **Stub:** 實作回傳固定值，通常是做「狀態驗證」
+  - **Spy:** 實作呼叫記錄，通常是做「行為驗證」
+  - **Mock:** 可以使用程式自動產生 Dummy Object / Stub / Spy
+  - **Fake:** 以簡單實作來取代實際實作，如 SQLite 取代 MySQL
