@@ -1,7 +1,6 @@
 Symbol
 ======
 
-
 |  Symbol  |  Description  |  Example  |
 |  ------  |  -----------  |  -------  |
 |  ∀  | 對所有；對任意；對任一 | |
@@ -17,6 +16,5 @@ Symbol
 Reference
 ---------
 
-* http://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7%E8%A1%A8
-* http://igt.dxhs.tyc.edu.tw/assets/attached/1088/original/%E6%95%B8%E5%AD%B8%E7%AC%A6%E8%99%9F%E8%A1%A8.pdf?1339998568
-* http://zh.wikipedia.org/wiki/%E7%AC%A6%E5%8F%B7
+* [數學符號表](http://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7%E8%A1%A8)
+* [數學符號表.pdf](http://igt.dxhs.tyc.edu.tw/assets/attached/1088/original/%E6%95%B8%E5%AD%B8%E7%AC%A6%E8%99%9F%E8%A1%A8.pdf?1339998568)
