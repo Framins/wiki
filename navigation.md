@@ -10,7 +10,7 @@ Framins' wiki
 * [Server](server/README.md)
 * [Virtual Machine](vm/README.md)
 * [Docker](docker/README.md)
-* [Container OS](containeros/README.md)
+* [Container](container/README.md)
 * [Cloud](cloud/README.md)
 
 ---
