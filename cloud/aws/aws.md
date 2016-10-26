@@ -26,19 +26,19 @@ Regions 選法：不同的 Regions 會有不同的價格，像東京比較貴，
 
 ### Storage
 
-- [**Amazon Simple Storage Service (S3):**](https://aws.amazon.com/tw/s3/)
+* [**Amazon Simple Storage Service (S3):**](https://aws.amazon.com/tw/s3/)
   - Object-level Storage
   - 最大 5TB ，用多少算多少
   - API 支援 REST / SOAP
-- [**Amazon Elastic Block Store (EBS):**](https://aws.amazon.com/tw/ebs/)
+* [**Amazon Elastic Block Store (EBS):**](https://aws.amazon.com/tw/ebs/)
   - 它就是硬碟， 1G ~ 16T
   - 依 provision 的大小計價
-- **Glacier:** 備份需求會用到，檔案讀取需要數小時
+* **Glacier:** 備份需求會用到，檔案讀取需要數小時
   - Archive / Backup 用途
   - 最大 40TB ，用多少算多少
   - 取檔需要 3 ~ 5 小時
-- **Snowball:** 大檔傳送到 AWS 時可以用
-- **Storage Gateway:** 提供一個空間，可以同步到 S3
+* **Snowball:** 大檔傳送到 AWS 時可以用
+* **Storage Gateway:** 提供一個空間，可以同步到 S3
 
 ### Database
 
@@ -90,7 +90,7 @@ Regions 選法：不同的 Regions 會有不同的價格，像東京比較貴，
 
 * **Simple Notification Service (SNS)**
   - 訊息推送服務
-  - 沒有 pull ， susbscriber 須等 publish 端 push message
+  - 沒有 pull ， subscriber 須等 publish 端 push message
   - Target: Mobile devices, SMS, Email, SQS, Http endpoint, Lambda
 
 ### Application Service
@@ -106,14 +106,13 @@ Regions 選法：不同的 Regions 會有不同的價格，像東京比較貴，
 
 ## Encryption at REST
 
-- EBS 除了 root-volume / instance-store 外，支援 server-side AES-256 與 KMS encryption
-- Linux EC2 可用 dm-crypt 對 EBS root volume 加密
-- S3 server-side AES-256 / KMS encryption
-- Glacier server-side AES-256
-- RDS server-side AES-256 / KMS encryption ，還可以透過 Platform / Application 加密
-- [Envelope Encryption](http://docs.aws.amazon.com/kms/latest/developerguide/workflow.html)
-- DynamoDB 沒有，只能靠 Application 層加密
-envelop
+* EBS 除了 root-volume / instance-store 外，支援 server-side AES-256 與 KMS encryption
+* Linux EC2 可用 dm-crypt 對 EBS root volume 加密
+* S3 server-side AES-256 / KMS encryption
+* Glacier server-side AES-256
+* RDS server-side AES-256 / KMS encryption ，還可以透過 Platform / Application 加密
+* [Envelope Encryption](http://docs.aws.amazon.com/kms/latest/developerguide/workflow.html)
+* DynamoDB 沒有，只能靠 Application 層加密
 
 ## 核心擴充出來的功能
 
