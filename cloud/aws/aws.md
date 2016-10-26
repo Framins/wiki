@@ -26,16 +26,27 @@ Regions 選法：不同的 Regions 會有不同的價格，像東京比較貴，
 
 ### Storage
 
-* [**Amazon Simple Storage Service (S3):**](https://aws.amazon.com/tw/s3/)
-* **Glacier:** 備份需求會用到，檔案讀取需要數小時
-* **Snowball:** 大檔傳送到 AWS 時可以用
-* **Storage Gateway:** 提供一個空間，可以同步到 S3
-* [**Amazon Elastic Block Store (EBS):**](https://aws.amazon.com/tw/ebs/) 它是硬碟
+- [**Amazon Simple Storage Service (S3):**](https://aws.amazon.com/tw/s3/)
+  - Object-level Storage
+  - 最大 5TB ，用多少算多少
+  - API 支援 REST / SOAP
+- [**Amazon Elastic Block Store (EBS):**](https://aws.amazon.com/tw/ebs/)
+  - 它就是硬碟， 1G ~ 16T
+  - 依 provision 的大小計價
+- **Glacier:** 備份需求會用到，檔案讀取需要數小時
+  - Archive / Backup 用途
+  - 最大 40TB ，用多少算多少
+  - 取檔需要 3 ~ 5 小時
+- **Snowball:** 大檔傳送到 AWS 時可以用
+- **Storage Gateway:** 提供一個空間，可以同步到 S3
 
 ### Database
 
 * [**Amazon Relational Database Service (RDS):**](https://aws.amazon.com/tw/rds/) 強關聯資料用， MySQL, Oracle (也有提供 Master / Slave 服務)
+  - SQL Database Service
+  - 提供多種 DB server 選擇
 * [**Amazon DynamoDB:**](https://aws.amazon.com/tw/dynamodb/) 高速存取用， Like Mongo
+  - NoSQL Database Service
 * **ElastiCache:** 使用 Cache 用， Memcached / Redis
 * [**Amazon Redshift:**](https://aws.amazon.com/tw/redshift/)
 * **DMS:** 搬移資料庫用
@@ -45,6 +56,12 @@ Regions 選法：不同的 Regions 會有不同的價格，像東京比較貴，
 * [**Amazon Virtual Private Cloud (VPC):**](vpc.md) 可視為獨立的機房，在裡面的網路規劃都是可以自定義的，如子網域如何切
 * **Direct Connect:** 可以拉專線到 AWS 機房，不過台灣用不到，因為沒機房
 * **Route 53:** 就是 DNS
+* CloudFront
+  - CDN 服務
+  - 支援 CBR
+  - 支援 S3 Bucket / EC2 / ELB / Route53 / 其他 Web
+  - RTMP 只支援 S3
+  - Cache TTL 可自己設定 (手動刪要收錢)
 
 ### Developer Tools
 
@@ -54,8 +71,11 @@ Regions 選法：不同的 Regions 會有不同的價格，像東京比較貴，
 
 ### Management Tools
 
-* **CloudTrail:** 可以追縱在 AWS 操作記錄
-* **OpsWorks:** 可以定義一個流程
+* **CloudFormation:** 定義 template ，可自動進行 infrastructure 建立
+* **Elastic BeansTalk:** AWS 幫你決定環境細節，然後自動處理
+* **OpsWorks:** 支援 Chef / Puppet
+* **CloudWatch:** 監控、管理、推送 AWS Metrics ，可以設定 Alarm
+* **CloudTrail:** 可以追縱在 AWS 操作記錄， Audit Log
 
 ### Security & Identity
 
@@ -68,12 +88,32 @@ Regions 選法：不同的 Regions 會有不同的價格，像東京比較貴，
 
 ### Mobile Service
 
-* **SNS:** push notification service
+* **Simple Notification Service (SNS)**
+  - 訊息推送服務
+  - 沒有 pull ， susbscriber 須等 publish 端 push message
+  - Target: Mobile devices, SMS, Email, SQS, Http endpoint, Lambda
 
 ### Application Service
 
 * **API Gateway:** 可搭配 Lambda
-* [**Amazon Simple Queue Service (Amazon SQS):**](https://aws.amazon.com/tw/sqs/) Queue
+* [**Amazon Simple Queue Service (Amazon SQS):**](https://aws.amazon.com/tw/sqs/)
+  - message queuing service
+  - 幫 Service components 做 decouple (解耦合)
+  - order 隨機，不是 FIFO
+  - 沒有提供 message push ， consumer 需要自己 pull
+  - message 存活 1 小時 ~ 14 天
+  - message 超過最大存活時間，或被指定被刪除才會消失
+
+## Encryption at REST
+
+- EBS 除了 root-volume / instance-store 外，支援 server-side AES-256 與 KMS encryption
+- Linux EC2 可用 dm-crypt 對 EBS root volume 加密
+- S3 server-side AES-256 / KMS encryption
+- Glacier server-side AES-256
+- RDS server-side AES-256 / KMS encryption ，還可以透過 Platform / Application 加密
+- [Envelope Encryption](http://docs.aws.amazon.com/kms/latest/developerguide/workflow.html)
+- DynamoDB 沒有，只能靠 Application 層加密
+envelop
 
 ## 核心擴充出來的功能
 
