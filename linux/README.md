@@ -19,6 +19,8 @@ Distributions
 
 ```bash
 cat /etc/issue
+# or
+lsb_release -a
 ```
 
 Network
@@ -36,6 +38,7 @@ Topics
 * [LVM](lvm.md)
 * [tmux](tmux.md)
 * [date](date.md)
+* [variable](variable.md)
 * [make](make.md)
 
 命令提示字元
