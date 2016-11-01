@@ -5,10 +5,6 @@ MySQL
 
 http://emn178.pixnet.net/blog/post/87659567-mysql%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A2%BC%E8%88%87%E5%BF%98%E8%A8%98%E5%AF%86%E7%A2%BC%E9%87%8D%E8%A8%AD
 
-基本語法：
-
-http://mail.hmes.kh.edu.tw/~jona/redhat/mysqlphp/mysqlsyntax.htm
-
 Basic
 -----
 
@@ -51,3 +47,15 @@ CREATE TABLE test (
 ```
 
 > `ZEROFILL` 好像是 MySQL 專屬功能，其他資料庫只能個別實作了。
+
+MySQL Command-Line
+-----
+When Select many fields, there's better way to display in terminal by add `pager` option:
+
+```shell
+mysql --pager="less --chop-long-lines --quit-if-one-screen --no-init"
+```
+
+References
+-----
+[Better way to view MySQL tables](http://www.rushiagr.com/blog/2015/12/12/better-way-to-view-mysql-tables/)
