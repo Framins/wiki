@@ -26,6 +26,7 @@ NoSQL 有時也稱作 Not only SQL 。
 * [Redis](nosql/redis/redis.md)
 * [MongoDB](nosql/mongo/mongo.md)
 * [Memcached](nosql/memcached/memcached.md)
+* [Cassandra](http://cassandra.apache.org/)
 
 References
 ----------
