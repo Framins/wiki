@@ -9,9 +9,11 @@ Let's Kanban
 | Name | Platform |
 | ---- | ----------- |
 | [Trello][] | Web / iOS / Android |
-| [Kanbanchi][] | Web only |
-| [ZenHub][] | [GitHub][] + Kanban, Chrome extension only |
-| [GitLab kanban board][] | [GitLab][] + Kanban, Web only |
+| [Kanbanchi][] | Web only, Google Account needed |
+| [GitHub Projects](https://github.com/universe-2016#projects) | [GitHub][] built-in Kanban |
+| [ZenHub][] | GitHub + Kanban, Chrome extension only |
+| [GitLab Issue Board](https://about.gitlab.com/solutions/issueboard/) | [GitLab][] built-in Kanban |
+| [GitLab Kanban board][] | GitLab + Kanban, Web only |
 | [Wekan][] | Open source kanban, Web only |
 
 
