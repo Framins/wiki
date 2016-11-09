@@ -1,5 +1,4 @@
-GitHub
-======
+# GitHub
 
 雖然 Git 是個分散式的 VCS ，但是 Git 也能做集中管理，但也同時具備了分散管理的特性。所以表示著 repo (repository) 不一定要在 server ，也可以在寫程式的人身上。於是就出現了 [GitHub](https://github.com/) 這個網站。
 
@@ -7,8 +6,7 @@ GitHub 使用上，每個人都可以在上面開 repo ，而且 user 之間都�
 
 以下教學都是針對在已學會 Git 的 programmer 所寫的。如果不會 Git 的話，可能會一頭霧水吧。
 
-Sign up
--------
+## Sign up
 
 當然免不了的，要先註冊一個帳號才能在 GitHub 上通行。
 
@@ -18,10 +16,9 @@ Sign up
 
 相對的，就有網站就打著 Unlimited private repo 來吸引 GitHub 使用者。如 [Bitbucket][]
 
-SSH key
--------
+## SSH key
 
-先產生 SSH Key
+[產生 SSH Key](/server/ssh/generate-key.md)
 
 打開 public key 檔，把內容全部copy。
 然後到 GitHub → 右上角的 *Account settings* → 左邊 *SSH Keys* → 右邊 *Add SSH Key*
@@ -138,10 +135,10 @@ Gist 提供的服務：
 
 * 會多一層動作 (點 link 的動作) 。
 * 非會員沒有 comment 功能。
-  
-[Bitbucket]: https://bitbucket.org/
 
-Topic
-----
+## Topic
 
 - [Multiple Accounts](github-multiple-accounts.md)
+
+
+[Bitbucket]: https://bitbucket.org/
