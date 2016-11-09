@@ -12,6 +12,7 @@ Framins' wiki
 * [Docker](docker/README.md)
 * [Container](container/README.md)
 * [Cloud](cloud/README.md)
+* [Service-Oriented Architecture](soa/README.md)
 
 ---
 
