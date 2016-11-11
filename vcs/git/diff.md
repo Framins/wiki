@@ -89,4 +89,5 @@ git mergetool
 Reference
 ---------
 
-  * [Visual Diff Tools in Linux](http://amjith.blogspot.tw/2007/07/visual-diff-tools-in-linux.html)
+* [Visual Diff Tools in Linux](http://amjith.blogspot.tw/2007/07/visual-diff-tools-in-linux.html)
+* https://blog.longwin.com.tw/2015/01/icdiff-linux-mac-diff-tool-2014/
