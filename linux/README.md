@@ -46,6 +46,7 @@ Topics
 * https://blog.gtwang.org/linux/how-to-make-a-fancy-and-useful-bash-prompt-in-linux-1/
 * Powerline: http://cenalulu.github.io/linux/mac-powerline/
 * Powerline: https://blog.gtwang.org/linux/powerline-adds-powerful-statuslines-and-prompts-to-vim-and-bash/
+* Powerline 設定: http://bearsu.logdown.com/posts/305312-install-the-powerline
 
 FAQs
 ----
