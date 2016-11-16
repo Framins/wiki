@@ -45,6 +45,7 @@ Implements
 * [TeamCity](https://www.jetbrains.com/teamcity/) JetBrains 家出的 CI
 * [Codeship](https://codeship.com/) SaaS 服務，跟 [AWS](/cloud-computing/aws/README.md) 整合良好
 * [Bamboo](https://www.atlassian.com/software/bamboo) Atlassian 家出的 CI
+* [Scrutinizer](https://scrutinizer-ci.com/) 需要付錢，功能很多，有語言限制
 * [PHPCI](https://www.phptesting.org/)
 
 其他好用的工具
