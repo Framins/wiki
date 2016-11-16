@@ -31,6 +31,7 @@ Usage
 * [Dockerfile](dockerfile.md)
 * [Tricks](tricks.md)
 * [Docker in Docker](dind.md)
+* [Windows solutions](windows.md)
 
 FAQ
 ---
