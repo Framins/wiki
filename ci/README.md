@@ -39,6 +39,7 @@ Implements
 * [GitLab CI](gitlab-ci.md) GitLab built-in Service
 * [Pipelines](https://bitbucket.org/product/features/pipelines) Bitbucket built-in Service
 * [Jenkins CI](http://jenkins-ci.org/)
+* [Concourse CI](https://concourse.ci/) 自己的 CI 自己架
 * [Circle CI](circle-ci.md)
 * [Travis CI](https://travis-ci.org/)
 * [Drone.io](https://drone.io/)
