@@ -68,6 +68,12 @@ Warning: 這快速鍵好像是 bash 獨有的，不是很確定
 docker attach some-php
 ```
 
+### Docker 為容器命名的規則
+
+https://github.com/docker/docker/blob/master/pkg/namesgenerator/names-generator.go
+
+基本上就是形容詞對人名，但最後面有個很有趣的限外規則
+
 References
 ----------
 
