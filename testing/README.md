@@ -20,6 +20,8 @@ Testing 是門學問，可以參考 [wiki](https://en.wikipedia.org/wiki/Softwar
 * System Testing - 讓整個軟體系統正式啟動，並進行各種測試操作，確認它的功能達到當初設計的需求。
 * Operational Acceptance testing
 
+> 單元測試與整合測試 https://media.giphy.com/media/l0MYSpvx4pnsoMNz2/giphy.gif
+
 Tools
 
 * http://webdriver.io/
