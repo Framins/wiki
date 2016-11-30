@@ -4,22 +4,25 @@
 
 基本前端相關語言
 
-- HTML5
-- CSS3
-- [Sass][sass] / [LESS][less] / [Stylus][stylus]
-- [JavaScript][js]
+* HTML5
+* CSS3
+* [Sass][sass] / [LESS][less] / [Stylus][stylus]
+* [JavaScript][js]
 
 ## Library
 
-- [jQuery](http://jquery.com/)
-- [MooTools](http://mootools.net/)
-- [AngularJS](https://angularjs.org/)
+* [jQuery](http://jquery.com/)
+* [MooTools](http://mootools.net/)
+* [AngularJS](https://angularjs.org/)
+  - http://codeseven.github.io/toastr/
+  - http://angular-ui.github.io/
+  - https://github.com/johnpapa/angular-styleguide
 
 ## Browser Hack
 
-- Common
-- IE9
-- IE8
+* Common
+* IE9
+* IE8
 
 ## Responsive Web Design
 
@@ -33,11 +36,11 @@
 
 把後端的演算法搬到前端來用
 
-- 三角函數
-- 資料結構
-- 線性代數
-- 離散數學
-- 工程數學
+* 三角函數
+* 資料結構
+* 線性代數
+* 離散數學
+* 工程數學
 
 [sass]: http://sass-lang.com/
 [less]: http://lesscss.org/
