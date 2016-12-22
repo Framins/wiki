@@ -48,6 +48,18 @@ vagrant halt
 vagrant destory
 ```
 
+halt + up + take effect changed in the Vagrantfile
+
+```bash
+vagrant reload [name|id]
+```
+
+Force the provisioners to run
+
+```bash
+vagrant provision [vm-name] 
+```
+
 Vagrantfile
 -----------
 
