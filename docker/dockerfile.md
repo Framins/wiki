@@ -1,6 +1,12 @@
 Dockerfile
 ==========
 
+Sample
+---
+- [username definition](https://github.com/jboss-dockerfiles/base/blob/master/Dockerfile)
+- [runtime installation](https://github.com/jboss-dockerfiles/wildfly/blob/master/Dockerfile)
+- [Use the environment variables to retrieve from outside the container](https://github.com/docker-library/postgres/blob/443c7947d548b1c607e06f7a75ca475de7ff3284/9.5/docker-entrypoint.sh)
+
 FAQs
 ---
 
@@ -26,3 +32,4 @@ References
 ----------
 
 * CMD 與 ENTRYPOINT 的差別參考: [Dockerfile最佳实践（一）](http://dockone.io/article/131)
+* [Guidance for Docker Image Authors](http://www.projectatomic.io/docs/docker-image-author-guidance/)
