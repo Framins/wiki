@@ -53,6 +53,23 @@ FAQs
 
 * [SublimeText2 中文輸入問題解](http://samwlinux.blogspot.tw/2014/04/ubuntusublimetext2deb.html)
 
+### 無蝦米
+
+使用 fcitx ，指令如下：
+
+```
+sudo apt-get install fcitx fcitx-table-boshiamy im-config
+
+im-config # 選擇輸入法
+```
+
+試過可行的
+
+* Ubuntu 14.04
+* Linux Mint 18
+
+[參考網頁](http://www.j4.com.tw/comp-qna/ubuntu-14-04-%E7%94%A8fcitx-%E8%A3%9D%E5%98%B8%E8%9D%A6%E7%B1%B3%E8%BC%B8%E5%85%A5%E6%B3%95/)
+
 References
 ----------
 
