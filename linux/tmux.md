@@ -81,7 +81,7 @@ vim ~/.tmux.conf
     unbind % # Remove default binding since we’re replacing
     bind-key | split-window -h
     bind-key _ split-window
-    
+
     # vi-style controls for copy mode
     setw -g mode-keys vi
 
@@ -97,14 +97,18 @@ vim ~/.tmux.conf
 
     # Set status bar
     set -g status-bg cyan
-    
+
     # Enable scroll pane under cursor on mouse up and enter copy mode
     set-option -g mouse on
     bind-key -T root WheelUpPane select-pane -t =\; copy-mode -e\; send-keys -M
 
+    # https://github.com/tmux/tmux/issues/543
+    set -g default-shell $SHELL 
+    set -g default-command "reattach-to-user-namespace -l ${SHELL}"
+
     # Enable copying using Cmd+C in copy mode
-    bind-key -t vi-copy MouseDragEnd1Pane copy-pipe "pbcopy"
-    
+    bind-key -t vi-copy MouseDragEnd1Pane copy-pipe "reattach-to-user-namespace pbcopy"
+
     # Increase scrollback buffer (default is 2000)
     set-option -g history-limit 60000
 
