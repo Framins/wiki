@@ -35,6 +35,8 @@ Command
     Recreating dockerfile_redis_1...
     Recreating dockerfile_mysql_1...
 
+up 時，會查看當下有無此 image，有會直接使用此 image，沒有則 build image 
+
 ### docker-compose start/stop/restart
 
 啟動或停止 container
@@ -100,7 +102,7 @@ web:
   ports:    
     - "8080:80"
     - "422:22"
-  # 掛載目錄到容器裡
+  # 掛載host目錄到容器裡
   volumes:
     - .:/app
   # 與其他 container 做連結
