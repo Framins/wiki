@@ -28,6 +28,12 @@ $phar->stopBuffering();
 echo "Finished {$file}\n";
 ```
 
+再來要用指令執行
+
+```
+php -d phar.readonly=off /usr/local/bin/phar-composer build.php
+```
+
 接著專案目錄下就會看到 `lib.phar` 檔，另一個團隊只要 include 這個檔案即可使用裡面的套件。
 
 References
