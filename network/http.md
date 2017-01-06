@@ -15,6 +15,6 @@ Status code
 
 References
 ----------
-
+[IANA Status Code Registry](http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml)
 [HTTP]: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 [RFC 2616]: https://tools.ietf.org/html/rfc2616
