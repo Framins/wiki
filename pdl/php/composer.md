@@ -5,6 +5,7 @@
 * [簡中](http://docs.phpcomposer.com/)
 * [COMPOSER設計原理與基本用法](http://blog.turn.tw/?p=1039)
 * [Begining Composer](https://speakerdeck.com/jaceju/begining-composer)
+* [深入 Composer autoload](https://laravel-china.org/topics/1002)
 
 Composer 可以輕易地解決 PHP 套件下載、安裝、更新、管理等問題。
 
