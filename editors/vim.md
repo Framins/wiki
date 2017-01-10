@@ -40,6 +40,13 @@ Command
 | `gg`  | go to the first line of the document |
 | `G`   | go to the last line of the document |
 
+#### Searching
+
+    /pattern     search forward for pattern
+    ?pattern     search backward
+    n            repeat forward search
+    N            repeat backwardyy  copy a line
+
 #### Cut and paste
 
     yy  copy a line
