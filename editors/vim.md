@@ -45,7 +45,7 @@ Command
     /pattern     search forward for pattern
     ?pattern     search backward
     n            repeat forward search
-    N            repeat backwardyy  copy a line
+    N            repeat backward
 
 #### Cut and paste
 
