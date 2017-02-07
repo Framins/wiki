@@ -40,6 +40,7 @@ Topics
 * [date](date.md)
 * [variable](variable.md)
 * [make](make.md)
+* [getopt](getopt.md)
 
 命令提示字元
 
