@@ -70,5 +70,6 @@ Function
 * split(正規表示式表述之分隔字串,被切割字串,傳回元素上限);：用分隔字串，將被切割字串，切成一段段，成為陣列中一個個元素。傳回陣列。
 
 Reference
---------
-[就是愛程式](https://atedev.wordpress.com/2007/11/23/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%A4%BA%E5%BC%8F-regular-expression/)
+---------
+
+* [就是愛程式](https://atedev.wordpress.com/2007/11/23/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%A4%BA%E5%BC%8F-regular-expression/)

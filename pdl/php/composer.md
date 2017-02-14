@@ -129,8 +129,7 @@ create-project
 [官方說明](https://getcomposer.org/doc/05-repositories.md#hosting-your-own)
 
 * 使用 [Packagist](https://github.com/composer/packagist)
-* 使用 [Satis][] 上傳的 repository 記得要標版號，不然就算使用 * 也是找不到的。不過可以用 `dev-master` 來得到最新的 master 。
-  * [範例](https://github.com/smstw/Development-Tools/issues/1)
+* 使用 [Satis][] 上傳的 repository 記得要標版號，不然就算使用 * 也是找不到的。不過可以用 `dev-master` 來得到最新的 master 。 [範例](https://github.com/smstw/Development-Tools/issues/1)
 * 使用 [Toran Proxy][] (Non-free)
 
 [Satis]: https://github.com/composer/satis

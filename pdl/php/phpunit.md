@@ -78,4 +78,4 @@ Codeception
 
 ### Example
 
-  * [Example for Laravel 4](https://github.com/Codeception/sample-l4-app)
+* [Example for Laravel 4](https://github.com/Codeception/sample-l4-app)

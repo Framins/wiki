@@ -1,6 +1,14 @@
 Tricks
 ======
 
+找 php.ini
+--------
+
+懶人指令
+
+```
+php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"
+```
 
 Git Hook
 --------
@@ -56,7 +64,7 @@ fi
 echo ">>> Code Sniffer finished"
 
 # result
-if $pass; then
+if ${pass}; then
     exit 0
 else
     echo ""

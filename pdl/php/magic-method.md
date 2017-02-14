@@ -1,5 +1,4 @@
-Magic Method
-------------
+# Magic Method
 
 一般 PHP 的教學書都會這麼建議：
 
@@ -11,13 +10,11 @@ Magic Method
 
 PHP 其實已經有預設好幾個名稱，開發者其實也只要了解什麼時候會去調用它就行了。
 
-
-__construct()
--------------
+## `__construct()`
 
     void __construct ([ mixed $args [, $... ]] )
 
-相信這是 PHP 開發者最常使用的 Magic Method 了，這個 method 被 call 的時機是在建構的時候：
+這是 PHP 開發者最常使用的 Magic Method 了，這個 method 被 call 的時機是在建構的時候：
 
 ```php
 $obj = new ClassName(); 
@@ -29,13 +26,13 @@ $obj = new ClassName();
 class ClassName {
     public __construct ($data, $default = true){}
 }
+
 $obj = new ClassName($data);
 ```
 
 另外， `__construct` 的能見度如果是 public 的話，代表這是可以被外部實例化的類別；相反的，如果是 `private` 或 `protected` 的話，就不能被外部實例化，但可以從內部的靜態方法裡實作實例化的方法。
 
-__destruct()
-------------
+## `__destruct()`
 
     void __destruct ( void )
 
@@ -45,8 +42,7 @@ __destruct()
 
 通常是用在程式收尾，如資料庫斷線等。
 
-__call()
---------
+## `__call()`
 
     public mixed __call ( string $name , array $arguments )
 
@@ -93,15 +89,13 @@ $userdata = $obj->findUserById();
 
 後面兩個寫法的結果會是一樣的，所以代表可以有理論無限多個 Method 。只是 Exception 要做好才不會有問題產生。
 
-__callStatic()
---------------
+## `__callStatic()`
 
     public static mixed __callStatic ( string $name , array $arguments )
 
 原理跟 `__call()` 一樣，不過是 static 的。
 
-__get()
--------
+## `__get()`
 
     public mixed __get ( string $name )
 
@@ -111,8 +105,7 @@ __get()
 
 以上例來說， `$name` 的值為 ''data'' 。
 
-__set()
--------
+## `__set()`
 
   public void __set ( string $name , mixed $value )
 
@@ -122,8 +115,7 @@ __set()
 
 以上例來說， `$name` 的值為 `data` ， `$value` 的值為 `John` 。
 
-__isset()
----------
+## `__isset()`
 
     public bool __isset ( string $name )
 
@@ -131,8 +123,7 @@ __isset()
 
     isset($obj->data);
 
-__unset()
----------
+## `__unset()`
 
     public void __unset ( string $name )
 
@@ -140,8 +131,7 @@ __unset()
 
     unset($obj->data);
 
-__toString()
-------------
+## `__toString()`
 
     public string __toString ( void )
 
@@ -162,8 +152,7 @@ echo $obj; // Output: User
 
 比較實際的應用如： JSON 物件處理完成後，要輸出時，就可以直接把物件當作字串輸出即可。
 
-__invoke()
-----------
+## `__invoke()`
 
     mixed __invoke ([ $... ] )
 
@@ -176,13 +165,14 @@ class CallableClass
         var_dump($x);
     }
 }
+
 $obj = new CallableClass();
 $obj(5);
+
 var_dump(is_callable($obj));
 ```
 
-Reference
----------
+## Reference
 
-  * [PHP: Magic Methods](http://www.php.net/manual/en/language.oop5.magic.php)
-  * [Magic Benchmarkd](http://www.garfieldtech.com/blog/magic-benchmarks)
+* [PHP: Magic Methods](http://www.php.net/manual/en/language.oop5.magic.php)
+* [Magic Benchmarkd](http://www.garfieldtech.com/blog/magic-benchmarks)

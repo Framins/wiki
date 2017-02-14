@@ -13,20 +13,14 @@ Basic
 * [DataType](types.md)
 * [How To](how-to.md)
 
-找 ini 設定檔在哪的懶人指令
-
-```
-php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"
-```
-
 Advanced
 --------
 
 * Socket
-  * [Ratchet](https://github.com/ratchetphp/Ratchet)
-  * [BrainSocket.php](https://github.com/BrainBoxLabs/brain-socket)
-  * [PHP-Websockers](https://github.com/ghedipunk/PHP-Websockets)
-  * [Latchet](https://github.com/sidneywidmer/Latchet)
+  + [Ratchet](https://github.com/ratchetphp/Ratchet)
+  + [BrainSocket.php](https://github.com/BrainBoxLabs/brain-socket)
+  + [PHP-Websockers](https://github.com/ghedipunk/PHP-Websockets)
+  + [Latchet](https://github.com/sidneywidmer/Latchet)
 * [Magic Method](magic-method.md)
 * [Performance](performance.md)
 * [Predefined Interfaces](predefined-interfaces.md)
@@ -56,7 +50,8 @@ Packages
 Template engine
 ---------------
 
-* [Blade](http://laravel.com/docs/templates)
+* [Blade](http://laravel.com/docs/templates) | Laravel built-in template lib
+* Volt | Phalcon built-in template lib
 * [Twig](http://twig.sensiolabs.org/)
 * [Smarty](http://www.smarty.net/)
 
@@ -78,28 +73,31 @@ Tools
 Testing
 -------
 
-* PHPUnit
+* [PHPUnit](phpunit.md)
 * [phpspec](http://www.phpspec.net/)
 * [Codeception](http://codeception.com/)
 
 Debug or Benchmark
 ------------------
 
-* [XDebug](http://xdebug.org/)
-* KCachegrind
-* [Xdebug 遠端除錯 (Remote Debugging)](http://blog.crboy.net/2012/06/xdebug-remote-debugging.html)
+* [XDebug](xdebug.md)
 * [PHP-Benchmark](http://victorjonsson.github.io/PHP-Benchmark/)
 * [PHP Framework MVC Benchmark - v20111201-4](http://www.ruilog.com/blog/view/b6f0e42cf705.html)
 
-Editors
--------
+Editor / IDE
+------------
 
-* [Aptana](http://www.aptana.com/) - Free!! Base on Eclipse.
-* [PHPStorm](https://www.jetbrains.com/phpstorm/) - The Most Intelligent PHP IDE!! Base on IntelliJ.
-* [NetBeans](https://netbeans.org/) - Free!! HTML 5 support.
+Editor
+
 * [Sublime Text](http://www.sublimetext.com/)
-* [Notepad++](http://notepad-plus-plus.org/) - Free!! Only for windows.
-* [Atom](https://atom.io/) - Free!!
+* [Notepad++](http://notepad-plus-plus.org/) | Free!! Only for windows.
+* [Atom](https://atom.io/) | Free!!
+
+IDE
+
+* [Aptana](http://www.aptana.com/) | Free!! Base on Eclipse.
+* [NetBeans](https://netbeans.org/) | Free!! HTML 5 support.
+* [PHPStorm](https://www.jetbrains.com/phpstorm/) | **Non-free**, The Most Intelligent PHP IDE!! Base on IntelliJ.
 
 Reference
 ---------
