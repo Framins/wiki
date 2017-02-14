@@ -13,31 +13,31 @@
 Coding style 提到的屬性分組：
 
 * Positioning - 物件位置相關的屬性
-  * position
-  * top
-  * right
-  * bottom
-  * left
-  * z-index
-* Box Model - 物件 Box 相關的屬性
-  * display
-  * float
-  * width
-  * height
-  * margin
-  * padding
-  * border
-* Typographic - 直譯是印刷，看了一下[相關文章](http://learn.shayhowe.com/html-css/working-with-typography/)，應該是與排版相關的東西
-  * font
-  * line-height
-  * color
-  * text-align
-* Visual - 視覺
-  * background-color
-  * border-radius
-* Misc. - miscellaneous 雜項
-  * opacity
-  * etc
+  + position
+  + top
+  + right
+  + bottom
+  + left
+  + z-index
+* Box Model | 物件 Box 相關的屬性
+  + display
+  + float
+  + width
+  + height
+  + margin
+  + padding
+  + border
+* Typographic | 直譯是印刷，看了一下[相關文章](http://learn.shayhowe.com/html-css/working-with-typography/)，應該是與排版相關的東西
+  + font
+  + line-height
+  + color
+  + text-align
+* Visual | 視覺
+  + background-color
+  + border-radius
+* Misc. | miscellaneous 雜項
+  + opacity
+  + etc
 
 ## Styling List
 

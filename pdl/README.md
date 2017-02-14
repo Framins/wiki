@@ -35,9 +35,9 @@ Dynamically Typed Language
 動態語言，特色是邊編譯邊執行程式碼。
 
 * [JavaScript](javascript/README.md)
-  - [CoffeeScript](coffeescript/README.md)
+  + [CoffeeScript](coffeescript/README.md)
 * [Lua](lua/README.md)
-  - [MoonScript](http://moonscript.org/)
+  + [MoonScript](http://moonscript.org/)
 * [Node](node/README.md)
 * [PHP](php/README.md)
 * [Ruby](ruby/README.md)
@@ -49,12 +49,12 @@ Markup Language
 
 * [HTML](html.md)
 * XML
-  - [SAML](saml.md)
+  + [SAML](saml.md)
 * [YAML](yaml.md)
 * [TOML](https://github.com/toml-lang/toml) - Tom's Obvious, Minimal Language, by Tom.
 * [Tex](tex.md)
 * [CSS](css/README.md)
-  - [SASS](sass.md)
+  + [SASS](sass.md)
 
 Lightweight Markup Language
 ---------------------------

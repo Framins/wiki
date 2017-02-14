@@ -1,11 +1,11 @@
 # Selector
 
-  * [W3C 定義的 Selector ](http://www.w3.org/TR/css3-selectors/#selectors)
-  * http://www.w3school.com.cn/cssref/css_selectors.asp
-  * [Fraina 整理的](http://fraina.distract.org/stm/doku.php?id=front-end:css3#selector)
-  * [CSS Diner](http://flukeout.github.io/) - 玩遊戲學 CSS
-  * [The 30 css selectors you must memorize](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
-  * [jQuery Tutorial & Examples](http://hmkcode.com/jquery-tutorial/) - CSS Selector 的大表哥 jQuery Selector。
+* [W3C 定義的 Selector ](http://www.w3.org/TR/css3-selectors/#selectors)
+* http://www.w3school.com.cn/cssref/css_selectors.asp
+* [Fraina 整理的](http://fraina.distract.org/stm/doku.php?id=front-end:css3#selector)
+* [CSS Diner](http://flukeout.github.io/) | 玩遊戲學 CSS
+* [The 30 css selectors you must memorize](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+* [jQuery Tutorial & Examples](http://hmkcode.com/jquery-tutorial/) | jQuery Selector。
 
 ## List of Selector
 
