@@ -1,6 +1,8 @@
 PHP
 ===
 
+很多工具都能在 [Awesome-PHP](https://github.com/ziadoz/awesome-php) 上找到，以下是筆記。
+
 * [Change Log](changelog.md)
 * [Docker](docker.md)
 * [Coding Style](coding-style.md)
@@ -33,12 +35,20 @@ Extensions
 * codesniffer
 * [curl](curl.md)
 
+## Build Tools
+
+使用 PHP 達成 [Makefile](/linux/make.md) 一樣的功能，會使用這類工具會有兩個主要原因：執行環境沒有 make 、想要呼叫特定 PHP 的函式功能如建帳號。
+
+* [Robo](http://robo.li/) | 支援非常多種 task ，除了基本檔案與連線操作外，還能跨到 VCS / npm / gulp / Docker 等。
+* [Phing](https://www.phing.info/)
+
 Packages
 --------
 
 ### Dependency Injection Container
 
 * [Pimple](pimple.md)
+* [PHP-DI](http://php-di.org/)
 
 ### ORM
 
