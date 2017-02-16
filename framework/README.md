@@ -35,7 +35,7 @@ Backend Framework
 * [Slim](slim/README.md)
 * [Phalcon](phalcon/README.md)
 * [Lumen](https://lumen.laravel.com/)
-* [Silex](http://silex.sensiolabs.org/)
+* [Silex](silex/README.md)
 
 #### CMS / Library
 
