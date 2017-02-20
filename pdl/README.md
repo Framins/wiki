@@ -19,6 +19,12 @@ Program Design Language
 * [Runnable](http://runnable.com/)
 * [Online Java IDE](http://www.compilejava.net/)
 
+線上各種文件：
+
+* [DevDocs](http://devdocs.io/) (Online)
+* [Zeal](https://zealdocs.org/) (Offline Windows / Linux)
+* [Dash](https://kapeli.com/dash) (Offline MacOS / iOS)
+
 Statically Typed Language
 -------------------------
 
