@@ -34,3 +34,4 @@ Reference
 
 - [Circle CI](https://circleci.com/)
 - [Environment variables](https://circleci.com/docs/environment-variables/)
+- [Start background processes](https://circleci.com/docs/background-process/)
