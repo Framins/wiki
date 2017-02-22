@@ -139,6 +139,6 @@ Gist 提供的服務：
 ## Topic
 
 - [Multiple Accounts](github-multiple-accounts.md)
-
+- [Keep a CHANGELOG](http://keepachangelog.com/zh-TW/0.3.0/)
 
 [Bitbucket]: https://bitbucket.org/
