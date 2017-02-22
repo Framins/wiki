@@ -9,6 +9,14 @@ $ brew install python
 $ pip install powerline-status
 ```
 
+Install Fonts
+
+```
+$ git clone https://github.com/powerline/fonts.git
+$ cd fonts
+$ ./install.sh
+```
+
 Add follow command in `~/.bash_profile` file
 
 ```
