@@ -17,6 +17,8 @@ $ cd fonts
 $ ./install.sh
 ```
 
+> I use `Inconsolata-g for Powerline`
+
 Add follow command in `~/.bash_profile` file
 
 ```
