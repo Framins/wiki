@@ -3,8 +3,7 @@ AWS CLI
 
 使用方法詳細可以參考 [官方網頁](https://aws.amazon.com/tw/cli/) 或 [GitHub 專案](https://github.com/aws/aws-cli)
 
-Installation
-------------
+## Installation
 
 ### Linux
 
@@ -17,3 +16,8 @@ Installation
 使用 brew 安裝
 
     brew install awscli
+
+
+## References
+
+* [cli-quick-configuration](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-quick-configuration)
