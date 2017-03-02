@@ -48,6 +48,7 @@ Implements
 * [Bamboo](https://www.atlassian.com/software/bamboo) Atlassian 家出的 CI
 * [Scrutinizer](https://scrutinizer-ci.com/) 需要付錢，功能很多，有語言限制
 * [PHPCI](https://www.phptesting.org/)
+* [Strider CD](http://strider-cd.github.io/)
 
 其他好用的工具
 
