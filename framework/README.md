@@ -36,6 +36,7 @@ Backend Framework
 * [Phalcon](phalcon/README.md)
 * [Lumen](https://lumen.laravel.com/)
 * [Silex](silex/README.md)
+* [Fat-Free Framework](https://fatfreeframework.com/) (F3)
 
 #### CMS / Library
 
