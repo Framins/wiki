@@ -5,16 +5,16 @@
 
 官方內建的 helper
 
-| [Zend_View_Helper_BaseUrl](http://framework.zend.com/manual/1.12/en/zend.view.helpers.html#zend.view.helpers.initial.baseurl) | BaseUrl可以用在讀取static resource |
+| [Zend_View_Helper_BaseUrl](http://framework.zend.com/manual/1.12/en/zend.view.helpers.html#zend.view.helpers.initial.baseurl) | BaseUrl 可以用在讀取 static resource |
 | [Partial Helper](http://framework.zend.com/manual/1.12/en/zend.view.helpers.html#zend.view.helpers.initial.partial) | 把頁面分區怪 |
-| [Zend_View_Helper_ServerUrl](http://framework.zend.com/manual/1.12/en/zend.view.helpers.html#zend.view.helpers.initial) | Server端Url取得 |
-| [Zend_View_Helper_Url](http://framework.zend.com/manual/1.12/en/zend.view.helpers.html#zend.view.helpers.initial) | 產生Url |
+| [Zend_View_Helper_ServerUrl](http://framework.zend.com/manual/1.12/en/zend.view.helpers.html#zend.view.helpers.initial) | Server 端 Url 取得 |
+| [Zend_View_Helper_Url](http://framework.zend.com/manual/1.12/en/zend.view.helpers.html#zend.view.helpers.initial) | 產生 Url |
 
 ## Custom Helper
 
 官方說明有提到：「雖然不是必要，但還是建議要實作 `Zend_View_Helper_Interface` 或繼承 `Zend_View_Helper_Abstract` 。」
 
-helper 預設的載入路徑除了內建的 helper 的路徑外，自定義的路徑就是`application/views/helpers`了，前綴一樣都是`Zend_View_Helper`。這些都可以從 View 物件呼叫 setHelperPath() 設定。
+helper 預設的載入路徑除了內建的 helper 的路徑外，自定義的路徑就是 `application/views/helpers` 了，前綴一樣都是`Zend_View_Helper`。這些都可以從 View 物件呼叫 setHelperPath() 設定。
 
 ```php
 // in helpers dir

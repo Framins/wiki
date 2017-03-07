@@ -1,6 +1,6 @@
 # Debug
 
-最基本的顯示錯誤訊息：在 application.ini 裡加入下面的設定值即可：
+最基本的顯示錯誤訊息：在 `application.ini` 裡加入下面的設定值即可：
 
 ```ini
 ; php 基本錯誤訊息

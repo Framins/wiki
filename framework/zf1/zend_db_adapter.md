@@ -41,12 +41,12 @@ echo $sql;
 
 ## Insert
 
-資料庫schema略。
+資料庫 schema 略。
 
 ```php
 $data = array(
     'name' => 'test',
-    'date' => new Zend_Db_Expr('Now()')  // 如果想用資料庫內建函式時，可以用Zend_Db_Expr類別
+    'date' => new Zend_Db_Expr('Now()')  // 如果想用資料庫內建函式時，可以用 Zend_Db_Expr 類別
 );
     	
 $db->insert($table, $data);
@@ -95,7 +95,7 @@ try {
     $db->commit();
 
 } catch (Exception $e) {
-    // 把db狀態復原，然後顯示訊息
+    // 把 db 狀態復原，然後顯示訊息
     $db->rollBack();
     echo $e->getMessage();
 }
@@ -103,7 +103,7 @@ try {
 
 ## Column Descriptions
 
-此 function 執行結果會跟 developer:framework:zend-framework:zend_db_table_abstract 所定義的 `protected $_cols;` 有關
+此 function 執行結果會跟 `Zend_Db_Table_Abstract` 所定義的 `protected $_cols;` 有關
 
 ```php
 abstract public function describeTable($tableName, $schemaName = null);

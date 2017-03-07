@@ -16,14 +16,14 @@ class Table extends Zend_Db_Table_Abstract
 }
 ```
 
-繼承`Zend_Db_Table_Abstract`後，即可做Active Record的操作。
+繼承`Zend_Db_Table_Abstract`後，即可做 Active Record 的操作。
 
 ## Initial
 
 `Zend_Db_Table` 要能正常執行，就必須要有一個 adapter 物件，傳入的方法如下
 
 ```php
-// adapter物件
+// adapter 物件
 $db;
 
 // 使用系統預設
@@ -33,7 +33,7 @@ $table = new Table();
 // 直接傳入
 $table = new Table(array('db' => $db));
 
-// 使用Zend_Registry的key
+// 使用 Zend_Registry 的 key
 Zend_Registry::set('my_db', $db);
 $table = new Table(array('db' => 'my_db'));
 ```
@@ -97,7 +97,7 @@ $rows = $table->find(1);
 // 多筆
 $rows = $table->find(array(1, 2));
 
-// 主鍵是複合鍵時，可以傳入兩個以上的key
+// 主鍵是複合鍵時，可以傳入兩個以上的 key
 $rows = $table->find(1, 'A');
 ```
 
@@ -196,9 +196,6 @@ $row->findArticle();
 // $row->find<TableClass>By<Rule>()
 $row->findArticleByCategory();
 ```
-</WRAP>
-
-<WRAP clear></WRAP>
 
 #### Cascading Operations
 
@@ -207,6 +204,6 @@ $row->findArticleByCategory();
 |  Constant  |  Description  |
 |  --------  |  -----------  |
 | Zend_Db_Table_Abstract::CASCADE | 關聯的記錄會進行刪除或修改 |
-| Zend_Db_Table_Abstract::CASCADE_RECURSE | 與CASCADE同，不過會做遞迴確認到最上層的父資料表 |
+| Zend_Db_Table_Abstract::CASCADE_RECURSE | 與 CASCADE 同，不過會做遞迴確認到最上層的父資料表 |
 | Zend_Db_Table_Abstract::RESTRICT | 有存在關聯記錄時，會禁止父資料表刪除或修改 |
 | Zend_Db_Table_Abstract::SET_NULL | 把有關聯的記錄行設定成NULL |

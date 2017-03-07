@@ -1,6 +1,6 @@
 # zf Command Line Tool
 
-設定zf命令列工具
+設定 zf 命令列工具
 
 ## Setup
 
@@ -14,7 +14,7 @@
 
 ### Mac OSX
 
-可以直接用alias指定，另外記得要加執行權限才能執行。
+可以直接用 alias 指定，另外記得要加執行權限才能執行。
 
     # use Zend Server
     alias zf=/usr/local/zend/share/ZendFramework/bin/zf.sh

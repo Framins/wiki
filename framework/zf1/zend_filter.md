@@ -13,7 +13,7 @@ Zend_Filter 可以保留重要的文字，並把不重要文字內容取代或�
 
 ## Usage
 
-單獨使用Filter
+單獨使用 Filter
 
 ```php
 $filter = new Zend_Filter_HtmlEntities();

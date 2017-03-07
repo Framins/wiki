@@ -70,7 +70,7 @@ $select->from(
 
 參數
 
-* $cols 欄位名，或array: array('別名' => '欄位名或expression')
+* $cols 欄位名，或array: array('別名' => '欄位名或 expression')
 * $correlationName 別名
 
 ```php
