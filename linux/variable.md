@@ -44,12 +44,11 @@ e.g.
 
     ./command -yes -no /home/username
 
-- $# = 3
-- $* = -yes -no /home/username
-- $@ = array: {"-yes", "-no", "/home/username"}
-- $0 = ./command
-- $1 = -yes
-
+* $# = 3
+* $* = -yes -no /home/username
+* $@ = array: {"-yes", "-no", "/home/username"}
+* $0 = ./command
+* $1 = -yes
 
 References
 ----------

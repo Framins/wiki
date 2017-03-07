@@ -31,10 +31,10 @@ Configuration Commands
 * **inet6** IVv6 位址
 * **MTU** [參考鳥哥的 Linux](http://linux.vbird.org/linux_server/0110network_basic.php#tcpip_link_mtu)
 * **RX** 接收的封包數，相對的 **TX** 是傳送的封包數
-    * **errors** 封包發生錯誤的數量
-    * **dropped** 封包因為有問題被丟棄的數量
-    * **collisions** 封包碰撞的狀況
-    * **txqueuelen** 傳送資料的 buffer 長度
+  + **errors** 封包發生錯誤的數量
+  + **dropped** 封包因為有問題被丟棄的數量
+  + **collisions** 封包碰撞的狀況
+  + **txqueuelen** 傳送資料的 buffer 長度
 
 從 errors 和 collisions 可以大概了解網路是否正常
 

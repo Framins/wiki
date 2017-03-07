@@ -1,7 +1,6 @@
 Monitoring
 ==========
 
-
 Example
 -------
 

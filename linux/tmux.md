@@ -1,4 +1,3 @@
-
 Tmux
 =======
 
@@ -6,7 +5,6 @@ Install
 -----------
 
     brew install tmux
-
 
 Command
 -----------

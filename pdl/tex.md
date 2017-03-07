@@ -13,7 +13,7 @@ TeX 是個排版軟體，應用在學術界，特別是數學、物理學、電�
 | [SnuggleTeX](http://www2.ph.ed.ac.uk/snuggletex/documentation/overview-and-features.html) | [Java][] | 輸出 XHTML + MathML 。可以配合JEuclid做影像輸出。 |
 | [JEuclid](http://jeuclid.sourceforge.net/) | [Java][] | 可做影像輸出。 |
 | [MathJax](http://www.mathjax.org/) | [JavaScript][] | 討論區有人提到可以寫在 Andorid 等其他裝置上。 |
-| [LaTeX2HTML5](http://latex2html5.com/) | [JavaScript][] | Frok from MathJax ，多了一些互動式的語法。 |
+| [LaTeX2HTML5](http://latex2html5.com/) | [JavaScript][] | Fork from MathJax ，多了一些互動式的語法。 |
 | [PHPLatex](http://phplatex.scarfboy.com/) | [PHP][] | |
 
 

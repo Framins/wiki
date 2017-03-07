@@ -48,5 +48,5 @@ ntpdate time.stdtime.gov.tw
 Reference
 -------------
 
- * http://maxding.blogspot.tw/2009/07/linux.html
- * [UbuntuTime official site](https://help.ubuntu.com/community/UbuntuTime)
+* http://maxding.blogspot.tw/2009/07/linux.html
+* [UbuntuTime official site](https://help.ubuntu.com/community/UbuntuTime)

@@ -1,4 +1,4 @@
-Apt-get
+apt-get
 -------------
 
 List all PHP 7 packages

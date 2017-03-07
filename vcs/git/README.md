@@ -6,13 +6,13 @@ Git
 Roadmap
 -------
 
-Git裡每個東西都是互相有關係，學習上如果能靈活思考，就能更快融入Git的世界裡。
+Git 裡每個東西都是互相有關係，學習上如果能靈活思考，就能更快融入 Git 的世界裡。
 
-以下是參考的Git學習路線：
+以下是參考的 Git 學習路線：
 
 * 基本觀念
-  * VCS歷史
-  * git graph理解
+  * [VCS 歷史](/vcs/README.md)
+  * git graph 理解
   * SHA
   * branch 原理
   * branch to Branch
@@ -60,15 +60,15 @@ Git裡每個東西都是互相有關係，學習上如果能靈活思考，就�
   * pull request
   * [hook](hook.md)
 
-Git伺服器選擇
+Git 伺服器選擇
 -------------
 
-Git伺服器可以使用公開伺服器，好處是通常會有 Issues Tracker 和 wiki 等模組可以直接使用。壞處是會有限制，解除限制的條件就是要付錢了。
+Git 伺服器可以使用公開伺服器，好處是通常會有 Issues Tracker 和 wiki 等模組可以直接使用。壞處是會有限制，解除限制的條件就是要付錢了。
 
 * [GitHub](github.md)
 * [BitBucket](bitbucket.md)
 
-如果不想用公開伺服器的話，也可以自行架設伺服器讓團隊的成員來連線使用。通常網路的資料大多都是架設在Linux伺服器上的。
+如果不想用公開伺服器的話，也可以自行架設伺服器讓團隊的成員來連線使用。通常網路的資料大多都是架設在 Linux 伺服器上的。
 
 * [GitLab](https://about.gitlab.com/)
 * [Gogs](https://try.gogs.io/)

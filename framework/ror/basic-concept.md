@@ -8,7 +8,7 @@
 
     rails new helloworld
 
-開測試用伺服器的指令(需在rails專案裡面)：
+開測試用伺服器的指令(需在 rails 專案裡面)：
 
     rails s
 

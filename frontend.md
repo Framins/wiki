@@ -14,9 +14,9 @@
 * [jQuery](http://jquery.com/)
 * [MooTools](http://mootools.net/)
 * [AngularJS](https://angularjs.org/)
-  - http://codeseven.github.io/toastr/
-  - http://angular-ui.github.io/
-  - https://github.com/johnpapa/angular-styleguide
+  + http://codeseven.github.io/toastr/
+  + http://angular-ui.github.io/
+  + https://github.com/johnpapa/angular-styleguide
 
 ## Browser Hack
 

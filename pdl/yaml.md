@@ -40,6 +40,5 @@ text: |
   Right?
 ```
 
-
 [YAML]: http://www.yaml.org/
 [JSON]: json.md

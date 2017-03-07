@@ -1,6 +1,6 @@
 # Model
 
-Rails 的 Model 是使用 ActiveRecord 這個 [[developer:orm]] 元件來操作關聯式資料庫，跟一般 ORM 概念差不多，有以下幾點：
+Rails 的 Model 是使用 ActiveRecord 這個 [ORM](/programming/orm.md) 元件來操作關聯式資料庫，跟一般 ORM 概念差不多，有以下幾點：
 
 * Class <-> 資料表
 * Class method <-> 操作資料表
