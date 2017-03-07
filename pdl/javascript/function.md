@@ -109,6 +109,7 @@ console.log(cal(function(a, b) {
 ```
 
 以上範例我們可以知道，函式實字確實可以建立 Function 實例。
+
 我們可以把整個函式實字用小括號括起來，就成了一個 Function 實例的變數；接著在後面加上小括號，就成了不需命名的匿名函式了。
 
 ```javascript
