@@ -15,6 +15,8 @@ Coding Style
 
 * https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
 * http://contribute.jquery.org/style-guide/js/
+* http://www.jslint.com/
+* http://eslint.org/
 
 Reference
 ---------
