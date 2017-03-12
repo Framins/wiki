@@ -8,6 +8,7 @@ Basic
 
 * [Environment](environment.md)
 * [Variable Type](variable-type.md)
+* [Literals](literals.md)
 * [Function](function.md)
 
 Coding Style
