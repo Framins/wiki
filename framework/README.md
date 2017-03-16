@@ -34,9 +34,9 @@ Backend Framework
 
 * [Slim](slim/README.md)
 * [Phalcon](phalcon/README.md)
-* [Lumen](https://lumen.laravel.com/)
-* [Silex](silex/README.md)
-* [Expressive](https://docs.zendframework.com/zend-expressive/)
+* [Lumen](https://lumen.laravel.com/) (Base on Laravel Component)
+* [Silex](silex/README.md) (Base on Silex Component)
+* [Expressive](https://docs.zendframework.com/zend-expressive/) (Base on Zend Framwork Component)
 * [Fat-Free Framework](https://fatfreeframework.com/) (F3)
 
 #### CMS / Library
