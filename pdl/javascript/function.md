@@ -20,6 +20,8 @@ f(); // undefined undefined
 f(1, 2, 3, 4); // 1 2
 ```
 
+這種寫法也稱為「函式宣告式」(function declaration)
+
 當 Function 是變數時
 --------------------
 
@@ -38,7 +40,7 @@ f(1, 2, 3, 4); // 1 2
     > f instanceof Object
     true
 
-所以在 JavaScript 裡，函式宣告定義好的 function 也可以像變數一樣地使用，或是指定在某個變數裡並呼叫。用變數呼叫的方法是把變數當成 Function Name ，然後後面加上小括號和引數即可。
+所以在 JavaScript 裡，函式宣告定義好的 function 也可以像變數一樣地使用，或是指定在某個變數裡並呼叫。用變數呼叫的方法是把變數當成 function name ，然後後面加上小括號和引數即可。
 
 ```javascript
 function add(a, b) {
@@ -51,7 +53,9 @@ console.log(add(1, 2)); // 3
 console.log(addFunction(1, 2)); // 3
 ```
 
-或是直接指定給變數，這是用函式實字 (Literal) 
+### Function Expression (Anonymous Function)
+
+「函式表達式」，或是更廣為人知的「匿名函式」。它能直接指定給變數，這是用函式實字 (Literal) 
 
 ```javascript
 var addFunction = function(a, b) {
@@ -61,7 +65,9 @@ var addFunction = function(a, b) {
 console.log(addFunction(1, 2)); // 3
 ```
 
-函式實字也可以給名字，不過似乎是只能用在遞迴的場合
+### Named Function Expression
+
+「具名函式表示式」其實就是把函式實字給個名字，不過似乎是只能用在遞迴或除錯的場合。
 
 ```javascript
 var levelFunction = function level(a) {
@@ -139,7 +145,7 @@ var add = function(a, b) {
 }
 ```
 
-原因是，直譯器載入檔案後，會先處理所有宣告，包括變數宣告和函式宣告，接著才開始執行程式，這就是所謂的變數跟函數的提升(hoisting)，提升是一種可以將變數或函數宣告移到作用域(Scope)頂端的行為。
+原因是，直譯器載入檔案後，會先處理所有宣告，包括變數宣告和函式宣告，接著才開始執行程式，這就是所謂的變數跟函數的提升(hoisting)，提升是一種可以將變數或函數宣告移到作用域(scope)頂端的行為。
 
 第一個例子因為函式宣告已處理過了，所以可以正常呼叫。
 
