@@ -10,11 +10,24 @@ Setup
 
 Homebrew 懶人安裝法，先裝 [Leiningen][]
 
-    brew install leiningen
+```
+$ brew install leiningen
+```
 
-接著開啟 REPL
+接著就能開啟 REPL 了，使用 exit 離開
 
-    lein repl
+```
+$ lein repl
+...
+user=> exit
+Bye for now!
+```
+
+也可以使用 new 來產生新專案
+
+```
+$ lein new clojure-practice
+```
 
 Hello World
 -----------
@@ -29,5 +42,23 @@ user=> (hello)
 user=>
 ```
 
+運算
+----
+
+加法函數 `(+)` 可以接受任何數值，然後回傳它們的加總。當沒有傳的時候會回傳 0 ：
+
+```
+user=> (+)
+0
+user=> (+ 1)
+1
+user=> (+ 1 2)
+3
+user=> (+ 1 2 3) 
+6
+user=> (+ 1 2 3 4) 
+10 
+```
+
 [Clojure]: https://clojure.org/
-[Leiningen]: https://github.com/technomancy/leiningen
+[Leiningen]: https://leiningen.org/
