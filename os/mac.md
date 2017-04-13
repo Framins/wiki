@@ -34,6 +34,16 @@ MacOS 冷知識
     defaults write com.apple.dock springboard-show-duration -int 0
     defaults write com.apple.dock springboard-hide-duration -int 0;killall Dock
 
+版面
+    
+    defaults write com.apple.dock springboard-rows -int 6
+    defaults write com.apple.dock springboard-columns -int 8;killall Dock
+     
+重排App順序
+   
+    defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
+
+
 References
 ----------
 
