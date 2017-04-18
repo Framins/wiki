@@ -23,3 +23,7 @@ Style
 
 * [REST](https://zh.wikipedia.org/wiki/REST) - REST 風格的系統叫 [RESTful](/restful/README.md)
 * [PSR](http://www.php-fig.org/psr/) - 參考 PHP [Coding Style](/pdl/php/coding-style.md)
+
+version
+-----
+* [semantic versioning](http://semver.org/) - 標版號的規定
