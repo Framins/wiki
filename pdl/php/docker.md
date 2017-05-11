@@ -16,7 +16,7 @@ Extensions
 
 5.6 以下的版本： 
 
-    apt-get install zlib1g-dev
+    apt-get install -y zlib1g-dev
     pecl install memcache
     echo "extension=memcache.so" > /usr/local/etc/php/conf.d/memcache.ini
 
@@ -29,18 +29,24 @@ Extensions
 
 ### memcached
 
-    apt-get install libmemcached-dev
+    apt-get install -y libmemcached-dev
     pecl install memcached
     echo "extension=memcached.so" > /usr/local/etc/php/conf.d/memcached.ini
 
+### mongodb
+
+    apt-get install -y libssl-dev 
+    pecl install mongodb
+    echo "extension=mongodb.so" > /usr/local/etc/php/conf.d/mongodb.ini
+
 ### soap
 
-    apt-get install libxml2-dev
+    apt-get install -y libxml2-dev
     docker-php-ext-install soap
 
 ### zip
 
-    apt-get install zlib1g-dev
+    apt-get install -y zlib1g-dev
     docker-php-ext-install zip
 
 ### xdebug
