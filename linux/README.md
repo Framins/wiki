@@ -41,6 +41,7 @@ Topics
 * [variable](variable.md)
 * [make](make.md)
 * [getopt](getopt.md)
+* [shuf](shuf.md)
 * [Powerline](powerline.md)
 
 命令提示字元
