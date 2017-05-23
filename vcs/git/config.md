@@ -101,7 +101,7 @@ Desktop.ini
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cblueby %an %Cgreen(%cr)%Creset'
 ```
 
-.bashrc
+.bash_profile
 -------
 
 參考 [iHower 的 blog](http://ihower.tw/blog/archives/5436) 上的好東西， Linux/MAC 系統修改家目錄的 `~/.bash_profile`
