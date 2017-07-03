@@ -57,6 +57,9 @@ Command
     D   delete to the end of the line
     dd  delete a line
 
+#### Delete all lines 
+    gg then dG
+
 #### Edit
 
     u       undo
