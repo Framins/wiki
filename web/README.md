@@ -1,6 +1,12 @@
 WebDesign
 =========
 
+身份驗證
+
+* [SAML](saml.md)
+
+---
+
 * [Material Design](http://www.google.com/design/spec/material-design/introduction.html)
 * [Polymer](https://www.polymer-project.org/)
 * [HTML5制定完成](http://www.ithome.com.tw/news/91947)
