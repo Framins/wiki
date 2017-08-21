@@ -31,7 +31,7 @@ ConcreteCreator .> ConcreteProduct
 Before Using Pattern
 --------------------
 
-原本有 `Cat` 類別和 `Dog` 類列是屬於動物類別，實作如下：
+原本有 `Cat` 類別和 `Dog` 類列是屬於動物類別，實作如下：
 
 ```php
 $cat = new Cat();
