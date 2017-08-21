@@ -54,7 +54,7 @@ $dog->setName('Woofles');
 After Using Pattern
 -------------------
 
-先寫一個產生動物的 method：
+先寫一個產生動物的 method ：
 
 ```php
 class Factory
