@@ -1,4 +1,4 @@
-====== Liskov Substitution Principle ======
+# Liskov Substitution Principle
 
 里氏替換原則定義有點煩人，簡單來說就是：
 
