@@ -105,7 +105,7 @@ vim ~/.tmux.conf
     set -g default-command "reattach-to-user-namespace -l ${SHELL}"
 
     # Enable copying using Cmd+C in copy mode
-    bind-key -t vi-copy MouseDragEnd1Pane copy-pipe "reattach-to-user-namespace pbcopy"
+    bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe "reattach-to-user-namespace pbcopy"
 
     # Increase scrollback buffer (default is 2000)
     set-option -g history-limit 60000
