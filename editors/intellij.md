@@ -15,7 +15,8 @@ To find any action inside the IDE use Find Action
     ⌘＋1           jump to project
     ⌘＋L           go to line
     ⌘＋[           Back last step
-    Ctrl+Tab       switcher
+    ⌘＋SHIF＋Del   Last Edit Location
+    Ctrl＋Tab      switcher
 
 #### Jump tool window
 
@@ -26,7 +27,8 @@ To find any action inside the IDE use Find Action
 
     Alt+Enter      generate phpdoc / getter /setter ...
     ⌘＋N           add new file/ directory
-
+    Ctrl＋I        Implement
+    
 #### Refactor
 
     Ctrl+T          refactor 光箱
