@@ -67,6 +67,7 @@ show
     php composer.phar show
     php composer.phar show monolog/monolog
     php composer.phar show monolog/monolog 1.0.2
+    php composer.phar show --tree
 
 depends
 
