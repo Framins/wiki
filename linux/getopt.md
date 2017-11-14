@@ -112,3 +112,4 @@ getopt --long force,volumn:,some-else::
 ## References
 
 * [Command Line Options: How To Parse In Bash Using “getopt”](http://www.bahmanm.com/blogs/command-line-options-how-to-parse-in-bash-using-getopt)
+* [How can I make bash deal with long param using “getopt” command in mac?](https://stackoverflow.com/questions/12152077/how-can-i-make-bash-deal-with-long-param-using-getopt-command-in-mac)
