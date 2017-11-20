@@ -33,6 +33,7 @@ Statically Typed Language
 * [Go](go/README.md)
 * [Swift](swift/README.md)
 * [Rust](https://mileschou.gitbooks.io/rust-note/content/) - 另開 Gitbook 來寫筆記
+  * 參考資料1 ： http://cwchen.tw/tutorial/rust-prog/about/
 * [Crystal](https://crystal-lang.org/)
 
 Dynamically Typed Language
