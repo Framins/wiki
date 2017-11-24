@@ -9,6 +9,12 @@ $ brew install python
 $ pip install powerline-status
 ```
 
+> Python 安裝後會有不能執行 pip 的 bug ，只要重新 link 即可
+>
+> ```
+> brew unlink python && brew link python
+> ```
+
 Install Fonts
 
 ```
