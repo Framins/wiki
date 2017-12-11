@@ -30,16 +30,16 @@ Components
 | [Database](database.md) | 資料庫 |
 | [Drawable](drawable.md) | 圖像資源 |
 | [Hardware](hardware/README.md) | 硬體資源 |
-| [Gestures](gestures.md)] | 手勢 |
-| [Media](media.md)] | 多媒體實作 |
+| [Gestures](gestures.md) | 手勢 |
+| [Media](media.md) | 多媒體實作 |
 | [Navigation Drawer](navigation-drawer.md) | 側邊選單 |
-| [Network](network/README.md)] | 網路操作 |
-| [Notification](notification.md)] | 通知實作 |
+| [Network](network/README.md) | 網路操作 |
+| [Notification](notification.md) | 通知實作 |
 | [Resource](resource.md) | 靜態資源 |
 | [Screens Support](screens-support.md) | 多螢幕支援 |
 | [Sensor](sensor.md) | 感應器 |
 | [Service](service.md) | 後台服務 |
-| [Style](style.md) | 風格 ｜
+| [Style](style.md) | 風格 |
 | [System Service](system-service.md) | 系統服務 |
 | [Theme](theme.md) | 主題 |
 | [View](view/view.md) | 可見元件 |
