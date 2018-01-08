@@ -43,6 +43,14 @@ MacOS 冷知識
    
     defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
 
+### Terminal
+
+刪除整行指令
+
+    ⌃+A ⌃+K    // move the cursor at the beginning of the line and delete all after Cursor.
+    ⌃+E ⌃+U    // move the cursor to the end of the line and delete all before Cursor.
+
+
 
 References
 ----------
