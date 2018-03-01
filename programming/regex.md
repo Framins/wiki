@@ -1,17 +1,34 @@
-Regex
-=====
+# Regex
 
-全名為 [Regular Expressions][] ，大部分都簡稱為 *Regex* 
+全名為 [Regular Expressions][] ，大部分都簡稱為 *Regex* 。
 
-Tools
------
+## Learning
+
+這東西有點難體會，直接從案例中學習或許是個比較好的做法。
+
+### 找特定字串
+
+下面這個可以找到 `word` 的字
+
+```
+/word/
+```
+
+### 找開頭是特定字串
+
+下面這個可以找到開頭是 `prefix` 字串
+
+```
+/^prefix/
+```
+
+## Tools
 
 * http://www.regexper.com/ - 將Regex圖示化
 * http://www.regexr.com/ - 線上編輯驗證
 * http://rubular.com/ - Ruby格式專用
 
-Example
--------
+## Example
 
 記錄目前常用到的範例
 
@@ -55,6 +72,5 @@ Replace
 ```
 [$2]($1)
 ```
-
 
 [Regular Expressions]: https://en.wikipedia.org/wiki/Regular_expression
