@@ -1,5 +1,4 @@
-Design Pattern
-==============
+# Design Pattern
 
 建築師設計房子時，可以先為浴室的位置或是廚房的構造方式開發模版，使用這些模版即可快速設計更好的房子。而設計模式的核心概念正是如此，除了讓程式的開發能更快速外，也讓新功能的加入變得更方便。
 
@@ -7,16 +6,14 @@ Design Pattern
 
 最早講到設計模式，是指 Gof 的這本著作。後來設計模式一詞被廣泛的應用到各種經驗。
 
-Glossary of terms
------------------
+## Glossary of terms
 
 設計模式裡面也蠻多專有名詞的。除了下面六大原則和那一堆模式外，其他可以簡單介紹的名詞，就在這裡面說明了。
 
-* **robust:** 強健性。
-* **client:** 通常泛指「相對」的上層模組。
+* *Robust* 強健性。
+* *Client* 通常泛指「相對」的上層模組。
 
-Design Principles
------------------
+## Design Principles
 
 五大設計原則，剛好變成一個單字 SOLID 。
 
@@ -26,8 +23,7 @@ Design Principles
 * [Interface Segregation Principle](interface-segregation-principle.md)
 * Dependency Inversion Principle
 
-Creational Patterns
--------------------
+## Creational Patterns
 
 創建型模式是處理物件建立的設計模式，此模式會試著依需實際情況來使用合適的方法建立物件。
 
@@ -44,8 +40,7 @@ Creational Patterns
 
 * Registry of Singleton Pattern
 
-Structural Patterns
--------------------
+## Structural Patterns
 
 結構型模式。
 
@@ -57,8 +52,7 @@ Structural Patterns
 * [Adapter Pattern](adapter-pattern.md)
 * Composite Pattern
 
-Behavioral Patterns
--------------------
+## Behavioral Patterns
 
 行為型模式。此類型的模式主要是用來實現物件之間的交流方法，並增加物件交流時的彈性。
 
@@ -75,14 +69,12 @@ Behavioral Patterns
 * Memento Pattern
 * Concurrency Pattern
 
-Another Patterns
-----------------
+## Another Patterns
 
 跟 Gof 文件無關，但現在很常見的 Patterns
 
 * Fluent Interface Pattern
 
-Reference
----------
+## Reference
 
 * http://www.cnblogs.com/wisekingokok/archive/2011/10/14/2211247.html
