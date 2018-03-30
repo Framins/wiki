@@ -49,7 +49,7 @@ Structural Patterns
 
 結構型模式。
 
-* Proxy Pattern
+* [Proxy Pattern](proxy-pattern.md)
 * [Bridge Pattern](bridge-pattern.md)
 * Decorator Pattern
 * Flyweight Pattern
