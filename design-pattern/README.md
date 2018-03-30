@@ -75,6 +75,12 @@
 
 * Fluent Interface Pattern
 
+## Compare Patterns
+
+比較一下不同的 patterns
+
+* [Compare Patterns](compare-patterns.md)
+
 ## Reference
 
 * http://www.cnblogs.com/wisekingokok/archive/2011/10/14/2211247.html
