@@ -1,10 +1,8 @@
-Template Method Pattern Example
-===============================
+# Template Method Pattern Example
 
 今天想訓練小貓要做表演。
 
-Before using pattern
---------------------
+## Before using pattern
 
 貓會做的表演有很多，可以先定義一個表演介面：
 
@@ -115,16 +113,14 @@ $dog = new Dog();
 $dog->run();
 ```
 
-Problems
---------
+## Problems
 
 目前程式可以發現的問題如下：
 
 * `run()` 出現了重複的程式碼，要是新動物再加入的話，相同程式碼會無限擴張，那程式該如何改寫？
 * 老鼠跳不高，無法表演跳火圈，但會表演走鋼索，程式該如何寫？
 
-After using pattern Part 1
---------------------------
+## After using pattern Part 1
 
 依照物件導向的功能，可以把相同的程式碼提出來做抽象類別，其他程式再繼承它即可：
 
@@ -203,8 +199,7 @@ ShowAnimal <|-- Dog
 @enduml
 ```
 
-After using pattern Part 2
---------------------------
+## After using pattern Part 2
 
 再來解決問題二：老鼠跳不高，無法表演跳火圈，但會表演走鋼索。
 
