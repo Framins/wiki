@@ -1,12 +1,10 @@
-Lapis
-=====
+# Lapis
 
 [`Lua`](/pdl/lua/README.md) `Micro Framework`
 
 [Lapis][] 的效能評則比 [PHP](/pdl/php/README.md) 和 [Node](/pdl/node/README.md) 都來得高，試玩看看
 
-Setup
------
+## Setup
 
 ### Mac
 
@@ -61,14 +59,12 @@ RUN luarocks install lapis
 
 Hint: 同上
 
-Startup
--------
+## Startup
 
 它可以用 [MoonScript](http://moonscript.org/) 轉 Lua 或直接用 Lua 原生程式碼
 
 Note: 葡萄牙語中， Lua 是月亮的意思，所以 MoonScript 的命名應該是這樣來的
 
-References
-----------
+## References
 
 [Lapis]: http://leafo.net/lapis/

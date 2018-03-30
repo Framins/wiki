@@ -1,12 +1,10 @@
-FuelPHP
-=======
+# FuelPHP
 
 `Full-stack Framework`
 
 [FuelPHP](http://fuelphp.com/)
 
-Getting Started
----------------
+## Getting Started
 
 先下載官方的指令
 
@@ -22,7 +20,6 @@ oil create project
 
 它所會做的事是使用 git clone 下載原始碼，然後使用 composer 安裝相依套件，蠻棒的懶人包
 
-Basic
------
+## Basic
 
 * [Controller](controller.md)

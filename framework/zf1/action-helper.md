@@ -1,5 +1,4 @@
-Action Helper
-=============
+# Action Helper
 
 [Action Helpers](http://framework.zend.com/manual/1.12/en/zend.controller.actionhelpers.html) 是給 controller 重複使用的 function
 
@@ -7,33 +6,33 @@ Action Helper
 
 Action Helper 是透過 `Zend_Controller_Action_HelperBroker` 作管理的。
 
-#### 註冊helper
+註冊 helper
 
 ```php
 Zend_Controller_Action_HelperBroker::addHelper($helper);
 ```
 
-#### 判斷helper是否新增
+判斷 helper 是否新增
 
 ```php
 Zend_Controller_Action_HelperBroker::hasHelper('name');
 ```
 
-#### 移除helper
+移除 helper
 
 ```php
 Zend_Controller_Action_HelperBroker::removeHelper('name');
 ```
 
-#### 註冊helper的前綴
+註冊 helper 的前綴
 
 ```php
 Zend_Controller_Action_HelperBroker::addPrefix('My_Action_Helpers');
 ```
 
-#### 註冊helper的引用目錄
+註冊 helper 的引用目錄
 
-使用引用目錄可以更方便的增加helper
+使用引用目錄可以更方便的增加 helper
 
 ```php
 Zend_Controller_Action_HelperBroker::addPath(APPLICATION_PATH . '/controllers/helpers');

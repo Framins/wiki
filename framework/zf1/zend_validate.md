@@ -2,7 +2,7 @@
 
 [Zend_Validate](http://framework.zend.com/manual/1.12/en/zend.validate.html) 可以驗證輸入內容是否符合規則。
 
-##### Zend 預設的驗證方法
+Zend 預設的驗證方法：
 
 | Class Name | Description |
 | ---------- | ----------- |
@@ -12,8 +12,6 @@
 ## Usage
 
 所有的驗證方法都會繼承 `Zend_Validate_Interface` 。而這介面裡會有兩個方法： `isValid()` and `getMessages()`
-
-#### 基本實作
 
 此為官方的基本實作例子
 
@@ -28,8 +26,6 @@ if ($validator->isValid($email)) {
     }
 }
 ```
-
-#### 自定訊息
 
 自定訊息有時需要取得原輸入的文字做說明，可以用 `%value%` 表示之。
 

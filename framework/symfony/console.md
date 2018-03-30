@@ -1,11 +1,9 @@
-Console
-=======
+# Console
 
 * http://symfony.com/doc/current/components/console/introduction.html
 * http://symfony.com/doc/current/components/console/single_command_tool.html
 
-Installation
-------------
+## Installation
 
 Composer 安裝：
 
@@ -17,8 +15,7 @@ Composer 安裝：
 }
 ```
 
-Trick
------
+## Trick
 
 Symfony Console 有提供類似 [Docker](/docker/README.md) / [Git](/vcs/git/README.md) 的偷懶別名功能
 
@@ -30,8 +27,7 @@ Symfony Console 有提供類似 [Docker](/docker/README.md) / [Git](/vcs/git/REA
 
 > 依 `:` 分隔，只要前面比對是唯一的， Symfony Console 都會認可
 
-Coloring
---------
+## Coloring
 
 用 tag 控制輸出的顏色
 
@@ -59,7 +55,6 @@ $output->getFormatter()->setStyle('fire', $style);
 $output->writeln('<fire>foo</fire>');
 ```
 
-Using Packages Command
-----------------------
+## Using Packages Command
 
 https://akrabat.com/using-doctrine-migrations-outside-of-doctrine-orm-or-symfony/
