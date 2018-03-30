@@ -1,4 +1,4 @@
-# Stared
+# Started
 
 ## Ubuntu
 
