@@ -1,10 +1,10 @@
-Linux
-=====
+# Linux
 
 此地方只記錄常用的，其他的 Google 查一下就一堆資料了。
 
-Distributions
--------------
+* [指令小技巧](command-tricks.md)
+
+## Distributions
 
 目前較知名的 Linux 發行版如下：
 
@@ -23,15 +23,13 @@ cat /etc/issue
 lsb_release -a
 ```
 
-Network
--------
+## Network
 
 [網路相關指令](network-commands.md)
 
 > 網路基礎知識可以參考[這裡](/network/README.md)
 
-Topics
-------
+## Topics
 
 一些主題性的內容
 
@@ -48,8 +46,7 @@ Topics
 
 * https://blog.gtwang.org/linux/how-to-make-a-fancy-and-useful-bash-prompt-in-linux-1/
 
-FAQs
-----
+## FAQs
 
 * [SublimeText2 中文輸入問題解](http://samwlinux.blogspot.tw/2014/04/ubuntusublimetext2deb.html)
 
@@ -70,7 +67,6 @@ im-config # 選擇輸入法
 
 [參考網頁](http://www.j4.com.tw/comp-qna/ubuntu-14-04-%E7%94%A8fcitx-%E8%A3%9D%E5%98%B8%E8%9D%A6%E7%B1%B3%E8%BC%B8%E5%85%A5%E6%B3%95/)
 
-References
-----------
+## References
 
 * [鳥哥的Linux私房菜](http://linux.vbird.org/)
