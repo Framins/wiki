@@ -41,6 +41,7 @@ lsb_release -a
 * [getopt](getopt.md)
 * [shuf](shuf.md)
 * [Powerline](powerline.md)
+* [Wine](wine.md)
 
 命令提示字元
 
