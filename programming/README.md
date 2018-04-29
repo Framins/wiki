@@ -1,10 +1,8 @@
-Developer
-=========
+# Developer
 
 身為一個要成為開發者的路圖。
 
-Basic
------
+## Basic
 
 * [Basic Concept](basic-concept.md)
 * [Statement & Expression](statement-n-expression.md)
@@ -22,8 +20,7 @@ Basic
 這時多希望一個函式能有很多功能啊。  
 不過事實上，函式是很難辦到的，但我們可以使用物件導向設計來解決。
 
-Advanced
---------
+## Advanced
 
 進階的程式設計相關知識。
 
@@ -57,12 +54,10 @@ Advanced
 
 演算法的好壞，直接決定了程式執行的效率。所以學習設計一個好的演算法，也是一門非常重要的課程。
 
-Extreme
--------
+## Extreme
 
 程式設計到了最後，當然是要學如何控制程式版本和多人多工了。
 
-References
-----------
+## References
 
 * [工程師生涯 30 年：真希望在菜鳥時期就懂得的這些事](https://buzzorange.com/techorange/2016/02/15/lessons-from-my-lifetime-of-being-a-programmer-during-30-years/)

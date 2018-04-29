@@ -1,5 +1,4 @@
-ORM
-===
+# ORM
 
 因網路上的資訊很多很雜，以下純屬個人理解
 
@@ -9,8 +8,7 @@ Zend 的 ORM 實作是使用 Active Record
 
 兩者的差異應該是實作 ORM 時，本身並不會具備 save(), delete() 等邏輯 function ，而 Active Record 是有的 ([RoR][] 亦同，但 [CodeIgniter][] 雖然稱之為 Active Record ，可是卻沒有這種感覺...)
 
-Overview
---------
+## Overview
 
 ### Pros
 
@@ -23,8 +21,7 @@ Overview
 * ORM 最多人垢病的缺點就是效能差。只能使用 cache 或是部分讀取方法改成傳統 SQL 等方法，來提升效能。
 * 當 ORM 寫的邏輯越來越多的時候，可能會違反 SRP 原則，可能會跟 OOAD 的概念有所衝突。
 
-Implements
-----------
+## Implements
 
 不同語言裡的實作
 

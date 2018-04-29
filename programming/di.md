@@ -1,10 +1,8 @@
-Dependency injection
-====================
+# Dependency injection
 
 [Dependency injection][] 譯名有很多，最常聽到的叫 **依賴注入** 。
 
-Foreword
---------
+## Foreword
 
 > 以下用 Pokémon Go 當情境來寫程式
 

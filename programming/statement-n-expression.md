@@ -1,5 +1,4 @@
-Expression & Statement
-----------------------
+# Expression & Statement
 
 > Expression & Statement 的中文分別是 *表達式* 和 *陳述式*
 
@@ -10,8 +9,7 @@ Expression & Statement
 
 大部分的情況下， Expression 會回傳結果，而不會有其他特別的作用； Statement 會產生特別的作用，但不回傳結果。只是現在程式語言對這個界定並不是很明確。
 
-Example
--------
+## Example
 
 ### Simple Statement
 
@@ -28,8 +26,7 @@ Example
 * **For-loop**
 * **While-loop**
 
-References
-----------
+## References
 
 * [表示式](https://en.wikipedia.org/wiki/Expression_%28computer_science%29)
 * [陳述式](https://en.wikipedia.org/wiki/Statement_%28computer_science%29)

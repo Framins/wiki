@@ -1,5 +1,4 @@
-MVC
-===
+# MVC
 
 在專案開發的時候，可能會遇到以下問題：
 
@@ -14,8 +13,7 @@ MVC
 
 以下以 PHP 語言說明 Web MVC 的觀念
 
-Basic Concept
--------------
+## Basic Concept
 
 MVC 是一種軟體設計的模式，它裡面有三種主要元件：
 
@@ -48,8 +46,7 @@ View --> Browser
 3. Controller 依 Request選擇適合的 View ，並傳送 Model 的資料給 View 準備做顯示。
 4. View 將資料放入樣版中，並輸出給 Browser。
 
-Model
------
+## Model
 
 Model 是負責處理資料相關和存取的元件。
 
@@ -75,8 +72,7 @@ Model 與 Table 的關係如下，都是合理的：
 
 多個 Model 常做同一件事的話，可以改使用 Library 。
 
-View
-----
+## View
 
 View 決定了資料該用什麼方式呈現，如：可以用 HTML/XML/RSS/JSON 不同的格式輸出；也可以做不同版面設計的輸出，像手機版、電腦版和列印版等。
 
@@ -87,8 +83,7 @@ View 設計要注意以下重點：
 * 依輸出方式不同，可能會有 if/else/switch/for 等
 * View 會用 Model 取得的資料做輸出，但實際上它不需要理會 Model 是如何設計的
 
-Controller
-----------
+## Controller
 
 Controller 是唯一會直接接受 client 的要求，並會依 client 要求去取得需要的 Model ，並選擇 View 做輸出。
 
@@ -102,8 +97,7 @@ Controller 設計要注意以下重點：
 
 Helper 通常處理的都只是單純資料格式轉換，或是產生 HTML 等。所以通常都是 View 和 Controller 會出現。
 
-Something else
---------------
+## Else
 
 其他相關名詞：
 
@@ -111,8 +105,7 @@ Something else
 * DAO - Data access object - 存取資料的物件
 * [DTO](http://martinfowler.com/eaaCatalog/dataTransferObject.html) - Data transfer object - Controller / View / Service 共用的傳輸資料媒介
 
-Reference
----------
+## References
 
-  * [MVC ，令人搞不懂的 MODEL。](http://blog.turn.tw/?p=217)
-  * http://my.oschina.net/pacoyang/blog/151695
+* [MVC ，令人搞不懂的 MODEL。](http://blog.turn.tw/?p=217)
+* http://my.oschina.net/pacoyang/blog/151695
