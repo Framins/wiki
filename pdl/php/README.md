@@ -1,5 +1,4 @@
-PHP
-===
+# PHP
 
 很多工具都能在 [Awesome-PHP](https://github.com/ziadoz/awesome-php) 上找到，以下是筆記。
 
@@ -9,14 +8,12 @@ PHP
 * [Notice](notice.md)
 * [Tricks](tricks.md)
 
-Basic
------
+## Basic
 
 * [DataType](types.md)
 * [How To](how-to.md)
 
-Advanced
---------
+## Advanced
 
 * Socket
   + [Ratchet](https://github.com/ratchetphp/Ratchet)
@@ -27,12 +24,8 @@ Advanced
 * [Performance](performance.md)
 * [Predefined Interfaces](predefined-interfaces.md)
 
-Extensions
-----------
+## Extensions
 
-* PEAR
-* [Composer](composer.md)
-* codesniffer
 * [curl](curl.md)
 
 ## Build Tools
@@ -42,8 +35,11 @@ Extensions
 * [Robo](http://robo.li/) | 支援非常多種 task ，除了基本檔案與連線操作外，還能跨到 VCS / npm / gulp / Docker 等。
 * [Phing](https://www.phing.info/)
 
-Packages
---------
+## Packages
+
+* PEAR
+* [Composer](composer.md)
+* codesniffer
 
 ### Dependency Injection Container
 
@@ -57,45 +53,39 @@ Packages
 * [Eloquent ORM](https://laravel.com/docs/5.1/eloquent)
 * [Propel](http://propelorm.org/)
 
-Template engine
----------------
+## Template engine
 
-* [Blade](http://laravel.com/docs/templates) | Laravel built-in template lib
-* Volt | Phalcon built-in template lib
+* [Blade](http://laravel.com/docs/templates) | Laravel built-in template
+* Volt | Phalcon built-in template
 * [Twig](http://twig.sensiolabs.org/)
 * [Smarty](http://www.smarty.net/)
 
-Analysis Tools
---------------
+## Analysis Tools
 
 * [PhpMetrics](http://www.phpmetrics.org/)
 * [PHP 程式碼靜態分析工具](http://phpqatools.org/)
 * http://stackoverflow.com/questions/4156157/tool-for-php-code-analysis
 * http://ithelp.ithome.com.tw/articles/10138375
 
-Tools
------
+## Tools
 
 * [phpMyAdmin](https://github.com/phpmyadmin/phpmyadmin)
 * [RockMongo](http://rockmongo.com/)
 * phpRedisAdmin
 
-Testing
--------
+## Testing
 
 * [PHPUnit](phpunit.md)
 * [phpspec](http://www.phpspec.net/)
 * [Codeception](http://codeception.com/)
 
-Debug or Benchmark
-------------------
+## Debug or Benchmark
 
 * [XDebug](xdebug.md)
 * [PHP-Benchmark](http://victorjonsson.github.io/PHP-Benchmark/)
 * [PHP Framework MVC Benchmark - v20111201-4](http://www.ruilog.com/blog/view/b6f0e42cf705.html)
 
-Editor / IDE
-------------
+## Editor
 
 Editor
 
@@ -103,14 +93,15 @@ Editor
 * [Notepad++](http://notepad-plus-plus.org/) | Free!! Only for windows.
 * [Atom](https://atom.io/) | Free!!
 
+## IDE
+
 IDE
 
 * [Aptana](http://www.aptana.com/) | Free!! Base on Eclipse.
 * [NetBeans](https://netbeans.org/) | Free!! HTML 5 support.
 * [PHPStorm](https://www.jetbrains.com/phpstorm/) | **Non-free**, The Most Intelligent PHP IDE!! Base on IntelliJ.
 
-Reference
----------
+## References
 
 * phpDocumentor
 * Memcache

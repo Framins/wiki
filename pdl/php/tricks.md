@@ -1,8 +1,6 @@
-Tricks
-======
+# Tricks
 
-找 php.ini
---------
+## 找 php.ini
 
 懶人指令
 
@@ -10,8 +8,7 @@ Tricks
 php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"
 ```
 
-Git Hook
---------
+## Git Hook
 
 編輯檔案 `/path/to/project/.git/hooks/pre-commit` ，並加上執行權限
 

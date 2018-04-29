@@ -1,5 +1,4 @@
-PHPUnit
-=======
+# PHPUnit
 
 * [官方操作手冊](http://phpunit.de/manual/current/en/index.html)
 * mock-object - PHPUnit 產生模擬物件的方法。
@@ -7,16 +6,14 @@ PHPUnit
 * https://gist.github.com/loonies/1255249
 * SeleniumTestCase
 
-Installation
-------------
+## Installation
 
 安裝方式：
 
 * [PEAR](http://phpunit.de/manual/current/en/installation.html#installation.phar)
 * [Composer](http://phpunit.de/manual/current/en/installation.html#installation.composer)
 
-PEAR
-----
+## PEAR
 
 ```bash
 pear channel-discover pear.phpunit.de
@@ -47,8 +44,7 @@ pear install --alldeps phpunit/PHPUnit_SkeletonGenerator
 
 phpunit 和 phpunit-skeleton 都通用
 
-Composer
---------
+## Composer
 
 在 `composer.json` 加入下面內容
 
@@ -66,8 +62,7 @@ Composer
 * `phpunit/dbunit`
 * `phpunit/phpunit-selenium`
 
-Codeception
------------
+## Codeception
 
 基於 PHPUnit 的 BDD framework
 
