@@ -1,26 +1,24 @@
-JavaScript
-==========
-
-* [Library](library.md)
-
-Basic
------
+# JavaScript
 
 * [Environment](environment.md)
 * [Variable Type](variable-type.md)
 * [Literals](literals.md)
+* [Constructors](constructors.md)
 * [Function](function.md)
 
-Coding Style
-------------
+## Coding Style
 
 * https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
-* http://contribute.jquery.org/style-guide/js/
 * http://www.jslint.com/
 * http://eslint.org/
 
-Reference
----------
+## Library
+
+* [Snap.svg](http://snapsvg.io/)
+* [CreateJS](http://www.createjs.com/)
+* [loading.io](http://loading.io/)
+
+## References
 
 * [wtfjs](http://wtfjs.com/) | JavaScript 很多詭異的地方
 * [JavaScript 語言核心](http://www.codedata.com.tw/javascript/getting-started/) | CodeData

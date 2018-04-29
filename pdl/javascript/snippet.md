@@ -1,8 +1,6 @@
-Javascript Snippet
-==================
+# Javascript Snippet
 
-Random
-------
+## Random
 
 ```javascript
 var maxNum = 99; // 大數
@@ -12,8 +10,7 @@ var minNum = 0;  // 小數
 var rand = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
 ```
 
-Fluent Interface Pattern 2
---------------------------
+## Fluent Interface Pattern 2
 
 跟 JavaScript 一樣是 First-class function 的語言都能這樣玩。
 

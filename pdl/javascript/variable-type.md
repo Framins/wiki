@@ -1,5 +1,4 @@
-Variable Type
-=============
+# Variable Type
 
 跟大多數語言一樣，它有基本資料型態、複合資料型態和特殊值。
 
@@ -10,8 +9,7 @@ JavaScript 是弱型別語言，所以需要檢查型態的語法。測試過下
     > typeof 10
     'number'
 
-基本資料型態
-------------
+## 基本資料型態
 
 基本資料型態有 `Number` `String` `Boolean` 三種。
 
@@ -124,8 +122,7 @@ Boolean 就如一般寫程式所知道的，只有兩個值： `true` 和 `false
 
 JavaScript 認為 `null` 應該是用在物件參考上，所以把 `null` 當成是一個物件。但是它本身的意義就不該屬於任何物件的實體，所以在 `instanceof` 才會是 `false` 。
 
-特殊資料型態
-------------
+## 特殊資料型態
 
 最後的 `undefined` ，會出現在**預期會有明確的值，實際上並沒有明確定義詳細內容**的情況下。
 
@@ -143,7 +140,6 @@ function f() {};
 
 `f` 被宣告成是 function ，預期 function 都會有回傳值，實際上它沒有被定義回傳，所以它的回傳會是 `undefined` 。
 
-Reference
----------
+## References
 
 * [JavaaScript 語言核心（2）與眾不同的資料型態](http://www.codedata.com.tw/javascript/essential-javascript-data-type/)

@@ -1,10 +1,8 @@
-Function
-========
+# Function
 
 Function 應該是 JavaScript 最重要，也最需要被討論的部分了。
 
-Function 基本使用
------------------
+## Function 基本使用
 
 function 就如同其他語言所知道的一樣，可以把重覆的行為定義成一個 function ，然後透過呼叫 function 即可執行裡面定義的行為，也能藉此達到 code reuse 。
 
@@ -22,8 +20,7 @@ f(1, 2, 3, 4); // 1 2
 
 這種寫法也稱為「函式宣告式」(function declaration)
 
-當 Function 是變數時
---------------------
+## 當 Function 是變數時
 
 從其他語言轉來寫 JavaScript ，覺得這個概念超級抽象的，最後還是靠 caterpillar 的這句話點醒：
 
@@ -164,11 +161,10 @@ class foo {}
 * **函式是物件的一種，所以是不是可以擁有自己的特性？** 答案是 Yes，不過這是屬於 Object 的層面的討論。
 * **function 這樣傳來傳去的，那變數要共用的話，該如何解決？** Closure 和 Scope 會來研究這些問題。
 
-Reference
----------
+## References
 
 * [JavaScript 語言核心（9）不可輕忽的函式基礎](http://www.codedata.com.tw/javascript/essential-javascript-9-function-abc/)
 * [JavaScript 語言核心（10）初探一級函式](http://www.codedata.com.tw/javascript/essential-javascript-10-first-class-function/)
 * [JavaScript Essence: Function 實例](http://openhome.cc/Gossip/JavaScript/FunctionInstance.html)
-* [Hoisting - Glossary | MDN](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
-* [Classes - Javascript | MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes#Hoisting)
+* [Hoisting - Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting) | MDN
+* [Classes - Javascript](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes#Hoisting) | MDN
