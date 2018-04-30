@@ -41,6 +41,7 @@ Dynamically Typed Language
 
 動態語言，特色是邊編譯邊執行程式碼。
 
+* [ECMAScript6](es6/README.md)
 * [JavaScript](javascript/README.md)
   + [CoffeeScript](coffeescript/README.md)
 * [Lua](lua/README.md)
