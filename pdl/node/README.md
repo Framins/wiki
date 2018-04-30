@@ -1,14 +1,13 @@
-Node.js
-=======
+# Node.js
 
 用 JavaScript 寫後端應用
 
 以下以 Linux/Mac 系列的系統做測試
 
 * [started](started.md)
+* [Babel](babel.md) | 轉碼器，想寫 ES6 就需要它
 
-Setup
------
+## Setup
 
 * Compile souce ([official download](http://nodejs.org/download/))
 
@@ -37,8 +36,7 @@ Mac nvm 安裝方法，建議使用 brew 比較簡單
 
 接著重啟終端機，就可以開始用 nvm 指令了
 
-Node.js Package Manager
------------------------
+## Node.js Package Manager
 
 ### Using npm in Docker
 
@@ -72,7 +70,6 @@ Node.js Package Manager
     cd /path/to/project
     npm uninstall
 
-Packages
---------
+## Packages
 
 * [Vorpal](http://vorpal.js.org/) - CLI Framework

@@ -101,8 +101,7 @@ docker build -t=mynode .
 docker run --rm -it -v `pwd`:/usr/src/app -w /usr/src/app mynode express
 ```
 
-References
-----------
+## References
 
 * [Docker 指令參考](https://docs.docker.com/engine/reference/run/)
 * [node.js 基本教學](http://dreamerslab.com/blog/tw/node-js-basics/)
