@@ -40,7 +40,6 @@ Basic
 Reference
 ---------
 
-* [Scripting 系統概論與 Lua 簡介](http://blog.monkeypotion.net/gameprog/beginner/introduction-of-scripting-system-and-lua)
 * [官方 Manual](http://www.lua.org/manual/5.1/)
 * [Lua教學](http://www2.kimicat.com/lua%E6%95%99%E5%AD%B8)
 * [LuaUnit](http://luaunit.readthedocs.io/en/latest/)
