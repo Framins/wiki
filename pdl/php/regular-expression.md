@@ -1,5 +1,4 @@
-Regular Expression
-==================
+# Regular Expression
 
 PHP支援兩種正規表示式， POSIX 和 Perl 。 POSIX 內建， Perl 語法須將 PCRE 程式庫編譯進來。正規表示式比字串慢，儘量用字串。
 
@@ -60,8 +59,7 @@ PHP支援兩種正規表示式， POSIX 和 Perl 。 POSIX 內建， Perl 語法
 * ^：否定。
 * -：表示字元範圍。
 
-Function
---------
+## Function
 
 * ereg(正規表示式,被蒐尋字串,陣列名);：在被蒐尋字串中找符合於正規表示式的子字串，找到就放進陣列，成為一個元素。傳回真假(1,0)。陣列名可省略。
 * eregi(正規表示式,被蒐尋字串,陣列名);：同ereg，但不分大小寫。
@@ -69,7 +67,6 @@ Function
 * eregi_replace(正規表示式,取代字串,被蒐尋字串);：同ereg_replace，但不分大小寫。
 * split(正規表示式表述之分隔字串,被切割字串,傳回元素上限);：用分隔字串，將被切割字串，切成一段段，成為陣列中一個個元素。傳回陣列。
 
-Reference
----------
+## References
 
 * [就是愛程式](https://atedev.wordpress.com/2007/11/23/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%A4%BA%E5%BC%8F-regular-expression/)
