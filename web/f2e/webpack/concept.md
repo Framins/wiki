@@ -1,17 +1,13 @@
-# Webpack
-
-這是一個可以把複雜依賴關係的一堆程式碼，打包成幾個 Web 所需要的檔案。在前端應用越來越複雜的情境下，這個工具將會是前端工程師的好幫手。
+# 核心概念
 
 > 從 v4.0.0 開始，就不一定要提供設定文件，但取而代之的是，需要了解下面原理。
-
-## 核心概念
 
 * Entry
 * Output
 * Loader
 * Plugins
 
-### Entry
+## Entry
 
 這是要告訴 Webpack 說，這一堆程式碼的 `main` 是哪一隻檔案， Webpack 才有辦法從這個檔案找出背後所依賴的其他檔案。
 
@@ -27,7 +23,7 @@ module.exports = {
 };
 ```
 
-### Output
+## Output
 
 這項設定則是決定打包出來的檔案要放到哪個目錄，以及如何命名。預設是 `./dist`
 
@@ -44,7 +40,7 @@ module.exports = {
 };
 ```
 
-## Loader
+# Loader
 
 Webpack 只管 Javascript 的檔案，所以其他檔案的處理，則是要靠這項設定來處理。
 
@@ -58,13 +54,13 @@ Webpack 能解析此語法，並處理 Javascript 與 Scss 的依賴關係。
 
 要了解更清楚的用法，可以參考[官網](https://webpack.js.org/concepts/loaders/)
 
-## Plugin
+# Plugin
 
 Plugin 可以用來處理更多「雜務」，如壓縮、最小化、優化等。
 
 要了解更清楚的用法，可以參考[官網](https://webpack.js.org/concepts/plugins/)
 
-## Mode
+# Mode
 
 Webpack 可以透過設定 Mode 參數，來決定優化的方法，不過事實上只有兩個選項：
 
