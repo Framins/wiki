@@ -36,3 +36,7 @@ echo ${SVG_FILE}
 ```
 
 ## Replace
+
+## References
+
+* http://benjr.tw/96951
