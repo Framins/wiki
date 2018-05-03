@@ -1,5 +1,4 @@
-Program Design Language
-=======================
+# Program Design Language
 
 [Program Design Language][] ，程式設計語言，簡稱 PDL，簡單來說就是程式設計的語言，如 C/C++、 Java 、 PHP 等。
 
@@ -25,8 +24,9 @@ Program Design Language
 * [Zeal](https://zealdocs.org/) (Offline Windows / Linux)
 * [Dash](https://kapeli.com/dash) (Offline MacOS / iOS)
 
-Statically Typed Language
--------------------------
+[Program Design Language]: https://en.wikipedia.org/wiki/Program_Design_Language
+
+## Statically Typed Language
 
 靜態語言，特色是需要先編譯才能執行程式碼。
 
@@ -36,8 +36,7 @@ Statically Typed Language
   * 參考資料1 ： http://cwchen.tw/tutorial/rust-prog/about/
 * [Crystal](https://crystal-lang.org/)
 
-Dynamically Typed Language
---------------------------
+## Dynamically Typed Language
 
 動態語言，特色是邊編譯邊執行程式碼。
 
@@ -50,8 +49,7 @@ Dynamically Typed Language
 * [PHP](php/README.md)
 * [Ruby](ruby/README.md)
 
-Markup Language
----------------
+## Markup Language
 
 [Markup Language][]，標記式語言。將文字和文字相關的其他訊息結合，以表現出文件結構和資料處理細節。而文字外的訊息是使用標記來標識，所以稱之為標記式語言。
 
@@ -62,34 +60,36 @@ Markup Language
 * [CSS](css/README.md)
   + [SASS](sass.md)
 
-Lightweight Markup Language
----------------------------
+有一些也蠻像標記語言，但不完全像，如：
+
+* [Graphviz](graphviz/README.md)
+  
+[Markup Language]: https://en.wikipedia.org/wiki/Markup_language
+
+## Lightweight Markup Language
 
 [Lightweight Markup Language][]，輕量標記語言。比起標記語言，輕量標記語言比較簡單，也貼近自然語言，閱讀較容易。
 
 * [Markdown](http://markdown.tw/)
 * [JSON](json.md)
 
-Structured Query Language
--------------------------
+[Lightweight Markup Language]: https://en.wikipedia.org/wiki/Lightweight_Markup_Language
+
+## Structured Query Language
 
 [Structured Query Language][]，結構化查詢語言，簡稱 SQL ，是用於資料庫的標準查詢語言。
 
-Scripting Language
-------------------
+[Structured Query Language]: https://en.wikipedia.org/wiki/SQL
+
+## Scripting Language
 
 [Scripting Language][]，指令碼語言，通常使用在電腦自動化上。
 
 * [Batch File](batch-file.md)
 * [Shell Script](shell-script.md)
 
-Functional Programming
-----------------------
+[Scripting Language]: https://en.wikipedia.org/wiki/Scripting_language
+
+## Functional Programming
 
 * [Clojure](clojure.md)
-
-[Program Design Language]: https://en.wikipedia.org/wiki/Program_Design_Language
-[Markup Language]: https://en.wikipedia.org/wiki/Markup_language
-[Lightweight Markup Language]: https://en.wikipedia.org/wiki/Lightweight_Markup_Language
-[Structured Query Language]: https://en.wikipedia.org/wiki/SQL
-[Scripting Language]: https://en.wikipedia.org/wiki/Scripting_language
