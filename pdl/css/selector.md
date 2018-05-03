@@ -6,6 +6,7 @@
 * [CSS Diner](http://flukeout.github.io/) | 玩遊戲學 CSS
 * [The 30 css selectors you must memorize](http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 * [jQuery Tutorial & Examples](http://hmkcode.com/jquery-tutorial/) | jQuery Selector。
+* http://cssspecificity.com
 
 ## List of Selector
 
