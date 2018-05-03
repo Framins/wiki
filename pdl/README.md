@@ -86,7 +86,7 @@
 [Scripting Language][]，指令碼語言，通常使用在電腦自動化上。
 
 * [Batch File](batch-file.md)
-* [Shell Script](shell-script.md)
+* [Bash](bash/README.md)
 
 [Scripting Language]: https://en.wikipedia.org/wiki/Scripting_language
 

@@ -1,12 +1,6 @@
-Shell Script
-============
+# Shell Script
 
-Shell Script 簡單來說，就是 Shell 指令的巨集，而且還有包含了程式語法功能。
-
-Why Shell Script
-----------------
-
-Shell Script 能做到許多神奇的事情
+Shell Script 簡單來說，就是 Shell 指令的巨集，而且還有包含了程式語法功能。它能能做到許多神奇的事情，如：
 
 * 自動化管理的重要依據
 * 追蹤與管理系統的重要工作
@@ -15,8 +9,11 @@ Shell Script 能做到許多神奇的事情
 * 簡易的資料處理
 * 跨平台支援與學習歷程較短
 
-Hello World
------------
+---
+
+* [變數操作](variable.md)
+
+## Hello World
 
 首先使用編輯器建立一個檔案取名叫 `helloworld.sh`
 
@@ -35,8 +32,7 @@ $ chmoe +x ./helloworld.sh
 $ sh ./helloworld.sh
 ```
 
-read
-----
+## read
 
 讀取使用者輸入的字串，這樣就可以做出簡易選單了
 
@@ -52,8 +48,7 @@ case $key in
 esac
 ```
 
-Check file
-----------
+## Check file
 
 基本檢查檔案是否存在的方法
 
@@ -74,8 +69,7 @@ Check file
 * `-d` 判斷檔案存在並且是個目錄
 * `-f` 判斷檔案存在並且就是檔案
 
-Variables
----------
+## Variables
 
 特殊變數
 
@@ -102,8 +96,7 @@ $ type foo >/dev/null 2>&1 || { echo >&2 "I require foo but it's not installed. 
 $ hash foo 2>/dev/null || { echo >&2 "I require foo but it's not installed.  Aborting."; exit 1; }
 ```
 
-References
-----------
+## References
 
 * [Shell Script簡易教學](http://blog.twtnn.com/2013/12/shell-script.html)
 * [鳥哥的Linux私房菜](http://linux.vbird.org/linux_basic/0340bashshell-scripts.php#script_why)
