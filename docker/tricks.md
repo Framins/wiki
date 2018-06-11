@@ -1,16 +1,15 @@
-Tricks
-======
-
-Stop all running container :
-
-```bash
-docker stop $(docker ps -a -q) 
-```
+# Tricks
 
 Official docker installation script :
 
 ```bash
 curl -fsSL https://get.docker.com/ | sh
+```
+
+Stop all running container :
+
+```bash
+docker stop $(docker ps -a -q) 
 ```
 
 Remove all containers :
