@@ -2,21 +2,23 @@
 
 ## Install on MacOS
 
-Install Python & Powerline
+#### Install Python & Powerline
 
 ```
 $ brew install python
 $ easy_install pip
-$ pip install powerline-status
+$ pip install --user powerline-status
 ```
 
-> Python 安裝後會有不能執行 pip 的 bug ，只要重新 link 即可
->
-> ```
-> brew unlink python && brew link python
-> ```
+#### Find powerline install Location: 
+   
+```
+   pip show powerline-status.
+   
+```
+there is a line like Location: {path}
 
-Install Fonts
+#### Install Fonts
 
 ```
 $ git clone https://github.com/powerline/fonts.git
@@ -29,13 +31,13 @@ $ ./install.sh
 Add follow command in `~/.bash_profile` file
 
 ```
-. /usr/local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
+. {path}/powerline/bindings/bash/powerline.sh
 ```
 
 Edit `~/.vimrc` , add following code:
 
 ```vim
-set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
+set rtp+={path}/powerline/bindings/vim
 
 " These lines setup the environment to show graphics and colors correctly.
 set nocompatible
@@ -62,7 +64,7 @@ set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusl
 syntax on
 ```
 
-Create config directory
+#### Create config directory
 
 ```
 $ mkdir -p ~/.config/powerline/themes/shell
