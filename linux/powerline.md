@@ -13,8 +13,7 @@ $ pip install --user powerline-status
 #### Find powerline install Location: 
    
 ```
-   pip show powerline-status.
-   
+   pip show powerline-status
 ```
 there is a line like Location: {path}
 
