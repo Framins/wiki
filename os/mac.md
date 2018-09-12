@@ -9,6 +9,11 @@ http://homebrew-file.readthedocs.io/en/latest/index.html
 
 MacOS 冷知識
 
+輸入 Emoji、超特殊符號
+-------
+
+    Control + Command + 空白鍵
+
 開關動畫效果
 -------
 
