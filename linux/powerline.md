@@ -13,7 +13,7 @@ $ pip install --user powerline-status
 #### Find powerline install Location: 
    
 ```
-   pip show powerline-status
+$ pip show powerline-status
 ```
 there is a line like Location: {path}
 
@@ -27,11 +27,22 @@ $ ./install.sh
 
 > I use `Inconsolata-g for Powerline`
 
+#### Config bash
 Add follow command in `~/.bash_profile` file
 
 ```
 . {path}/powerline/bindings/bash/powerline.sh
 ```
+> Trouble shooting
+ ```  
+ if appear 
+ ../../../scripts/powerline-config: No such file or directory
+ need to find where is `powerline-config`
+ then add the inlclude path to $PATH
+ e.g. PATH=$PATH:/Users/kaihan.chang/Library/Python/3.7/bin
+ ```
+
+#### Config Vim
 
 Edit `~/.vimrc` , add following code:
 
