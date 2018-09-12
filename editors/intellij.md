@@ -55,4 +55,4 @@ To find any action inside the IDE use Find Action
 References
 ----------
 
-* [Keyboard Shortcuts You Cannot Miss](https:www.jetbrains.com/help/idea/2016.3/keyboard-shortcuts-you-cannot-miss.html)
+* [Keyboard Shortcuts You Cannot Miss](https://www.jetbrains.com/help/idea/2016.3/keyboard-shortcuts-you-cannot-miss.html)
