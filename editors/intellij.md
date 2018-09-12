@@ -9,6 +9,11 @@ To find any action inside the IDE use Find Action
 `⌘+Shift+A`
 
 
+#### Line
+
+    fn＋↑         the top of the document
+    fn＋↓         the end of the document
+    
 #### Jump
 
     ⌘＋↑           jump to navigation bar
