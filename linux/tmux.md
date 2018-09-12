@@ -100,10 +100,6 @@ vim ~/.tmux.conf
     set-option -g mouse on
     bind-key -T root WheelUpPane select-pane -t =\; copy-mode -e\; send-keys -M
 
-    # https://github.com/tmux/tmux/issues/543
-    set -g default-shell $SHELL 
-    set -g default-command "reattach-to-user-namespace -l ${SHELL}"
-
     # Enable copying using Cmd+C in copy mode
     bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe "reattach-to-user-namespace pbcopy"
 
