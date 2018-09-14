@@ -8,10 +8,15 @@ git diff 是個功能強大的指令。它可以做到：
 
 比較兩個檔案之間的差異性，通常「兩個檔案的比較」指的是同一個檔案比較不同版本或不同歷史記錄。
 
-```
-git diff 是比較 working tree 跟 staging area
-git diff --cached 是比較 staging area 跟本來的 repo.
-git diff HEAD 是比較 working tree 跟本來的 repo.
+```bash
+# 是比較 working tree 跟 staging area        
+git diff  
+
+# 是比較 staging area 跟本來的 repo.
+git diff --cached
+
+# 是比較 working tree 跟本來的 repo.
+git diff HEAD 
 ```       
 
 
