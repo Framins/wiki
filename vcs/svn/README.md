@@ -1,6 +1,16 @@
 Svn
 ===
 
+Diff with color
+---------
+
+    brew install colordiff
+    
+Configure Subversion `vim ~/.subversion/config`
+
+    diff-cmd = colordiff
+
+
 Reference
 ---------
 
