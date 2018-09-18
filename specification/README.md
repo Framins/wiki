@@ -2,19 +2,16 @@
 
 ## RFC (Request for Comments)
 
+* [RFC 2616](https://tools.ietf.org/html/rfc2616) - Hypertext Transfer Protocol -- [HTTP/1.1](/network/http.md)
 * [RFC 6455](https://tools.ietf.org/html/rfc6455) - The WebSocket Protocol
-* [RFC 7515](https://tools.ietf.org/html/rfc7515) - JSON Web Signature 
-* [RFC 7516](https://tools.ietf.org/html/rfc7516) - JSON Web Encryption 
-* [RFC 7517](https://tools.ietf.org/html/rfc7517) - JSON Web Key 
-* [RFC 7518](https://tools.ietf.org/html/rfc7518) - JSON Web Algorithms 
-* [RFC 7519](https://tools.ietf.org/html/rfc7519) - JSON Web Token 
+* [RFC 7515](https://tools.ietf.org/html/rfc7515) - JSON Web Signature
+* [RFC 7516](https://tools.ietf.org/html/rfc7516) - JSON Web Encryption
+* [RFC 7517](https://tools.ietf.org/html/rfc7517) - JSON Web Key
+* [RFC 7518](https://tools.ietf.org/html/rfc7518) - JSON Web Algorithms
+* [RFC 7519](https://tools.ietf.org/html/rfc7519) - JSON Web Token
 * [RFC 7521](https://tools.ietf.org/html/rfc7521) - Assertion Framework for OAuth 2.0 Client Authentication and Authorization Grants
 * [RFC 7522](https://tools.ietf.org/html/rfc7522) - Security Assertion Markup Language (SAML) 2.0 Profile for OAuth 2.0 Client Authentication and Authorization Grants
-* [RFC 7522](https://tools.ietf.org/html/rfc7523) - JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants
-
-## Protocol
-
-* [HTTP](/network/http.md)
+* [RFC 7522](https://tools.ietf.org/html/rfc7523) - JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants``
 
 ## Model
 
