@@ -71,7 +71,7 @@ show
 
 depends
 
-    php composer.phar depends --link-type=require monolog/monolog
+    php composer.phar depends --tree monolog/monolog
 
 validate
 
