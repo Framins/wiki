@@ -11,7 +11,8 @@
 * [RFC 7519](https://tools.ietf.org/html/rfc7519) - JSON Web Token
 * [RFC 7521](https://tools.ietf.org/html/rfc7521) - Assertion Framework for OAuth 2.0 Client Authentication and Authorization Grants
 * [RFC 7522](https://tools.ietf.org/html/rfc7522) - Security Assertion Markup Language (SAML) 2.0 Profile for OAuth 2.0 Client Authentication and Authorization Grants
-* [RFC 7522](https://tools.ietf.org/html/rfc7523) - JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants``
+* [RFC 7522](https://tools.ietf.org/html/rfc7523) - JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants
+* [RFC 7662](https://tools.ietf.org/html/rfc7662) - Token Introspection
 
 ## Model
 
