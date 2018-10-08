@@ -23,7 +23,8 @@ targets : prerequisites
 <tab>command
 ```
 
-* 在 Makefile 中的命令，必須要以 Tab 鍵開始,可以使用 `\` 表示續行。注意， `\` 之後不能有空格！
+- 命令必須要以 Tab 鍵開始，可以使用 `\` 表示續行。注意， `\` 之後不能有空格！
+- 在 makefile 中，行尾如果有一個空白，會造成 make 命令執行錯誤
 
 ## SUFFIXS & PHONY
 
