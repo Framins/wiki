@@ -56,6 +56,9 @@ ifdef <var>   # 測試 var 是否有設定值
 ifndef <var>  # 測試 var 是否沒有設定值
 ```
 
+注意：
+- 在 [conditional-directive] 這一行上，多餘的空格是被允許的，但是不能以`Tab`鍵做為開始（不然就被認為是命令）。[else] 和 [endif] 也一樣，只要不是以`Tab`鍵開始就行了。
+
 ## References
 
 * [猴子都會寫的Makefile](http://mropengate.blogspot.tw/2015/06/makefile-makefile.html)
