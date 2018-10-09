@@ -3,6 +3,7 @@
 ## RFC (Request for Comments)
 
 * [RFC 2616](https://tools.ietf.org/html/rfc2616) - Hypertext Transfer Protocol -- [HTTP/1.1](/network/http.md)
+* [RFC 3986](https://tools.ietf.org/html/rfc3986) - Uniform Resource Identifier (URI): Generic Syntax
 * [RFC 6455](https://tools.ietf.org/html/rfc6455) - The WebSocket Protocol
 * [RFC 6749](https://tools.ietf.org/html/rfc6749) - The OAuth 2.0 Authorization Framework
 * [RFC 7009](https://tools.ietf.org/html/rfc7009) - OAuth 2.0 Token Revocation
