@@ -8,7 +8,7 @@ Version Control System
 以下是目前有實作的 VCS
 
 * [CVS](http://savannah.nongnu.org/projects/cvs)
-* [Subversion](https://subversion.apache.org/)
+* [Subversion](subversion/README.md)
 * [Git](git/README.md)
 * [Mercurial](https://www.mercurial-scm.org/)
 
