@@ -3,7 +3,7 @@ Version Control System
 
 程式開發的過程中，總是會遇到一種問題：「我上次到底做了什麼？」。通常會有這個問題都是原本程式 compile 很正常，一修改完就出現錯誤。情況輕微是程式執行發生 Fatal Error ，還能看得出在哪一行錯誤。情況嚴重就是 compile 過，可是執行結果是錯誤的。
 
-這時就建議可以來學習 [Version Controll][] 了。
+這時就建議可以來學習 [Version Control][] 了。
 
 以下是目前有實作的 VCS
 
@@ -100,4 +100,4 @@ History of Collaborative Work
 
 * [版本控制系統的基礎觀念](https://dotblogs.com.tw/huanlin/archive/2008/04/23/3198.aspx)
 
-[Version Controll]: https://en.wikipedia.org/wiki/Version_control
+[Version Control]: https://en.wikipedia.org/wiki/Version_control
