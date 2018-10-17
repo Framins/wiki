@@ -14,7 +14,7 @@ Status
 ```bash
 svn status         # working copy 狀態
 svn status -u      # 查看 server repo 檔案更新狀態
-```g
+```
 
 Add 
 ------
