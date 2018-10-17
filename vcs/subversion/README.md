@@ -18,7 +18,8 @@ Configure Subversion `vim ~/.subversion/config`
 Reference
 ---------
 
-* [Svn 指令詳細解說](http://svnbook.red-bean.com/en/1.7/svn.ref.html)
+* [Svn 指令詳細解說 - Red book](http://svnbook.red-bean.com/en/1.7/svn.ref.html)
+* [Svn quick guide - Tutorials Point](https://github.com/Framins/wiki/edit/gh-pages/vcs/subversion/README.md)
 * [Git和Subversion的命令比較表](https://backlog.com/git-tutorial/tw/reference/git-svn.html)
 * [Subversion 版本控制系統的基礎觀念
 ](https://huan-lin.blogspot.com/2009/04/introduction-to-version-control-system.html)
