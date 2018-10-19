@@ -17,6 +17,10 @@ git diff --cached
 
 # 是比較 working tree 跟本來的 repo.
 git diff HEAD 
+
+# 忽略結尾換行或空白
+git diff --ignore-cr-at-eol
+git diff --ignore-space-at-eol
 ```       
 
 
