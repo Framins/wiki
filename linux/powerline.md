@@ -125,6 +125,15 @@ Config Example:
       {
         "function": "powerline.segments.common.vcs.branch",
         "priority": 40
+      },
+      {
+         "function": "powerline_svnstatus.svnstatus",
+         "args": {
+         "branch_format": "r%s",
+         "branch_re": "(\\d+)",
+         "line_start": "Revision: "
+         },
+         "priority": 60
       }
     ]
   }
@@ -137,3 +146,4 @@ Config Example:
 * [为Bash和VIM配置一个美观奢华的状态提示栏](http://cenalulu.github.io/linux/mac-powerline/)
 * [Powerline：漂亮的 Vim 狀態列與 Bash Shell 命令提示字串外掛](https://blog.gtwang.org/linux/powerline-adds-powerful-statuslines-and-prompts-to-vim-and-bash/)
 * [安裝 Powerline](http://bearsu.logdown.com/posts/305312-install-the-powerline)
+* [Powerline with SVN status](https://github.com/justinludwig/powerline-svnstatus)
