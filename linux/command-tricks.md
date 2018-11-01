@@ -14,3 +14,7 @@
     du -sh /path/to/directory
 
 > `-s` 是只 show 整個目錄的容量， `-h` 是顯示人類習慣看的單位。
+
+## 只顯示目錄
+
+    ls -d */
