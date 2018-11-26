@@ -12,8 +12,7 @@ Container OS 是專門執行 Container 的 OS
 ## Orchertraion
 
 * [Rancher](rancher/README.md)
-* Kubernetes
-  * [Minikube](minikube.md)
+* [Kubernetes](k8s/README.md)
 * Mesos
 * [Swarm](/docker/swarm.md)
 * [Blox](https://blox.github.io/)

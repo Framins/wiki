@@ -38,7 +38,3 @@ kubectl 在使用之前需先設定 context
 最後， minikube 也有包含了 [Kubenetes dashboard](http://kubernetes.io/docs/user-guide/ui/) ，下這個指令可以開啟
 
     minikube dashboard
-
-## References
-
-* [五分鐘 Kubernetes 有感](https://medium.com/@evenchange4/%E4%BA%94%E5%88%86%E9%90%98-kubernetes-%E6%9C%89%E6%84%9F-e51f093cb10b)
