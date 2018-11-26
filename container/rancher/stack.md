@@ -1,5 +1,4 @@
-Rancher Stack
-=============
+# Rancher Stack
 
 在 Rancher 裡， *Stack* 是一整套應用程式，由一組 *Service* 組合而成
 
@@ -59,7 +58,7 @@ Stack 對外的 port 要設定在 sentry service 上，它的設定是 `EXPOSE 9
 
 最後就可以到選單中啟動 Stack 了！
 
-# Notice
+## Notice
 
 * Code 要上線到 Rancher 的 Stack 上，建議使用 build image &amp; pull image 的方式上線
 * 因 Docker Container 基本性質是隔離的，所以在 Stack 裡的 container 建議不要直接對外

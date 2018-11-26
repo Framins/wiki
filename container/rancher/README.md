@@ -1,5 +1,4 @@
-Rancher
-=======
+# Rancher
 
 *RancherOS* 是 2015 年 3 月，由 [Rancher Labs](http://rancher.com/) 開發的 Container OS 。
 
@@ -7,8 +6,7 @@ Rancher
 
 Rancher 則是管理一群 RancherOS / container Orchestration Tools
 
-Why Rancher
------------
+## Why Rancher
 
 研究 RancherOS 是有很漫長的前因後果，其實這也是工程師偷懶的過程...
 
@@ -38,8 +36,7 @@ Vagrant 每次要重安裝時， run script 都需要安裝很長的時間，雖
 
 Docker 實務使用上，是適合把各應用拆開來執行的，但管理上就不一定那麼方便了，試想每個應用都執行一台 VM ，而每台 VM 又都要去管理，豈不瘋掉。這時發現了 [Rancher](http://rancher.com/rancher/) ，它正是解決此問題的最佳工具！
 
-Features
---------
+## Features
 
 Rancher 是管理 RancherOS 的工具，而 RancherOS 的特色如下：
 
@@ -51,8 +48,7 @@ Rancher 是管理 RancherOS 的工具，而 RancherOS 的特色如下：
 
 理想上， Rancher 可以做到簡易的叢集管理，不但簡化 MIS 的工作，還可增加 RD 對機器使用上的信心。
 
-Quick Start
------------
+## Quick Start
 
 先用 Docker 安裝 server
 
@@ -75,8 +71,7 @@ docker run -d --privileged -v /var/run/docker.sock:/var/run/docker.sock rancher/
 docker run -e CATTLE_AGENT_IP=192.168.1.1 -d --privileged -v /var/run/docker.sock:/var/run/docker.sock rancher/agent:v0.7.10 http://172.17.0.3:8080/v1/scripts/<token>
 ```
 
-Usage
------
+## Usage
 
 * [Installation](installation.md)
 * [RancherOS](rancher-os.md)
@@ -84,8 +79,7 @@ Usage
 * [Stack](stack.md)
 * [Service](service.md)
 
-Notice
-------
+## Notice
 
 雖然 Rancher 用起來很像用 Docker / Docker Compose ，但還是有些細節不大一樣。
 

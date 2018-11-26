@@ -1,5 +1,4 @@
-Rancher Host
-============
+# Rancher Host
 
 *Host* 是一個網路可連接，且可以放 Docker Container 的空間
 
@@ -9,7 +8,7 @@ Rancher Host
 
 最重要的是，這空間要能夠執行 Docker
 
-# Add Host
+## Add Host
 
 剛安裝好，打開主頁會提醒你要新增 Host 和 Service ，加 Host 會提醒你
 
@@ -25,11 +24,11 @@ Warning: Host 要能連線到這個 URL ，接下來才能正常地被偵測到
 
 這裡有很清楚的 step by step
 
-> 1. 準備一台裝好 Docker 的 Linux 主機
-> 2. 確定防火牆有打開 500 /4500 UDP ，這是 IPsec networking
-> 3. 為主機加 Label ，這可以用來做自動規劃用，不過事後也可以加，可以先跳過
-> 4. 這裡有一串指令，只要把這串指令 copy 到步驟一的主機上執行即可
-> 5. 差不多要等2分鐘 (下載 agent + 啟動 agent + 連線)
+1. 準備一台裝好 Docker 的 Linux 主機
+2. 確定防火牆有打開 500 /4500 UDP ，這是 IPsec networking
+3. 為主機加 Label ，這可以用來做自動規劃用，不過事後也可以加，可以先跳過
+4. 這裡有一串指令，只要把這串指令 copy 到步驟一的主機上執行即可
+5. 差不多要等2分鐘 (下載 agent + 啟動 agent + 連線)
 
 網路連線如果都正常的話，到 `Infrastructure` 就可以看到你的 host 了
 

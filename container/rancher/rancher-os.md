@@ -1,5 +1,4 @@
-Rancher OS
-==========
+# Rancher OS
 
 安裝方法有兩種
 
