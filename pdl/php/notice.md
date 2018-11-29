@@ -14,3 +14,7 @@ $haystack = array('ABC', 'DEF');
 $inArray1 = in_array($needle1, $haystack);   // true
 $inArray2 = in_array($needle2, $haystack);   // false
 ```
+
+## strtr() 與 str_replace() 的差異
+
+參考 https://stackoverflow.com/questions/8177296/when-to-use-strtr-vs-str-replace
