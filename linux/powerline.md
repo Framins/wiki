@@ -44,6 +44,10 @@ Add follow command in `~/.bash_profile` file
 
 #### Config Vim
 
+```
+brew install vim
+```
+
 Edit `~/.vimrc` , add following code:
 
 ```vim
