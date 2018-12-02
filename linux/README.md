@@ -42,6 +42,7 @@ lsb_release -a
 * [shuf](shuf.md)
 * [Powerline](powerline.md)
 * [Wine](wine.md)
+* [fish](fish.md)
 
 命令提示字元
 
