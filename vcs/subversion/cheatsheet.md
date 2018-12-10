@@ -46,6 +46,7 @@ Revert
 
 ```bash
 svn revert <file>
+svn revert -R .                                   # recurse
 svn revert --depth infinity <directory name>
 ```
 
@@ -54,6 +55,10 @@ Changelist
 
 ```bash
 svn changelist cl_name <file><file><file>               # 加入
+svn changelist cl_name --recursive <folder_name>        # 加入
+
+svn st --changelist cl_name                             # 查詢
+svn commit --changelist cl_name -m “xxx”                # commit
 
 svn changelist --remove --recursive --cl cl_name .      # 刪除單一個 changelist
 svn changelist --remove --recursive .                   # 刪除所有 changelist      
