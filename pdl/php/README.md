@@ -87,15 +87,11 @@
 
 ## Editor
 
-Editor
-
 * [Sublime Text](http://www.sublimetext.com/)
 * [Notepad++](http://notepad-plus-plus.org/) | Free!! Only for windows.
 * [Atom](https://atom.io/) | Free!!
 
 ## IDE
-
-IDE
 
 * [Aptana](http://www.aptana.com/) | Free!! Base on Eclipse.
 * [NetBeans](https://netbeans.org/) | Free!! HTML 5 support.
