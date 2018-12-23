@@ -4,6 +4,7 @@
 
 * [指令小技巧](command-tricks.md)
 * Shell script 請參考 [/pdl/bash/README.md](/pdl/bash/README.md)
+* Make 請參考 [/pdl/make/README.md](/pdl/make/README.md)
 
 ## Distributions
 
@@ -37,7 +38,6 @@ lsb_release -a
 * [LVM](lvm.md)
 * [tmux](tmux.md)
 * [date](date.md)
-* [make](make.md)
 * [getopt](getopt.md)
 * [shuf](shuf.md)
 * [Powerline](powerline.md)

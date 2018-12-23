@@ -1,6 +1,6 @@
 # make
 
-make 是 Unix-like 環境下，一個功能強大的輔助編譯工具
+[make](https://www.gnu.org/software/make/) 是 Unix-like 環境下，一個功能強大的輔助編譯工具。
 
 ## Concept
 
@@ -29,7 +29,7 @@ targets : prerequisites
 ## SUFFIXS & PHONY
 
 * `.SUFFIXS` 是跟 make 說，有哪些副檔名要加入隱含規則中。
-* `.PHONY` 相反，它是跟 make 說，哪些東西是標記，而不是檔案。 Only have a list of commands and no dependencies. 
+* `.PHONY` 相反，它是跟 make 說，哪些東西是標記，而不是檔案。Only have a list of commands and no dependencies. 
 * `$@` 代表 target 本身
 * `$<` 代表第一個 dependency
 
@@ -47,7 +47,7 @@ else
 endif
 ```
 
-第一個 [conditional-directive] 表示判斷條件的關鍵字，有四個：
+第一個 `[conditional-directive]` 表示判斷條件的關鍵字，有四個：
 
 ```
 ifeq (a, b)   # 比較 a, b 是否相同
@@ -56,12 +56,10 @@ ifdef <var>   # 測試 var 是否有設定值
 ifndef <var>  # 測試 var 是否沒有設定值
 ```
 
-注意：
-- 在 [conditional-directive] 這一行上，多餘的空格是被允許的，但是不能以`Tab`鍵做為開始（不然就被認為是命令）。[else] 和 [endif] 也一樣，只要不是以`Tab`鍵開始就行了。
+> **注意**：在 `[conditional-directive]` 這一行上，多餘的空格是被允許的，但是不能以 `Tab` 鍵做為開始（不然就被認為是命令）。`[else]` 和 `[endif]` 也一樣，只要不是以 `Tab` 鍵開始就行了。
 
 ## References
 
-* [猴子都會寫的Makefile](http://mropengate.blogspot.tw/2015/06/makefile-makefile.html)
 * [A short intro of Makefile](https://www3.nd.edu/~zxu2/acms60212-40212/Makefile.pdf)
 * [跟我一起寫Makefile:MakeFile介紹](http://wiki.ubuntu.org.cn/index.php?title=%E8%B7%9F%E6%88%91%E4%B8%80%E8%B5%B7%E5%86%99Makefile:%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0&variant=zh-hant)
 * http://maxubuntu.blogspot.tw/2010/02/makefile.html
