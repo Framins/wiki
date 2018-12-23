@@ -69,23 +69,6 @@ esac
 * `-d` 判斷檔案存在並且是個目錄
 * `-f` 判斷檔案存在並且就是檔案
 
-## Variables
-
-特殊變數
-
-* `$?`
-* `$1`
-* `$0` shell 檔名
-* `$@`
-* `$*`
-
-## Debug
-
-    # sh [-nvx] scripts.sh
-    -n ：只檢查語法正不正確
-    -v ：再執行 sccript 前，先將 scripts 的內容輸出到螢幕上
-    -x ：將使用到的 script 內容顯示到螢幕上
-
 ## check program exists
 
 檢查程式是否存在 (或安裝)
@@ -102,3 +85,4 @@ $ hash foo 2>/dev/null || { echo >&2 "I require foo but it's not installed.  Abo
 * [鳥哥的Linux私房菜](http://linux.vbird.org/linux_basic/0340bashshell-scripts.php#script_why)
 * http://segmentfault.com/q/1010000000156870
 * http://stackoverflow.com/questions/592620/how-to-check-if-a-program-exists-from-a-bash-script
+

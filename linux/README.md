@@ -3,6 +3,7 @@
 此地方只記錄常用的，其他的 Google 查一下就一堆資料了。
 
 * [指令小技巧](command-tricks.md)
+* Shell script 請參考 [/pdl/bash/README.md](/pdl/bash/README.md)
 
 ## Distributions
 
@@ -36,7 +37,6 @@ lsb_release -a
 * [LVM](lvm.md)
 * [tmux](tmux.md)
 * [date](date.md)
-* [variable](variable.md)
 * [make](make.md)
 * [getopt](getopt.md)
 * [shuf](shuf.md)
