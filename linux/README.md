@@ -46,6 +46,7 @@ lsb_release -a
 
 命令提示字元
 
+* [終端機快捷鍵](terminal-shortkey.md)
 * https://blog.gtwang.org/linux/how-to-make-a-fancy-and-useful-bash-prompt-in-linux-1/
 
 ## FAQs
