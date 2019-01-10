@@ -76,6 +76,7 @@ Show ignore
 
 ```bash
 svn proplist -v
+svn propget svn:ignore -R
 svn propset svn:ignore "ignoreThis.txt" .   # Apply the svn:ignore property to the current directory.
 
 svn propdel svn:ignore . # For directory 
