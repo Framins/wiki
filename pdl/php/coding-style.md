@@ -65,7 +65,7 @@ http://framework.zend.com/manual/1.12/en/coding-standard.html
 
 * https://github.com/PizzaLiu/PHP-FIG/blob/master/PSR-4-autoloader-cn.md
 
-## Reference
+## References
 
 * [PHP Coding Standard Fixer](http://cs.sensiolabs.org/)
 

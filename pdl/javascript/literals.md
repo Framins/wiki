@@ -13,7 +13,7 @@ foo.bar = 'some-bar';
 foo.baz = function baz() {};
 ```
 
-Object 下的元素也可以直接先預定義，類似資料結構的 hash table ，範例如下：
+Object 下的元素也可以直接先預定義，類似資料結構的 hash table，範例如下：
 
 ```javascript
 var foo = {

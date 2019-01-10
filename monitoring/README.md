@@ -1,8 +1,6 @@
-Monitoring
-==========
+# Monitoring
 
-Example
--------
+## Example
 
 Prometheus + Grafana 的 `docker-compose.yml`
 
@@ -19,8 +17,7 @@ grafana:
     - prometheus:prometheus
 ```
 
-Tools
------
+## Tools
 
 * [Grafana][]
 * [Kibana][]

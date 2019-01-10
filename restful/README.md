@@ -15,8 +15,8 @@
 
 ## [HTTP/1.1][] Method Definitions
 
-- Safe : 請求不會產生資源更動 (not modify resources)
-- Idempotent : 不管執行幾次，結果都跟只有執行一次一樣。
+* Safe : 請求不會產生資源更動 (not modify resources)
+* Idempotent : 不管執行幾次，結果都跟只有執行一次一樣。
 
 | Method | Safe | Idempotent |
 | ------ | ---- | ---- |
@@ -26,7 +26,7 @@
 | PUT |	N | Y |
 | DELETE | N | Y |
 
-_Safe 特性會影響是否可以快取。而 Idempotent 特性則是會影響可否 Retry (重試，反正結果一樣)。_
+> Safe 特性會影響是否可以快取。而 Idempotent 特性則是會影響可否 Retry (重試，反正結果一樣)。
 
 ## Reference
 

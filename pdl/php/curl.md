@@ -1,5 +1,4 @@
-cURL
-====
+# cURL
 
 cURL 是額外模組，需另外安裝並重新啟動 Apache 。
 
@@ -17,8 +16,7 @@ if (!function_exists('curl_init')) {
 }
 ```
 
-Usage
------
+## Usage
 
 跟 MySQL 一樣，首先，需要建立 curl 連線；有連線也會有關閉，所以都先寫好
 
@@ -61,8 +59,7 @@ curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 $output = curl_exec($ch);
 ```
 
-Reference
----------
+## References
 
 * [用 curl 登入並取值的解](http://disp.cc/b/11-3agL)
 * [用 cookie 登入](http://expect7.pixnet.net/blog/post/44130402)

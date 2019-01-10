@@ -1,5 +1,4 @@
-Software Metric
-===============
+# Software Metric
 
 [Software Metric][] 是用科學客觀的方法來衡量程式碼，其產生的結果對於程式碼品質或是偵錯規劃都是有幫助的
 
@@ -11,8 +10,7 @@ Software Metric
 * Depth of Inheritance 繼承深度
 * Class Coupling 類別結合程度
 
-References
-----------
+## References
 
 * [Visual Studio 計算程式碼度量 - Code Metrics Viewer 2013](http://kevintsengtw.blogspot.tw/2015/02/visual-studio-code-metrics-viewer-2013.html)
 * [Visual Studio 2010 - 程式碼度量](https://dotblogs.com.tw/hatelove/archive/2011/12/12/visual-studio-2010-code-metrics-introduction.aspx)

@@ -1,19 +1,17 @@
-Network
-=======
+# Network
 
 基礎網路知識整理
 
 * [HTTP](http.md)
 
-IPv4
-----
+## IPv4
 
 ### Reserved IP Address
 
-保留的 IP Address ，參考
+保留的 IP Address，參考
 
-|     IP/CIDR     |       Purpose       |
-|  -------------  |  -----------------  |
+| IP/CIDR | Purpose |
+| --- | --- |
 | 0.0.0.0/8 | 本網域 |
 | 10.0.0.0/8 | A 類私人使用網域 |
 | 14.0.0.0/8 | 公眾數據網路 |
@@ -27,8 +25,7 @@ IPv4
 | 192.18.0.0/15 | 網路連結標準測試 |
 | 255.255.255.255 | 區域廣播位址 |
 
-References
-----------
+## References
 
 [鳥哥的 Linux 私房菜 - 基礎網路概念](http://linux.vbird.org/linux_server/0110network_basic.php)
 [Wiki](https://en.wikipedia.org/wiki/Reserved_IP_addresses)

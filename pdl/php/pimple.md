@@ -1,5 +1,4 @@
-Pimple
-======
+# Pimple
 
 [Pimple][] 是個實作 IoC 的 PHP 套件，它的特色就是非常簡單
 
@@ -7,8 +6,7 @@ Pimple
 
     composer require pimple/pimple
 
-Example
--------
+## Example
 
 初始化
 

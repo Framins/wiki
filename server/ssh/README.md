@@ -1,30 +1,28 @@
-SSH
-===
+# SSH
 
-  * [Generate Key](generate-key.md)
-  * [免密碼登入](http://www.gtwang.org/2014/05/linux-ssh-public-key-authentication.html)
+* [Generate Key](generate-key.md)
+* [免密碼登入](http://www.gtwang.org/2014/05/linux-ssh-public-key-authentication.html)
 
 Debian 系列安裝：
 
-    # apt-get install ssh
+    apt-get install ssh
 
 啟動/停止
 
-    # service ssh start     # 啟動
-    # service ssh stop      # 停止
+    service ssh start     # 啟動
+    service ssh stop      # 停止
 
 監聽埠
 
-    # netstat -tnlp | grep sshd
+    netstat -tnlp | grep sshd
     tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      10825/sshd
     tcp6       0      0 :::22                   :::*                    LISTEN      10825/sshd
 
-Configuration
--------------
+## Configuration
 
-設定檔在 ''/etc/ssh/sshd_config''
+設定檔在 `/etc/ssh/sshd_config`
 
-```conf
+```
 # 預設監聽的 port 是 22
 Port 22
 
@@ -47,10 +45,9 @@ AuthorizedKeysFile %h/.ssh/authorized_keys
 
 改完設定記得重新讀取設定檔
 
-    # service ssh reload
+    service ssh reload
 
-scp
----
+## scp
 
 scp 指令是複製兩台主機間的檔案，用法類似 cp 
 
@@ -70,8 +67,7 @@ scp 是靠 ssh 運作的，所以要先安裝好 ssh
 
     $ scp -r miles@remote:/home/miles/dirName ./
 
-Reference
----------
+## References
 
 * [設定檔的完整說明](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man5/sshd_config.5?query=sshd_config)
 * http://blog.udn.com/nigerchen/2262865

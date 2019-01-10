@@ -1,5 +1,4 @@
-Generate Key
-============
+# Generate Key
 
 產生 SSH Keys 的方法很簡單，在終端機下輸入下面指令即可：
 

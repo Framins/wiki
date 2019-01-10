@@ -9,8 +9,7 @@
 * [Redmine](redmine/README.md)
 * [Message Queue](mq/message-queue.md)
 
-Hadoop
-------
+## Hadoop
 
 難...
 
@@ -19,8 +18,7 @@ Hadoop
 * https://github.com/alvinhenrick/hadoop-mutinode/
 * http://www.cc.ntu.edu.tw/chinese/epaper/0036/20160321_3609.html
 
-Sentry
-------
+## Sentry
 
 參考 `docker-compose.yml` 檔
 
@@ -49,7 +47,6 @@ postgres:
     POSTGRES_PASSWORD: password
 ```
 
-Reference
----------
+## References
 
 [httpd 比較](http://jetfar.com/apache-nginx-lighttpd-future-compared/)

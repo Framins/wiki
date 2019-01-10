@@ -1,10 +1,8 @@
-RabbitMQ
-========
+# RabbitMQ
 
 [RabbitMQ](https://www.rabbitmq.com/) 用了比較高階的協定實作
 
-PHP example
------------
+## PHP example
 
 參考 [RebbitMQ Tutorials](https://www.rabbitmq.com/getstarted.html) 第二個，當作是 Hello World 練習，以下使用 PHP 當主要語言，其他套件如下
 

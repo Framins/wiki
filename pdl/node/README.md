@@ -46,8 +46,7 @@ Mac nvm 安裝方法，建議使用 brew 比較簡單
 
 ### Usage
 
-設定好開發環境後，就可以使用 npm 了
-全域安裝指令，有時候有的套件有提供 cli 命令，這時可能就需要用到 `-g`
+設定好開發環境後，就可以使用 npm 了。全域安裝指令，有時候有的套件有提供 cli 命令，這時可能就需要用到 `-g`
 
     npm install <package name> -g
     npm install express -g # 像 express 可以用 cli 來產生專案

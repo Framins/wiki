@@ -1,5 +1,4 @@
-Class Diagram
-=============
+# Class Diagram
 
 類別圖的主要目的是用圖形表示類別間的結構，範例圖形如下：
 
@@ -37,8 +36,7 @@ class people {
 * `#` protected
 * `~` package
 
-Relationships
--------------
+## Relationships
 
 五種關係
 

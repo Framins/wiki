@@ -4,7 +4,7 @@ Function 應該是 JavaScript 最重要，也最需要被討論的部分了。
 
 ## Function 基本使用
 
-function 就如同其他語言所知道的一樣，可以把重覆的行為定義成一個 function ，然後透過呼叫 function 即可執行裡面定義的行為，也能藉此達到 code reuse 。
+function 就如同其他語言所知道的一樣，可以把重覆的行為定義成一個 function，然後透過呼叫 function 即可執行裡面定義的行為，也能藉此達到 code reuse。
 
 ```javascript
 function f(a, b) {
@@ -22,7 +22,7 @@ f(1, 2, 3, 4); // 1 2
 
 ## 當 Function 是變數時
 
-從其他語言轉來寫 JavaScript ，覺得這個概念超級抽象的，最後還是靠 caterpillar 的這句話點醒：
+從其他語言轉來寫 JavaScript，覺得這個概念超級抽象的，最後還是靠 caterpillar 的這句話點醒：
 
 > 在 JavaScript 中，函式是物件，是 Function 的實例。
 
@@ -37,7 +37,7 @@ f(1, 2, 3, 4); // 1 2
     > f instanceof Object
     true
 
-所以在 JavaScript 裡，函式宣告定義好的 function 也可以像變數一樣地使用，或是指定在某個變數裡並呼叫。用變數呼叫的方法是把變數當成 function name ，然後後面加上小括號和引數即可。
+所以在 JavaScript 裡，函式宣告定義好的 function 也可以像變數一樣地使用，或是指定在某個變數裡並呼叫。用變數呼叫的方法是把變數當成 function name，然後後面加上小括號和引數即可。
 
 ```javascript
 function add(a, b) {
@@ -119,7 +119,7 @@ console.log(cal(function(a, b) {
 // 這在 JavaScript上是合法的，小括號裡面就是一個 Function 實例
 (function() {console.log('Anonymous Function')});
 
-// 把上面的 Function 實例看成是一個變數 a ，要呼叫 a 就是在變數後面加上小括號即可
+// 把上面的 Function 實例看成是一個變數 a，要呼叫 a 就是在變數後面加上小括號即可
 // 同理也可以把上面的這個「變數」後面加上小括號，即可呼叫這個 Function 實例
 (function() {console.log('Anonymous Function')})();  // Anonymous Function
 ```
@@ -133,7 +133,7 @@ function add(a, b) {
 }
 ```
 
-這個會噴 `TypeError` ，並且會說 add 是 `undefined` 。
+這個會噴 `TypeError`，並且會說 add 是 `undefined`。
 
 ```javascript
 add(1, 2);
@@ -146,7 +146,7 @@ var add = function(a, b) {
 
 第一個例子因為函式宣告已處理過了，所以可以正常呼叫。
 
-第二個例子因為變數宣告雖然有，可是執行到 `add()` 時，還沒有指定值給 add ，因此 add 會是 `undefined` 。
+第二個例子因為變數宣告雖然有，可是執行到 `add()` 時，還沒有指定值給 add，因此 add 會是 `undefined`。
 
 但是要注意的是 ES6 的 Class 是無法提升的。
 

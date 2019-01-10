@@ -1,4 +1,3 @@
-Framins' wiki
-====
+# Framins' wiki
 
 see http://wiki.framins.com/

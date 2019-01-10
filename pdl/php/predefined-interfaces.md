@@ -1,12 +1,10 @@
-Predefined Interfaces
-=====================
+# Predefined Interfaces
 
 預定義的介面可以讓物件擁有如同變數一樣的性質，如：把物件當作陣列使用、物件能夠疊代等。
 
 即然是介面，就會有必需實作的方法。使用上只要 implements 想用的介面後，再依需求實作方法即可。
 
-Traversable
------------
+## Traversable
 
 單純只是一個父介面，讓可以疊代的其他介面來繼承它。
 
@@ -19,8 +17,7 @@ Traversable {
 }
 ```
 
-Iterator
---------
+## Iterator
 
 繼承這個介面的物件，可以用 foreach 來進行疊代。
 
@@ -62,8 +59,7 @@ foreach ($iterator as $key => $value) {
 4. 當下一個 loop 開始時，換執行 `next()` ，其他 `valid()` 、 `current()` 、 `key()` 都同上。
 5. 迴圈結束條件為當 `valid()` 回傳 false 。
 
-IteratorAggregate
------------------
+## IteratorAggregate
 
 看了官方文件，跟 Iterator 的結果好像沒什麼差別。
 
@@ -79,8 +75,7 @@ IteratorAggregate extends Traversable {
 
 官方使用 ArrayIterator 來實現，其中 ArrayIterator 有實作到 Iterator ，所以是符合條件的。
 
-ArrayAccess
------------
+## ArrayAccess
 
 實作這介面之後，可以讓物件多了像陣列一樣的存取方式。
 
@@ -100,7 +95,7 @@ ArrayAccess {
 * *offsetSet* - 設定該指標的值
 * *offsetUnset* - 刪除該指標的值
 
-# Reference
+## References
 
 * [PHP: Predefined Interfaces](http://www.php.net/manual/en/reserved.interfaces.php)
 * [PHP: ArrayIterator](http://www.php.net/manual/en/class.arrayaccess.php)

@@ -1,8 +1,6 @@
-DevOps
-======
+# DevOps
 
-Version Control
----------------
+## Version Control
 
 原始碼管理工具
 
@@ -10,8 +8,7 @@ Version Control
 * GitLab
 * Bitbucket
 
-Continuous Integration
-----------------------
+## Continuous Integration
 
 持續整合工具
 
@@ -27,8 +24,7 @@ Continuous Integration
 * [Coveralls](https://coveralls.io/) - coverage 報告
 * [Code Climate](https://codeclimate.com/) - coverage 報告
 
-Continuous Deployment
----------------------
+## Continuous Deployment
 
 持續佈署工具
 
@@ -39,8 +35,7 @@ Continuous Deployment
 * Codeship
 * Drone
 
-Docker Registry
----------------
+## Docker Registry
 
 Docker Image 存放空間
 
@@ -49,8 +44,7 @@ Docker Image 存放空間
 * GitLab Container Registry
 * AWS EC2 Container Registry
 
-References
-----------
+## References
 
 * [DevOps 是什麼 ?](http://www.arthurtoday.com/2011/10/devops.html)
 * [Twelve DevOps Anti-Patterns](https://blog.devopsguys.com/2013/02/20/twelve-devops-anti-patterns/)

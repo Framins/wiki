@@ -1,8 +1,6 @@
-OAuth
-=====
+# OAuth
 
-Context
--------
+## Context
 
 有一個美圖軟體，功能是可以把 Facebook 上的照片修圖。使用者要用這個服務的話，就必須讓這個美圖軟體能讀取使用者儲存在 Facebook 上的照片。
 
@@ -17,8 +15,7 @@ Context
 
 OAuth 是為了解決上面問題而產生的。
 
-Terms
------
+## Terms
 
 * Third-party application - 第三方應用程式，也稱 client ，即上例的「美圖軟體」。
 * Resource Owner - 資源所有者，即「使用者」。
@@ -26,15 +23,13 @@ Terms
 * Authorization Server - 認證伺服器，服務提供者專門用來處理認證的伺服器
 * Resource Server - 資源伺服器，服務提供者用來存放使用者受保護資源的伺服器。
 
-Concept
--------
+## Concept
 
 OAuth 在 client 與 service 之間設置了一個 authorization layer ， client 不能直接登入 service ，只能登入 authorization layer ，用這樣的方法把 user 和 client 區分開來。 client  登入 authorization layer 用的 token 會跟 user 的密碼不同。 user 可以指令 authorization layer 的權限範圍和有效期限。
 
 client 登入後， service 會依 token 的權限範圍和有效期限，向 client 開放 user 儲存的資料。
 
-Basic Flow
-----------
+## Basic Flow
 
 下圖源自 [RFC 6749 1.2](https://tools.ietf.org/html/rfc6749#section-1.2)
 
@@ -62,8 +57,7 @@ ResourceServer --> Client: (6) Protected Resource
 
 可以看得出，上例的 2 是關鍵： user 該如何給 client 授權。
 
-Authorization Types
--------------------
+## Authorization Types
 
 授權的模式有四種，源自 [RFC 6749 1.3](https://tools.ietf.org/html/rfc6749#section-1.3)
 
@@ -72,8 +66,7 @@ Authorization Types
 * Resource owner password credentials
 * Client credentials
 
-Reference
----------
+## References
 
 * [OAuth 2.0](http://oauth.net/2/)
 * [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
