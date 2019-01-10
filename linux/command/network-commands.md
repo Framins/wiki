@@ -1,14 +1,12 @@
-Network Commands
-================
+# Network Commands
 
 以下分別使用 [alpine:3.4](https://hub.docker.com/_/alpine/) 和 [debian:jessie](https://hub.docker.com/_/debian/) 測試
 
-Configuration Commands
-----------------------
+## Configuration Commands
 
 > Debian 需要下 `apt-get install net-tools` 安裝才能使用這些指令
 
-#### ifconfig
+### ifconfig
 
 直接執行會出現
 
@@ -38,28 +36,26 @@ Configuration Commands
 
 從 errors 和 collisions 可以大概了解網路是否正常
 
-#### route
-#### ip
+### route
+### ip
 
-Debug Commands
---------------
+## Debug Commands
 
-#### ping
-#### traceroute
+### ping
+### traceroute
 
 > Debian 需要下 `apt-get install inetutils-traceroute` 安裝這個指令
 
-#### netstat
-#### host
-#### nslookup
-#### lsof 
+### netstat
+### host
+### nslookup
+### lsof 
 
 find out which process occupies the port
 ``` bash
 lsof -nP | grep LISTEN
 ```
 
-References
-----------
+## References
 
 * [Linux 常用網路指令](http://linux.vbird.org/linux_server/0140networkcommand.php) @鳥哥的 Linux 私房菜

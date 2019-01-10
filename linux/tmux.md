@@ -1,35 +1,34 @@
-Tmux
-=======
+## tmux
 
-Install
------------
+## Install
 
     brew install tmux
 
-Command
------------
+## Command
 
     man tmux                        Commands Manual
     tmux list-keys                  lists out every bound key and the tmux command it runs
     tmux list-commands              lists out every tmux command and its arguments
     tmux show-options -g            show current global session options
 
-#### Session
+### Session
+
     tmux                                    create a session, default start with name 0
     tmux new -s <session name>              create a session with name
     tmux ls                                 list sessions
     tmux attach -t <session name>           reattach
     tmux kill-session -t <session name>     kill session
     
-#### Server
+### Server
+
     tmux kill-server                        kill server and clients, destroy all windows/sessions
 
-Shortcuts
------------
+## Shortcuts
 
 In tmux, hit the prefix ctrl+b (my modified prefix is ctrl+a) and then type key:
 
-#### Pane
+### Pane
+
     |                   split vertical 
     _                   split horizontal
     
@@ -47,25 +46,27 @@ In tmux, hit the prefix ctrl+b (my modified prefix is ctrl+a) and then type key:
     d                   detach from session
     x                   kill pane
 
-#### Window
+### Window
+
     c                   add new Window
     &                   kill the current window
     
     <window number>     jump between windows
 
-#### Session
+### Session
+
     s                   show session list/ switch session
     $                   rename
 
-#### Misc
+### Misc
+
     ?  list shortcuts
     :  prompt mode
 
 
-Custom hotkeys
------------
+## Custom hotkeys
 
-vim ~/.tmux.conf
+vim `~/.tmux.conf`
 
     # set the prefix to ^a.
     unbind C-b
@@ -113,8 +114,7 @@ This can be achieved either by restarting it or by typing in:
     tmux source-file .tmux.conf
 
 
-Reference
------------
+## References
 
 * [Tmux: A Simple Start](https://www.sitepoint.com/tmux-a-simple-start/)
 * [The tao of tmux](http://tmuxp.readthedocs.io/en/latest/about_tmux.html#the-tao-of-tmux)

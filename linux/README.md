@@ -25,9 +25,16 @@ cat /etc/issue
 lsb_release -a
 ```
 
+## Commands
+
+* [cat](command/cat.md)
+* [date](command/date.md)
+* [getopt](command/getopt.md)
+* [shuf](command/shuf.md)
+
 ## Network
 
-[網路相關指令](network-commands.md)
+[網路相關指令](command/network-commands.md)
 
 > 網路基礎知識可以參考[這裡](/network/README.md)
 
@@ -35,14 +42,11 @@ lsb_release -a
 
 一些主題性的內容
 
+* [fish](fish.md)
 * [LVM](lvm.md)
 * [tmux](tmux.md)
-* [date](date.md)
-* [getopt](getopt.md)
-* [shuf](shuf.md)
 * [Powerline](powerline.md)
 * [Wine](wine.md)
-* [fish](fish.md)
 
 命令提示字元
 
@@ -53,7 +57,7 @@ lsb_release -a
 
 * [SublimeText2 中文輸入問題解](http://samwlinux.blogspot.tw/2014/04/ubuntusublimetext2deb.html)
 
-### 無蝦米
+## 無蝦米
 
 使用 fcitx ，指令如下：
 

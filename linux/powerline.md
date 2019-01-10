@@ -15,6 +15,7 @@ $ pip install --user powerline-status
 ```
 $ pip show powerline-status
 ```
+
 there is a line like Location: {path}
 
 #### Install Fonts
@@ -28,6 +29,7 @@ $ ./install.sh
 > Terminal use `Inconsolata-g for Powerline`
 
 #### Config bash
+
 Add follow command in `~/.bash_profile` file
 
 ```
@@ -144,7 +146,7 @@ Config Example:
 }
 ```
 
-## Reference
+## References
 
 * [Powerline Doc](https://powerline.readthedocs.io/en/latest/installation/osx.html)
 * [为Bash和VIM配置一个美观奢华的状态提示栏](http://cenalulu.github.io/linux/mac-powerline/)

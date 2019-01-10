@@ -1,4 +1,4 @@
-# `getopt`
+# getopt
 
 當 shell script 需要給一些參數的時候，這一頁的內容就會派上用場了。
 
