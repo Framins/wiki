@@ -1,10 +1,8 @@
-Framework
-=========
+# Framework
 
 總而言之，就是框架
 
-Backend Framework
------------------
+## Backend Framework
 
 後端框架
 
@@ -27,7 +25,6 @@ Backend Framework
 * [CakePHP](http://cakephp.org/)
 * [Windwalker](http://windwalker.io/)
 * [Joomla Platform](https://github.com/joomla/joomla-platform)
-* [Kohana](http://kohanaframework.org/)
 * [Yii](http://www.yiiframework.com/)
 
 #### Micro Framework
@@ -35,14 +32,18 @@ Backend Framework
 * [Slim](slim/README.md)
 * [Phalcon](phalcon/README.md)
 * [Lumen](https://lumen.laravel.com/) (Base on Laravel Component)
-* [Silex](silex/README.md) (Base on Silex Component)
-* [Expressive](https://docs.zendframework.com/zend-expressive/) (Base on Zend Framwork Component)
+* [Silex](silex/README.md) (Base on Symfony Component)
+* [Expressive](https://docs.zendframework.com/zend-expressive/) (Base on Zend Framework Component)
 * [Fat-Free Framework](https://fatfreeframework.com/) (F3)
 
 #### CMS / Library
 
 * [WordPress](http://wordpress.org/)
 * [Doctrine](http://www.doctrine-project.org/)
+
+#### Deprecated Framework
+
+* [Kohana](http://kohanaframework.org/)
 
 ### Based on Ruby
 
@@ -69,8 +70,7 @@ Backend Framework
 
 * [Lapis](lapis/README.md)
 
-Frontend Framework
-------------------
+## Frontend Framework
 
 ### Based on JavaScript
 
@@ -78,9 +78,3 @@ Frontend Framework
 * [AngularJS](https://angularjs.org)
 * [React](https://facebook.github.io/react/)
 * [Vue.js](https://vuejs.org/)
-
-References
-----------
-
-* [2014年排名 前10名的PHP框架](http://tw-hkt.blogspot.tw/2014/06/2014-10php.html)
-* [7 Best PHP Frameworks for 2014](https://www.tisindia.com/blog/7-best-php-frameworks-2014/)
