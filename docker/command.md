@@ -1,18 +1,15 @@
-Command
-=======
+# Command
 
 * https://github.com/wsargent/docker-cheat-sheet
 * [Docker 實用指令及 Best Practices Cheat Sheet 圖表](https://blog.wu-boy.com/2016/03/docker-commands-and-best-practices-cheat-sheet/)
 
-docker pull
------------
+## docker pull
 
 取得映像檔
 
     docker pull ubuntu:12.04
 
-docker images
--------------
+## docker images
 
 顯示本機已有的映像檔
 
@@ -34,8 +31,7 @@ docker images
 * *CREATED* 建立時間
 * *VIRTUAL SIZE* 映像檔大小
 
-docker run
-----------
+## docker run
 
 建立容器
 
@@ -51,15 +47,13 @@ docker run
 
     docker run --rm -it <image name>
 
-docker exec
-----------
+## docker exec
 
 Run a command in a running container
 
     docker exec -it <container id/name> bash
 
-docker ps
-----------
+## docker ps
 
 List all containers
 
@@ -74,13 +68,11 @@ List all containers
 
 Hint: template 的用法可以下 `man docker-ps` 參考線上說明文件
 
-docker stop
-----------
+## docker stop
 
     docker stop <constianer Id/name>
 
-docker rm
-----------
+## docker rm
 
 Remove container
 
@@ -93,16 +85,14 @@ Remove **ALL** container
 
     docker rm -vf $(docker ps -a -q)
 
-docker rmi
-----------
+## docker rmi
 
 Remove image
 
     # rm all IMAGE
     docker rmi -f $(docker images -q)
 
-docker commit
--------------
+## docker commit
 
 提交對 images 做的修改
 
@@ -115,8 +105,7 @@ docker commit
 
 成功後會出現新映像檔的 ID
 
-docker build
-------------
+## docker build
 
 使用 Dockerfile 建立新的映像檔
 

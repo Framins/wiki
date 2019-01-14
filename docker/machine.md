@@ -1,18 +1,15 @@
-Docker Machine
-==============
+# Docker Machine
 
 [Docker Machine][] 主要功能是 provision docker engine ，包括 [Swarm](swarm.md) 的應用也可以 provision 。
 
-Setup
------
+## Setup
 
 跟 [Compose](compose.md) 一樣，可以直接從 git 上下載可執行檔
 
     curl -L https://github.com/docker/machine/releases/download/v0.7.0/docker-machine-`uname -s`-`uname -m` > /usr/local/bin/docker-machine
     chmod +x /usr/local/bin/docker-machine
 
-Quick Start
------------
+## Quick Start
 
 `create` 指令可以直接 provision 機器， `--driver` 參數為必要，會決定要建機器在哪個地方，以下以 [Google Cloud Platform][] 為例
 

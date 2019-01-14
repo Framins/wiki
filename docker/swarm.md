@@ -1,18 +1,16 @@
-Docker Swarm
-============
+# Docker Swarm
 
 [Docker Swarm][] 是 Docker 官方出的容器調度系統
 
-Setup
------
+## Setup
 
 ### [Docker Machine](machine.md) + [VirtualBox][]
 
 先建機器
 
-    $ docker-machine create -d virtualbox node1
-    $ docker-machine create -d virtualbox node2
-    $ docker-machine create -d virtualbox node3
+    docker-machine create -d virtualbox node1
+    docker-machine create -d virtualbox node2
+    docker-machine create -d virtualbox node3
 
 接著選定一台當做 Manager ，比方說是 `node1` 。接著切換到 node1 上初始化 Swarm
 
@@ -64,8 +62,7 @@ web
 
 在操作上很像是在單機操作，但這些操作都會同步到所有 worker 。
 
-References
-----------
+## References
 
 * [Install and Create a Docker Swarm](https://docs.docker.com/swarm/install-w-machine/)
 * [Docker Swarm 控制多網路區域的 Docker](http://www.ithome.com.tw/guest-post/99967)

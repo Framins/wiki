@@ -1,5 +1,4 @@
-Compose
-=======
+# Docker Compose
 
 如果想建立一個複雜的 Docker 環境的話，別懷疑，用 [Docker Compose][] 就對了！
 
@@ -7,13 +6,11 @@ Compose
 
 因為是從 [fig][] 過來的，所以也可以參考 fig 指令
 
-Installation
-------------
+## Installation
 
 [GitHub](https://github.com/docker/compose/releases) 上隨時會有更新，可以參考上面的說明安裝
 
-Command
--------
+## Command
 
 所有指令以 `docker-compose` 開頭，後面接想做的操作
 
@@ -88,8 +85,7 @@ up 時，會查看當下有無此 image，有會直接使用此 image，沒有�
     dockerfile_redis_1   /entrypoint.sh redis-server   Up      6379/tcp                                  
     dockerfile_web_1     apache2 -DFOREGROUND          Up      0.0.0.0:10022->22/tcp, 0.0.0.0:80->80/tcp
 
-YAML Define
------------
+## YAML Define
 
 以下為一個範例
 

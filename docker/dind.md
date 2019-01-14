@@ -1,5 +1,4 @@
-Docker in Docker
-================
+# Docker in Docker
 
 在 Docker Container 裡面 run Docker
 
@@ -7,8 +6,7 @@ Docker in Docker
 
 * 想用 Docker 又不想把 host 搞髒
 
-Try it
-------
+## Try it
 
 使用官方 [Docker Image](https://hub.docker.com/_/docker/)
 

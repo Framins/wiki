@@ -30,13 +30,11 @@ Warning: **這個方法千萬不要用在正式環境上！！**
 
 先開一台 Linux 環境裝好 Docker 。懶惰一點可以直接 run [Docker in Docker](dind.md)
 
-```
-$ docker run -it -d --privileged -p 2375:2375 docker:1.12-dind
-```
+    docker run -it -d --privileged -p 2375:2375 docker:1.12-dind
 
 `docker-compose.yml` 範例（也可用在 [Rancher](/container/rancher/README.md) 上）
 
-```yml
+```yaml
 dind:
   ports:
     - 2375:2375/tcp
@@ -48,21 +46,17 @@ dind:
 
 Windows 裝好 Toolbox 後，確認有 docker 指令
 
-```
-$ docker help
-
-# 理論無法用 ps 指令
-$ docker ps
-```
+    docker help
+    
+    理論無法用 ps 指令
+    docker ps
 
 接著設定環境變數
 
-```
-$ export DOCKER_HOST="tcp://<remote_ip>:2375"
-
-# 應該就可以用 ps 指令了
-$ docker ps
-```
+    export DOCKER_HOST="tcp://<remote_ip>:2375"
+    
+    # 應該就可以用 ps 指令了
+    docker ps
 
 ## FAQs
 
