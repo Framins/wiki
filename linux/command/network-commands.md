@@ -54,6 +54,7 @@
 find out which process occupies the port
 ``` bash
 lsof -nP | grep LISTEN
+lsof -i:8080 看哪個Pid佔用 -> kill ${pid} 
 ```
 
 ## References
