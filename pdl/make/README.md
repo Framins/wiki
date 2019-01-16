@@ -63,7 +63,7 @@ ifndef <var>  # 測試 var 是否沒有設定值
 * [A short intro of Makefile](https://www3.nd.edu/~zxu2/acms60212-40212/Makefile.pdf)
 * [跟我一起寫Makefile:MakeFile介紹](http://wiki.ubuntu.org.cn/index.php?title=%E8%B7%9F%E6%88%91%E4%B8%80%E8%B5%B7%E5%86%99Makefile:%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0&variant=zh-hant)
 * http://maxubuntu.blogspot.tw/2010/02/makefile.html
-* http://forum.slime.com.tw/thread122483.html
+* [How to Use Variables](https://ftp.gnu.org/old-gnu/Manuals/make-3.79.1/html_chapter/make_6.html)
 * http://dywang.csie.cyut.edu.tw/moodle23/dywang/linuxProgram/node39.html
 * http://stackoverflow.com/questions/3275449/can-a-makefile-have-a-directory-as-a-target
-* http://tetralet.luna.com.tw/index.php?op=ViewArticle&articleId=185
+
