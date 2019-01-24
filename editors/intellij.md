@@ -22,6 +22,7 @@ To find any action inside the IDE use Find Action
     ⌘＋[           Back last step
     ⌘＋SHIF＋Del   Last Edit Location
     Ctrl＋Tab      switcher
+    ⌘＋`           project window  
 
 #### Jump tool window
 
