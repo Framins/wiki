@@ -9,7 +9,7 @@
 
 有以上問題，先說聲恭喜。因為代表 Coding 技術可以再前進了一大步。
 
-以上問題首選的解決方法就是－－使用 MVC Design Pattern 。MVC的目的是要實作一個低耦合的框架基底，使得擴充功能或是後續修改的問題都能夠有效降低。
+以上問題首選的解決方法就是－－使用 MVC Design Pattern。MVC的目的是要實作一個低耦合的框架基底，使得擴充功能或是後續修改的問題都能夠有效降低。
 
 以下以 PHP 語言說明 Web MVC 的觀念
 
@@ -43,7 +43,7 @@ View --> Browser
 
 1. Browser 對 Controller 提出 Request。
 2. Controller 依 Request 去提取 Model。
-3. Controller 依 Request選擇適合的 View ，並傳送 Model 的資料給 View 準備做顯示。
+3. Controller 依 Request選擇適合的 View，並傳送 Model 的資料給 View 準備做顯示。
 4. View 將資料放入樣版中，並輸出給 Browser。
 
 ## Model
@@ -53,7 +53,7 @@ Model 是負責處理資料相關和存取的元件。
 Model 設計要注意以下重點：
 
 * Model 不會有任何 HTML 或任何輸出，因為它不管資料如何呈現
-* 同理， Model 不會出現 echo 、 print 、 header 、 exit 等輸出內容的方法
+* 同理，Model 不會出現 echo、print、header、exit 等輸出內容的方法
 * 只有 Model 才能存取資料庫、檔案或其他資料媒介
 * 不可直接存取 GET/POST/COOKIE... 等全域變數
 * 只有 Model 會出現資料結構與演算法
@@ -66,11 +66,11 @@ Model 與 Table 的關係如下，都是合理的：
 * 一個 Model 會從許多 Table 取得資料並組合
 * Model 沒有對應的 Table
 
-畢竟， **Model 是一個 Layer** ，跟 Database 並沒有絕對要直接一對一的關係
+畢竟，**Model 是一個 Layer**，跟 Database 並沒有絕對要直接一對一的關係
 
 ### Library
 
-多個 Model 常做同一件事的話，可以改使用 Library 。
+多個 Model 常做同一件事的話，可以改使用 Library。
 
 ## View
 
@@ -85,11 +85,11 @@ View 設計要注意以下重點：
 
 ## Controller
 
-Controller 是唯一會直接接受 client 的要求，並會依 client 要求去取得需要的 Model ，並選擇 View 做輸出。
+Controller 是唯一會直接接受 client 的要求，並會依 client 要求去取得需要的 Model，並選擇 View 做輸出。
 
 Controller 設計要注意以下重點：
 
-* Controller 不會有任何 HTML ，因為它不管資料如何呈現
+* Controller 不會有任何 HTML，因為它不管資料如何呈現
 * Controller 不會有任何 SQL 或是 fopen 等存取資料的方法
 * 理論上會用到流程控制只會有 if/else/switch，而不會有for
 
@@ -107,5 +107,5 @@ Helper 通常處理的都只是單純資料格式轉換，或是產生 HTML 等�
 
 ## References
 
-* [MVC ，令人搞不懂的 MODEL。](http://blog.turn.tw/?p=217)
+* [MVC，令人搞不懂的 MODEL。](http://blog.turn.tw/?p=217)
 * http://my.oschina.net/pacoyang/blog/151695

@@ -29,7 +29,7 @@ git diff --ignore-space-at-eol
 Other Tools
 -----------
 
-[Diffmerge](http://www.sourcegear.com/diffmerge/) ，支援 Windows, Mac, Linux 的視覺 diff 工具。
+[Diffmerge](http://www.sourcegear.com/diffmerge/)，支援 Windows, Mac, Linux 的視覺 diff 工具。
 
 參考網頁：
 

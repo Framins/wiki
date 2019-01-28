@@ -25,10 +25,10 @@ View 的 Touch 事件相關方法：
 
 1. TouchEvent 發生時，會先傳給最頂層的 View 裡的 dispatchTouchEvent()
 2. dispatchTouchEvent() 先進行分發，如果 return true 就交給這個 view 的 onTouchEvent() 處理
-3. 如果 return false ，會交給 onInterceptTouchEvent() 決定是否攔截。
+3. 如果 return false，會交給 onInterceptTouchEvent() 決定是否攔截。
 4. 如果 return true 就交給它的 onTouchEvent()
 5. 如果 return false 才會傳給子 view然後再從子 view的dispatchTouchEvent() 繼續
-6. 如果子 view 的 onTouchEvent() 回傳了 false ，那它就會再往上傳
+6. 如果子 view 的 onTouchEvent() 回傳了 false，那它就會再往上傳
 7. 如果傳到最上層還是 false 的話，這個事件就會消失
 
 ## GestureDetector

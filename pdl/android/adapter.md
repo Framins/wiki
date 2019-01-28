@@ -1,6 +1,6 @@
 # Adapter
 
-[Adapter](http://developer.android.com/reference/android/widget/Adapter.html) 是一個 Interface ，也是下面所有類別的最上層父類； AdapterView 所實作出來的子類都需要它協助呈現資料； Adapter 實作出來的東西卻是很常使用；只要是一組資料想要用同一個 layout 顯示，就會需要 Adapter 。
+[Adapter](http://developer.android.com/reference/android/widget/Adapter.html) 是一個 Interface，也是下面所有類別的最上層父類；AdapterView 所實作出來的子類都需要它協助呈現資料；Adapter 實作出來的東西卻是很常使用；只要是一組資料想要用同一個 layout 顯示，就會需要 Adapter。
 
 Adapter 是一個介於原始資料和 View 的端口，大概動作如下：
 
@@ -15,7 +15,7 @@ Adapter 是一個介於原始資料和 View 的端口，大概動作如下：
 
 ## BaseAdapter
 
-[BaseAdapter](http://developer.android.com/reference/android/widget/BaseAdapter.html) 初始化時，要怎麼綁定，怎麼設定內容，都是程式裡去決定的，因此 Simple 做不到的加入事件的部分， BaseAdapter 就能解決了。
+[BaseAdapter](http://developer.android.com/reference/android/widget/BaseAdapter.html) 初始化時，要怎麼綁定，怎麼設定內容，都是程式裡去決定的，因此 Simple 做不到的加入事件的部分，BaseAdapter 就能解決了。
 
 範例程式碼：
 
@@ -86,7 +86,7 @@ class MyAdapter extends BaseAdapter {
 
 ## ArrayAdapter
 
-[ArrayAdapter<T>](http://developer.android.com/reference/android/widget/ArrayAdapter.html) 初始化時，綁定的對象就是 `Array` ，所以只適用在想在每一個項目裡，顯示單一資料時。
+[ArrayAdapter<T>](http://developer.android.com/reference/android/widget/ArrayAdapter.html) 初始化時，綁定的對象就是 `Array`，所以只適用在想在每一個項目裡，顯示單一資料時。
 
 ```java
 // 假設 DataObject 有 Override toString()
@@ -115,20 +115,20 @@ Android有提供一些預設的 List Item Layout 可以直接拿來用，也有�
 * [simple_list_item_activated_2](https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/layout/simple_list_item_activated_2.xml) - 兩行文字，帶有 Activated 效果
   * @android:id/text1
   * @android:id/text2
-* [simple_list_item_checked](https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/layout/simple_list_item_checked.xml) - 使用 CheckedTextView ，是帶有核選效果的 TextView
+* [simple_list_item_checked](https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/layout/simple_list_item_checked.xml) - 使用 CheckedTextView，是帶有核選效果的 TextView
   * @android:id/text1
-* [simple_list_item_multiple_choice](https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/layout/simple_list_item_multiple_choice.xml) - 使用 CheckedTextView ，不過是多選
+* [simple_list_item_multiple_choice](https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/layout/simple_list_item_multiple_choice.xml) - 使用 CheckedTextView，不過是多選
   * @android:id/text1
-* [simple_list_item_single_choice](https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/layout/simple_list_item_single_choice.xml) - 使用 CheckedTextView ，單選
+* [simple_list_item_single_choice](https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/layout/simple_list_item_single_choice.xml) - 使用 CheckedTextView，單選
   * @android:id/text1
 * [simple_selectable_list_item](https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/layout/simple_selectable_list_item.xml) - Selectabled TextView
   * @android:id/text1
 
-也許高手嫌專案寫的 Layout 太簡單的話，可以拿來直接用；初學者也可以看原始碼，參考該如何寫 List Item Layout 。
+也許高手嫌專案寫的 Layout 太簡單的話，可以拿來直接用；初學者也可以看原始碼，參考該如何寫 List Item Layout。
 
 ### Extends ArrayAdapter
 
-ArrayAdapter 很方便，可惜就是只能綁定單一資料。如果想要能綁多筆資料，又不想太麻煩去繼承 [BaseAdapter](#BaseAdapter) 或用 [SimpleAdapter](#SimpleAdapter) 去設 Map ，那就可以考慮這個方案了。
+ArrayAdapter 很方便，可惜就是只能綁定單一資料。如果想要能綁多筆資料，又不想太麻煩去繼承 [BaseAdapter](#BaseAdapter) 或用 [SimpleAdapter](#SimpleAdapter) 去設 Map，那就可以考慮這個方案了。
 
 範例程式碼：
 
@@ -165,7 +165,7 @@ class ListItemAdapter extends ArrayAdapter<DataObject>
 
 ## SimpleAdapter
 
-[SimpleAdapter](http://developer.android.com/reference/android/widget/SimpleAdapter.html) 初始化時，綁定的是 `List<Map<String, ?>>` ，它可以藉由後面的 from 參數決定從 Map 中拿哪一筆資料； to 參數則是決定要放到 Layout 中哪個 View 。只要是單純設定內容到 Layout 裡，都會適用於 SimpleAdapter ；如果想做設定內容以外的事，如改變顏色、設定按鍵事件等。那就不能用 SimpleAdapter 了。
+[SimpleAdapter](http://developer.android.com/reference/android/widget/SimpleAdapter.html) 初始化時，綁定的是 `List<Map<String, ?>>`，它可以藉由後面的 from 參數決定從 Map 中拿哪一筆資料；to 參數則是決定要放到 Layout 中哪個 View。只要是單純設定內容到 Layout 裡，都會適用於 SimpleAdapter；如果想做設定內容以外的事，如改變顏色、設定按鍵事件等。那就不能用 SimpleAdapter 了。
 
 SimpleAdapter 的建構子如下：
 
@@ -181,9 +181,9 @@ SimpleAdapter(Context context, List<? extends Map<String, ?>> data, int resource
 * from: Map key
 * to: 在 R.layout 裡可以找得的 R.id
 
-其中， data 原始資料可以發現， List 裡面的元素是 Map<String, ?> ，所以 from 必需要是 String ，以選到 data 的資料。也因為 value 是不定類別，所以其實可以放其他類別。 from 跟 to 要剛好一個對一個，這樣才能個別對應並設值。
+其中，data 原始資料可以發現，List 裡面的元素是 Map<String, ?>，所以 from 必需要是 String，以選到 data 的資料。也因為 value 是不定類別，所以其實可以放其他類別。from 跟 to 要剛好一個對一個，這樣才能個別對應並設值。
 
-value 也可以是 ImageView 的 src ，需要 Bitmap 或 String (SD卡路徑)
+value 也可以是 ImageView 的 src，需要 Bitmap 或 String (SD卡路徑)
 
 範例程式碼：
 

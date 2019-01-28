@@ -30,12 +30,12 @@ Tag
 
 |  Tag  |  Description  |  Reference  |
 |  ---  |  -----------  |  ---------  |
-| header | 網頁的頂部，網頁最重要形象和資訊都會放在這裡，如 logo、網站名詞等。 | [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header) |
+| header | 網頁的頂部，網頁最重要形象和資訊都會放在這裡，如 logo、網站名詞等 | [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header) |
 | nav | 網站的導航連結或選單 | [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) |
 | aside | 直譯是「旁白」，表示文章以外的內容，通常用在文章內容側欄 |  |
 | article | 網頁可以有很多文章(如 blog )，這時可以用 article 區分文章內容 | [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) |
 | section | 文章內的章節或小段落((即 section 會放在 article 裡))，通常會有一個 heading ((h1~h6 tag))  | [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) |
-| footer | 網頁的底部，通常是作者相關資訊，如著作權、作者名、使用什麼引擎等。 | [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer) |
+| footer | 網頁的底部，通常是作者相關資訊，如著作權、作者名、使用什麼引擎等 | [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer) |
 
 用語音標籤的好處是，看標籤就知道該內容應該會是什麼功能，在查看和維護會變得更容易。
 
@@ -59,7 +59,7 @@ Tag
 
 ### `<label>`
 
-設定 form 元件的標示，可用文字或圖片。一個標示可以指定一個 input ，當 user 點擊 label 的時候，就等同點擊 input 。
+設定 form 元件的標示，可用文字或圖片。一個標示可以指定一個 input，當 user 點擊 label 的時候，就等同點擊 input。
 
 Attributes:
 
@@ -68,7 +68,7 @@ Attributes:
 |  Attribute  |  Value  |  Description  |  Example  |  Remark  |
 |  ---------  |  -----  |  -----------  |  -------  |  ------  |
 | for | input id | 設定該 label 所指定的 input | `<lable for="text">Text</lable>` | |
-| form | form id | 設定指定的 form id ，有多個的話可以用空格分隔 |  | HTML5 新增 |
+| form | form id | 設定指定的 form id，有多個的話可以用空格分隔 |  | HTML5 新增 |
 
 ### `<a>`
 

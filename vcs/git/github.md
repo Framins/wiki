@@ -44,14 +44,14 @@ Title 是要打一個可以讓你辦別這個 Public Key 是哪一個。Key 是�
 
 * 到 repo settings 設定 Collaborators 一起協同作業。這是用在個人 repo 上。
 * 建立 organization，並把 repo 綁定在 organization 上，再把成員加入 organization 中。好處是可以在上面建立 ACL，達到 team work。
-* 透過 fork / pull request 功能來達成。這是做到 Git 一開始分散處理精神的做法，但一提到分散處理，概念就如同 cache 、 p2p 、 parallel computing 一樣，重點在資料一致性了。
+* 透過 fork / pull request 功能來達成。這是做到 Git 一開始分散處理精神的做法，但一提到分散處理，概念就如同 cache、p2p、parallel computing 一樣，重點在資料一致性了。
 
 ## Fork & Pull Request
 
 先提提 collaborator 和 organization 共同處理同個 repo 的缺點：
 
 * 有的 user 可能上班時間做不完想帶回家做，又不想用隨身碟，所以 push 一個暫存的 commit 到 GitHub 是最快的辦法，但變成members都會看到這個無關緊要的 branch。
-* 假如 members 夠多、 issues 夠多，那 branch 也會非常多。每次 fetch 下來都會看到一堆不是自己要處理 branch，其實也是很煩。但其實這也是 SVN 等集中管理 repo 會遇到的問題。
+* 假如 members 夠多、issues 夠多，那 branch 也會非常多。每次 fetch 下來都會看到一堆不是自己要處理 branch，其實也是很煩。但其實這也是 SVN 等集中管理 repo 會遇到的問題。
 
 那回頭來看看當初 VCS 的設計目的，其實就只是－－**歷史記錄回顧**。
 
@@ -93,7 +93,7 @@ VCS 也是同個道理，commits 都是未來要看的資訊，也是 reset 的�
 
 * *Create issue*，包括 title 和 description
 * *Comment issue*，可以做 discussion
-* *Issue's label*，label name 可以自己定義，如：問題、 bug 、功能等
+* *Issue's label*，label name 可以自己定義，如：問題、bug、功能等
 * *Assign issue*，可以把 issue 指派給特定 user，當然也會通知該 user
 * *Milestone*，可以把多個 issue 指定給該 milestone，它也會有進度條的顯示
 * *Filter* *Search* *Sort* *Batch process* 等，都是它的基本功能

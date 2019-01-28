@@ -1,6 +1,6 @@
 # sudo
 
-`sudo` 的意思就是 super-user do (something) ，意指超級使用者處理某個指令。
+`sudo` 的意思就是 super-user do (something)，意指超級使用者處理某個指令。
 
 sudo 並不是人人都能用，誰能用、怎麼用，全都被規範在 `/etc/sudoers` 這個檔案裡。因為這個檔案有設定語法，所以要用 `visudo` 去修改。
 

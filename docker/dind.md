@@ -10,7 +10,7 @@
 
 使用官方 [Docker Image](https://hub.docker.com/_/docker/)
 
-Docker 的設計是 Client/Server 架構，所以它拆成兩種 image (使用 tag 區分 ，以下用兩個 image 連接做範例
+Docker 的設計是 Client/Server 架構，所以它拆成兩種 image (使用 tag 區分，以下用兩個 image 連接做範例
 
 ### Start Server
 

@@ -18,7 +18,7 @@
 
 * application/ - 開發程式主要的目錄
   * cache - 快取檔
-  * config - 主要設定，包括自動載入、資料庫、 Router 等
+  * config - 主要設定，包括自動載入、資料庫、Router 等
   * controllers - Controller 的程式檔
   * core - 當有改寫CI元件的需求時，可以把檔案放在這裡，再使用繼承的方法改寫。
   * error - 當程式出現錯誤時，會出現的畫面，如 404 找不到網頁。
@@ -55,7 +55,7 @@ class News extends CI_Controller {
 
 ## URL
 
-[URL](http://www.codeigniter.org.tw/user_guide/general/urls.html) 、 Controller 、 Router 的功能是環環相扣的。主要的目的是在處理 URL 並使用對應的 Controller 來回應 Browser
+[URL](http://www.codeigniter.org.tw/user_guide/general/urls.html)、Controller、Router 的功能是環環相扣的。主要的目的是在處理 URL 並使用對應的 Controller 來回應 Browser
 
 CodeIgniter 預設的 URL 定義很簡單好懂，它使用分段式的方法
 
@@ -95,13 +95,13 @@ class News extends CI_Controller {
 
 ## Router
 
-[Router](http://www.codeigniter.org.tw/user_guide/general/routing.html) 機制，會先檢查使用者傳入參數是符合哪一個 Controller ，再進行轉向的動作。
+[Router](http://www.codeigniter.org.tw/user_guide/general/routing.html) 機制，會先檢查使用者傳入參數是符合哪一個 Controller，再進行轉向的動作。
 
 Router 的定義在 `application/config/routes.php` 裡：
 
 ```php
 <?php
-$route['default_controller'] = "news";  // 保留的路由名，在未指定 controller 時，會選擇此 controller 。
+$route['default_controller'] = "news";  // 保留的路由名，在未指定 controller 時，會選擇此 controller。
 $route['404_override'] = '';  // 保留的路由名，當找不到網頁的時候會開啟此頁面
 $route['news/(:num)'] = "news/view/$1";  // news/4 => news/view/4 (:num 表示的是數字)
 $route['news/latest'] = "news/view/28";  // news/latest => news/view/28
@@ -115,7 +115,7 @@ $route['news/(:any)'] = "news/search/$1";  // news/text => news/search/text (:an
 
 ## View
 
-View 可以是一個頁面，或是頁面的一個區塊； View 要由控制器來呼叫並載入頁面資料，首先在 views 資料夾裡新增 `news_list.php` 檔案
+View 可以是一個頁面，或是頁面的一個區塊；View 要由控制器來呼叫並載入頁面資料，首先在 views 資料夾裡新增 `news_list.php` 檔案
 
 ```html
 <html>
@@ -212,7 +212,7 @@ View 檔的變動：
 
 ## Model
 
-Model 的原型，名稱通常會加個 model ，以避免命名衝突
+Model 的原型，名稱通常會加個 model，以避免命名衝突
 
 ```php
 class News_model extends CI_Model {
@@ -237,7 +237,7 @@ $this->News_model->getData(); // array('a', 'b', 'c')
 
 ## Database Setting
 
-資料庫的設定檔 `application/config/database.php` ，裡面可以設定資料庫的位址和帳密等資料。通常只會動到下面五個變數
+資料庫的設定檔 `application/config/database.php`，裡面可以設定資料庫的位址和帳密等資料。通常只會動到下面五個變數
 
 ```php
 $db['default']['hostname'] = 'localhost';        // 資料庫位址

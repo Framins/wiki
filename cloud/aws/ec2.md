@@ -6,7 +6,7 @@
 
 Warning: 這是要額外花錢的
 
-EC2 的使用策略：壞了就重開，如果太常壞就要回 staging 階段檢查程式有無問題，再重新 deploy 。
+EC2 的使用策略：壞了就重開，如果太常壞就要回 staging 階段檢查程式有無問題，再重新 deploy。
 
 Note: 很像把 EC2 當作是 Container 處理一樣XD
 
@@ -15,7 +15,7 @@ Note: 很像把 EC2 當作是 Container 處理一樣XD
 - Reserver Instance
   - 保證機器隨要隨有
   - 簽約並付訂金，可以得到 30% ~ 70% 折扣
-  - 不能跨 region ，無法中途終止合約
+  - 不能跨 region，無法中途終止合約
 - On-Demand Instance
   - 並不保證隨要隨有
   - 每小時收錢

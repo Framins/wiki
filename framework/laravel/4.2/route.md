@@ -140,4 +140,4 @@ Route::group(array('domain' => '{user}.framins.com'), function()
     | {user}.framins.com | GET|HEAD|POST|PUT|PATCH|DELETE users/{_missing}             |      | Framins\UserController@missingMethod |                |               |
     +--------------------+-------------------------------------------------------------+------+--------------------------------------+----------------+---------------+
 
-Artisan 這個功能列出來的內容還蠻清楚的，也會提醒哪些沒實作的會對應到哪一個 method ，超棒的。
+Artisan 這個功能列出來的內容還蠻清楚的，也會提醒哪些沒實作的會對應到哪一個 method，超棒的。

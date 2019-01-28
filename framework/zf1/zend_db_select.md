@@ -2,7 +2,7 @@
 
 使用物件提供的方法建構出 SQL 並查詢
 
-> `Zend_Db_Select` 與 `Zend_Db_Table_Select` 大同小異，只差在一個沒有指定 Table ，一個有指定 Table 。
+> `Zend_Db_Select` 與 `Zend_Db_Table_Select` 大同小異，只差在一個沒有指定 Table，一個有指定 Table。
 >
 > 所以，基本上 `Zend_Db_Table_Select` 是不需要使用 `from()` 的，以下用 `Zend_Db_Select` 做說明
 
@@ -50,8 +50,8 @@ $select->reset();
 
 參數
 
-* $name 資料表名稱， array 是要取別名用的: array('別名' => '資料表名')
-* $col 該資料表裡的欄位名稱，欄位名稱也可以是 expression ，一樣可以使用 `Zend_Db_Expr` ， array 範例:  array('別名' => '欄位名', '欄位名')
+* $name 資料表名稱，array 是要取別名用的: array('別名' => '資料表名')
+* $col 該資料表裡的欄位名稱，欄位名稱也可以是 expression，一樣可以使用 `Zend_Db_Expr`，array 範例:  array('別名' => '欄位名', '欄位名')
 * $schema Schema名稱
 
 ```php
@@ -91,7 +91,7 @@ $select->from('table', `)
 * $cond join的條件式
 * $cols 欄位名，用法同 from()
 
-> join 預設是 joinInner ，其他 join 的格式都一樣：
+> join 預設是 joinInner，其他 join 的格式都一樣：
 
 * joinLeft
 * joinRight

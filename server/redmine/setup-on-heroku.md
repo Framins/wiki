@@ -25,7 +25,7 @@ Clone Redmine，然後切換到 2.2-stable
     cd redmine
     git checkout 2.2-stable
 
-編輯 `.gitignore` ，刪除下面幾行
+編輯 `.gitignore`，刪除下面幾行
 
 ```
 Gemfile.lock
@@ -37,7 +37,7 @@ config/configuration.yml
 config/email.yml
 ```
 
-編輯 `Gemfile` ，把 `sqlite` 和 `mysql` 的部分註解掉
+編輯 `Gemfile`，把 `sqlite` 和 `mysql` 的部分註解掉
 
 ```yaml
 # Database gems
@@ -64,13 +64,13 @@ end
 #end
 ```
 
-修改 `config/application.rb` ，在裡面設定值加一行
+修改 `config/application.rb`，在裡面設定值加一行
 
 ```ruby
 config.assets.initialize_on_precompile = false
 ```
 
-修改 `config/environment.rb` ，下面幾行註解掉
+修改 `config/environment.rb`，下面幾行註解掉
 
 ```ruby
 # Make sure there's no plugin in vendor/plugin before starting
@@ -88,7 +88,7 @@ config.assets.initialize_on_precompile = false
     bundle install
     bundle exec rake generate_secret_token
 
-登入 Heroku ，建立 ssh-keys
+登入 Heroku，建立 ssh-keys
 
     heroku login
     heroku keys:add

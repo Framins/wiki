@@ -1,6 +1,6 @@
 # Router
 
-Router 的作用就很像 URL rewrite ，依不同的 URL 去指向不同的檔案。
+Router 的作用就很像 URL rewrite，依不同的 URL 去指向不同的檔案。
 
 ## Start
 

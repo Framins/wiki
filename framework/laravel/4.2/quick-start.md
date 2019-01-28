@@ -10,7 +10,7 @@
 
     composer.phar create-project laravel/laravel project
 
-然後要調整 Virtual Host ，設定 root 在 `/path/to/project/public`
+然後要調整 Virtual Host，設定 root 在 `/path/to/project/public`
 
 * [Apache2](/server/apache.md)
 

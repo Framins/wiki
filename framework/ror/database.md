@@ -23,7 +23,7 @@ production:
 
 > test 會有段註解跟你說，不要把 test 資料庫跟 production 和 development 設成同一個
 
-這裡可以看到， `database.yml` 定義了三個不同的環境設定
+這裡可以看到，`database.yml` 定義了三個不同的環境設定
 
 * `development` 開發模式，用在平常開發
 * `test` 測試模式，用在單元自動化測試

@@ -24,7 +24,7 @@
 
 ## Adapter
 
-ListView 的 setAdapter 是接 [ListAdapter](http://developer.android.com/reference/android/widget/ListView.html) 。依實作簡單到困難的順序為：
+ListView 的 setAdapter 是接 [ListAdapter](http://developer.android.com/reference/android/widget/ListView.html)。依實作簡單到困難的順序為：
 
 1. ArrayAdapter
 2. SimpleAdapter
@@ -85,7 +85,7 @@ class ViewHolder {
 
 ### 如何把每個項目設定相同的高度
 
-通常， ImageView 都會設定固定長寬，然後再配合 AndroidScaleType 調整圖片縮放即可；會有這個要求，十之八九都是因為文字的關係。所以調整文字固定一行+自動滾動即可。
+通常，ImageView 都會設定固定長寬，然後再配合 AndroidScaleType 調整圖片縮放即可；會有這個要求，十之八九都是因為文字的關係。所以調整文字固定一行+自動滾動即可。
 
 ```
 android:singleLine="true"

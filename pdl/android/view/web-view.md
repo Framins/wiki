@@ -37,10 +37,9 @@ WebSettings websettings = webView.getSettings();
 websettings.setAllowFileAccess(true);
 ```
 
-WebView FAQ
------------
+## WebView FAQ
 
-WebView 基於 Web ，所以問題自然就很多...
+WebView 基於 Web，所以問題自然就很多...
 
 ### How to set background to transparent
 

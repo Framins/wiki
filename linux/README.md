@@ -59,7 +59,7 @@ lsb_release -a
 
 ## 無蝦米
 
-使用 fcitx ，指令如下：
+使用 fcitx，指令如下：
 
 ```
 sudo apt-get install fcitx fcitx-table-boshiamy im-config

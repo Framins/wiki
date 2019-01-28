@@ -30,7 +30,7 @@ pear install --alldeps phpunit/PHPUnit_SkeletonGenerator
 
 [MAC + Zend Server 可能會有的問題](http://forums.zend.com/viewtopic.php?f=8&t=111083)
 
-找到 phpunit script ，最上面這段
+找到 phpunit script，最上面這段
 
 ```
 #!/usr/local/zend/bin/php

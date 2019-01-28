@@ -12,7 +12,7 @@
 | Screen density | 螢幕的像素密度，通常單位都是 dpi(dots per inch) | ldpi, mdpi, hdpi, xhdpi |
 | Orientation | 使用者觀看方向 | landscape/portrait |
 | Resolution | 解析度 | 480x800 |
-| Density-independent pixel | 一個虛擬的單位，定義：100dp，在160dpi 時基數為1，即為 100px；320dpi 時基數為2，即為 200px ，依此類推。 | 160dp |
+| Density-independent pixel | 一個虛擬的單位，定義：100dp，在160dpi 時基數為1，即為 100px；320dpi 時基數為2，即為 200px，依此類推 | 160dp |
 
 ## Dimension
 
@@ -22,7 +22,7 @@
 |  ----  |  -----------  |  ----------  |
 | dip (device independent pixels) | 設備獨立像素，不同的設備有不同的顯示效果 |
 | dp (density-independent pixels) | 一個虛擬的單位，如上述所說 | Android 建議使用的單位 |
-| sp (scale-independent pixels) | 文字要用 sp ，在使用者調整文字大小時，設定 sp 的也會跟著變 | 用在文字上 |
+| sp (scale-independent pixels) | 文字要用 sp，在使用者調整文字大小時，設定 sp 的也會跟著變 | 用在文字上 |
 | px (pixels) | 傳統的像素 | Android 裡不建議使用此單位 |
 | pt (point) | 磅，印刷用單位，1pt = 1/72inch | |
 | in (inches) | 英寸| |

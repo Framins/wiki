@@ -1,10 +1,10 @@
 # LVM
 
-LVM 是 Linux 系統中內定的磁碟管理方式，只要在安裝系統時沒有特別設定，系統自動會使用 LVM 將磁碟切割為兩部份，一部份開機磁區約100MB ，剩下部分為全權交由 LVM 管理
+LVM 是 Linux 系統中內定的磁碟管理方式，只要在安裝系統時沒有特別設定，系統自動會使用 LVM 將磁碟切割為兩部份，一部份開機磁區約100MB，剩下部分為全權交由 LVM 管理
 
 ## Extend
 
-用 VMware 發現某虛擬機空間爆了，首先先加磁碟給它，假設是 `/dev/sdb` 。新磁碟就是要 `fdisk` 它，不然要幹嘛
+用 VMware 發現某虛擬機空間爆了，首先先加磁碟給它，假設是 `/dev/sdb`。新磁碟就是要 `fdisk` 它，不然要幹嘛
 
 ```
 # fdisk -l /dev/sdb
@@ -81,7 +81,7 @@ Disk identifier: 0x015f6f08
   swap_1 ubuntu-vg -wi-ao--- 1020.00m
 ```
 
-最後使用 `resize2fs` ，將 LV 的實際空間擴大到最大值
+最後使用 `resize2fs`，將 LV 的實際空間擴大到最大值
 
 ```
 # resize2fs /dev/mapper/ubuntu--vg-root 

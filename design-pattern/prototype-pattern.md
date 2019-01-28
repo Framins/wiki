@@ -8,7 +8,7 @@ Pors and Cons
 
 ### Pors
 
-* 因為是記憶體直接 clone ，所以會比 new 還要快
+* 因為是記憶體直接 clone，所以會比 new 還要快
 * 不會被 constructor 約束，相對就比較自由。
 
 ### Cons

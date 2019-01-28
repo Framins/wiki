@@ -21,7 +21,7 @@ Zend Framework 對 Storage 有兩個實作：
 
 ## Basic usage
 
-Zend_Auth 使用單例模式實作，取得實例的方法為 `Zend_Auth::getInstance()` 。
+Zend_Auth 使用單例模式實作，取得實例的方法為 `Zend_Auth::getInstance()`。
 
 裡面可以操作的方法如下：
 

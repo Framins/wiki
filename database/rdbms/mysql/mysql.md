@@ -38,7 +38,7 @@ CREATE TABLE table_name (
 
 ZEROFILL屬性：
 
-在定義數字類型的欄位時，有時會希望左邊要補 0 ，如 `INT(3)` 在資料是 1 時，輸出會是 `001` 。這時只要屬性加入 ZEROFILL 即可。而加入 ZEROFILL 屬性時， `UNSIGNED` 也會強制被加入。
+在定義數字類型的欄位時，有時會希望左邊要補 0，如 `INT(3)` 在資料是 1 時，輸出會是 `001`。這時只要屬性加入 ZEROFILL 即可。而加入 ZEROFILL 屬性時，`UNSIGNED` 也會強制被加入。
 
 ```sql
 CREATE TABLE test (

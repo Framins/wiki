@@ -12,7 +12,7 @@
     docker-machine create -d virtualbox node2
     docker-machine create -d virtualbox node3
 
-接著選定一台當做 Manager ，比方說是 `node1` 。接著切換到 node1 上初始化 Swarm
+接著選定一台當做 Manager，比方說是 `node1`。接著切換到 node1 上初始化 Swarm
 
 ```
 $ eval $(docker-machine env node1)
@@ -39,7 +39,7 @@ $ docker swarm join --token SWMTKN-1-3dmqscpgn6jwxk5o7zlmum5i2655um6bv1lgmtcztp4
 This node joined a swarm as a worker.
 ```
 
-到此， Swarm 的環境已算初始化完成了，接著到 Manager 開始啟動 Service
+到此，Swarm 的環境已算初始化完成了，接著到 Manager 開始啟動 Service
 
 ```
 $ docker service create --name web -p 8000:80 nginx:alpine
@@ -60,7 +60,7 @@ $ docker service update --image nginx:latest web
 web
 ```
 
-在操作上很像是在單機操作，但這些操作都會同步到所有 worker 。
+在操作上很像是在單機操作，但這些操作都會同步到所有 worker。
 
 ## References
 

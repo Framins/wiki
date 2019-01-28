@@ -1,7 +1,7 @@
 CoffeeScript
 ============
 
-CoffeeScript 本質上還是 [JavaScript][] ，只是把 JavaScript 變得比較簡潔而已。有跟 [Ruby][] 、 [Python][] 和 Haskell 學習優良的部分，可以多方參考
+CoffeeScript 本質上還是 [JavaScript][]，只是把 JavaScript 變得比較簡潔而已。有跟 [Ruby][]、[Python][] 和 Haskell 學習優良的部分，可以多方參考
 
 References
 ----------

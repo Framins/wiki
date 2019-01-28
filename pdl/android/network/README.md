@@ -29,14 +29,14 @@
 ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
 ```
 
-個別判斷 3G 或 Wifi ， true 代表有連線， false 就是沒有了：
+個別判斷 3G 或 Wifi，true 代表有連線，false 就是沒有了：
 
 ```java
 boolean is3g = cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).isConnectedOrConnecting();
 boolean isWifi = cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI).isConnectedOrConnecting();
 ```
 
-取得目前啟用的網路相關狀態，如果目前完全沒有網路的話。如果沒有網路連線會取得 null ，所以必需要做 null 的判斷或 Exception ：
+取得目前啟用的網路相關狀態，如果目前完全沒有網路的話。如果沒有網路連線會取得 null，所以必需要做 null 的判斷或 Exception ：
 
 ```java
 NetworkInfo info = cm.getActiveNetworkInfo();

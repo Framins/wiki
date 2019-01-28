@@ -52,9 +52,9 @@ Saved in res/values/ and accessed from the R.style class.
 
 ### tools:context
 
-這個屬性通常是設定在 Layout XML 的根元素，它的值會是 Activity 。設定了之後， IDE 會把此 Layout 跟設定的 Activity 建立關聯。這時，因 Activity 的主題都是在 AndroidManifest.xml 定義， IDE 有了關聯後， Layout Editor 就會自動設定成該 Activity 的 Theme 。
+這個屬性通常是設定在 Layout XML 的根元素，它的值會是 Activity。設定了之後，IDE 會把此 Layout 跟設定的 Activity 建立關聯。這時，因 Activity 的主題都是在 AndroidManifest.xml 定義，IDE 有了關聯後，Layout Editor 就會自動設定成該 Activity 的 Theme。
 
-它的值跟 AndroidManifest.xml 一樣可以用 `.` 代表 package 。
+它的值跟 AndroidManifest.xml 一樣可以用 `.` 代表 package。
 
 Example:
 

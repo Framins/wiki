@@ -14,7 +14,7 @@ var baz = new Object(true); // 它會是 Boolean object
 
 ## Array()
 
-同 Object ，但 Array 建構式的行為比較不一樣，也有它的特殊應用，範例如下：
+同 Object，但 Array 建構式的行為比較不一樣，也有它的特殊應用，範例如下：
 
 ```javascript
 var foo = Array(10); // 有 10 個元素的 Array
@@ -30,6 +30,6 @@ var foo = /\\/g;
 var baz = new RegExp('\\\\', 'g');
 ```
 
-使用 `RegExp()` 需要使用跳脫字元，因此常會需要使用 `\\` 來表示反斜線。上例即可看到會更難理解 RegExp ，因此建議還是使用實字會比較好。
+使用 `RegExp()` 需要使用跳脫字元，因此常會需要使用 `\\` 來表示反斜線。上例即可看到會更難理解 RegExp，因此建議還是使用實字會比較好。
 
-除非， Pattern 無法在寫程式的時候決定，才需要使用 `RegExp()`。
+除非，Pattern 無法在寫程式的時候決定，才需要使用 `RegExp()`。

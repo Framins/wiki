@@ -1,6 +1,6 @@
 # Phar
 
-從 PHP 5.3 開始， PHP 也支援打包的功能。 Phar 其實指的就是 PHP Archive ，功能很類似 JAR 。
+從 PHP 5.3 開始，PHP 也支援打包的功能。Phar 其實指的就是 PHP Archive，功能很類似 JAR。
 
 ## Start
 

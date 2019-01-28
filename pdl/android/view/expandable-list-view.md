@@ -1,6 +1,6 @@
 # ExpandableListView
 
-[ExpandableListView](http://developer.android.com/reference/android/widget/ExpandableListView.html) 是可以兩層展開的 ListView ，可以用在兩層資料的呈現。
+[ExpandableListView](http://developer.android.com/reference/android/widget/ExpandableListView.html) 是可以兩層展開的 ListView，可以用在兩層資料的呈現。
 
 ## Extends Structure
 
@@ -149,7 +149,7 @@ public class MyExpandableListAdapter extends BaseExpandableListAdapter
 
 ## How to use OnItemLongClickListener
 
-在看文檔時，會發現它的 Listener 有新增 setOnChildClickListener 和 setOnGroupClickListener ，可是就是沒有 LongClickListener 。
+在看文檔時，會發現它的 Listener 有新增 setOnChildClickListener 和 setOnGroupClickListener，可是就是沒有 LongClickListener。
 
 事實上是有辦法解決的，一樣要用 OnItemLongClickListener
 

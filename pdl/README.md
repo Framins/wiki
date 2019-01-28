@@ -1,6 +1,6 @@
 # Program Design Language
 
-[Program Design Language][] ，程式設計語言，簡稱 PDL，簡單來說就是程式設計的語言，如 C/C++、 Java 、 PHP 等。
+[Program Design Language][]，程式設計語言，簡稱 PDL，簡單來說就是程式設計的語言，如 C/C++、Java、PHP 等。
 
 線上學習資源：
 
@@ -79,7 +79,7 @@
 
 ## Structured Query Language
 
-[Structured Query Language][]，結構化查詢語言，簡稱 SQL ，是用於資料庫的標準查詢語言。
+[Structured Query Language][]，結構化查詢語言，簡稱 SQL，是用於資料庫的標準查詢語言。
 
 [Structured Query Language]: https://en.wikipedia.org/wiki/SQL
 

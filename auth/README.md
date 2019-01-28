@@ -27,4 +27,4 @@
 
 ### MAC - Message Authentication Code
 
-[Message authentication code](https://zh.wikipedia.org/wiki/%E8%A8%8A%E6%81%AF%E9%91%91%E5%88%A5%E7%A2%BC) ，參考 wiki ：這在密碼學中，是指一小段資訊。它可以用特定演算法，從原有的一包資訊來產生，目的是確定原本的資訊沒有被更改過。
+[Message authentication code](https://zh.wikipedia.org/wiki/%E8%A8%8A%E6%81%AF%E9%91%91%E5%88%A5%E7%A2%BC)，參考 wiki ：這在密碼學中，是指一小段資訊。它可以用特定演算法，從原有的一包資訊來產生，目的是確定原本的資訊沒有被更改過。

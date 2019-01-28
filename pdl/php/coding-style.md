@@ -1,6 +1,6 @@
 # Coding Style
 
-PHP 的領域裡，一般會建議不要自個兒發明一些特殊的 coding style ，最好還是依社群提出來的規則為主，如果特殊需求再做調整。
+PHP 的領域裡，一般會建議不要自個兒發明一些特殊的 coding style，最好還是依社群提出來的規則為主，如果特殊需求再做調整。
 
 ## Zend Framework Coding Standard
 
@@ -10,7 +10,7 @@ http://framework.zend.com/manual/1.12/en/coding-standard.html
 
 [PHP Framework Interop Group](http://www.php-fig.org/)
 
-這個團隊制定了一些 PHP  coding style 的規範，目的是想讓 PHP open source 專案都有共同的 coding style ，以方便大家共同開發維護
+這個團隊制定了一些 PHP  coding style 的規範，目的是想讓 PHP open source 專案都有共同的 coding style，以方便大家共同開發維護
 
 參考網頁：
 
@@ -33,7 +33,7 @@ http://framework.zend.com/manual/1.12/en/coding-standard.html
 
 * PHP 程式碼**必須**以 `<?php` 或 `<?=` 標籤開始。
 * PHP 程式碼**必須**以 `不帶 BOM 的 UTF-8` 編碼。
-* PHP 程式碼中**應該**只定義 `類別` `函數` `常數` ，或其他會產生 `從屬效應` 的操作，兩者只能選其一。
+* PHP 程式碼中**應該**只定義 `類別` `函數` `常數`，或其他會產生 `從屬效應` 的操作，兩者只能選其一。
 * 命名空間以及類別**必須**符合 PSR 的自動載入規範： PSR-0 或 PSR-4 其中一個。
 * 類別命名**必須**遵循 `StudlyCaps` 大寫開頭駝峰命名規範。
 * 類別的常數所有字母都**必須**大寫，單字間用底線 `_` 分隔。
@@ -52,7 +52,7 @@ http://framework.zend.com/manual/1.12/en/coding-standard.html
 * 每個 `namespace` 命名空間和 `use` 後面，**必須**插入一個空白行。
 * 類別的開始大括號 `{` **必須**寫在類別宣告後獨立一行，結束大括號 `}` 也**必須**寫在類別最後面獨立一行。
 * 方法的開始大括號 `{` **必須**寫在方法宣告後獨立一行，結束大括號 `}` 也**必須**寫在方法最後面獨立一行。
-* 類別的屬性和方法**必須**加上能見度宣告 (`private` `protected` `public`) ， `abstract` 以及 `final` 宣告**必須**放在能見度宣告之前，而 `static` 宣告**必須**在能見度宣告之後。
+* 類別的屬性和方法**必須**加上能見度宣告 (`private` `protected` `public`)，`abstract` 以及 `final` 宣告**必須**放在能見度宣告之前，而 `static` 宣告**必須**在能見度宣告之後。
 * 流程控制的關鍵字之後，**必須**要有一個空白，而呼叫方法或函數的時候，則**一定不能**有空白。
 * 流程控制的開始大括號 `{` **必須**寫在跟流程控制同一行，而結束大括號 `}` **必須**寫在最後面獨立一行。
 * 流程控制的開始左括號後和結束右括號前，都**一定不能**有空白。

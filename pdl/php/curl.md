@@ -1,13 +1,13 @@
 # cURL
 
-cURL 是額外模組，需另外安裝並重新啟動 Apache 。
+cURL 是額外模組，需另外安裝並重新啟動 Apache。
 
 ```bash
 apt-get install php5-curl
 service apache2 restart
 ```
 
-程式部分需先確認是否有安裝 extension 。
+程式部分需先確認是否有安裝 extension。
 
 ```php
 // 確認 cURL 模組是否有安裝
@@ -30,7 +30,7 @@ $ch = curl_init();
 curl_close($ch);
 ```
 
-設定的範圍，包括連線 URL 、 Agent 、 header 、 timeout 等，都是可以調整設定的，詳細可以參考[官方網站](http://php.net/manual/en/function.curl-setopt.php)，下面是比較常見的設定：
+設定的範圍，包括連線 URL、Agent、header、timeout 等，都是可以調整設定的，詳細可以參考[官方網站](http://php.net/manual/en/function.curl-setopt.php)，下面是比較常見的設定：
 
 ```php
 // 設定要下載的 URL 位置
@@ -45,7 +45,7 @@ curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9
 // 回傳訊息是否包含 Header 訊息
 curl_setopt($ch, CURLOPT_HEADER, false);
 
-// 如果是 true ， curl_exec() 會回傳 string ； false 會直接輸出結果
+// 如果是 true，curl_exec() 會回傳 string；false 會直接輸出結果
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 // 設定 Timeout (seconds);
@@ -55,7 +55,7 @@ curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 設定完畢後，就可以直接用 `curl_exec()` 取得資料了。
 
 ```php
-// 因為剛剛有設定 CURLOPT_RETURNTRANSFER 為 true ，所以可以把回傳來的 string 再做加工處理
+// 因為剛剛有設定 CURLOPT_RETURNTRANSFER 為 true，所以可以把回傳來的 string 再做加工處理
 $output = curl_exec($ch);
 ```
 

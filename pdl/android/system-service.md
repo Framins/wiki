@@ -1,6 +1,6 @@
 # SystemService
 
-系統級的 Service ，以 [Notification](notification.md) 為例，取得的方法如下：
+系統級的 Service，以 [Notification](notification.md) 為例，取得的方法如下：
 
 ```java
 NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE)
@@ -70,7 +70,7 @@ DownloadManager 提供相關的 class 如下：
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 ```
 
-DownloadManager 是系統層級的 Service ，所以要在 Activity 下用 getSystemService() 取得
+DownloadManager 是系統層級的 Service，所以要在 Activity 下用 getSystemService() 取得
 
 ```java
 DownloadManager downloadManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
@@ -100,7 +100,7 @@ long downloadId = downloadManager.enqueue(request);
 | setDestinationInExternalFilesDir(Context context, String dirType, String subPath) | 設定檔案存放位置，使用系統的目錄 |
 | setDestinationInExternalPublicDir(String dirType, String subPath) | 設定檔案存放位置，使用自定的目錄 |
 | setDestinationUri(Uri uri) | 直接用 Uri 當存檔位置 |
-| setMimeType(String mimeType) | 設定檔案的 MimeType 。下載完成要開檔案時，即會用這個 MimeType 開啟 |
+| setMimeType(String mimeType) | 設定檔案的 MimeType。下載完成要開檔案時，即會用這個 MimeType 開啟 |
 | setNotificationVisibility(int visibility) | 設定通知列是否顯示 [Android Developer](http://developer.android.com/reference/android/app/DownloadManager.Request.html#setNotificationVisibility(int))有說明傳入值為何 |
 | <del>setShowRunningNotification(boolean show)</del> | deprecated in API level 11 |
 | setTitle(CharSequence title) | 通知訊息裡的標題 |

@@ -16,19 +16,19 @@
 
 它的概念很簡單，就只有一個主要的class，就叫AQuery。而它有兩種狀態： `root` 和 `view`
 
-平常用 Activity 在 new 一個 AQuery 時，它就會是 root 。而在用 id 找資源的時候，就會變成 view 。
+平常用 Activity 在 new 一個 AQuery 時，它就會是 root。而在用 id 找資源的時候，就會變成 view。
 
 ```java
 // In Activity
 aq = new AQuery(this);
 
 // id(R.id.text) - 取得該 View
-// text("Hello") - 設定 text 。這裡它應該是用反射去處理的。
+// text("Hello") - 設定 text。這裡它應該是用反射去處理的。
 aq.id(R.id.text).text("Hello");
 
 // id(R.id.button) - 切換不同的 view
 // text("Click Me")
-// clicked(this, "buttonClicked") - 設定 listener ，使用 method name
+// clicked(this, "buttonClicked") - 設定 listener，使用 method name
 aq.id(R.id.button).text("Click Me").clicked(this, "buttonClicked");
 
 aq.id(R.id.image);
@@ -75,7 +75,7 @@ aq.id(R.id.image).image("http://www.sample.com/sample.png", memCache, fileCache)
 
 ### Down Sampling
 
-有篇文章提到了要做 Downsampling ，不然會發生 OOM
+有篇文章提到了要做 Downsampling，不然會發生 OOM
 
 http://blog.androidquery.com/2011/05/down-sample-images-to-avoid-out-of.html
 

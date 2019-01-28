@@ -1,5 +1,4 @@
-Adapter Pattern
-===============
+# Adapter Pattern
 
 Adapter Pattern 的定義：
 
@@ -9,8 +8,7 @@ Adapter Pattern 的定義：
 
 現實生活中的 Adapter 指的是變壓器，其實也是同樣的道理：機器需要用直流電，但只有交流電該怎麼辦？用 Adapter ！交流電又有分 110V 和 220V 煩死了該怎麼辦？換 Adapter ！
 
-UML
----
+## UML
 
 類別圖
 
@@ -34,8 +32,7 @@ Target <|.. Adapter
 Adapter -> Adaptee : + adaptee
 ```
 
-Terms
------
+## Terms
 
 以上述變壓器的說明來解釋下面的關鍵字：
 
@@ -44,20 +41,18 @@ Terms
 * *Adapter* - 轉接器角色（變壓器），此模式的核心角色，其他兩個角色都是原本存在的，這個角色是新建立準備要讓他們和平共處的。
 
 
-Pluggable Adapter Pattern
--------------------------
+## Pluggable Adapter Pattern
 
-上述情境是在 Adaptee 固定的情境下使用 Adapter Pattern 的。相反的， Client 固定，而 Adaptee 不固定時，就稱之為 *Pluggable Adapter* 。 
+上述情境是在 Adaptee 固定的情境下使用 Adapter Pattern 的。相反的，Client 固定，而 Adaptee 不固定時，就稱之為 *Pluggable Adapter*。
 
-如果是這種情況的話， Adapter 就可以先行設計。讓未來想塞資料給 Client 的 source 實作 Adapter 即可。
+如果是這種情況的話，Adapter 就可以先行設計。讓未來想塞資料給 Client 的 source 實作 Adapter 即可。
 
 參考實作：
 
 * Android UI 的 `Adapter`
 * Zend Framework 的 `Zend_Paginator`
 
-Example
--------
+## Example
 
 想讓貓學其他的動物叫，如果沒用 adapter 的話就是要硬改:
 
@@ -110,8 +105,7 @@ $cat = new Cat($adapter);
 echo $cat->braking();
 ```
 
-Pros and Cons
--------------
+## Pros and Cons
 
 ### Pros
 
@@ -127,8 +121,7 @@ Pros and Cons
 
 > 在「完美」的設計裡，是不需要 Adapter Pattern 的。通常用在事後的補救居多。
 
-Reference
----------
+## References
 
 * http://openhome.cc/Gossip/DesignPattern/AdapterPattern.htm
 * http://www.dotblogs.com.tw/pin0513/archive/2010/05/30/15497.aspx

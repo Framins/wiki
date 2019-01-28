@@ -16,7 +16,7 @@ Vim 模式
 | Insert Mode | 編輯模式，也就是平常要輸入的時候會使用的模式 | Normal Mode 按 i |
 | Replace Mode | 取代模式 | Normal Mode 按 R |
 | Visual Mode | 視覺標記模式，就很像平常用滑鼠選取文字一樣 | Normal Mode 按 v |
-| Visual Line Mode | 視覺整行標記模式，同 Visual Mode ，差別它是以行為單位 | Normal Mode 按 V |
+| Visual Line Mode | 視覺整行標記模式，同 Visual Mode，差別它是以行為單位 | Normal Mode 按 V |
 
 Install
 -----------

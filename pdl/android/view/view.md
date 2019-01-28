@@ -99,10 +99,10 @@ Android 因後來 App 功能需求，也有新增其他基本的 Layout
 
 ### android:focusable
 
-當使用者在使用鍵盤要跟 UI 做互動時， UI 通常會有變化來提醒使用者現在是在跟哪個 UI 做互動，這樣就需要設定此屬性為 true 即可。
+當使用者在使用鍵盤要跟 UI 做互動時，UI 通常會有變化來提醒使用者現在是在跟哪個 UI 做互動，這樣就需要設定此屬性為 true 即可。
 
 ### android:focusableInTouchMode
 
-當使用者開始用觸控面板的時候， Android 就會進入 Touch Mode 。 Android 對 [Touch Mode](http://android-developers.blogspot.tw/2008/12/touch-mode.html) 的定義，是如果是要用觸控面板點選 UI 時， UI 是不會有 focus 行為的，使用 requestFocus 也不會。此時的狀態會是 Pressed 。
+當使用者開始用觸控面板的時候，Android 就會進入 Touch Mode。Android 對 [Touch Mode](http://android-developers.blogspot.tw/2008/12/touch-mode.html) 的定義，是如果是要用觸控面板點選 UI 時，UI 是不會有 focus 行為的，使用 requestFocus 也不會。此時的狀態會是 Pressed。
 
-但如果某些 UI 在 Touch Mode 下，一樣會需要 focus ，如 EditText 。這時就需要設定此屬性為 true ，點擊的同時就也能 focus 了。
+但如果某些 UI 在 Touch Mode 下，一樣會需要 focus，如 EditText。這時就需要設定此屬性為 true，點擊的同時就也能 focus 了。

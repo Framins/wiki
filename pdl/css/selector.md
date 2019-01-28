@@ -35,7 +35,7 @@
 |  2  | :before | `p:before` | 在 `<p>` 元素的內容之前插入新的內容 | 使用 `content` 屬性設定文字內容 |
 |  2  | :after | `p:after` | 在 `<p>` 元素的內容之後插入新的內容 | 使用 `content` 屬性設定文字內容 |
 |  2  | :lang(language) | `p:lang(en)` | `lang` 屬性為 `en` 開頭的 `<p>` 元素 | |
-|  3  | element1~element2 | `p~ul` | 在相同的父元素下， `<p>` 之後的所有 `<ul>` 元素 | |
+|  3  | element1~element2 | `p~ul` | 在相同的父元素下，`<p>` 之後的所有 `<ul>` 元素 | |
 |  3  | %%[attribute^=value]%% | `%%a[src^="https"]%%` | `<a>` 元素的 `src` 屬性，以 `https` 開頭 | |
 |  3  | %%[attribute$=value]%% | `%%a[src$=".pdf"]%%` | `<a>` 元素的 `src` 屬性，以 `.pdf` 結尾 | |
 |  3  | %%[attribute*=value]%% | `%%a[src*="abc"]%%` | `<a>` 元素的 `src` 屬性，包含子字串 `abc` | |
@@ -59,7 +59,7 @@
 
 ## Class Selector
 
-Class選擇器， `.` 開頭，後面接 class 屬性的名稱，[名稱命名方法參考](http://www.regexper.com/#%5Ba-zA-Z_%5D%5B0-9a-zA-Z-_%5D*%7C%5B-%5D%5Ba-zA-Z_%5D%5B0-9a-zA-Z-_%5D*)
+Class選擇器，`.` 開頭，後面接 class 屬性的名稱，[名稱命名方法參考](http://www.regexper.com/#%5Ba-zA-Z_%5D%5B0-9a-zA-Z-_%5D*%7C%5B-%5D%5Ba-zA-Z_%5D%5B0-9a-zA-Z-_%5D*)
 
 一個網頁可以有多個 class 屬性，如：
 
@@ -105,7 +105,7 @@ p { color: red; } /* 所有 p 標籤會是紅色 */
 
 ## Universal Selector
 
-通用選擇器，使用萬用字元 `*` ，所有元素都會套用設定。
+通用選擇器，使用萬用字元 `*`，所有元素都會套用設定。
 
 ```css
 * { color: red; } /* 所有元素都會被設定紅色 */

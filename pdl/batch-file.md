@@ -3,7 +3,7 @@ Batch File
 
 DOS 因為指令不分大小寫，跟 Unix-like 不一樣；為了表示彼此不同，所以 DOS 的指令通常會用全大寫表示
 
-批次檔的副檔名可以為 `.BAT` 或 `.CMD` ， BAT 是 DOS 下的批次檔， CMD 是 NT 內核命令列下的另一種批次檔案，所以必需在有 NT 內核的 Windows 下才能用( NT/2000/XP/2003 等)。
+批次檔的副檔名可以為 `.BAT` 或 `.CMD`，BAT 是 DOS 下的批次檔，CMD 是 NT 內核命令列下的另一種批次檔案，所以必需在有 NT 內核的 Windows 下才能用( NT/2000/XP/2003 等)。
 
 ECHO
 ----
@@ -90,7 +90,7 @@ IF
 
     IF [NOT] "parameters/string" == "parameters/string" COMMAND
 
-`NOT` 代表不等於； `COMMAND` 代表成立時會做的命令
+`NOT` 代表不等於；`COMMAND` 代表成立時會做的命令
 
 注意到這裡的雙引號其實是非必要  
 它可以避免輸入含有空白的參數  
@@ -113,7 +113,7 @@ PAUSE
 
     IF [NOT] EXIST [PATH]FILE COMMAND
 
-`NOT` 同上； `PATH` 可以是相對也可以是絕對； `FILE` 為檔名； `COMMAND` 同上
+`NOT` 同上；`PATH` 可以是相對也可以是絕對；`FILE` 為檔名；`COMMAND` 同上
 
 #### e.g.
 
@@ -129,7 +129,7 @@ IF EXIST "%1" TYPE "%1"
 
 用來測試它的上一個 DOS 命令的返回值
 
-`ERRORLEVEL` 為程式執行結束後的返回值，應該是指像 C 語言程式最後的return吧。  
+`ERRORLEVEL` 為程式執行結束後的返回值，應該是指像 C 語言程式最後的return吧。
 `VALUE` 返回值 
 `COMMAND` 執行命令
 

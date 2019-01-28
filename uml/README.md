@@ -1,6 +1,6 @@
 # UML
 
-Unified Modeling Language ，統一塑模語言
+Unified Modeling Language，統一塑模語言
 
 * Structure diagrams
   * Static diagrams

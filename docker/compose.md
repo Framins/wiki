@@ -2,7 +2,7 @@
 
 如果想建立一個複雜的 Docker 環境的話，別懷疑，用 [Docker Compose][] 就對了！
 
-它使用 YAML 格式定義環境所需要的 Container ，只需一行指令就可以啟動並執行相關初始化或聯結
+它使用 YAML 格式定義環境所需要的 Container，只需一行指令就可以啟動並執行相關初始化或聯結
 
 因為是從 [fig][] 過來的，所以也可以參考 fig 指令
 
@@ -18,7 +18,7 @@
 
 建立 container 並執行，預設讀取 `docker-compose.yml` 檔，並執行裡面所描述的建置。
 
-加上 `-d` 參數後， container 會在背景執行
+加上 `-d` 參數後，container 會在背景執行
 
     # docker-compose up -d
     Creating dockerfile_web_1...
@@ -55,7 +55,7 @@ up 時，會查看當下有無此 image，有會直接使用此 image，沒有�
 
 ### docker-compose rm
 
-刪除 container ，這指令只會刪除已停止的 container
+刪除 container，這指令只會刪除已停止的 container
 
     # docker-compose rm
     Going to remove dockerfile_mysql_1, dockerfile_redis_1, dockerfile_web_1
@@ -92,7 +92,7 @@ up 時，會查看當下有無此 image，有會直接使用此 image，沒有�
 ```yaml
 # Service 名稱
 web:
-  # 用 Dockerfile 建置 service ，後面接的是目錄路徑
+  # 用 Dockerfile 建置 service，後面接的是目錄路徑
   build: .
   # 定義對外開放的 port，等同 docker run -p 的參數
   ports:    
@@ -117,7 +117,7 @@ web:
 mysql:
   # 使用 Docker 的映像檔
   image: mysql
-  # 使用 expose 讓其他 container 可以連結到此 service ，而 host 無法連結
+  # 使用 expose 讓其他 container 可以連結到此 service，而 host 無法連結
   expose:
     - "3306"
   environment:

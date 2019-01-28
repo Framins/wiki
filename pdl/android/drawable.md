@@ -1,6 +1,6 @@
 # Drawable
 
-[Drawable](http://developer.android.com/guide/topics/resources/drawable-resource.html) 除了可以在 XML 裡定義，也能在程式裡呼叫 class ，但一般都會在 XML 定義，這樣就能保持良好的重用性和框架結構。
+[Drawable](http://developer.android.com/guide/topics/resources/drawable-resource.html) 除了可以在 XML 裡定義，也能在程式裡呼叫 class，但一般都會在 XML 定義，這樣就能保持良好的重用性和框架結構。
 
 XML 有以下類型，同時也是標籤：
 

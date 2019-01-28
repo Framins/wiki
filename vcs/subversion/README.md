@@ -1,7 +1,7 @@
 Subversion
 ==========
 
-[Subversion](https://subversion.apache.org/) 是 Apache 出品的版控軟體。因為指令都是 `svn` 開頭，所以大部分的人也會簡稱它為 `svn` 。
+[Subversion](https://subversion.apache.org/) 是 Apache 出品的版控軟體。因為指令都是 `svn` 開頭，所以大部分的人也會簡稱它為 `svn`。
 
 * [環境建置](environment.md)
 

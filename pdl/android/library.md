@@ -1,6 +1,6 @@
 # Library
 
-Android 函式庫不大好找， Google 到的都是 APK 。所以有看到的話，都記一下比較好....。
+Android 函式庫不大好找，Google 到的都是 APK。所以有看到的話，都記一下比較好....。
 
 * [參考網頁1](http://rritw.com/a/JAVAbiancheng/ANT/20131109/441267.html)
 * [參考網頁2](http://www.usingdll.com/plus/view.php?aid=3773)
@@ -11,7 +11,7 @@ Android 函式庫不大好找， Google 到的都是 APK 。所以有看到的�
 
 ## UI Widget
 
-UI Widget 大部分都是繼承 View 相關的 Class ，並以固定目標去加強 View 的功能，如可以用手勢放大縮小的 ImageView 。
+UI Widget 大部分都是繼承 View 相關的 Class，並以固定目標去加強 View 的功能，如可以用手勢放大縮小的 ImageView。
 
 ### extends ImageView
 
@@ -21,12 +21,12 @@ UI Widget 大部分都是繼承 View 相關的 Class ，並以固定目標去加
 
 |  Library  |  Description  |  Links  |
 |  -------  |  -----------  |  -----  |
-| [DevsmartLib-Android](http://www.dev-smart.com/archives/34) | 簡單來說，就是橫向的 ListView 。這繼承的不是ListView ，而是 `AdapterView<ListAdapter>` 。只是因為性質跟 ListView 很像，所以就放這裡了。 | [GitHub](https://github.com/dinocore1/DevsmartLib-Android) |
+| [DevsmartLib-Android](http://www.dev-smart.com/archives/34) | 簡單來說，就是橫向的 ListView。這繼承的不是ListView，而是 `AdapterView<ListAdapter>`。只是因為性質跟 ListView 很像，所以就放這裡了 | [GitHub](https://github.com/dinocore1/DevsmartLib-Android) |
 | [TwoWayView](https://github.com/lucasr/twoway-view) | 同上，也是繼承 `AdapterView<ListAdapter>` | |
 
 ### ActionBarSherlock
 
-ActionBar 是個很好用也很煩的東西，因為有版本的問題，就跟 HTML5 在 IE8 會死很慘的意思是差不多的。 ActionBarSherlock解決了這個問題。
+ActionBar 是個很好用也很煩的東西，因為有版本的問題，就跟 HTML5 在 IE8 會死很慘的意思是差不多的。ActionBarSherlock解決了這個問題。
 
 * [官方網站](http://actionbarsherlock.com/)
 * [maven.org](http://search.maven.org/#search%7Cga%7C1%7CActionBarSherlock)
@@ -67,7 +67,7 @@ ActionBar 是個很好用也很煩的東西，因為有版本的問題，就跟 
 
 http://www.oschina.net/project/tag/255/pdf-tools?sort=view&lang=19&os=0
 
-PDF 有分兩大類，一種是 Generator ，另一種是 Reader
+PDF 有分兩大類，一種是 Generator，另一種是 Reader
 
 * [MuPDF](http://www.mupdf.com/) - Reader 最好的選擇，但它是用 NDK 寫的....
 * [Android-PDF-Viewer-Library](https://github.com/jblough/Android-Pdf-Viewer-Library)

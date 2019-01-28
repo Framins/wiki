@@ -53,11 +53,11 @@ foreach ($iterator as $key => $value) {
 
 如果常用 foreach 的話，其實是可以預期的到它的執行步驟的：
 
-1. 執行 `rewind()` ，讓指標可以從頭開始取資料。
-2. 執行 `valid()` ，確定指標指向的位置是有資料的。
-3. 再來執行 `$value = current()` 和$ `key = key()` ， 把取到的值代入 foreach 語法所設定的變數裡。
-4. 當下一個 loop 開始時，換執行 `next()` ，其他 `valid()` 、 `current()` 、 `key()` 都同上。
-5. 迴圈結束條件為當 `valid()` 回傳 false 。
+1. 執行 `rewind()`，讓指標可以從頭開始取資料。
+2. 執行 `valid()`，確定指標指向的位置是有資料的。
+3. 再來執行 `$value = current()` 和$ `key = key()`，把取到的值代入 foreach 語法所設定的變數裡。
+4. 當下一個 loop 開始時，換執行 `next()`，其他 `valid()`、`current()`、`key()` 都同上。
+5. 迴圈結束條件為當 `valid()` 回傳 false。
 
 ## IteratorAggregate
 
@@ -73,7 +73,7 @@ IteratorAggregate extends Traversable {
 
 只要你回傳的是 Traversable 的物件就可以了，而這個物件需要自己動手做。
 
-官方使用 ArrayIterator 來實現，其中 ArrayIterator 有實作到 Iterator ，所以是符合條件的。
+官方使用 ArrayIterator 來實現，其中 ArrayIterator 有實作到 Iterator，所以是符合條件的。
 
 ## ArrayAccess
 

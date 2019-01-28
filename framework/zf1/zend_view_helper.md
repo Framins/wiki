@@ -12,7 +12,7 @@
 
 ## Custom Helper
 
-官方說明有提到：「雖然不是必要，但還是建議要實作 `Zend_View_Helper_Interface` 或繼承 `Zend_View_Helper_Abstract` 。」
+官方說明有提到：「雖然不是必要，但還是建議要實作 `Zend_View_Helper_Interface` 或繼承 `Zend_View_Helper_Abstract`。」
 
 helper 預設的載入路徑除了內建的 helper 的路徑外，自定義的路徑就是 `application/views/helpers` 了，前綴一樣都是`Zend_View_Helper`。這些都可以從 View 物件呼叫 setHelperPath() 設定。
 

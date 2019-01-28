@@ -11,7 +11,7 @@ Zend 預設的驗證方法：
 
 ## Usage
 
-所有的驗證方法都會繼承 `Zend_Validate_Interface` 。而這介面裡會有兩個方法： `isValid()` and `getMessages()`
+所有的驗證方法都會繼承 `Zend_Validate_Interface`。而這介面裡會有兩個方法： `isValid()` and `getMessages()`
 
 此為官方的基本實作例子
 

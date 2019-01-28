@@ -40,7 +40,7 @@ git config --global core.ignorecase false
 ```bash
 git config --global push.default matching # 沒指定分支的話，會把所有 fetch 下來名稱 match 的全 push 上去，聽起來很可怕
 git config --global push.default current # 只 push 目前所在的 branch
-git config --global push.default simple # 如果有設 upstream 會優先執行，如果沒有才會使用 current ，看起來比較適合
+git config --global push.default simple # 如果有設 upstream 會優先執行，如果沒有才會使用 current，看起來比較適合
 ```
 
 檢查目前設定值的列表
@@ -55,12 +55,12 @@ git config --list
 git config user.name
 ```
 
-設定值的檔案會存在 `/etc/gitconfig` 及 `~/.gitconfig` ，差別只是一個是所有使用者的 global ，另一個是使用者個人的 global 。
+設定值的檔案會存在 `/etc/gitconfig` 及 `~/.gitconfig`，差別只是一個是所有使用者的 global，另一個是使用者個人的 global。
 
 .gitignore
 ----------
 
-某些檔案可能不需要被 git 記錄下來，如暫存檔、編譯後的執行檔等，這時可以加入此檔，並記錄哪些類型檔案， git 就會自動跳過不去 add
+某些檔案可能不需要被 git 記錄下來，如暫存檔、編譯後的執行檔等，這時可以加入此檔，並記錄哪些類型檔案，git 就會自動跳過不去 add
 
 如不同系統裡，都會出現一些特殊的 cache 檔，可以寫這個檔來自動忽略。
 
@@ -104,7 +104,7 @@ Desktop.ini
 .bash_profile
 -------
 
-參考 [iHower 的 blog](http://ihower.tw/blog/archives/5436) 上的好東西， Linux/MAC 系統修改家目錄的 `~/.bash_profile`
+參考 [iHower 的 blog](http://ihower.tw/blog/archives/5436) 上的好東西，Linux/MAC 系統修改家目錄的 `~/.bash_profile`
 
 ```bash
 function git_branch {
@@ -129,7 +129,7 @@ PS1="[\[\033[1;32m\]\w\[\033[0m\]] \[\033[0m\]\[\033[1;36m\]\$(git_branch)\[\033
 Auto Completion
 ---------------
 
-Ubuntu 預設會裝， Mac 的裝法如下：
+Ubuntu 預設會裝，Mac 的裝法如下：
 
 ```bash
 brew install bash-completion

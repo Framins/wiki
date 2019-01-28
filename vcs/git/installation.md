@@ -9,12 +9,12 @@ Installation
 Windows 的主程式官方網站上就有了，基本上就下一步猛按即可。不過以下還是講幾個小設定 (版本1.8.1.2)：
 
 1. 下載完後點擊兩下安裝
-2. **Welcome to the Git Setup Wizard** 按 Next 。
-3. **Information** 按 Next 。
-4. **Select Components** 這裡要注意一點： Git 預設會整合檔案總管的右鍵功能表，如果想用其他的 GUI ，可以 [Windows Explorer integration] 取消掉；如果想要用文字模式的話， 可以只選 [Git Bash Here] 就好。
+2. **Welcome to the Git Setup Wizard** 按 Next。
+3. **Information** 按 Next。
+4. **Select Components** 這裡要注意一點： Git 預設會整合檔案總管的右鍵功能表，如果想用其他的 GUI，可以 [Windows Explorer integration] 取消掉；如果想要用文字模式的話，可以只選 [Git Bash Here] 就好。
 5. **Adjusting your PATH environment** 這是要用文字模式的話才會考慮選哪個的問題，第一個是用自帶的Git Bash，用起來跟Linux的Bash很像；第二個是用 Windows 的命令列；第三個是使用 Windows 命令列，但也能使用 Unix-like 的指令。
-6. **Choosing the SSH executable** 選擇 SSH 加密執行檔要用哪一個，第一個是用 Git 自帶的 OpenSSH ；第二個是外部軟體。
-7. **Configuring the line ending conversions** 檔尾換行字元要如何轉換，第一個是 checking out 會自動轉成 Windows 格式， committing 會自動轉成 Unix 格式；第二個是全都會轉成 Unix 格式；第三個是不做任何轉換。
+6. **Choosing the SSH executable** 選擇 SSH 加密執行檔要用哪一個，第一個是用 Git 自帶的 OpenSSH；第二個是外部軟體。
+7. **Configuring the line ending conversions** 檔尾換行字元要如何轉換，第一個是 checking out 會自動轉成 Windows 格式，committing 會自動轉成 Unix 格式；第二個是全都會轉成 Unix 格式；第三個是不做任何轉換。
 8. 安裝檔案完後就是問要不要看 Releaselog
 
 文字模式只要打開 Git Bash 即可開始下命令操作了。
@@ -43,7 +43,7 @@ GUI 大部分應該都會推薦 TortoiseGit，當然這部分還是自己使用�
 安裝在 Linux
 ------------
 
-Linux 麻煩在於很多不同的 Distributions ，不過還是可以小小歸類一下啦！
+Linux 麻煩在於很多不同的 Distributions，不過還是可以小小歸類一下啦！
 
 ### Debian/Ubuntu
 

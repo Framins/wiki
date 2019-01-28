@@ -13,12 +13,12 @@
 
 | Attribute | Description |
 | --------- | ----------- |
-| android:hint | String Resource ，輸入框在沒有值的時候，會出現的提示 |
+| android:hint | String Resource，輸入框在沒有值的時候，會出現的提示 |
 | android:numeric | Keyword，數字的格式，可以為以下常數值： integer, signed, decimal |
 | android:singleLine | Boolean，設定 true 後，就會變單行模式了 |
-| android:password | Boolean ，設定 true 後，輸入會變密碼 |
-| android:capitalize | Keyword ，可轉大小寫 |
-| android:ellipsize | Keyword ，指定溢位隱藏的方式 |
+| android:password | Boolean，設定 true 後，輸入會變密碼 |
+| android:capitalize | Keyword，可轉大小寫 |
+| android:ellipsize | Keyword，指定溢位隱藏的方式 |
 
 ## android:imeOptions
 

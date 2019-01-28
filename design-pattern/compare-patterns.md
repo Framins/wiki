@@ -4,7 +4,7 @@
 
 ## Wrapper Patterns
 
-某些設計模式裡，有的角色是不做正經事的，這種類型稱之為包裝模式 (Wrapper Pattern) 。包裝模式與使用情境差異條列如下
+某些設計模式裡，有的角色是不做正經事的，這種類型稱之為包裝模式 (Wrapper Pattern)。包裝模式與使用情境差異條列如下
 
 *   Decorator Pattern
 

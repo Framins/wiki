@@ -12,7 +12,7 @@ public class Circle {
 }
 ```
 
-表示這個成員在定義的時候就決定了它的值，之後都不能更改，就像 PHP 的常數一樣 (const)。相對的， final 常數要在一開始就指定一個靜態的值。
+表示這個成員在定義的時候就決定了它的值，之後都不能更改，就像 PHP 的常數一樣 (const)。相對的，final 常數要在一開始就指定一個靜態的值。
 
 ## Modify Object Member
 
@@ -27,7 +27,7 @@ public class Circle {
 
 ## Modify Method
 
-final 加在 method 上時，代表這個 method 不能再被 override 了，但是還是能被 overload 。
+final 加在 method 上時，代表這個 method 不能再被 override 了，但是還是能被 overload。
 
 ```java
 public class Circle {

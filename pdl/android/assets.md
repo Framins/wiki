@@ -1,6 +1,6 @@
 # Assets
 
-資源，常見的就是如圖片、聲音、影片等；比較特別可能還會有 SQL 、 TXT 、 CVS 等純文字檔。
+資源，常見的就是如圖片、聲音、影片等；比較特別可能還會有 SQL、TXT、CVS 等純文字檔。
 
 ## 圖片匯入
 
@@ -21,15 +21,15 @@
 
 `Additional padding` 很明顯的就是要加 padding
 
-`Foreground scaling` 是控制它的放大縮小要到什麼程度， Crop 可能會裁掉一點， Center 是會置中顯示全部。
+`Foreground scaling` 是控制它的放大縮小要到什麼程度，Crop 可能會裁掉一點，Center 是會置中顯示全部。
 
 `Shape` 背景的圖檔。
 
-Color 就只是 Color 而已，當選 `Clipart` 或 `Text` 時，會雬要選 `Foreground color` 。
+Color 就只是 Color 而已，當選 `Clipart` 或 `Text` 時，會雬要選 `Foreground color`。
 
 因為是 Launcher 的圖，所以檔名是固定的，這邊就不需要在打 `Resource name` 了。
 
-這裡是做 ActionBar 和 TabIcons 的，所以圖案會變成純色。上面選項都差不多，不過下面變成要選 `Theme` 和 `Resource name` 。
+這裡是做 ActionBar 和 TabIcons 的，所以圖案會變成純色。上面選項都差不多，不過下面變成要選 `Theme` 和 `Resource name`。
 
 `Notification icons` 是做通知列的Icon，它會分別產生v11和預設的，因為通知列的底色不同。
 

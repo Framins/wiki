@@ -99,7 +99,7 @@ sudo -u git -H ./bin/install
 
 10. 資料庫
 
-GitLab 是建議用 PostgreSQL 。
+GitLab 是建議用 PostgreSQL。
 
 ```bash
 sudo apt-get install -y postgresql-9.1 postgresql-client libpq-dev
@@ -122,7 +122,7 @@ sudo -u git -H git clone https://gitlab.com/gitlab-org/gitlab-ce.git -b 6-7-stab
 cd /home/git/gitlab
 ```
 
-再來可以在裡面切換想要安裝的版本，官方是不建議在正式執行的環境用 master ，好怪的設定....
+再來可以在裡面切換想要安裝的版本，官方是不建議在正式執行的環境用 master，好怪的設定....
 
 調整設定
 

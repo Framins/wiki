@@ -154,7 +154,7 @@ switch(variable)
 
 ### for
 
-for 迴圈指令通常用在已知迴圈次數的情況下， foreach 也是類似的情況。
+for 迴圈指令通常用在已知迴圈次數的情況下，foreach 也是類似的情況。
 
 ```
 for(set initial; condition; control)

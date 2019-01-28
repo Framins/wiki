@@ -9,9 +9,9 @@
 
 ## Entry
 
-這是要告訴 Webpack 說，這一堆程式碼的 `main` 是哪一隻檔案， Webpack 才有辦法從這個檔案找出背後所依賴的其他檔案。
+這是要告訴 Webpack 說，這一堆程式碼的 `main` 是哪一隻檔案，Webpack 才有辦法從這個檔案找出背後所依賴的其他檔案。
 
-> 類似地概念：大部分的 [PHP](/pdl/php) 框架也可以從 `index.php` 找到背後所有依賴程式； [Go](/pdl/go) 則是 `main.go` 是執行程式的起始點。
+> 類似地概念：大部分的 [PHP](/pdl/php) 框架也可以從 `index.php` 找到背後所有依賴程式；[Go](/pdl/go) 則是 `main.go` 是執行程式的起始點。
 
 設定範例如下：
 

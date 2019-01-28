@@ -78,7 +78,7 @@
 | Main | onCreateOptionsMenu |
 | Main | onPrepareOptionsMenu |
 
-> 第2個 MainFragment.onViewStateRestored() ，有 API Level 17 的限制。
+> 第2個 MainFragment.onViewStateRestored()，有 API Level 17 的限制。
 
 
 ### Main執行finish或按返回鍵
@@ -176,7 +176,7 @@
 | MainFragment | onResume |
 | Main | onPostResume |
 
-### 加入 android:configChanges 設定後， Main 翻轉螢幕
+### 加入 android:configChanges 設定後，Main 翻轉螢幕
 
 在 `AudroidManifest.xml` 加入 android:configChanges 設定：
 
@@ -189,4 +189,4 @@
 | Main | onConfigurationChanged |
 | MainFragment | onConfigurationChanged |
 
-剛剛翻轉螢幕的動作全不見了，只剩下 onConfigurationChanged 。
+剛剛翻轉螢幕的動作全不見了，只剩下 onConfigurationChanged。

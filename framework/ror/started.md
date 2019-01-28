@@ -7,12 +7,12 @@
 * 要用使用者權限安裝，用 `sudo` 它會裝到全域資料夾裡，然後就會噴錯
 * 安裝的時候，如果 `.bashrc` 已經有設定 `$PATH` 的話會噴錯
 * 裝完要[調整設定](https://rvm.io/integration/gnome-terminal)，記得重開終端機
-* 不知道為何沒有裝到 `rails` ，需要再下一次 `gem install rails --no-rdoc --no-ri` 指令才會安裝
+* 不知道為何沒有裝到 `rails`，需要再下一次 `gem install rails --no-rdoc --no-ri` 指令才會安裝
 
 ## Common
 
 * 設定 git 相關環境
-* 安裝 node.js ， rails 啟動內建伺服器必須
+* 安裝 node.js，rails 啟動內建伺服器必須
 
 伺服器，看需求再選擇裝哪一種，目前大部分就是 Apache 和 Nginx 的選擇，再搭配 [Passenger](https://www.phusionpassenger.com/) 即可
 
@@ -20,7 +20,7 @@
     sudo a2enmod rewrite                                 # 需開啟 mod_rewrite
     sudo apt-get build-dep nginx                         # Nginx
 
-資料庫，本機開發可以使用 SQLite ，上線可以換 MySQL 或 PostgreSQL ，看需求再選擇裝哪一種
+資料庫，本機開發可以使用 SQLite，上線可以換 MySQL 或 PostgreSQL，看需求再選擇裝哪一種
 
     sudo apt-get install mysql-server mysql-clinet libmysql++-dev libdbi-ruby libdbd-mysql-ruby  # MySQL
     sudo apt-get install sqlite3 libsqlite3-dev  # SQLite
@@ -43,12 +43,12 @@ Redis
 * Rails 3.2.13
 * Rubygems 1.8.23
 
-這應該是最簡單的了， Ubuntu 都已經處理好了。
+這應該是最簡單的了，Ubuntu 都已經處理好了。
 
     sudo apt-get install ruby ruby-dev rails rubygems rake # 安裝相關套件
     sudo apt-get install vim-rails # Vim 外掛
 
-如果沒裝 ruby-dev 的話， gem 更新可能會出現錯誤： ERROR: Failed to build gem native extension.
+如果沒裝 ruby-dev 的話，gem 更新可能會出現錯誤： ERROR: Failed to build gem native extension.
 
 ### RVM
 
@@ -56,7 +56,7 @@ Redis
 
     sudo apt-get install build-essential bison openssl libreadline6 libreadline6-dev curl zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev libxml2-dev libxslt-dev autoconf libc6-dev
 
-user 目錄下安裝 rvm ，並安裝 Ruby 2.0 ：
+user 目錄下安裝 rvm，並安裝 Ruby 2.0 ：
 
     curl -L https://get.rvm.io | bash -s stable
     source ~/.rvm/scripts/rvm
@@ -94,7 +94,7 @@ Gem 是一個 Ruby 的套件管理系統，就跟 Ubuntu 的 apt 一樣，預設
     cd helloworld
     rails s                  # 打開伺服器，進去目錄後執行才能開啟 Rails 內帶的伺服器
 
-記得預設的 port 會是 3000 。如果上面都沒做錯的話，等一回兒可以開瀏覽器觀看剛剛建的網頁了。
+記得預設的 port 會是 3000。如果上面都沒做錯的話，等一回兒可以開瀏覽器觀看剛剛建的網頁了。
 
 # Reference
 

@@ -27,20 +27,20 @@ LinearLayout 的 XML 屬性：
 
 | View | Name | Type | Description |
 | ---- | ---- | ---- | ----------- |
-| LinearLayout | baselineAligned | boolean | 當設定為 false ，可以避免 Layout 去調整子元素的基線 |
+| LinearLayout | baselineAligned | boolean | 當設定為 false，可以避免 Layout 去調整子元素的基線 |
 | ::: | baselineAlignedChildIndex | R.id | 指定對齊子元素的基線 |
 | ::: | divider | Drawable | 設定分格線 |
 | ::: | gravity | [R.attr.layout_gravity](http://developer.android.com/reference/android/R.attr.html#layout_gravity) | 設定子元件的對齊方法 |
 | ::: | measureWithLargestChild | boolean | 如果是 true 的話，所有子元素的 weight 都會被視為最大尺寸的最小尺寸 |
-| ::: | orientation | [R.attr.orientation](http://developer.android.com/reference/android/R.attr.html#orientation) | 設定方向， horizontal 為橫向， vertical 為直向 |
+| ::: | orientation | [R.attr.orientation](http://developer.android.com/reference/android/R.attr.html#orientation) | 設定方向，horizontal 為橫向，vertical 為直向 |
 | ::: | weightSum | int | 定義 weight 的總合 |
 
 LinearLayout 子元素可以用的 XML 屬性：
 
 layout_weight 設定的重點：
 
-* 在 layout_width 設置為 fill_parent 的時候， layout_weight 所代表的是你的控件要優先盡可能的大,但這個大是有限度的，即 fill_parent 。
-* 在 layout_width 設置為 wrap_content 的時候， layout_weight 所代表的是你的控件要優先盡可能的小,但這個小是有限度的，即 wrap_content 。
+* 在 layout_width 設置為 fill_parent 的時候，layout_weight 所代表的是你的控件要優先盡可能的大,但這個大是有限度的，即 fill_parent。
+* 在 layout_width 設置為 wrap_content 的時候，layout_weight 所代表的是你的控件要優先盡可能的小,但這個小是有限度的，即 wrap_content。
 
 ### RelativeLayout
 

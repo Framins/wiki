@@ -36,7 +36,7 @@ Ruby 的環境架設可以參考 iHower 的 [Ruby on Rails 實戰聖經](http://
 
 ## Variable Type
 
-Ruby 是屬於 Dynamic typing + Strong typing 。所以雖然變數可以是定義的時候就決定型態了，但還是要使用轉型
+Ruby 是屬於 Dynamic typing + Strong typing。所以雖然變數可以是定義的時候就決定型態了，但還是要使用轉型
 
 Ruby 的世界中，全都是物件，所以下面每個基本型態都是物件名稱
 

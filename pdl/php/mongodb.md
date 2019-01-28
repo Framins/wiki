@@ -15,14 +15,14 @@ $db = $m->foo;
 // $db = $m->selectDB('foo');
 ```
 
-此時取得的是 [MongoDB](http://www.php.net/manual/en/class.mongodb.php) ，可以對應一般資料庫觀念的 Database
+此時取得的是 [MongoDB](http://www.php.net/manual/en/class.mongodb.php)，可以對應一般資料庫觀念的 Database
 
 ```php
 $collection = $db->bar;
 // $db = $db-> selectCollection('bar');
 ```
 
-此時取得的是 [MongoCollection](http://www.php.net/manual/en/class.mongocollection.php) ，可以對應一般資料庫的 Table
+此時取得的是 [MongoCollection](http://www.php.net/manual/en/class.mongocollection.php)，可以對應一般資料庫的 Table
 
 如果 collection 做查詢行為的話，會回傳 [MongoCursor](http://www.php.net/manual/en/class.mongocursor.php) 物件
 

@@ -12,16 +12,16 @@
 
 [官方說明](http://api.jquery.com/animate/)
 
-`.animate()` 可以建立基於可量化的 CSS 屬性所構成的動畫，如 `width` ， `height` etc 。
+`.animate()` 可以建立基於可量化的 CSS 屬性所構成的動畫，如 `width`，`height` etc。
 
 animate() 原型，詳細用法參考官網：
 
     .animate(properties [, duration] [, easing] [, complete])
 
-* properties ，必要，動畫屬性
-* duration ，動畫時間
-* easing ，動畫 easing 類型
-* complete ，當動畫結束後，會執行的 callback function 。
+* properties，必要，動畫屬性
+* duration，動畫時間
+* easing，動畫 easing 類型
+* complete，當動畫結束後，會執行的 callback function。
 
 動畫會移動捲軸到上面 30px 的範例：
 
@@ -33,7 +33,7 @@ $("html,body").animate({
 });
 ```
 
-> `scrollTop: 30` 指的是捲軸從最上面開始，往下拉 `30px` ，也就是這個捲軸會影響的區塊，最終上面會有 `30px` 的空間是看不到的
+> `scrollTop: 30` 指的是捲軸從最上面開始，往下拉 `30px`，也就是這個捲軸會影響的區塊，最終上面會有 `30px` 的空間是看不到的
 
 ## .offset()
 

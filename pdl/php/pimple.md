@@ -45,7 +45,7 @@ $container['logger'] = $container->factory(function($container) {
 });
 ```
 
-如果想要把 container 當作是 application 的參數時，建議用 protect + anonymous function 。平常使用 ArrayAccess 設定的值，是有機會被覆蓋的。用這個方法可以避免被覆蓋。
+如果想要把 container 當作是 application 的參數時，建議用 protect + anonymous function。平常使用 ArrayAccess 設定的值，是有機會被覆蓋的。用這個方法可以避免被覆蓋。
 
 Note: 看原始碼的感覺是這樣用的...
 

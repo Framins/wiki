@@ -40,7 +40,7 @@ $table = new Table(array('db' => 'my_db'));
 
 ## Quote
 
-`Zend_Db_Table` 本身並沒有提供 quote 的方法，不過有取得 adapter 的方法， quote 方法參考 [Zend_Db_Adapter](zend_db_adapter.md#Quote)
+`Zend_Db_Table` 本身並沒有提供 quote 的方法，不過有取得 adapter 的方法，quote 方法參考 [Zend_Db_Adapter](zend_db_adapter.md#Quote)
 
 ```php
 $adapter = $table->getAdapter();
@@ -88,7 +88,7 @@ $table->delete($where);
 
 ## Find
 
-依 primary key 去找 record ， Find 得到的都會是 Rowset 物件
+依 primary key 去找 record，Find 得到的都會是 Rowset 物件
 
 ```php
 // 單筆

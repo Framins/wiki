@@ -22,7 +22,7 @@ Cloud Computing
 |  Network        |  ✓              |        |        |        |
 |  Data Centers   |  ✓              |        |        |        |
 
-Note: `IaaS` 的特點應該是可以操作系統層級， `PaaS` 是可以撰寫指定的語言， `SaaS` 則是只能使用軟體
+Note: `IaaS` 的特點應該是可以操作系統層級，`PaaS` 是可以撰寫指定的語言，`SaaS` 則是只能使用軟體
 
 Feature
 -------

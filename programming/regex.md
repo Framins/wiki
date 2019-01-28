@@ -1,6 +1,6 @@
 # Regex
 
-全名為 [Regular Expressions][] ，大部分都簡稱為 *Regex* 。
+全名為 [Regular Expressions][]，大部分都簡稱為 *Regex*。
 
 ## Learning
 

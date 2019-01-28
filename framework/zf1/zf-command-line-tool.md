@@ -49,7 +49,7 @@
 
     zf configure dbadapter [DSN] [Section=production]
 
-設定 `DbAdapter` ，假設資料庫資訊如下：
+設定 `DbAdapter`，假設資料庫資訊如下：
 
 * adapter: Pdo_Mysql
 * username: username

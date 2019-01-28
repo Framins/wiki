@@ -40,7 +40,7 @@ Zend_Controller_Action_HelperBroker::addPath(APPLICATION_PATH . '/controllers/he
 
 ## Custom Helpers
 
-要寫自定義的 helper 就必須要繼承 `Zend_Controller_Action_Helper_Abstract` ，裡面有提供一些方法可以直接取得系統相關資訊
+要寫自定義的 helper 就必須要繼承 `Zend_Controller_Action_Helper_Abstract`，裡面有提供一些方法可以直接取得系統相關資訊
 
 |  Method Name  |  Description  |
 |  -----------  |  -----------  |

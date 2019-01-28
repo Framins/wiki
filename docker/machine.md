@@ -1,6 +1,6 @@
 # Docker Machine
 
-[Docker Machine][] 主要功能是 provision docker engine ，包括 [Swarm](swarm.md) 的應用也可以 provision 。
+[Docker Machine][] 主要功能是 provision docker engine，包括 [Swarm](swarm.md) 的應用也可以 provision。
 
 ## Setup
 
@@ -11,7 +11,7 @@
 
 ## Quick Start
 
-`create` 指令可以直接 provision 機器， `--driver` 參數為必要，會決定要建機器在哪個地方，以下以 [Google Cloud Platform][] 為例
+`create` 指令可以直接 provision 機器，`--driver` 參數為必要，會決定要建機器在哪個地方，以下以 [Google Cloud Platform][] 為例
 
 首先先用 [gcloud](https://cloud.google.com/sdk/) 登入
 
@@ -27,7 +27,7 @@
 
 Hint: 其他參數可以直接下 `docker-machine create --driver google` 或是上 [Docker 官網參考](https://docs.docker.com/machine/drivers/gce/)
 
-另外還可以加 [Swarm](swarm.md) 的初始化 `--swarm-master` ，最後則是該實體的名稱
+另外還可以加 [Swarm](swarm.md) 的初始化 `--swarm-master`，最後則是該實體的名稱
 
 最後指令如下
 

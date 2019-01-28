@@ -1,6 +1,6 @@
 # Sensor
 
-Android 官方是把 Sensor 和 Location 放在 [Location and Sensors API](http://developer.android.com/guide/topics/sensors/index.html) 中。但程式上，它們是不同的 Manager 。合理來說， GPS 也是一種感應器，所以都放在 Sensor 分類也並沒有什麼錯囉。
+Android 官方是把 Sensor 和 Location 放在 [Location and Sensors API](http://developer.android.com/guide/topics/sensors/index.html) 中。但程式上，它們是不同的 Manager。合理來說，GPS 也是一種感應器，所以都放在 Sensor 分類也並沒有什麼錯囉。
 
 ## Location
 

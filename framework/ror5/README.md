@@ -1,16 +1,14 @@
-Ruby on Rails 5
-===============
+# Ruby on Rails 5
 
 `Full-stack Framework`
 
-[Ruby on Rails 5][] 應該是目前的最新版， [Ruby][] 要 2.2.2 以上
+[Ruby on Rails 5][] 應該是目前的最新版，[Ruby][] 要 2.2.2 以上
 
-Installation
-------------
+## Installation
 
 ### Mac
 
-先用 brew 安裝 Ruby ，預設是 2.3
+先用 brew 安裝 Ruby，預設是 2.3
 
     brew update
     brew install ruby
@@ -22,8 +20,7 @@ Installation
 
 再來重開終端機應該就會有了
 
-Quick Start
------------
+## Quick Start
 
 建立新專案
 
@@ -36,7 +33,7 @@ Quick Start
     cd /path/to/project
     rails s
 
-預設 port 是 3000 ，打開 http://localhost:3000/ 即可看到預設的測試頁了
+預設 port 是 3000，打開 http://localhost:3000/ 即可看到預設的測試頁了
 
 [Ruby on Rails 5]: http://rubyonrails.org/
 [Ruby]: /pdl/ruby/README.md

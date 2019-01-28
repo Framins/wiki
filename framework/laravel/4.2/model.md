@@ -17,7 +17,7 @@ Laravel 使用 Eloquent ORM 來操作 DB
 
 ### One To One
 
-比方說，一個 `User` 對應一個 `UserSetting` ，可以使用 `hasOne` 方法
+比方說，一個 `User` 對應一個 `UserSetting`，可以使用 `hasOne` 方法
 
 ```php
 class User extends Eloquent {
@@ -66,7 +66,7 @@ class UserSetting extends Eloquent {
 
 ### One To Many
 
-比方說，一個 `User` 對應很多 `Post` ，可以使用 `hasMany` 方法：
+比方說，一個 `User` 對應很多 `Post`，可以使用 `hasMany` 方法：
 
 ```php
 class User extends Eloquent {

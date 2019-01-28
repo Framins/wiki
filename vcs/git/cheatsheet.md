@@ -58,7 +58,7 @@ git blame <file>                              # 顯示該檔案的所有commit�
 
 ^  git branch  ||
 | git branch | 列出目前本機的 branch |
-| git branch -a | 列出所有 branch ，包括 remote |
+| git branch -a | 列出所有 branch，包括 remote |
 | git branch <Branch> | 建立新的 branch |
 | git branch <Branch> <Base> | 以 <Base> 為底，建立新的 branch |
 | git branch -d <Branch> | 刪除 branch |

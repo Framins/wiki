@@ -1,6 +1,6 @@
 # Rancher Stack
 
-在 Rancher 裡， *Stack* 是一整套應用程式，由一組 *Service* 組合而成
+在 Rancher 裡，*Stack* 是一整套應用程式，由一組 *Service* 組合而成
 
 而 Service 啟動的條件是，至少要有一個 *Container* 啟動
 
@@ -16,11 +16,11 @@
 
 ## How to clone
 
-新增一個空的 Stack 並沒有什麼問題，加入 Service 的過程才會比較困難。但完成了一個 Stack 後，就可以開始從這個 Stack 複製出更多個來。比方說上面有提到 Logger stack ，所以我可以從現有的 Logger 再複製第二個出來。
+新增一個空的 Stack 並沒有什麼問題，加入 Service 的過程才會比較困難。但完成了一個 Stack 後，就可以開始從這個 Stack 複製出更多個來。比方說上面有提到 Logger stack，所以我可以從現有的 Logger 再複製第二個出來。
 
-首先其實 Stack 是可以跟 Docker Compose 互轉的，先從 Stack 轉成 Docker Compose ，按選單鈕選 **View Config** ：
+首先其實 Stack 是可以跟 Docker Compose 互轉的，先從 Stack 轉成 Docker Compose，按選單鈕選 **View Config** ：
 
-再來就會看到兩邊長長的 yaml ，左邊是 Docker Compose 用，右邊是 Rancher Compose 要用的。
+再來就會看到兩邊長長的 yaml，左邊是 Docker Compose 用，右邊是 Rancher Compose 要用的。
 
 以下是 `docker-compose.yml` 範例
 
@@ -54,7 +54,7 @@ postgres:
 
 再來點選新增 stack 貼到左邊 `docker-compose.yml` 區塊即可
 
-Stack 對外的 port 要設定在 sentry service 上，它的設定是 `EXPOSE 9000` 。可以加在 `docker-compose` 上，或是使用 *Load Balancer* 轉給它都可以。
+Stack 對外的 port 要設定在 sentry service 上，它的設定是 `EXPOSE 9000`。可以加在 `docker-compose` 上，或是使用 *Load Balancer* 轉給它都可以。
 
 最後就可以到選單中啟動 Stack 了！
 

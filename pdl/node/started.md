@@ -2,7 +2,7 @@
 
 可以參考 [Docker Hub](https://hub.docker.com/_/node/) 選擇 Docker image 版本，這裡使用 `node:4.4` 做練習
 
-> 本篇主題是 Node.js ， Docker 的部分不會著墨太多
+> 本篇主題是 Node.js，Docker 的部分不會著墨太多
 
 # HelloWorld
 
@@ -64,7 +64,7 @@ node app.js
 
 # NPM
 
-[NPM](https://www.npmjs.com/) 全名為 *Node Package Manager* ，為套件管理工具，類似 [PHP][] 的 [Composer][] 或 [Ruby][] 的 [Gem](https://rubygems.org/)
+[NPM](https://www.npmjs.com/) 全名為 *Node Package Manager*，為套件管理工具，類似 [PHP][] 的 [Composer][] 或 [Ruby][] 的 [Gem](https://rubygems.org/)
 
 使用 Docker 初始化 NPM 套件定義檔
 
@@ -72,7 +72,7 @@ node app.js
 docker run --rm -it -v `pwd`:/usr/src/app -w /usr/src/app node:4.4 npm init -y
 ```
 
-執行完後，會多一個檔叫 `package.json` 。假如要裝 [Express](http://expressjs.com/) 可以下指令安裝
+執行完後，會多一個檔叫 `package.json`。假如要裝 [Express](http://expressjs.com/) 可以下指令安裝
 
 ```bash
 docker run --rm -it -v `pwd`:/usr/src/app -w /usr/src/app node:4.4 npm install express --save
@@ -80,7 +80,7 @@ docker run --rm -it -v `pwd`:/usr/src/app -w /usr/src/app node:4.4 npm install e
 
 # NPM Command
 
-上述 Docker 每次執行完之後都會移除 container ，所以如果有裝全域套件的需求時，建議可以使用 *Dockerfile* 安裝
+上述 Docker 每次執行完之後都會移除 container，所以如果有裝全域套件的需求時，建議可以使用 *Dockerfile* 安裝
 
 比方說我想要用 `express` 的指令，首先建立一個名為 `Dockerfile` 的檔案：
 

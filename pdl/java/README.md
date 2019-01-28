@@ -11,12 +11,12 @@ Basic
 Standard class library
 ----------------------
 
-java.lang ，基本核心類，包括字串，執行緒、例外和反射等。
+java.lang，基本核心類，包括字串，執行緒、例外和反射等。
 
 * java.lang.object - Java 所有定義物件的最上層的 Class，又稱 [[http://docs.oracle.com/javase/tutorial/java/IandI/objectclass.html|SuperClass]]
   + java.lang.string - 字串物件，這應該也是最常用的物件
 
-java.util ，輔助工具類，包括常用的雜湊、串列、集合等。
+java.util，輔助工具類，包括常用的雜湊、串列、集合等。
 
 * java.util.collection - 所有集合種類的 SuperClass
 * java.util.list - 循序有索引的串列

@@ -14,12 +14,12 @@
 * DoughnutChartView - 圓環圖
 * CombinedXYChartView - 複合圖(可合併折線圖、立方線圖、散點圖、條圖、條形圖、氣泡圖)
 
-裡面有一個可以取得圖表物件的工廠類別： ChartFactory ，取得圖表物件之前要先準備好幾個資料，它才能幫你處理好繪圖的部分：
+裡面有一個可以取得圖表物件的工廠類別： ChartFactory，取得圖表物件之前要先準備好幾個資料，它才能幫你處理好繪圖的部分：
 
 * XYMultipleSeriesDataset - 資料來源，需按照它的格式傳入。
 * XYMultipleSeriesRenderer - 繪圖器，裡面定義了該如何畫圖的詳細內容。
 
-另外 PieChartView 、 DoughnutChartView 和 DialChartView 繪圖方法跟其他的不一樣，所以傳入的參數就會有所不同：
+另外 PieChartView、DoughnutChartView 和 DialChartView 繪圖方法跟其他的不一樣，所以傳入的參數就會有所不同：
 
 * CategorySeries / MultipleCategorySeries- 資料來源。
 * DefaultRenderer / DialRenderer - 繪圖器。

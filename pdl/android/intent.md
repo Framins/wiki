@@ -1,8 +1,8 @@
 # Intent
 
-許多文章都說， Android 的 Intent（意圖）機制非常地強大。簡單來說， Android 的做法是， Intent 是一個抽象的概念，可以說是「程式想要做某件事」，那 Android 系統就會試著去解釋這個 Intent 該如何做，如果系統能了解的話，就會去處理該工作。如果方法不只一種，更能讓使用者來自行選擇。
+許多文章都說，Android 的 Intent（意圖）機制非常地強大。簡單來說，Android 的做法是，Intent 是一個抽象的概念，可以說是「程式想要做某件事」，那 Android 系統就會試著去解釋這個 Intent 該如何做，如果系統能了解的話，就會去處理該工作。如果方法不只一種，更能讓使用者來自行選擇。
 
-比方說，程式發出一個想看某個網址的訊息， Android 系統接受到後，可能就會理解成要看該網址裡的網頁內容，所以就是要開瀏覽器，並連結到該網址。而瀏覽器又分很多種，如 Chrome 或 FireFox 等，這時，就會讓使用者自行選擇該如何看網頁。這就是 Intent的執行過程。
+比方說，程式發出一個想看某個網址的訊息，Android 系統接受到後，可能就會理解成要看該網址裡的網頁內容，所以就是要開瀏覽器，並連結到該網址。而瀏覽器又分很多種，如 Chrome 或 FireFox 等，這時，就會讓使用者自行選擇該如何看網頁。這就是 Intent的執行過程。
 
 ## Share to
 
@@ -166,21 +166,21 @@ Flag
 | Flag Name | Description | API Level |
 | --------- | ----------- | --------- |
 | FLAG_ACTIVITY_BROUGHT_TO_FRONT | | 1 |
-| FLAG_ACTIVITY_CLEAR_TOP | 無條件清除之前的所有Activity | 1 |
-| FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET | 此Flag跟FLAG_ACTIVITY_RESET_TASK_IF_NEEDED有相關。 | 3 |
+| FLAG_ACTIVITY_CLEAR_TOP | 無條件清除之前的所有 Activity | 1 |
+| FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET | 此 Flag 跟 FLAG_ACTIVITY_RESET_TASK_IF_NEEDED 有相關 | 3 |
 | FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS | | 1 |
 | FLAG_ACTIVITY_FORWARD_RESULT | | 1 |
-| FLAG_ACTIVITY_TASK_ON_HOME | 指示開啟一個全新的Activity，並放置於前景 | 11 |
+| FLAG_ACTIVITY_TASK_ON_HOME | 指示開啟一個全新的 Activity，並放置於前景 | 11 |
 | FLAG_ACTIVITY_LAUNCHED_FROM_HISTORY | | 1 |
 | FLAG_ACTIVITY_MULTIPLE_TASK | | 1 |
 | FLAG_ACTIVITY_NEW_TASK | | 1 |
 | FLAG_ACTIVITY_NO_ANIMATION | | 5 |
-| FLAG_ACTIVITY_NO_HISTORY | 啟動D之後再切換其他Activity (包括按返回鍵)，Main會自動finish，不會留存 | 1 |
+| FLAG_ACTIVITY_NO_HISTORY | 啟動 D 之後再切換其他 Activity（包括按返回鍵），Main 會自動 finish，不會留存 | 1 |
 | FLAG_ACTIVITY_NO_USER_ACTION | | 3 |
 | FLAG_ACTIVITY_PREVIOUS_IS_TOP | | 1 |
 | FLAG_ACTIVITY_REORDER_TO_FRONT | | 3 |
 | FLAG_ACTIVITY_RESET_TASK_IF_NEEDED | | 1 |
-| FLAG_ACTIVITY_SINGLE_TOP | 指示如果目前要開啟的Activity已經在執行，Activity就不會被開啟，意即只有存在單一Activity Instance | 1 |
+| FLAG_ACTIVITY_SINGLE_TOP | 指示如果目前要開啟的 Activity 已經在執行，Activity 就不會被開啟，意即只有存在單一 Activity Instance | 1 |
 
 Intent Filter
 -------------
@@ -195,30 +195,30 @@ Intent Filter(為避免跟發出的 Intent 搞混，下面開始簡稱為 Filter
 * category
 * data
 
-每個 Activity 可以設定很多個 Filter ；而每個 Filter 也可以設定多個 action 、 category 和 data 。
+每個 Activity 可以設定很多個 Filter；而每個 Filter 也可以設定多個 action、category 和 data。
 
-> Intent Filter 雖然也有一個 IntentFilter Class ，但實際上 Intent Filter 都是在 AndroidManifest.XML 裡定義的，而不是用程式產生。只有 BroadcastReceiver 的 receivers 是例外
+> Intent Filter 雖然也有一個 IntentFilter Class，但實際上 Intent Filter 都是在 AndroidManifest.XML 裡定義的，而不是用程式產生。只有 BroadcastReceiver 的 receivers 是例外
 
 當Intent發出的時候，會開始在Manifest裡定義的Filter裡面三個元素做比對，比對會進行三個test，三個test都通過的時候，才會確認這個元件可以處理這個Intent；如果不只一個Activity/Service通過Test的話，那系統就會問你要啟動哪一個，都不符合的話就會發生錯誤。
 
 1. Action Test
-  * 如果 Filter 至少要有一個 Action 才會做這個 Test ；如果 Filter 沒有 Action ，那它就收不到任何 Intent
-  * 發出的 Intent 沒有指定 Action ，那這個 Test 就 pass
+  * 如果 Filter 至少要有一個 Action 才會做這個 Test；如果 Filter 沒有 Action，那它就收不到任何 Intent
+  * 發出的 Intent 沒有指定 Action，那這個 Test 就 pass
 2. Category Test
 3. Data Test
 
 ### Action
 
-定義 intent 抽象的動作，比方說顯示資料給 user 時，可以用預設的 `android.intent.action.VIEW` ；編輯用 `android.intent.action.EDIT` 等等。
+定義 intent 抽象的動作，比方說顯示資料給 user 時，可以用預設的 `android.intent.action.VIEW`；編輯用 `android.intent.action.EDIT` 等等。
 
 Intent FAQ
 ----------
 
 ### 開啟外部App
 
-使用 getPackageManager().getLaunchIntentForPackage()，它會自動去取得該 package 的 Launch intent 。
+使用 getPackageManager().getLaunchIntentForPackage()，它會自動去取得該 package 的 Launch intent。
 
-以 Chrome 為例， Chrome 的 package name 是 `com.android.chrome`
+以 Chrome 為例，Chrome 的 package name 是 `com.android.chrome`
 
 ```java
 Intent intent = getPackageManager().getLaunchIntentForPackage("com.android.chrome");
@@ -227,7 +227,7 @@ startActivity(intent);
 
 ### 開啟 Google Play 至指定的 App
 
-以 Chrome 為例， Chrome 的 package name 是`com.android.chrome`，再來就是先試著開 Google Play App ，如果不行就開網頁版的 Google Play 。
+以 Chrome 為例，Chrome 的 package name 是`com.android.chrome`，再來就是先試著開 Google Play App，如果不行就開網頁版的 Google Play。
 
 ```java
 String package = "com.android.chrome";

@@ -59,7 +59,7 @@ esac
 # 不存在會回傳 Not Found
 [ -e filename ] || echo "Not Found"
 
-# 存在會回傳 Found ，且不存在會回傳 Not Found
+# 存在會回傳 Found，且不存在會回傳 Not Found
 [ -e filename ] && echo "Found" || echo "Not Found"
 ```
 

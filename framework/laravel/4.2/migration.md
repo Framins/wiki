@@ -2,7 +2,7 @@
 
 [官方說明](http://kejyun.github.io/Laravel-4-Documentation-Traditional-Chinese/docs/migrations/)
 
-Migration 是資料庫的 VCS ，記錄資料庫的修改過程。相同的概念也在 framework:ruby-on:rails: 裡有看過。
+Migration 是資料庫的 VCS，記錄資料庫的修改過程。相同的概念也在 framework:ruby-on:rails: 裡有看過。
 
 在多人開發時，常遇到的問題
 

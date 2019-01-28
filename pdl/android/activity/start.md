@@ -1,6 +1,6 @@
 # Activity
 
-從 3.0 開始， Android 官方就建議使用 Fragment 來配合 Acitvity 實作，這樣能有更好的擴充性。
+從 3.0 開始，Android 官方就建議使用 Fragment 來配合 Acitvity 實作，這樣能有更好的擴充性。
 
 ## Template
 
@@ -89,4 +89,4 @@ Parcelable 實現有三個重點：
 * describeContents 方法。
 * 靜態的 Parcelable.Creator 介面，本介面有兩個方法
   * createFromParcel(Parcel in) 實現從 in 中創建出類的實例的功能
-  * newArray(int size) 創建一個類型為 T ，長度為 size 的陣列
+  * newArray(int size) 創建一個類型為 T，長度為 size 的陣列

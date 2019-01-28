@@ -16,7 +16,7 @@
 ./build.sh -v 3.5.0
 ```
 
-Run 的時候可以用說明提供的方法，也可以直接用 `docker run` ，手動 run 的時候記得要開 9443 port
+Run 的時候可以用說明提供的方法，也可以直接用 `docker run`，手動 run 的時候記得要開 9443 port
 
 ```
 docker run -p 9763:9763 -p 9443:9443 --rm -it wso2dss:3.5.0

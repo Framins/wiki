@@ -2,7 +2,7 @@
 
 ## Start
 
-Plugin 需要繼承 `Zend_Controller_Plugin_Abstract` ，跟一般所知的 plugin 一樣，都是用觀察者模式實作。官方有提供 Example 如下：
+Plugin 需要繼承 `Zend_Controller_Plugin_Abstract`，跟一般所知的 plugin 一樣，都是用觀察者模式實作。官方有提供 Example 如下：
 
 ```php
 class Application_Plugin_Test extends Zend_Controller_Plugin_Abstract
@@ -67,7 +67,7 @@ class Application_Plugin_Test extends Zend_Controller_Plugin_Abstract
 
 > Zend Framework 有預設 plugin 放的位置，可參考 [Resource Autoloader](autoloader#resource-autoloader)
 
-再來就是要註冊 plugin ，用程式碼註冊的方法：
+再來就是要註冊 plugin，用程式碼註冊的方法：
 
 ```php
 $front = Zend_Controller_Front::getInstance();

@@ -1,14 +1,12 @@
-SQLite
-======
+# SQLite
 
-[SQLite](http://www.sqlite.org/) 的特色就是小。 Library 容量小、 Memory 佔用小、適用的裝置也是小。
+[SQLite](http://www.sqlite.org/) 的特色就是小。Library 容量小、Memory 佔用小、適用的裝置也是小。
 
 以下筆記以 SQLite 3 為主。
 
 * [DataType](datatype.md)
 
-Create
-------
+## Create
 
 建立資料庫，只要下這行命令即可：
 
@@ -26,8 +24,7 @@ CREATE TABLE nestedSet (
 );
 ```
 
-Import
-------
+## Import
 
 匯入資料庫，通常都是從 `.sql` 檔做匯入：
 
@@ -39,8 +36,7 @@ Import
 
 > 記得 SQL 檔裡的每個 SQL 命令結尾都必須加上分號 `;`
 
-References
-----------
+## References
 
 * http://mybeauty.pixnet.net/blog/post/26492636-sqlite%E7%B0%A1%E4%BB%8B
 * http://www.tutorialspoint.com/sqlite/

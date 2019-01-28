@@ -21,7 +21,7 @@ $filter = new Zend_Filter_HtmlEntities();
 echo $filter->filter($data);
 ```
 
-連續使用 Filter ，記得會有順序性，先加的會先濾除。下面兩個就是不同結果的範例
+連續使用 Filter，記得會有順序性，先加的會先濾除。下面兩個就是不同結果的範例
 
 ```php
 $filter1 = new Zend_Filter();

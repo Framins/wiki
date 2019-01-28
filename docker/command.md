@@ -27,7 +27,7 @@
 
 * *REPOSITORY* 來自哪個倉庫
 * *TAG* 標記，或稱之為版本
-* *IMAGE ID* 唯一 ID ，有點像 hash code
+* *IMAGE ID* 唯一 ID，有點像 hash code
 * *CREATED* 建立時間
 * *VIRTUAL SIZE* 映像檔大小
 

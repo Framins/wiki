@@ -1,6 +1,6 @@
 # Dependency injection
 
-[Dependency injection][] 譯名有很多，最常聽到的叫 **依賴注入** 。
+[Dependency injection][] 譯名有很多，最常聽到的叫 **依賴注入**。
 
 ## Foreword
 
@@ -59,7 +59,7 @@ class Bulbasaur
 }
 ```
 
-這裡會發現，程式裡 Master 跟 Pikachu 是直接相依 (不可能都當 Master 了只能馴服 Pikachu 吧)，因此當想換 Bulbasaur 時，會發生要改程式的問題。這是違反物件導向的 [Loose coupling][] 原則。因為也不可能每換一隻 Pokémon 就得改一次程式，所以比較合理的做法是，要由外部來控制 Master 要用哪隻 Pokémon 。
+這裡會發現，程式裡 Master 跟 Pikachu 是直接相依 (不可能都當 Master 了只能馴服 Pikachu 吧)，因此當想換 Bulbasaur 時，會發生要改程式的問題。這是違反物件導向的 [Loose coupling][] 原則。因為也不可能每換一隻 Pokémon 就得改一次程式，所以比較合理的做法是，要由外部來控制 Master 要用哪隻 Pokémon。
 
 使用流程控制是其中一種解決方法，而依賴注入是另一種：對 Master 而言，它需要的 Pokémon (依賴)是由其他模組給它的(注入)，而不是自己產生。
 

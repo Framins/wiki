@@ -42,7 +42,7 @@ chsh -s /usr/bin/fish
 
 * [fish-nvm](https://github.com/FabioAntunes/fish-nvm) - nvm wrapper，因為只是 wrapper，所以 nvm 還是得自己裝，並要設定 NVM_DIR 與 nvm_prefix 兩個環境變數
 
-> 注意：使用 `fish-nvm` 有可能會造成 JetBrains 的 terminal 發生錯誤，因為它先呼叫 conf.d 的設定後，才載 function 裡的設定，目前 workaround 解是改 JetBrains 的的 plugin ，把兩個順序對調即可。
+> 注意：使用 `fish-nvm` 有可能會造成 JetBrains 的 terminal 發生錯誤，因為它先呼叫 conf.d 的設定後，才載 function 裡的設定，目前 workaround 解是改 JetBrains 的的 plugin，把兩個順序對調即可。
 
 ## shell 語法
 

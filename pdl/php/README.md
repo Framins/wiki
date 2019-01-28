@@ -30,9 +30,9 @@
 
 ## Build Tools
 
-使用 PHP 達成 [Makefile](/pdl/make/README.md) 一樣的功能，會使用這類工具會有兩個主要原因：執行環境沒有 make 、想要呼叫特定 PHP 的函式功能如建帳號。
+使用 PHP 達成 [Makefile](/pdl/make/README.md) 一樣的功能，會使用這類工具會有兩個主要原因：執行環境沒有 make、想要呼叫特定 PHP 的函式功能如建帳號。
 
-* [Robo](http://robo.li/) | 支援非常多種 task ，除了基本檔案與連線操作外，還能跨到 VCS / npm / gulp / Docker 等。
+* [Robo](http://robo.li/) | 支援非常多種 task，除了基本檔案與連線操作外，還能跨到 VCS / npm / gulp / Docker 等。
 * [Phing](https://www.phing.info/)
 
 ## Packages

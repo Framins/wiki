@@ -21,7 +21,7 @@ brew cask install vagrant      --appdir=/Application
 brew cask install virtualbox   --appdir=/Application
 ```
 
-建虛擬機， [OS list](http://www.vagrantbox.es/) ：
+建虛擬機，[OS list](http://www.vagrantbox.es/) ：
 
 ```bash
 mkdir demo
@@ -84,7 +84,7 @@ Port forwarding 可以建立 host port 與 guest port 間的連結，比方說 h
 config.vm.network "forwarded_port", guest: 80, host: 8080
 ```
 
-Private network 其實就是 host-only ，另外可以設定 IP ， VM 間也是用這個 IP 在溝通
+Private network 其實就是 host-only，另外可以設定 IP，VM 間也是用這個 IP 在溝通
 
 ```ruby
 config.vm.network "private_network", ip: "192.168.33.10"

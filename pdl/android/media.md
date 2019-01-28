@@ -1,6 +1,6 @@
 # Media
 
-這裡要記錄的是 Android 要如何處理媒體資料，包括讀和寫。媒體廣泛指的是文字、圖片、聲音、影片等，但這邊還是就以聲音和影片為主，文字和圖片可以參考 TextView 和 ImageView 。
+這裡要記錄的是 Android 要如何處理媒體資料，包括讀和寫。媒體廣泛指的是文字、圖片、聲音、影片等，但這邊還是就以聲音和影片為主，文字和圖片可以參考 TextView 和 ImageView。
 
 一開始要講的就是官方所提供的[狀態流程圖](http://developer.android.com/reference/android/media/MediaPlayer.html#StateDiagram)和說明。其中藍色的圈圈是狀態(State)，箭頭旁邊的是使用了方法(Method)後會造成狀態的改變。
 

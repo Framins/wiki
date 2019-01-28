@@ -1,6 +1,6 @@
 # Fragment
 
-[Fragment](http://developer.android.com/guide/components/fragments.html) 是 Android 3.0 後的新元件，為的是解決手機平板共存的問題。使用起來跟 Activity 很像，但又有點不大一樣，主要的概念就是 Activity 會去呼叫 Fragment ；因此 Activity 與 Fragment 的配合就非常重要了。
+[Fragment](http://developer.android.com/guide/components/fragments.html) 是 Android 3.0 後的新元件，為的是解決手機平板共存的問題。使用起來跟 Activity 很像，但又有點不大一樣，主要的概念就是 Activity 會去呼叫 Fragment；因此 Activity 與 Fragment 的配合就非常重要了。
 
 * [FAQ](faq.md)
 
@@ -60,7 +60,7 @@ public class MainFragment extends Fragment {
 
 ### 建立選單
 
-要在開啟 Fragment 的時候建立選單，就需要在 onCreate 裡多設定 `setHasOptionsMenu(true)` ，其他部分就跟 Activity 做法是一樣的：
+要在開啟 Fragment 的時候建立選單，就需要在 onCreate 裡多設定 `setHasOptionsMenu(true)`，其他部分就跟 Activity 做法是一樣的：
 
 ```java
 @Override
@@ -84,7 +84,7 @@ public boolean onOptionsItemSelected(MenuItem item) {
 
 ### Fragment 傳值給 Fragment
 
-這應該是最麻煩的，要從一個啟動中的 Fragment 動態傳值給另一個啟動中的 Fragment 。
+這應該是最麻煩的，要從一個啟動中的 Fragment 動態傳值給另一個啟動中的 Fragment。
 
 ## References
 

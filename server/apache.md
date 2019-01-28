@@ -31,11 +31,11 @@ ServerName www.example.org
 </VirtualHost>
 ```
 
-Note: `NameVirtualHost` 好像只能接 IP ，不能接 domain...
+Note: `NameVirtualHost` 好像只能接 IP，不能接 domain...
 
 ## Reference
 
-* http://www.htaccesseditor.com/ - 線上做 `.htaccess` ，沒想到連這種東西也有...
+* http://www.htaccesseditor.com/ - 線上做 `.htaccess`，沒想到連這種東西也有...
 * [.htaccess - Wiki](http://en.wikipedia.org/wiki/.htaccess)
 * [官方範例](http://httpd.apache.org/docs/2.0/vhosts/examples.html)
 * [鳥哥的 Apache](http://linux.vbird.org/linux_server/0360apache.php)

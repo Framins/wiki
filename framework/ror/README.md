@@ -2,7 +2,7 @@
 
 `Ruby` `Full-stack Framework`
 
-簡稱為 `RoR` ，或是 `Rails` 。是一個建構在 Ruby 上的 MVC 框架。
+簡稱為 `RoR`，或是 `Rails`。是一個建構在 Ruby 上的 MVC 框架。
 
 官方網站上有寫版本的對應
 

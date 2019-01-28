@@ -1,10 +1,10 @@
 # HTTP
 
-[HTTP][] 全名 *Hypertext Transfer Protocol* ，是一個網路應用最廣泛的協定。其中 [RFC 2616][] 定義了目前最常用 HTTP 1.1
+[HTTP][] 全名 *Hypertext Transfer Protocol*，是一個網路應用最廣泛的協定。其中 [RFC 2616][] 定義了目前最常用 HTTP 1.1
 
 ## Status code
 
-主要參考 RFC ，下面是坊間說明
+主要參考 RFC，下面是坊間說明
 
 * [will-will:網頁開發人員應了解的 HTTP 狀態碼](http://blog.miniasp.com/post/2009/01/16/Web-developer-should-know-about-HTTP-Status-Code.aspx)
 * [w3schools](http://www.w3schools.com/tags/ref_httpmessages.asp)

@@ -4,12 +4,12 @@
 
 |  Name  |  Description  |
 |  ----  |  -----------  |
-| AndroidTestCase | 可以用來測試 Android 程式，並使用程式的資源。 |
-| ActivityUnitTestCase<T extends Activity> | 用來測試 Android 程式中的 Activity 類別，由於是採用「獨立」的單元測試，有些 Activity 的功能無法使用。 |
-| ActivityInstrumentationTestCase2<T extends Activity> | 用來測試 Android 程式中的 Activity 類別，它不是使用「獨立」的單元測試，因此可以完整地測試 Activity 的功能。 |
-| ApplicationTestCase<T extends Application> | 用來測試 Application 類別。 |
-| ProviderTestCase2<T extends ContentProvider> | 用來測試 ContentProvider 類別。 |
-| ServiceTestCase<T extends Service> | 用來測試 Service 類別。 |
+| AndroidTestCase | 可以用來測試 Android 程式，並使用程式的資源 |
+| ActivityUnitTestCase<T extends Activity> | 用來測試 Android 程式中的 Activity 類別，由於是採用「獨立」的單元測試，有些 Activity 的功能無法使用 |
+| ActivityInstrumentationTestCase2<T extends Activity> | 用來測試 Android 程式中的 Activity 類別，它不是使用「獨立」的單元測試，因此可以完整地測試 Activity 的功能 |
+| ApplicationTestCase<T extends Application> | 用來測試 Application 類別 |
+| ProviderTestCase2<T extends ContentProvider> | 用來測試 ContentProvider 類別 |
+| ServiceTestCase<T extends Service> | 用來測試 Service 類別 |
 
 ## References
 

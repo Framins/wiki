@@ -1,11 +1,9 @@
-Database
-========
+# Database
 
 * [ACID](acid.md)
 * [CAP Theorem](cap.md)
 
-RDBMS
------
+## RDBMS
 
 [SQL](rdbms/sql.md)
 
@@ -18,17 +16,15 @@ RDBMS
 
 * [Hierarchical Structure](rdbms/hierarchical-structure.md)
 
-NoSQL
------
+## NoSQL
 
-NoSQL 有時也稱作 Not only SQL 。
+NoSQL 有時也稱作 Not only SQL。
 
 * [Redis](nosql/redis/redis.md)
 * [MongoDB](nosql/mongo/mongo.md)
 * [Memcached](nosql/memcached/memcached.md)
 * [Cassandra](http://cassandra.apache.org/)
 
-References
-----------
+## References
 
 * http://www.sigma.me/2011/06/11/intro-to-nosql.html

@@ -1,10 +1,10 @@
 # Theme
 
-Theme 跟 style 很像，不過套用的對象是 Application 或 Activity ，用法也是大同小異。
+Theme 跟 style 很像，不過套用的對象是 Application 或 Activity，用法也是大同小異。
 
 ## 繼承概念
 
-跟大多數的程式設計概念一樣，它也有繼承的概念。如： `Theme.Holo` 是繼承 Theme ， `Theme.Holo.Light` 則是繼承了 `Theme.Holo` 。而 Theme 都是先繼承目前現有的，再去做個別風格的修改。
+跟大多數的程式設計概念一樣，它也有繼承的概念。如： `Theme.Holo` 是繼承 Theme，`Theme.Holo.Light` 則是繼承了 `Theme.Holo`。而 Theme 都是先繼承目前現有的，再去做個別風格的修改。
 
 ## Android SDK 內建 Theme
 

@@ -4,7 +4,7 @@
 
 目前有兩個產品可以使用：
 
-* [App Inventor Classic](http://beta.appinventor.mit.edu/) ，因未來可能會停用，所以筆記還是以 App Inventor 2 為主
+* [App Inventor Classic](http://beta.appinventor.mit.edu/)，因未來可能會停用，所以筆記還是以 App Inventor 2 為主
 * [App Inventor 2](http://ai2.appinventor.mit.edu/) (下簡稱 AI2)
 
 在 AI2 裡，分成兩種開發介面：

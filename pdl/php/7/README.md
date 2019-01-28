@@ -4,7 +4,7 @@
 
 ## Type Declarations
 
-Function 參數類型在 PHP 5.6 之前，都只能定義類別名或 array 。在 PHP 7 開始，可以定義標準類別，如 int / string 等等。
+Function 參數類型在 PHP 5.6 之前，都只能定義類別名或 array。在 PHP 7 開始，可以定義標準類別，如 int / string 等等。
 
 ```php
 class Foo
@@ -46,7 +46,7 @@ $username = $_GET['user'] ?? 'nobody';
 
 ## Combined Comparison Operator
 
-還有另一個稱呼叫 *Spaceship Operator* ，這是用來比較兩邊的值，來回傳三種狀態：
+還有另一個稱呼叫 *Spaceship Operator*，這是用來比較兩邊的值，來回傳三種狀態：
 
 * `0` 相等
 * `-1` 小於

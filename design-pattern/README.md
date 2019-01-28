@@ -2,7 +2,7 @@
 
 建築師設計房子時，可以先為浴室的位置或是廚房的構造方式開發模版，使用這些模版即可快速設計更好的房子。而設計模式的核心概念正是如此，除了讓程式的開發能更快速外，也讓新功能的加入變得更方便。
 
-談到 Design Pattern ，就一定要提一下 Gof 了，Gof 即 `Gang of four` ，也就是四人幫的意思。[設計模式](http://www.amazon.com/exec/obidos/tg/detail/-/0201633612/ref=ase_portlandpatternrA/002-6454224-1040813?v=glance&s=books)這本書就是由這四個人共同整理撰寫的。裡面總共有 23 種設計模式，概分成 3 個類型。這本書可以說是設計模式的經典之作。
+談到 Design Pattern，就一定要提一下 Gof 了，Gof 即 `Gang of four`，也就是四人幫的意思。[設計模式](http://www.amazon.com/exec/obidos/tg/detail/-/0201633612/ref=ase_portlandpatternrA/002-6454224-1040813?v=glance&s=books)這本書就是由這四個人共同整理撰寫的。裡面總共有 23 種設計模式，概分成 3 個類型。這本書可以說是設計模式的經典之作。
 
 最早講到設計模式，是指 Gof 的這本著作。後來設計模式一詞被廣泛的應用到各種經驗。
 
@@ -15,7 +15,7 @@
 
 ## Design Principles
 
-五大設計原則，剛好變成一個單字 SOLID 。
+五大設計原則，剛好變成一個單字 SOLID。
 
 * [Single Responsibility Principle](single-responsibility-principle.md)
 * Open Close Principle

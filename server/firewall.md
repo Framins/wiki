@@ -21,7 +21,7 @@
 
     # iptables -L -n
 
-* `-t` 後面接 table ，如 `net` / `filter` ，如果沒加，會列出預設的 `filter`
+* `-t` 後面接 table，如 `net` / `filter`，如果沒加，會列出預設的 `filter`
 * `-L` 列出目前的 table 規則
 * `-n` 不進行 IP 與 HOSTNAME 的反查，速度會比較快
 * `-v` 列出更多資訊
@@ -62,13 +62,13 @@
 
     # iptables [-t nat] -P [INPUT,OUTPUT,FORWARD] [ACCEPT,DROP]
 
-一般都是 `INPUT` 預設會 `DROP` ，如：
+一般都是 `INPUT` 預設會 `DROP`，如：
 
     # iptables -P INPUT   DROP
     # iptables -P OUTPUT  ACCEPT
     # iptables -P FORWARD ACCEPT
 
-> 設定的時候要注意，如果預設設定成 `DROP` 又沒有特別設定哪個規則 `ACCEPT` ，會被防火牆擋在外面，然後就等著準備重開電腦了。
+> 設定的時候要注意，如果預設設定成 `DROP` 又沒有特別設定哪個規則 `ACCEPT`，會被防火牆擋在外面，然後就等著準備重開電腦了。
 
 ## Example
 

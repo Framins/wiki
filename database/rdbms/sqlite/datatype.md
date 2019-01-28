@@ -19,11 +19,11 @@ Type
 
 SQLite 並不支援 Boolean 儲存類型，但可以使用 `INTEGER 0` (false) 或是 `INTEGER 1` (true) 來代替。
 
-SQLite 也不支援日期或時間的類型，此類型的資料會依 SQLite 內建的日期時間函數，轉存成 `TEXT` / `REAL` / `INTEGER` 。
+SQLite 也不支援日期或時間的類型，此類型的資料會依 SQLite 內建的日期時間函數，轉存成 `TEXT` / `REAL` / `INTEGER`。
 
-* `TEXT` ISO8601 字串 `YYYY-MM-DD HH:MM:SS.SSS` 。
+* `TEXT` ISO8601 字串 `YYYY-MM-DD HH:MM:SS.SSS`。
 * `REAL` 儒略曆時間，計算開始時間依據公曆，格林威治時間，西元前 4714 年 11 月 24 日中午 12 點起。
-* `INTEGER` Unix 時間，以秒為單位，起始時間 `1970-01-01 00:00:00 UTC` 。
+* `INTEGER` Unix 時間，以秒為單位，起始時間 `1970-01-01 00:00:00 UTC`。
 
 Type Affinity
 -------------
@@ -31,9 +31,9 @@ Type Affinity
 SQLite 為了相容其他資料庫，它有個特別的概念是**相似性型態**。它是一個存在欄位裡資料的建議資料型態，只是建議而非必需，任何欄位一樣可以儲存任何型態的資料。
 
 * `TEXT` 使用 NULL , TEXT, BOLB 類別。數值資料會先被轉成字串後才存入。
-* `NUMERIC` 使用所有類別。字串如果可以無誤差轉成數值再無誤差轉回字串時，則字串會轉成 INTEGER / REAL ；如果沒辦法做到無誤差轉換時，則存成 TEXT ； NULL 和 BLOB 不轉換直接存入。
-* `INTEGER` 同 NUMERIC ，只是不會有浮點數。
-* `REAL` 同 NUMERIC ，只是會強制轉換成浮點數。
+* `NUMERIC` 使用所有類別。字串如果可以無誤差轉成數值再無誤差轉回字串時，則字串會轉成 INTEGER / REAL；如果沒辦法做到無誤差轉換時，則存成 TEXT；NULL 和 BLOB 不轉換直接存入。
+* `INTEGER` 同 NUMERIC，只是不會有浮點數。
+* `REAL` 同 NUMERIC，只是會強制轉換成浮點數。
 * `NONE` 不轉換
 
 欄位型態相容性的計算，是有規則與順序的。
@@ -44,7 +44,7 @@ SQLite 為了相容其他資料庫，它有個特別的概念是**相似性型�
 4. 型態名稱包含字串 "REAL", "FLOA", "DOUB" 都會指定成 "REAL"。
 5. 其它則都指定成 "NUMERIC"。
 
-需要注意的是順序性，比方說， "FLOATING POINT" 會被指定成 "INTEGER" ，因為字尾的 INT 符合第一條規則，所以第四條規則就不被採用了。
+需要注意的是順序性，比方說，"FLOATING POINT" 會被指定成 "INTEGER"，因為字尾的 INT 符合第一條規則，所以第四條規則就不被採用了。
 
 Comparison Expressions
 ----------------------

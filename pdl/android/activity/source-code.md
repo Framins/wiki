@@ -1,6 +1,6 @@
 # Source Code
 
-使用兩個 Activity 和 Fragment 互傳做測試；另外並沒有使用 Support Library ，以下為原始碼：
+使用兩個 Activity 和 Fragment 互傳做測試；另外並沒有使用 Support Library，以下為原始碼：
 
 ## Main.java
 

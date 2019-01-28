@@ -12,7 +12,7 @@ Usage
 
 ### hash
 
-使用冒號 `:` 當作是 key-value ，這點跟 JSON 蠻像的，只是 YAML 是用了縮排來表示層級不同， JSON 是用 {} 表示。
+使用冒號 `:` 當作是 key-value，這點跟 JSON 蠻像的，只是 YAML 是用了縮排來表示層級不同，JSON 是用 {} 表示。
 
 ```yaml
 student:
@@ -22,7 +22,7 @@ student:
 
 ### list
 
-在 list 元素前，加一個減號 `-` ，表示是 list 的項目：
+在 list 元素前，加一個減號 `-`，表示是 list 的項目：
 
 ```yaml
 student:

@@ -15,7 +15,7 @@
 
 Stash:
 
-* [線上轉碼工具](http://www.cafewebmaster.com/online_tools/) - 包括 MD5 、 SHA1 、 Base64 ....
+* [線上轉碼工具](http://www.cafewebmaster.com/online_tools/) - 包括 MD5、SHA1、Base64 ....
 * [網頁設計師基本功](http://blog.akanelee.me/posts/197929-web-design-basics)
 * [UI/UX相關簡報](http://www.slideshare.net/search?q=%E4%BD%BF%E7%94%A8%E8%80%85)
 * [UI/UX相關簡報2](http://www.slideshare.net/search?q=UI/UX)

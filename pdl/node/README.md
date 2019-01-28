@@ -52,7 +52,7 @@ Mac nvm 安裝方法，建議使用 brew 比較簡單
     npm install express -g # 像 express 可以用 cli 來產生專案
     express new app
 
-> 測試過， `nvm` + `npm` + `express` 似乎是沒辦法變成 cli 指令，需要再另外裝 `express-generator` ，通常是會裝在 `~/.nvm/<version>/bin/express` ，再來看要建 ln 還是怎樣的就隨意了。
+> 測試過，`nvm` + `npm` + `express` 似乎是沒辦法變成 cli 指令，需要再另外裝 `express-generator`，通常是會裝在 `~/.nvm/<version>/bin/express`，再來看要建 ln 還是怎樣的就隨意了。
 
 想安裝 Module for 某個專案的話，需先切換到該目錄下，再使用 `npm install` 這裡不需要加 `-g` 選項
 

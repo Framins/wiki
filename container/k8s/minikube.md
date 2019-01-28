@@ -1,6 +1,6 @@
 # Minikube
 
-[Minikube][] = Mini + [Kubernetes][] ，專案的標題也取的非常白話，是本地端執行的 Kubernetes 。
+[Minikube][] = Mini + [Kubernetes][]，專案的標題也取的非常白話，是本地端執行的 Kubernetes。
 
 ## Setup
 
@@ -14,7 +14,7 @@
 
 Virtualbox 直接上官網裝即可
 
-Minikube 可以上 [release](https://github.com/kubernetes/minikube/releases) 頁面，有指令可以安裝。 kubectl 在官方的說明頁面裡面有安裝指令
+Minikube 可以上 [release](https://github.com/kubernetes/minikube/releases) 頁面，有指令可以安裝。kubectl 在官方的說明頁面裡面有安裝指令
 
 [Kubernetes]: https://github.com/kubernetes/kubernetes
 [Minikube]: https://github.com/kubernetes/minikube
@@ -35,6 +35,6 @@ kubectl 在使用之前需先設定 context
 
     kubectl get pods --all-namespaces
 
-最後， minikube 也有包含了 [Kubenetes dashboard](http://kubernetes.io/docs/user-guide/ui/) ，下這個指令可以開啟
+最後，minikube 也有包含了 [Kubenetes dashboard](http://kubernetes.io/docs/user-guide/ui/)，下這個指令可以開啟
 
     minikube dashboard

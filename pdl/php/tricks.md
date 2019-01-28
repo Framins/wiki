@@ -10,7 +10,7 @@ php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"
 
 ## Git Hook
 
-編輯檔案 `/path/to/project/.git/hooks/pre-commit` ，並加上執行權限
+編輯檔案 `/path/to/project/.git/hooks/pre-commit`，並加上執行權限
 
 行為如下
 
@@ -76,7 +76,7 @@ fi
 
 首先先把檔案放在 `/path/to/project/scripts/pre-commit`
 
-> 位置是個人習慣，也有人叫 `hooks` ，放哪都可以
+> 位置是個人習慣，也有人叫 `hooks`，放哪都可以
 
 接著 `composer.json` 修改 scripts 如下
 

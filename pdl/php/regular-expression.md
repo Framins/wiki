@@ -1,6 +1,6 @@
 # Regular Expression
 
-PHP支援兩種正規表示式， POSIX 和 Perl 。 POSIX 內建， Perl 語法須將 PCRE 程式庫編譯進來。正規表示式比字串慢，儘量用字串。
+PHP支援兩種正規表示式，POSIX 和 Perl。POSIX 內建，Perl 語法須將 PCRE 程式庫編譯進來。正規表示式比字串慢，儘量用字串。
 
 * ()：括住子表示式。
 * []：括住字元。

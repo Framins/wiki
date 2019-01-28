@@ -4,7 +4,7 @@
 
 ## 調整設定
 
-一般來說，除了外觀、編輯器、 Code Style 外，還可以調整 Run/Debug Configurations
+一般來說，除了外觀、編輯器、Code Style 外，還可以調整 Run/Debug Configurations
 
 裡面很多項可以選擇（與 Android 相關的）：
 
@@ -58,9 +58,9 @@
 
 一般會建議用 maven 的方法 import ：
 
-首先去 [maven.org](http://search.maven.org/) 找你想要的 library 。以 ORMLite 為例，找到後左下角有個 Dependency Information ，選 Grails ，把裡面的 code 複製下來。
+首先去 [maven.org](http://search.maven.org/) 找你想要的 library。以 ORMLite 為例，找到後左下角有個 Dependency Information，選 Grails，把裡面的 code 複製下來。
 
-在 `build.gradle` 裡，找到 `dependencies` ，然後打入下面的內容即可加入。
+在 `build.gradle` 裡，找到 `dependencies`，然後打入下面的內容即可加入。
 
 ```groovy
 dependencies {
@@ -78,13 +78,13 @@ dependencies {
 
 最後讓 Android Studio 重整即可： Tools -> Android -> Sync Project with Gradle Files
 
-以上是 module 裡的 `build.gradle` ，如果是 application 的 `build.gradle` 試過是無法成功。
+以上是 module 裡的 `build.gradle`，如果是 application 的 `build.gradle` 試過是無法成功。
 
 ## Import .jar Library
 
 找不到是哪一版開始，就可以用 GUI 新增 library 了。在 File -> Project Structure... (Ctrl+Alt+Shift+S) -> Dependencies 裡
 
-右上角有一個加號，按下去即可選擇是要 Meven 、 File 或是直接引用其他 Module 。
+右上角有一個加號，按下去即可選擇是要 Meven、File 或是直接引用其他 Module。
 
 另外 File 的引用，從 0.4.4 開始，會預設加一行：
 
@@ -102,10 +102,10 @@ dependencies {
 
 實際成功的做法(Use Android Studio 0.4.2, Gradle 0.7.+)：
 
-1. 建立目錄，`[ProjectHome] \ lib \ armeabi` ，然後把.so檔全放進去。
+1. 建立目錄，`[ProjectHome] \ lib \ armeabi`，然後把.so檔全放進去。
 2. 切換到 `[ProjectHome]` 然後把lib這個目錄壓縮，並改名成 `armeabi.jar`
 3. 把jar放到 `[ModuleHome] \ libs` 目錄裡。
-4. 打開 `[ModuleHome] \ build.gradle` 。
+4. 打開 `[ModuleHome] \ build.gradle`。
 5. 在 `dependencies {}` 裡加入 `compile fileTree(dir: 'libs', include: '*.jar')`
 
 前兩個動作其實並不是必要，只要zip目錄結構是正確的即可。

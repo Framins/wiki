@@ -32,7 +32,7 @@ class Config {
 
 #### Step 2
 
-建立 Facade class `app/facades/Member/Facades/Config.php` ，此 class 必須繼承 `Illuminate\Support\Facades\Facade` ，並要寫一個 `protected static function getFacadeAccessor()` 它回傳的 IoC 綁定的名稱。
+建立 Facade class `app/facades/Member/Facades/Config.php`，此 class 必須繼承 `Illuminate\Support\Facades\Facade`，並要寫一個 `protected static function getFacadeAccessor()` 它回傳的 IoC 綁定的名稱。
 
 ```php
 namespace Member\Facades;
@@ -46,7 +46,7 @@ class Config extends Facade {
 
 #### Step 3
 
-建立 ServiceProvider class `app/facades/Member/ConfigServiceProvider.php` ，需繼承 `Illuminate\Support\ServiceProvider` 。
+建立 ServiceProvider class `app/facades/Member/ConfigServiceProvider.php`，需繼承 `Illuminate\Support\ServiceProvider`。
 
 ```php
 namespace Member;

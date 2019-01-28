@@ -8,7 +8,7 @@
 
 ### Mac
 
-使用 brew ，預設會裝 5.2 ，但 lapis 相依於 5.1
+使用 brew，預設會裝 5.2，但 lapis 相依於 5.1
 
     brew install lua51
 
@@ -26,7 +26,7 @@ alias luarocks="luarocks-5.1"
 
     luarocks install lapis
 
-其中因為 lapis 相依 luacrypto 套件，而 luacrypto 套件又相依 openssl 套件， openssl 可以用 brew 安裝
+其中因為 lapis 相依 luacrypto 套件，而 luacrypto 套件又相依 openssl 套件，openssl 可以用 brew 安裝
 
     brew install openssl
 
@@ -63,7 +63,7 @@ Hint: 同上
 
 它可以用 [MoonScript](http://moonscript.org/) 轉 Lua 或直接用 Lua 原生程式碼
 
-Note: 葡萄牙語中， Lua 是月亮的意思，所以 MoonScript 的命名應該是這樣來的
+Note: 葡萄牙語中，Lua 是月亮的意思，所以 MoonScript 的命名應該是這樣來的
 
 ## References
 

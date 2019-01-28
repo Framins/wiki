@@ -10,8 +10,8 @@ Notification 在 API level 11 之前都是使用建構子產生實例，再設�
 
     Notification(int icon, CharSequence tickerText, long when)
 
-> 從 API level 11 開始，改用 [Notification.Builder](http://developer.android.com/reference/android/app/Notification.Builder.html) 建構。  
-> 從 API level 16 開始，改用 `build` 取得 Notification Object 。
+> 從 API level 11 開始，改用 [Notification.Builder](http://developer.android.com/reference/android/app/Notification.Builder.html) 建構。
+> 從 API level 16 開始，改用 `build` 取得 Notification Object。
 
 ```java
 Notification notification = new Notification.Builder(mContext)
@@ -58,7 +58,7 @@ Notification.Builder 可以用的 Method 可以參考 [API](#API)
 | setTicker(CharSequence tickerText, RemoteViews views) | 第一次通知的時候，會顯示文字在狀態列上 | |
 | setTicker(CharSequence tickerText) | 第一次通知的時候，會顯示文字在狀態列上 | |
 | setUsesChronometer(boolean b) | | Added in API level 16 |
-| setVibrate(long[] pattern) | 設定震動的方式 | 陣列第一個數字是停止時間、第二個數字是震動時間，第三個數字開始就是一直循環。 |
+| setVibrate(long[] pattern) | 設定震動的方式 | 陣列第一個數字是停止時間、第二個數字是震動時間，第三個數字開始就是一直循環 |
 | setWhen(long when) | | |
 
 前置 LED 的權限：

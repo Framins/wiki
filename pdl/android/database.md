@@ -1,6 +1,6 @@
 # Database
 
-Android 內建 SQLite 函式庫。建資料庫必需要依照 Android 的版本控制規則去寫 Class ，當資料庫建立完成後，實際操作就跟一般使用 SQLite 差不多了。
+Android 內建 SQLite 函式庫。建資料庫必需要依照 Android 的版本控制規則去寫 Class，當資料庫建立完成後，實際操作就跟一般使用 SQLite 差不多了。
 
 ## Third-Party Library
 
@@ -10,7 +10,7 @@ Android 內建 SQLite 函式庫。建資料庫必需要依照 Android 的版本�
 * [ORMLite](http://ormlite.com/) - 使用 Annotation 和 Reflection 去存取 ORM Class 的資料。
 * [ActiveAndroid](https://github.com/pardom/ActiveAndroid)
 * [Sprinkles](https://github.com/emilsjolander/sprinkles)
-* [SQLiteDAO](https://code.google.com/p/android-sqlite-dao/) - 同 ORMLite 。
+* [SQLiteDAO](https://code.google.com/p/android-sqlite-dao/) - 同 ORMLite。
 * [AFinal](http://www.afinal.org/) - 功能很強，但說明文件太少，需要自己去翻原始碼。
 
 ## References

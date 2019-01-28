@@ -12,11 +12,11 @@
 
 | Name | Value | Description |
 | ---- | ----- | ----------- |
-| AlignHorizontal | Left/Center/Right | 內部元件水平對齊的方向。與原生 LinearLayout 使用 gravity 屬性，設定成 left/center_horizontal/right 相同。 |
-| AlignVertical | Top/Center/Bottom | 內部元件水平對齊的方向。與原生 LinearLayout 使用 gravity 屬性，設定成 top/center_vertical/bottom 相同。 |
-| Visible | Showing/hidden | 顯示或隱藏。與原生 View 使用 visibility 屬性，設定成 visible/gone 相同。 |
-| Width | Automatic/Fill parent/Custom | 容器的寬度。當選 Automatic 時， AlignHorizontal 會失效。 |
-| Height | Automatic/Fill parent/Custom | 容器的高度。當選 Automatic 時， AlignVertical 會失效。 |
+| AlignHorizontal | Left/Center/Right | 內部元件水平對齊的方向。與原生 LinearLayout 使用 gravity 屬性，設定成 left/center_horizontal/right 相同 |
+| AlignVertical | Top/Center/Bottom | 內部元件水平對齊的方向。與原生 LinearLayout 使用 gravity 屬性，設定成 top/center_vertical/bottom 相同 |
+| Visible | Showing/hidden | 顯示或隱藏。與原生 View 使用 visibility 屬性，設定成 visible/gone 相同 |
+| Width | Automatic/Fill parent/Custom | 容器的寬度。當選 Automatic 時，AlignHorizontal 會失效 |
+| Height | Automatic/Fill parent/Custom | 容器的高度。當選 Automatic 時，AlignVertical 會失效 |
 
 ## TableArrangement
 
@@ -28,9 +28,9 @@
 
 | Name | Value | Description  |
 | ---- | ----- | -----------  |
-| Columns| Integer | 欄數。與原生 GridLayout 的 columnCount 屬性相同。 |
-| Rows | Integer | 列數。與原生 GridLayout 的 rowCount 屬性相同。 |
-| Visible | Showing/hidden | 顯示或隱藏。與原生 View 使用 visibility 屬性，設定成 visible/gone 相同。 |
+| Columns| Integer | 欄數。與原生 GridLayout 的 columnCount 屬性相同 |
+| Rows | Integer | 列數。與原生 GridLayout 的 rowCount 屬性相同 |
+| Visible | Showing/hidden | 顯示或隱藏。與原生 View 使用 visibility 屬性，設定成 visible/gone 相同 |
 | Width | Automatic/Fill parent/Custom | 容器的寬度 |
 | Height | Automatic/Fill parent/Custom | 容器的高度 |
 
@@ -44,8 +44,8 @@
 
 | Name | Value | Description  |
 | ---- | ----- | -----------  |
-| AlignHorizontal | Left/Center/Right | 內部元件水平對齊的方向。與原生 LinearLayout 使用 gravity 屬性，設定成 left/center_horizontal/right 相同。 |
-| AlignVertical | Top/Center/Bottom | 內部元件水平對齊的方向。與原生 LinearLayout 使用 gravity 屬性，設定成 top/center_vertical/bottom 相同。 |
-| Visible | Showing/hidden | 顯示或隱藏。與原生 View 使用 visibility 屬性，設定成 visible/gone 相同。 |
-| Width | Automatic/Fill parent/Custom | 容器的寬度。當選 Automatic 時， AlignHorizontal 會失效。 |
-| Height | Automatic/Fill parent/Custom | 容器的高度。當選 Automatic 時， AlignVertical 會失效。 |
+| AlignHorizontal | Left/Center/Right | 內部元件水平對齊的方向。與原生 LinearLayout 使用 gravity 屬性，設定成 left/center_horizontal/right 相同 |
+| AlignVertical | Top/Center/Bottom | 內部元件水平對齊的方向。與原生 LinearLayout 使用 gravity 屬性，設定成 top/center_vertical/bottom 相同 |
+| Visible | Showing/hidden | 顯示或隱藏。與原生 View 使用 visibility 屬性，設定成 visible/gone 相同 |
+| Width | Automatic/Fill parent/Custom | 容器的寬度。當選 Automatic 時，AlignHorizontal 會失效 |
+| Height | Automatic/Fill parent/Custom | 容器的高度。當選 Automatic 時，AlignVertical 會失效 |

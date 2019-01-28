@@ -25,7 +25,7 @@ Symfony Console 有提供類似 [Docker](/docker/README.md) / [Git](/vcs/git/REA
     php artisan ke:g
     php artisan k:ge
 
-> 依 `:` 分隔，只要前面比對是唯一的， Symfony Console 都會認可
+> 依 `:` 分隔，只要前面比對是唯一的，Symfony Console 都會認可
 
 ## Coloring
 

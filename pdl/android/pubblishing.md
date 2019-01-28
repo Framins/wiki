@@ -30,7 +30,7 @@ Android APK 的上架流程。
 
 參數：
 
-* -keystore：檔名，以上例會是 `mykey.keystore` 。
+* -keystore：檔名，以上例會是 `mykey.keystore`。
 * -alias：別名。
 * -validity：有效天數。
 
@@ -44,7 +44,7 @@ Android APK 的上架流程。
 
 一、選擇要輸出 APK 的專案。
 
-二、這時就可以選 `Create new keystore` ，即可順便產生新的 private key 。
+二、這時就可以選 `Create new keystore`，即可順便產生新的 private key。
 
 * Location：選擇產生的 private key 檔案名稱和位置。
 * Password：設定密碼(不能小於6個字)。
@@ -63,7 +63,7 @@ Android APK 的上架流程。
 
 1. 您上傳的 APK 未經壓縮校準，請對您的 APK 執行壓縮校準工具，然後重新上傳。
 
-在 SDK 的目錄裡有個檔案是 `sdk/tools/zipalign.exe` 。要使用此檔來做校準
+在 SDK 的目錄裡有個檔案是 `sdk/tools/zipalign.exe`。要使用此檔來做校準
 
 語法：
 
@@ -75,7 +75,7 @@ Android APK 的上架流程。
 
 3. 您上傳的 APK 是在偵錯模式下完成簽署，請在發佈模式下簽署 APK。
 
-APK有兩種不同的模式，一種是 debug mode ，另一種是 release mode ，必需要在後者下簽署才能發佈。
+APK有兩種不同的模式，一種是 debug mode，另一種是 release mode，必需要在後者下簽署才能發佈。
 
 References
 ----------

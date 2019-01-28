@@ -1,6 +1,6 @@
 # CalendarView
 
-[CalendarView](http://developer.android.com/reference/android/widget/CalendarView.html) 是 Android 3.0 新增的 Widget 。這個 Widget 並沒有做向下 Support ，所以只有 3.0 以上才能使用。
+[CalendarView](http://developer.android.com/reference/android/widget/CalendarView.html) 是 Android 3.0 新增的 Widget。這個 Widget 並沒有做向下 Support，所以只有 3.0 以上才能使用。
 
 [教學](http://cookiesp.pixnet.net/blog/post/94549716-android---%E6%97%A5%E6%9B%86%E8%A1%8C%E4%BA%8B%E6%9B%86%E5%AF%A6%E7%8F%BE-calendarview)
 
@@ -38,7 +38,7 @@
 
 # CalendarView Library
 
-因為 Android 本身的 CalendarView 感覺就是有點問題，所以大部分的 Library 都是從 FrameLayout 直接從頭打造的，而不是從 CalendarView 。
+因為 Android 本身的 CalendarView 感覺就是有點問題，所以大部分的 Library 都是從 FrameLayout 直接從頭打造的，而不是從 CalendarView。
 
 ## android-calendar-view
 

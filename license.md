@@ -22,7 +22,7 @@ Open source 裡的 code 到底怎樣用才是合法的？
 
 > 圖片來源： [dwheeler.com](https://www.dwheeler.com/essays/floss-license-slide.html)
 
-A -> B ，這表示如果同時用到這兩個授權的話，要以 B 為主。換言之，使用 A 開源授權程式的時候，可以用 A 或 B 的授權釋出；相反地，如果使用 B 開源授權程式的話，則不能用 A 授權釋出。 
+A -> B，這表示如果同時用到這兩個授權的話，要以 B 為主。換言之，使用 A 開源授權程式的時候，可以用 A 或 B 的授權釋出；相反地，如果使用 B 開源授權程式的話，則不能用 A 授權釋出。
 
 ## References
 

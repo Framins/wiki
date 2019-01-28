@@ -14,7 +14,7 @@
 
 ## Terms
 
-* **Image:** 映像檔，可以稱之為一個 read-only template ，如 ubuntu + apache ，映像檔可以建立容器
+* **Image:** 映像檔，可以稱之為一個 read-only template，如 ubuntu + apache，映像檔可以建立容器
 * **Container:** 容器，執行應用，它可以被啟動、開始、停止、刪除，每個容器都是互相隔離的
 * **Repository:** 倉庫，集中存放映像檔的地方，公開的如 [Docker Hub][]
 
@@ -52,7 +52,7 @@ docker exec -ti containerID echo "Asia/Taipei" > /etc/timezone && dpkg-reconfigu
 docker run -it --name=some-php php:7.0-apache bash
 ```
 
-一般離開是直接打 `exit` ，但同時會把容器關閉，如果不想關掉的話，可以按 `Ctrl + P + Q` 回到 host 上
+一般離開是直接打 `exit`，但同時會把容器關閉，如果不想關掉的話，可以按 `Ctrl + P + Q` 回到 host 上
 
 Warning: 這快速鍵好像是 bash 獨有的，不是很確定
 

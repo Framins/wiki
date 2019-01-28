@@ -26,7 +26,7 @@ hook 有分 client 端和 server 端
 
 常見做法：
 
-* 某些資源同時有下列情況：可由原始碼產生、專案需要用的資源，通常這些資源也都不希望被加入 repo ，這時可以用 `post-checkout` 自動執行。如 SCSS -> CSS
+* 某些資源同時有下列情況：可由原始碼產生、專案需要用的資源，通常這些資源也都不希望被加入 repo，這時可以用 `post-checkout` 自動執行。如 SCSS -> CSS
 
 ## Reference
 

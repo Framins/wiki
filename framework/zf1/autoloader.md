@@ -20,9 +20,9 @@ $news = new Test_News();
 
 ## Resource Autoloader
 
-資源指的是 Model 、 Form ....等，它的路徑和類別名跟上面提到的是使用不同的規則
+資源指的是 Model、Form ....等，它的路徑和類別名跟上面提到的是使用不同的規則
 
-因為這些資源是跟 Application 有關，所以一開始的命名空間也是跟 Application name 綁在一起的， Application name 也可以直接在 `application.ini` 做修改：
+因為這些資源是跟 Application 有關，所以一開始的命名空間也是跟 Application name 綁在一起的，Application name 也可以直接在 `application.ini` 做修改：
 
 ```
 appnamespace = "MyApp"

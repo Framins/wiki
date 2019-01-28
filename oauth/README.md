@@ -4,7 +4,7 @@
 
 有一個美圖軟體，功能是可以把 Facebook 上的照片修圖。使用者要用這個服務的話，就必須讓這個美圖軟體能讀取使用者儲存在 Facebook 上的照片。
 
-當然，一定要使用者授權， Facebook 才會同意美圖軟體讀取使用者的照片。那美圖軟體讓如何得到使用者的授權？
+當然，一定要使用者授權，Facebook 才會同意美圖軟體讀取使用者的照片。那美圖軟體讓如何得到使用者的授權？
 
 最直覺最簡單的方法：使用者把 Facebook 的帳號密碼給美圖軟體，這樣就可以讀取使用者的照片了。只是這樣做會有下面的缺點：
 
@@ -17,7 +17,7 @@ OAuth 是為了解決上面問題而產生的。
 
 ## Terms
 
-* Third-party application - 第三方應用程式，也稱 client ，即上例的「美圖軟體」。
+* Third-party application - 第三方應用程式，也稱 client，即上例的「美圖軟體」。
 * Resource Owner - 資源所有者，即「使用者」。
 * Service - 服務提供者，即上例的「Facebook」。
 * Authorization Server - 認證伺服器，服務提供者專門用來處理認證的伺服器
@@ -25,9 +25,9 @@ OAuth 是為了解決上面問題而產生的。
 
 ## Concept
 
-OAuth 在 client 與 service 之間設置了一個 authorization layer ， client 不能直接登入 service ，只能登入 authorization layer ，用這樣的方法把 user 和 client 區分開來。 client  登入 authorization layer 用的 token 會跟 user 的密碼不同。 user 可以指令 authorization layer 的權限範圍和有效期限。
+OAuth 在 client 與 service 之間設置了一個 authorization layer，client 不能直接登入 service，只能登入 authorization layer，用這樣的方法把 user 和 client 區分開來。client  登入 authorization layer 用的 token 會跟 user 的密碼不同。user 可以指令 authorization layer 的權限範圍和有效期限。
 
-client 登入後， service 會依 token 的權限範圍和有效期限，向 client 開放 user 儲存的資料。
+client 登入後，service 會依 token 的權限範圍和有效期限，向 client 開放 user 儲存的資料。
 
 ## Basic Flow
 
@@ -48,7 +48,7 @@ ResourceServer --> Client: (6) Protected Resource
 @enduml
 ```
 
-* User 打開 clinet 後， client 要求 user 給予授權
+* User 打開 clinet 後，client 要求 user 給予授權
 * User 同意授權
 * Client 使用上一步獲得的授權，向 authorization server 申請 token
 * Authorization server 認證後，發放 token

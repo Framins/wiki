@@ -2,7 +2,7 @@
 
 `PHP` [`Micro Framework`](/term/micro-framework.md)
 
-跟 [Slim](/framework/slim/README.md) 一樣，是個簡單好用的 Micro Framework 。不一樣的是， Slim 是一個獨立的套件，而 Silex 使用 [Symfony](/framework/symfony/README.md) 的幾個特定元件實作出來的。
+跟 [Slim](/framework/slim/README.md) 一樣，是個簡單好用的 Micro Framework。不一樣的是，Slim 是一個獨立的套件，而 Silex 使用 [Symfony](/framework/symfony/README.md) 的幾個特定元件實作出來的。
 
 簡單 Hello World 如下：
 

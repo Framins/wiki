@@ -48,7 +48,7 @@ class people {
 
 ### Shared aggregation
 
-聚合關係，聚合代表的是兩邊生命週期可以不一致，以下例來說， B 結束了， A 還是可以讓其他類別使用
+聚合關係，聚合代表的是兩邊生命週期可以不一致，以下例來說，B 結束了，A 還是可以讓其他類別使用
 
 ![](http://plantuml.com/plantuml/png/AqvEp4bLC38mK2ZFJ2d9u4hEIImkLd24qavSZWgw-GfE0000)
 
@@ -63,7 +63,7 @@ A -o B
 
 ### Composite aggregation
 
-組合關係，組合代表的是兩邊生命週期一致，以下例來說， B 結束了 ， A 也會跟著結束
+組合關係，組合代表的是兩邊生命週期一致，以下例來說，B 結束了，A 也會跟著結束
 
 ![](http://plantuml.com/plantuml/png/AqvEp4bLC38mK2ZFJ2d9u4hEIImkLd24qavSZWgwMWfE0000)
 
@@ -78,7 +78,7 @@ A -* B
 
 ### Association
 
-結合關係，表示兩邊是有關係的，比方說 A 使用了 B ， B 不能使用 A ：
+結合關係，表示兩邊是有關係的，比方說 A 使用了 B，B 不能使用 A ：
 
 ![](http://plantuml.com/plantuml/png/AqvEp4bLC38mK2ZFJ2d9u4hEIImkLd24qavSZWgwTWfE0000)
 

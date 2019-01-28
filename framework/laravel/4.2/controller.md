@@ -18,7 +18,7 @@ class BlogController extends BaseController {
 }
 ```
 
-Controller 必須繼承 `BaseController` ， 而 `BaseController` 裡面可以放所有 Controller 共用的邏輯。
+Controller 必須繼承 `BaseController`，而 `BaseController` 裡面可以放所有 Controller 共用的邏輯。
 
 ## Resource Controller
 

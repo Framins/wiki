@@ -94,7 +94,7 @@ RUN set -xe && \
 
 ## Phalcon Developer tools
 
-要使用開發者工具前，要先安裝好上面的 [Extension](#Phalcon Extension) 。
+要使用開發者工具前，要先安裝好上面的 [Extension](#Phalcon Extension)。
 
 如果要當全域指令，建議用 [Git](#Git) 下載；如果沒有的話，建議使用 [Composer](#Composer) 下載
 

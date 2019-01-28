@@ -28,7 +28,7 @@ foreach ($result as $key => $value) {
 $params = http_build_query($result);
 ```
 
-> `http_build_query` 會做 URL-encoded ，所以相對的，傳入的值必須要是 raw data
+> `http_build_query` 會做 URL-encoded，所以相對的，傳入的值必須要是 raw data
 
 #### Parse HTTP query string
 

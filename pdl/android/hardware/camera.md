@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Camera 官方有提供照相時，要如何操作 class ， [Camera@Android Developers](http://developer.android.com/reference/android/hardware/Camera.html)
+Camera 官方有提供照相時，要如何操作 class，[Camera@Android Developers](http://developer.android.com/reference/android/hardware/Camera.html)
 
 1. Camera.open() 可取得相機物件
 2. 使用 getParameters() 取得預設設定值
@@ -16,7 +16,7 @@ Camera 官方有提供照相時，要如何操作 class ， [Camera@Android Deve
 8. takePicture() 即可做照相的動作
 9. 照相完，預覽會停止，如果要繼續啟動相機的話，要再呼叫 startPreview()
 10. stopPreview() 可以停止預覽
-11. 如果要離開應用程式，必須要呼叫 release() 。可以寫在 onPause() 裡，或是在 onResume() 做重新 open()
+11. 如果要離開應用程式，必須要呼叫 release()。可以寫在 onPause() 裡，或是在 onResume() 做重新 open()
 
 ### Required Permission
 
@@ -79,14 +79,14 @@ else if(s.equals(Parameters.FLASH_MODE_OFF))
 }
 ```
 
-> **注意：** 關閉或是切換 Activity 時，一樣要 release() ，不然相機功能是不會關閉的。
+> **注意：** 關閉或是切換 Activity 時，一樣要 release()，不然相機功能是不會關閉的。
 
 
 ## Preview
 
 Preview 除了相機拍照可以使用外，也可以用在即時影像處理，如 QR Code 掃描。
 
-通常相機的 preview 都會是全螢幕，所以可以先在 Manifest.xml 宣告 Activity 。
+通常相機的 preview 都會是全螢幕，所以可以先在 Manifest.xml 宣告 Activity。
 
 ```xml
 <activity
@@ -94,7 +94,7 @@ Preview 除了相機拍照可以使用外，也可以用在即時影像處理，
     android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" />
 ```
 
-原始來源要 preview 的話，需要一個 SurfaceView 來放它更新的 frames 。
+原始來源要 preview 的話，需要一個 SurfaceView 來放它更新的 frames。
 
 ```xml
 <FrameLayout
@@ -109,9 +109,9 @@ Preview 除了相機拍照可以使用外，也可以用在即時影像處理，
 </file>
 ```
 
-Android 預設 preview 的方向是 landscape ，就算設定 portrait ，它的預覽圖依然還是會是用橫向的方式去取圖，並且填滿 SurfaceView。這時可以設定 `setDisplayOrientation(degree)` 解決，取樣的圖會以設的 degree 做順時針旋轉。因此如果要做的像一般照相軟體一樣，翻轉並依它的方向去做拍攝的話，就必需要針對目前方向做調整。
+Android 預設 preview 的方向是 landscape，就算設定 portrait，它的預覽圖依然還是會是用橫向的方式去取圖，並且填滿 SurfaceView。這時可以設定 `setDisplayOrientation(degree)` 解決，取樣的圖會以設的 degree 做順時針旋轉。因此如果要做的像一般照相軟體一樣，翻轉並依它的方向去做拍攝的話，就必需要針對目前方向做調整。
 
-這個問題可以寫 static 的 util 。
+這個問題可以寫 static 的 util。
 
 ```java
 public static void setCameraDisplayOrientation(Activity activity, int cameraId, Camera camera) {

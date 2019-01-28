@@ -4,7 +4,7 @@
 
 ## Integer
 
-整數，也就是 ℤ = {..., -2, -1, 0, 1, 2, ...} 。
+整數，也就是 ℤ = {..., -2, -1, 0, 1, 2, ...}。
 
 Example for integer literals, see [php.net](http://tw2.php.net/manual/en/language.types.integer.php):
 

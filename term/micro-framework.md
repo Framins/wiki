@@ -1,6 +1,6 @@
 # Micro Framework
 
-[Micro Framework](https://en.wikipedia.org/wiki/Microframework) 通常指的是一個極簡化的 Web Application Framework ，與它相對的叫 *Full-stack Framework* 則是具備完整功能的 Framework
+[Micro Framework](https://en.wikipedia.org/wiki/Microframework) 通常指的是一個極簡化的 Web Application Framework，與它相對的叫 *Full-stack Framework* 則是具備完整功能的 Framework
 
 Micro Framework 通常會被拿掉一些很常見的功能，如
 
