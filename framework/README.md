@@ -64,7 +64,6 @@
 
 ## Based on Java
 
-* [Android](android/README.md)
 * [Spring](https://spring.io/)
 * [Spark Framework](http://sparkjava.com/)
 

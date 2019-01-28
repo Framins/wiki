@@ -4,23 +4,22 @@
 
 線上學習資源：
 
-* [Code School](https://www.codeschool.com/)
-* [Codecademy](http://www.codecademy.com/)
-* [TreeHouse](http://teamtreehouse.com/)
-* [W3Schools](http://www.w3schools.com/) - 網頁技術幾乎全包了
-* [CSS Diner](http://flukeout.github.io/) - 學 CSS 的小遊戲
+* [Codecademy](https://www.codecademy.com/)
+* [TreeHouse](https://teamtreehouse.com/)
+* [W3Schools](https://www.w3schools.com/) - 網頁技術幾乎全包了
+* [CSS Diner](https://flukeout.github.io/) - 學 CSS 的小遊戲
 
 線上測試程式碼，當懶得 compile 或是建立 file 的時候可以用：
 
-* [CodePen](http://codepen.io/)
-* [JSFiddle](http://jsfiddle.net/)
-* [Ideone.com](http://ideone.com/)
-* [Runnable](http://runnable.com/)
-* [Online Java IDE](http://www.compilejava.net/)
+* [CodePen](https://codepen.io/)
+* [JSFiddle](https://jsfiddle.net/)
+* [Ideone.com](https://ideone.com/)
+* [Runnable](https://runnable.com/)
+* [Online Java IDE](https://www.compilejava.net/)
 
 線上各種文件：
 
-* [DevDocs](http://devdocs.io/) (Online)
+* [DevDocs](https://devdocs.io/) (Online)
 * [Zeal](https://zealdocs.org/) (Offline Windows / Linux)
 * [Dash](https://kapeli.com/dash) (Offline MacOS / iOS)
 
@@ -30,11 +29,14 @@
 
 靜態語言，特色是需要先編譯才能執行程式碼。
 
+* [Android](android/README.md) - Based on Java / Kotlin
+* [Crystal](https://crystal-lang.org/)
 * [Go](go/README.md)
+* [Java](https://www.java.com/)
+* [Kotlin](https://kotlinlang.org/)
 * [Swift](swift/README.md)
 * [Rust](https://mileschou.gitbooks.io/rust-note/content/) - 另開 Gitbook 來寫筆記
   * 參考資料1 ： http://cwchen.tw/tutorial/rust-prog/about/
-* [Crystal](https://crystal-lang.org/)
 
 ## Dynamically Typed Language
 
@@ -70,7 +72,7 @@
 
 [Lightweight Markup Language][]，輕量標記語言。比起標記語言，輕量標記語言比較簡單，也貼近自然語言，閱讀較容易。
 
-* [Markdown](http://markdown.tw/)
+* [Markdown](https://markdown.tw/)
 * [JSON](json.md)
 
 [Lightweight Markup Language]: https://en.wikipedia.org/wiki/Lightweight_Markup_Language
