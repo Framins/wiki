@@ -19,7 +19,6 @@
 ## 網路連線
 
 * [HTTP](http.md) - 關於 HTTP 連線操作
-* [Email](email.md) - 寄 Mail
 
 ## 網路狀態
 

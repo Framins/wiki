@@ -2,7 +2,7 @@
 
 要用 Android 寄送郵件有幾種方法：
 
-解決方法一，可以用 [Intent](/pdl/androidt.md) 來開啟對應 App 來寄信。
+解決方法一，可以用 [Intent](intent.md) 來開啟對應 App 來寄信。
 
 解決方法二，使用 Java native 寄信，需要 SMTP 伺服器的支援。
 
@@ -187,8 +187,7 @@ class SendMailTask extends AsyncTask<URL, Integer, Void>
 }
 ```
 
-References
-----------
+## References
 
 * http://www.cnblogs.com/jiangz/p/3281354.html
 * http://stackoverflow.com/questions/2020088/sending-email-in-android-using-javamail-api-without-using-the-default-built-in-a/2033124#2033124

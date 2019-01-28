@@ -1,28 +1,25 @@
-Android
-=======
+# Android
 
-除了用 Android Studio 或 Android SDK 開發外，還可以用 [App Inventor](mit-app-inventor/README.md) 開發
+可用 Android Studio 或 Android SDK 開發外，還可以用 [App Inventor](mit-app-inventor/README.md) 開發
 
-Configuration
--------------
+## Configuration
 
-* [Android Mainfest XML](androidmainfest.xml.md)
+* [Android Mainfest XML](androidmanifest.xml.md)
 
-Components
-----------
+## Components
 
 主要元件：
 
-* [Activity](activity/README.md)
-  * [Fragment](fragment.md)
-  * [Intent](intent.md)
+* [Activity](activity)
+  + [Fragment](fragment.md)
+  + [Intent](intent.md)
 * [BroadcastReceiver](broadcast-receiver.md)
 * [ContentProvider](content-provider/README.md)
 
 其他元件
 
-|  Package Name  |  Description  |
-|  ------------  |  -----------  |
+| Package Name | Description |
+| ------------ | ----------- |
 | [Adapter](adapter.md) | Data-View 轉接器 |
 | [Animation](animation.md) | 動畫控制 |
 | [Assets](assets.md) | 資源 |
@@ -44,22 +41,20 @@ Components
 | [Theme](theme.md) | 主題 |
 | [View](view/view.md) | 可見元件 |
 
-[第三方套件](library/README.md)
+[第三方套件](library)
 
-Google API
-----------
+## 其他任務
+
+* [Send Email](email.md)
+
+## Google API
 
 * [Google API](google-api.md)
 
-Test
-----
+## Test
 
 使用 [Android Test](android-test.md)
 
-Pubblishing
------------
+## Pubblishing
 
 [Pubblishing](pubblishing.md)
-
-References
-----------
