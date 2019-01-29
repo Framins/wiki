@@ -1,6 +1,6 @@
 # Zend Server
 
-[載點](http://www.zend.com/en/products/server/)，需註冊帳號
+[載點](https://www.zend.com/en/products/server/)，需註冊帳號
 
 ## Mac
 

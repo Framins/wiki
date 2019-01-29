@@ -2,9 +2,9 @@
 
 使用物件提供的方法建構出 SQL 並查詢
 
-> `Zend_Db_Select` 與 `Zend_Db_Table_Select` 大同小異，只差在一個沒有指定 Table，一個有指定 Table。
->
-> 所以，基本上 `Zend_Db_Table_Select` 是不需要使用 `from()` 的，以下用 `Zend_Db_Select` 做說明
+`Zend_Db_Select` 與 `Zend_Db_Table_Select` 大同小異，只差在一個沒有指定 Table，一個有指定 Table。
+
+所以，基本上 `Zend_Db_Table_Select` 是不需要使用 `from()` 的，以下用 `Zend_Db_Select` 做說明
 
 ## Initialization
 
@@ -44,7 +44,7 @@ $select->reset();
 
 ## Basic
 
-#### FROM statement
+### FROM statement
 
     from(array|string|\Zend_Db_Expr $name, array|string|\Zend_Db_Expr $cols = '*', string $schema = null)  
 
@@ -64,7 +64,7 @@ $select->from(
 // FROM `database`.`table` AS `t`
 ```
 
-#### COLUMN statement
+### COLUMN statement
 
     columns(array| string|\Zend_Db_Expr $cols = '*', string $correlationName = null)
 
@@ -81,7 +81,7 @@ $select->from('table', `)
 // FROM `table`
 ```
 
-#### JOIN statement
+### JOIN statement
 
     join(array|string|\Zend_Db_Expr $name, string $cond, array|string $cols = self::SQL_WILDCARD, string $schema = null)
 
@@ -110,7 +110,7 @@ $select->from(array('t' => 'table'))
 // INNER JOIN `out` AS `o` ON t.id = o.fk_id
 ```
 
-#### WHERE Statement
+### WHERE Statement
 
 範例
 
@@ -153,7 +153,7 @@ $select->from('products')
 // WHERE (price < 100) OR (price > 200)
 ```
 
-#### GROUP BY
+### GROUP BY
 
 範例
 
@@ -163,14 +163,14 @@ $select->group(array('a', 'b'));
 // GROUP BY `a`, `b`
 ```
 
-#### HAVING
+### HAVING
 
 ```php
 $select->having('sum > ?', 10);
-//  HAVING (sum > 10)
+// HAVING (sum > 10)
 ```
 
-#### ORDER BY
+### ORDER BY
 
 範例
 
@@ -182,7 +182,7 @@ $select->order(array(
 ))
 ;
 
-//  ORDER BY `col1` ASC, `col2` ASC, `col3` DESC
+// ORDER BY `col1` ASC, `col2` ASC, `col3` DESC
 ```
 
 #### LIMIT
@@ -224,8 +224,6 @@ $result = $stmt->fetchAll();
 
 ```php
 $select = $table->select();
-
-// ...
 
 // 取得多筆
 $rows = $table->fetchAll($select);

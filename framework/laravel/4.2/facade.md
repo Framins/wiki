@@ -6,7 +6,7 @@ Facade 感覺像是提供一個靜態的介面，然後從這個介面去存取 
 
 假設最後的實體 class 名叫： `Member/Config`
 
-#### Step 1
+## Step 1
 
 建立一個類別 `app/facades/Member/Config.php`
 
@@ -30,7 +30,7 @@ class Config {
 }
 ```
 
-#### Step 2
+## Step 2
 
 建立 Facade class `app/facades/Member/Facades/Config.php`，此 class 必須繼承 `Illuminate\Support\Facades\Facade`，並要寫一個 `protected static function getFacadeAccessor()` 它回傳的 IoC 綁定的名稱。
 
@@ -44,7 +44,7 @@ class Config extends Facade {
 }
 ```
 
-#### Step 3
+## Step 3
 
 建立 ServiceProvider class `app/facades/Member/ConfigServiceProvider.php`，需繼承 `Illuminate\Support\ServiceProvider`。
 
@@ -74,7 +74,7 @@ class ConfigServiceProvider extends ServiceProvider {
 },
 ```
 
-#### Step 4
+## Step 4
 
 到此為止就完成了，最後只要用下面程式碼就能執行第一個實體 class 了。
 
@@ -82,8 +82,7 @@ class ConfigServiceProvider extends ServiceProvider {
 MemberConfig::getConfig();
 ```
 
-Reference
----------
+## References
 
 * http://laravel.tw/docs/facades
 * http://www.yuansir-web.com/2014/08/13/laravel-%E5%88%9B%E5%BB%BA-facades-%E5%AE%9E%E4%BE%8B/

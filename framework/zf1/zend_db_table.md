@@ -9,14 +9,14 @@ class Table extends Zend_Db_Table_Abstract
 {
     protected $_name = 'table'; // 資料表名稱
     protected $_primary = 'id'; // 主鍵名稱
-    protected $_schema = null; // 資料庫名稱，null表示是目前的。
+    protected $_schema = null; // 資料庫名稱，null 表示是目前的。
     protected $_cols; // 資料表欄位名稱，可用 Zend_Db_Adapter_Abstract::describeTable() 輸出
     protected $_rowClass = 'Zend_Db_Table_Row'; // 在 fetchRow() 時，會用到此 class
     protected $_rowsetClass = 'Zend_Db_Table_Rowset'; // 在 fetchAll() 時，會用到此 class
 }
 ```
 
-繼承`Zend_Db_Table_Abstract`後，即可做 Active Record 的操作。
+繼承 `Zend_Db_Table_Abstract` 後，即可做 Active Record 的操作。
 
 ## Initial
 
@@ -122,8 +122,8 @@ class Table extends Zend_Db_Table_Abstract
             'columns'           => array('product_id'), // 此 Class 參考的外鍵
             'refTableClass'     => 'Products', // 關聯的 Table Class
             'refColumns'        => array('product_id'), // refTable 參考的欄位，通常為主鍵
-            'onDelete'          => self::CASCADE, // 有關聯的記錄都會一起動作 (此欄位是刪除，所以會一起刪除)
-            'onUpdate'          => self::RESTRICT // 禁止父資料表動作 (此欄位是修改，所以是禁止修改
+            'onDelete'          => self::CASCADE, // 有關聯的記錄都會一起動作（此欄位是刪除，所以會一起刪除）
+            'onUpdate'          => self::RESTRICT // 禁止父資料表動作（此欄位是修改，所以是禁止修改
         ),
         ...
     );
@@ -133,7 +133,7 @@ class Table extends Zend_Db_Table_Abstract
 }
 ```
 
-#### One-To-One, Many-To-One
+### One-To-One, Many-To-One
 
 在廣義的定義上，一對一和多對一其實基本概念是一樣的東西：
 
@@ -143,7 +143,7 @@ class Table extends Zend_Db_Table_Abstract
 
 Zend 可以設定這兩個資料表的關聯：
 
-A 資料表 (文章資料表) 設定如下：
+A 資料表（文章資料表）己設定如下：
 
 ```php
 class Article extends Zend_Db_Table_Abstract
@@ -173,7 +173,7 @@ $row->findParentCategory();
 $row->findParentCategoryByCategory();
 ```
 
-B 資料表 (分類資料表) 不一定要設定，如果要設定的話，如下：
+B 資料表（分類資料表）不一定要設定，如果要設定的話，如下：
 
 ```php
 class Category extends Zend_Db_Table_Abstract
@@ -197,13 +197,13 @@ $row->findArticle();
 $row->findArticleByCategory();
 ```
 
-#### Cascading Operations
+### Cascading Operations
 
 總共有四種動作：
 
-|  Constant  |  Description  |
-|  --------  |  -----------  |
+| Constant | Description |
+| -------- | ----------- |
 | Zend_Db_Table_Abstract::CASCADE | 關聯的記錄會進行刪除或修改 |
 | Zend_Db_Table_Abstract::CASCADE_RECURSE | 與 CASCADE 同，不過會做遞迴確認到最上層的父資料表 |
 | Zend_Db_Table_Abstract::RESTRICT | 有存在關聯記錄時，會禁止父資料表刪除或修改 |
-| Zend_Db_Table_Abstract::SET_NULL | 把有關聯的記錄行設定成NULL |
+| Zend_Db_Table_Abstract::SET_NULL | 把有關聯的記錄行設定成 NULL |

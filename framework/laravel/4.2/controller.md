@@ -1,6 +1,6 @@
 # Controller
 
-[官方說明](http://kejyun.github.io/Laravel-4-Documentation-Traditional-Chinese/docs/controllers/)
+[官方說明](https://laravel.com/docs/4.2/controllers)
 
 Controller 的目錄放在 `app/controllers` 裡，在 `composer.json` 裡有定義。
 

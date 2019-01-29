@@ -3,7 +3,6 @@
 ## Basic
 
 * [Quick Start](quick-start.md)
-* [gitignore](gitignore.md)
 * [Project Directory Structure](http://blog.mosil.biz/2012/07/laravel-projec-structure/)
 * [Config](config.md)
 * [Route](route.md)
