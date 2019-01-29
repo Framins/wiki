@@ -2,10 +2,6 @@
 
 * [前端工程](f2e/README.md)
 
-# 身份驗證
-
-* [SAML](saml.md)
-
 ---
 
 * [Polymer](https://www.polymer-project.org/)
