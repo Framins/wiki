@@ -12,7 +12,7 @@
 
 ## References
 
-* [Visual Studio 計算程式碼度量 - Code Metrics Viewer 2013](http://kevintsengtw.blogspot.tw/2015/02/visual-studio-code-metrics-viewer-2013.html)
+* [Visual Studio 計算程式碼度量 - Code Metrics Viewer 2013](https://kevintsengtw.blogspot.tw/2015/02/visual-studio-code-metrics-viewer-2013.html)
 * [Visual Studio 2010 - 程式碼度量](https://dotblogs.com.tw/hatelove/archive/2011/12/12/visual-studio-2010-code-metrics-introduction.aspx)
 
 [Software Metric]: https://en.wikipedia.org/wiki/Software_metric

@@ -7,7 +7,7 @@ Container 相關技術或延伸技術
 Container OS 是專門執行 Container 的 OS
 
 * CoreOS
-  * [gitbook](https://joshhu.gitbooks.io/docker_theory_install/content/DockerBible/dockercoreos.html)
+  + [gitbook](https://joshhu.gitbooks.io/docker_theory_install/content/DockerBible/dockercoreos.html)
 
 ## Orchertraion
 
