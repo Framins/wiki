@@ -2,6 +2,19 @@
 SQL to MongoDB Mapping Chart
 ----------
 
+mongo shell script
+--------------
+    
+```shell
+mongo
+show dbs
+use admin
+db  # 列出當前的資料庫名稱
+db.auth('root','password')
+db.dropDatabase()
+show users
+ ```
+
 SELECT
 -------
 MySQL
