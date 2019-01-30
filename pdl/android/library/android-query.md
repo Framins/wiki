@@ -10,11 +10,11 @@
 
 * [Google Code Wiki](https://code.google.com/p/android-query/wiki/API)
 
-它的目標也跟jQuery一樣，Less Code！ 實現的方法也是使用 Chaining
+它的目標也跟 jQuery 一樣，Less Code！實現的方法也是使用 Chaining
 
 ## Core Concept
 
-它的概念很簡單，就只有一個主要的class，就叫AQuery。而它有兩種狀態： `root` 和 `view`
+它的概念很簡單，就只有一個主要的 class，就叫 AQuery。而它有兩種狀態：`root` 和 `view`。
 
 平常用 Activity 在 new 一個 AQuery 時，它就會是 root。而在用 id 找資源的時候，就會變成 view。
 
@@ -62,7 +62,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle sa
 
 ### Simple
 
-使用URL載入影像，會自動快取在檔案和記憶體。也可以傳入參數決定要如何快取。
+使用 URL 載入影像，會自動快取在檔案和記憶體。也可以傳入參數決定要如何快取。
 
 ```java
 aq.id(R.id.image).image("http://www.sample.com/sample.png");

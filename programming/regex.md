@@ -24,9 +24,9 @@
 
 ## Tools
 
-* http://www.regexper.com/ - 將Regex圖示化
+* http://www.regexper.com/ - 將 Regex 圖示化
 * http://www.regexr.com/ - 線上編輯驗證
-* http://rubular.com/ - Ruby格式專用
+* http://rubular.com/ - Ruby 格式專用
 
 ## Example
 
@@ -34,7 +34,7 @@
 
 ### 常用匹配
 
-Username/Password 
+Username / Password 
 
     /^[a-z0-9_-]{$A,$B}$/
 
@@ -52,25 +52,5 @@ URL
 HTML Tag
 
     /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
-
-### Dokuwiki Transfer
-
-連結轉換：
-
-```
-[[http://example.com|Link]]  =>  [Link](http//example.com)
-```
-
-Pattern
-
-```regex
-\[\[([^|\]]*)\|([^\]]*)]]
-```
-
-Replace
-
-```
-[$2]($1)
-```
 
 [Regular Expressions]: https://en.wikipedia.org/wiki/Regular_expression

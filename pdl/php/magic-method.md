@@ -6,7 +6,7 @@
 * private 或 protected method的名稱前面加一個底線，如 `protected function _getData() {}`
 * 另外最好不要用兩個底線開頭，如 `private function __getData() {}`
 
-其實是因為 PHP 把所謂的 Magic Method 名稱都是設定為兩個底線開頭的。Magic Method 正如其名，用起來會讓開發者覺得很 Magic，活用它的特性還能讓其他開發者覺得 Amazing ！
+其實是因為 PHP 把所謂的 Magic Method 名稱都是設定為兩個底線開頭的。Magic Method 正如其名，用起來會讓開發者覺得很 Magic，活用它的特性還能讓其他開發者覺得 Amazing！
 
 PHP 其實已經有預設好幾個名稱，開發者其實也只要了解什麼時候會去調用它就行了。
 
