@@ -19,11 +19,11 @@ function sum(...args) {
 sum(1, 2, 3, 4); // 10
 ```
 
-> PHP 5.6 也支援此寫法，但名稱不懂
+> PHP 5.6 稱之為 [Variadic functions](/pdl/php/5.6.md#variadic-functions)。
 
 ## Spread
 
-這可以把 Array 的值，展開傳入 function ：
+這可以把 Array 的值，展開傳入 function：
 
 ```javascript
 function f(x, y, z) {
@@ -37,7 +37,7 @@ f(...[1,2,3]);
 f(1, 2, 3);
 ```
 
-> PHP 5.6 也支援此寫法，但名稱不懂
+> PHP 5.6 稱之為 [Argument unpacking](/pdl/php/5.6.md#argument-unpacking)。
 
 ## References
 
