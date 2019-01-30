@@ -1,5 +1,4 @@
 Vagrant
-=======
 
 Vagrant 的重點：
 
@@ -9,59 +8,43 @@ Vagrant 的重點：
 * 自動化，可程式化
 * 可攜性
 
-Start
------
+## Start
 
-支持開源，所以用 [VirtualBox](https://www.virtualbox.org/) + [Vagrant](https://www.vagrantup.com/) 來做 start
+使用 [VirtualBox](https://www.virtualbox.org/) + [Vagrant](https://www.vagrantup.com/) 開始。
 
-Mac 也可以用 brew 下載安裝
+Mac 可以用 brew 下載安裝
 
-```bash
-brew cask install vagrant      --appdir=/Application
-brew cask install virtualbox   --appdir=/Application
-```
+    brew cask install vagrant      --appdir=/Application
+    brew cask install virtualbox   --appdir=/Application
 
 建虛擬機，[OS list](http://www.vagrantbox.es/) ：
 
-```bash
-mkdir demo
-cd demo
-vagrant init ubuntu/trusty64  # 這道指令會去下載 box 檔
-vagrant up
-```
+    mkdir demo
+    cd demo
+    vagrant init ubuntu/trusty64  # 這道指令會去下載 box 檔
+    vagrant up
 
 現在虛擬機啟動了，只要在同個目錄下，都可以 ssh 進去
 
-```bash
-vagrant ssh
-```
+    vagrant ssh
 
-也可以關機
+關機
 
-```bash
-vagrant halt
-```
+    vagrant halt
 
 或是從 VirtualBox 的清單中移除
 
-```bash
-vagrant destory
-```
+    vagrant destory
 
 halt + up + take effect changed in the Vagrantfile
 
-```bash
-vagrant reload [name|id]
-```
+    vagrant reload [name|id]
 
 Force the provisioners to run
 
-```bash
-vagrant provision [vm-name] 
-```
+    vagrant provision [vm-name] 
 
-Vagrantfile
------------
+## Vagrantfile
 
 Vagrant 在啟動 box 之前，需要先定義好要啟動的是哪一種 box 和定義相關屬性，如
 
@@ -108,41 +91,29 @@ config.vm.synced_folder "www", "/var/www/html"
 config.vm.customize ["modifyvm", :id, "--name", "redis", "--memory", "512"]
 ```
 
-Basic
------
+## 基本應用操作
 
 看本機端的 Vagrant repository
 
-```bash
-vagrant box list
-```
+    vagrant box list
 
 看目前 Vagrant 的狀態
 
-```bash
-vagrant status
-```
+    vagrant status
 
 當 box 內容初始化差不多了，就可以用打包指令，在未來的時候可以使用：
 
-```bash
-vagrant package --output redis.box
-```
+    vagrant package --output redis.box
 
 打包後的東西可以再匯入到 Vagrant repository 裡
 
-```bash
-$ vagrant box add --name new-demo redis.box
-```
+    vagrant box add --name new-demo redis.box
 
 只要有 Vagrant repository 裡面有的，就可以拿來 init 出一個新的虛擬機
 
-```bash
-vagrant init new-demo
-```
+    vagrant init new-demo
 
-Reference
----------
+## References
 
 * http://www.codedata.com.tw/social-coding/vagrant-tutorial-1-developer-and-vm/
 * http://gogojimmy.net/2013/05/26/vagrant-tutorial/
