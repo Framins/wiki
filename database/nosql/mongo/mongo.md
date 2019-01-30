@@ -10,8 +10,9 @@ RDBMS 與 MongoDB 的名詞對照表：
 
 |  RDBMS  |  MongoDB  |
 |  -----  |  -------  |
+| database   | database |
 | Table   | Collection |
-| Column  | Key |
+| Column  | Field |
 | Value   | Value |
 | Records / Rows | Document / Object |
 
