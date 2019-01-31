@@ -4,7 +4,7 @@
 
 GitHub 使用上，每個人都可以在上面開 repo，只要有權限，使用者就能 clone 上面看得到 repo，或是 fork 後再 pull request，而且也有 watch repo 和 follow user 等社交網站的功能。當然學程式的朋友們，其實也可以在上面找到很多 public repo，也許會對自己的 project 有用，或是對程式能力有所進步等。
 
-以下內容，會假設看的人已經懂 [Git](/vcs/git)。
+以下內容，會假設看的人已經懂 [Git](git)。
 
 ## Sign up
 
@@ -129,5 +129,5 @@ Gist 提供的服務：
 
 ## Topic
 
-* [Multiple Accounts](github-multiple-accounts.md)
+* [Multiple Accounts](git/github-multiple-accounts.md)
 * [Keep a CHANGELOG](http://keepachangelog.com/zh-TW/0.3.0/)

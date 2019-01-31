@@ -62,8 +62,8 @@ Git 裡每個東西都是互相有關係，學習上如果能靈活思考，就�
 
 Git 伺服器可以使用公開伺服器，好處是通常會有 Issues Tracker 和 wiki 等模組可以直接使用。壞處是會有限制，解除限制的條件就是要付錢了。
 
-* [GitHub](github.md)
-* [BitBucket](bitbucket.md)
+* [GitHub](../github.md)
+* [BitBucket](../bitbucket.md)
 
 如果不想用公開伺服器的話，也可以自行架設伺服器讓團隊的成員來連線使用。通常網路的資料大多都是架設在 Linux 伺服器上的。
 
