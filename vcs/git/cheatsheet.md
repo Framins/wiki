@@ -1,8 +1,6 @@
-CheatSheet
-==========
+# CheatSheet
 
-Create
-------
+## Create
 
 ```bash
 git init             # For client
@@ -10,16 +8,14 @@ git init --bare      # For server
 git clone <remote>   # Form remote
 ```
 
-Status
-------
+## Status
 
 ```bash
 git status          # 目前狀態完整版
 git status -bs      # 目前狀態簡單版
 ```
 
-Diff
-----
+## Diff
 
 ```bash
 git diff                # 查看目前目錄與目前版本的差異
@@ -28,8 +24,7 @@ git diff <rev>          # 查看目前目錄與<rev>的差異
 git diff <rev1> <rev2>  # 查看兩個版本間的差異
 ```
 
-Log
----
+## Log
 
 ```bash
 git log                                       # 顯示目前 branch 直接相關的 log

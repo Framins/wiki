@@ -1,5 +1,4 @@
-Commit
-======
+# Commit
 
 Commit 對 git 而言，就像是 check point 一樣，有了 commit，就可以做以下事情：
 
@@ -7,8 +6,7 @@ Commit 對 git 而言，就像是 check point 一樣，有了 commit，就可以
 * 該 commit 與其他 commit 的差異
 * 重置工作目錄到該 commit 的狀態
 
-Overview
---------
+## Overview
 
 使用 git，當想要 commit 一個版本時，需要做三個步驟：
 

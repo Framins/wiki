@@ -1,5 +1,4 @@
-Bitbucket
-=========
+# Bitbucket
 
 [Bitbucket][] 是一個用於使用版本控制系統項目的共享虛擬主機服務。與 [GitHub][] 提供的服務特點不大相同，如：
 
@@ -11,15 +10,13 @@ Bitbucket
 
 其他功能都大同小異，如 wiki、issues tracker 和其他模組等。
 
-申請帳號
---------
+## 申請帳號
 
 申請帳號除了可以建立全新的帳號外，也能透過 GitHub 等其他帳號登入。
 
 比較需要注意的是，如果是建立全新帳號，會有兩種選擇：一個是個人帳號，一個是團隊帳號。而 GitHub 則是不需要建立團隊帳號，是直接以個人帳號名義做管理的。
 
-新增SSH Key
------------
+## 新增SSH Key
 
 先產生 SSH Key
 
@@ -29,7 +26,7 @@ Bitbucket
 
 Label 是打上一個名稱方便日後管理。public key 的內容全部複製後貼到 Key 的欄位中。最後再按 `Add key` 即可新增新的一組 SSH key。
 
-如果有用 TortoiseGit 的話，記得到 Setting > Network 把下面的 ssh 程式改為 C:\Program Files\Git\bin\ssh.exe，它才會去找剛剛建立的 SSH keys。
+> 如果有用 TortoiseGit 的話，記得到 Setting > Network 把下面的 ssh 程式改為 C:\Program Files\Git\bin\ssh.exe，它才會去找剛剛建立的 SSH keys。
 
 [Bitbucket]: https://bitbucket.org/
 [GitHub]: github.md

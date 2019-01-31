@@ -1,8 +1,6 @@
-Github Multiple Accounts
-================
+# Github Multiple Accounts
 
-Scenario
---------
+## Scenario
 
 > I have two github accounts, one is my personal Github account `personalAccount`, 
 one is my job account `workAccount`.
@@ -12,8 +10,7 @@ When I push code at work as `workAccount` to my personal repo.
 
 > How do I have the ability to push and pull to multiple accounts via ssh key?
 
-Solution
---------
+## Solution
 
 - Generate new SSH keys
     
@@ -22,19 +19,19 @@ Solution
     ```
     
 - Attach the New SSH Key 
-
+    
     Add `id_rsa_personalAccount.pub` to `personalAccount` Github account 
-  
+    
 - Add Key to the ssh-agent
- 
+    
     ```bash
     ssh-add "$HOME/.ssh/id_rsa_personalAccount"
     # can use ssh-add -l command to check if is successful added
     ```
     
 - Create a Config File
-   
-   ```bash
+    
+    ```bash
     vim "$HOME/.ssh/config"
     ```
     
@@ -60,8 +57,7 @@ Solution
 
 Then I can push to my personal repo from company. Wa la la ~~ 
 
-References
-----------
+## References
 
 * [@by KEVIN BURKE](https://kev.inburke.com/kevin/multiple-github-ssh-accounts/)
 * [@by Jeffrey Way](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574)
