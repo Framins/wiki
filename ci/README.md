@@ -1,8 +1,6 @@
-Continuous Integration
-======================
+# Continuous Integration
 
-Practice
---------
+## Practice
 
 以下參考 Teddy 的文章
 
@@ -33,8 +31,7 @@ CI Engineer 應該了解的要點
 9. Run fast builds
 10. State builds
 
-Implements
-----------
+## Implements
 
 * [GitLab CI](gitlab-ci.md) GitLab built-in Service
 * [Pipelines](https://bitbucket.org/product/features/pipelines) Bitbucket built-in Service
@@ -54,8 +51,7 @@ Implements
 
 * [Shields.io](http://shields.io/) - 用圖表示目前專案的健康度
 
-Reference
----------
+## References
 
 * [漫談持續整合](http://kojenchieh.pixnet.net/blog/post/378400769)
 * [持續整合所需準備事項](http://kojenchieh.pixnet.net/blog/post/378870311)

@@ -1,5 +1,4 @@
-Packer
-======
+# Packer
 
 包 image 的服務
 
@@ -9,7 +8,7 @@ https://www.packer.io/
 
 https://www.packer.io/intro/platforms.html
 
-- Amazon EC2
-- Docker
-- Google Compute Engine
-- OpenStack
+* Amazon EC2
+* Docker
+* Google Compute Engine
+* OpenStack

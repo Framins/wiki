@@ -1,5 +1,4 @@
-Amazon Virtual Private Cloud
-============================
+# Amazon Virtual Private Cloud
 
 簡稱 [Amazon VPC](https://aws.amazon.com/tw/vpc/)
 
@@ -16,8 +15,7 @@ VPC 的四種模式
 * 12 是公有雲；3 是混合雲；4 是私有雲
 * 1 跟 2 的差別為，2 的某些服務是不對外公開的
 
-Keyword
--------
+## Keyword
 
 * Subnet
 * Internet Gateway
@@ -41,8 +39,7 @@ Keyword
 * Security Group 可以 attach 給無限多個
 * 每個 ENI 只能設定 5 個 Security Group
 
-References
-----------
+## References
 
 * [AWS雲服務的進階安全措施－VPC (Virtual Private Cloud)](http://www.tts.bz/archives/1488)
 * [AWS VPC 設定教學](http://blog.yslin.tw/2014/02/aws-vpc.html)

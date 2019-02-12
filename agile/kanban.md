@@ -1,8 +1,6 @@
-Kanban
-======
+# Kanban
 
-Let's Kanban
-------------
+## Let's Kanban
 
 目前有實作 Kanban 的軟體
 

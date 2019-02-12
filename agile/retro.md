@@ -1,12 +1,10 @@
-Retro
-=====
+# Retro
 
 * Starfish = Stop->Less->Keep->More->Start
 * Sun(好的/助力), Rocks(阻礙), Risks(風險), Wind(不好的)
 * ORID
 
-Noname
-------
+## Noname
 
 一開始列出四項問題討論:
 
@@ -32,7 +30,6 @@ Noname
 * 可以鼓勵成員發言, 但是不用要求每個人依序發言
 
 
-References
-----------
+## References
 
 * [Retrospective Plans](http://retrospectivewiki.org/index.php?title=Retrospective_Plans)

@@ -2,14 +2,14 @@
 
 用 JavaScript 寫後端應用
 
-以下以 Linux/Mac 系列的系統做測試
+以下以 Linux / Mac 系列的系統做測試
 
 * [started](started.md)
-* [Babel](babel.md) | 轉碼器，想寫 ES6 就需要它
+* [Babel](babel.md) | ES5 編譯器，想寫 ES6 就需要它幫助轉成 ES5 語法
 
 ## Setup
 
-* Compile souce ([official download](http://nodejs.org/download/))
+* Compile source ([official download](http://nodejs.org/download/))
 
 ### Ubuntu
 
@@ -40,9 +40,9 @@ Mac nvm 安裝方法，建議使用 brew 比較簡單
 
 ### Using npm in Docker
 
-    alias npm="docker run -i -t --rm -v \$PWD:/usr/src/app -w /usr/src/app node:6.3-slim npm"
+如果不想為了測試簡單功能而裝 Node 的話，會很好用。但開發環境還是直接裝 nvm 會比較適合
 
-> 如果不想為了測試簡單功能而裝 Node 的話，會很好用。但開發環境還是直接裝 nvm 會比較適合
+    alias npm="docker run -i -t --rm -v \$PWD:/usr/src/app -w /usr/src/app node:6.3-slim npm"
 
 ### Usage
 
@@ -54,7 +54,7 @@ Mac nvm 安裝方法，建議使用 brew 比較簡單
 
 > 測試過，`nvm` + `npm` + `express` 似乎是沒辦法變成 cli 指令，需要再另外裝 `express-generator`，通常是會裝在 `~/.nvm/<version>/bin/express`，再來看要建 ln 還是怎樣的就隨意了。
 
-想安裝 Module for 某個專案的話，需先切換到該目錄下，再使用 `npm install` 這裡不需要加 `-g` 選項
+想安裝 Module for 某個專案的話，需先切換到該目錄下，再使用 `npm install`。這裡不需要加 `-g` 選項
 
     cd /path/to/project
     npm install express

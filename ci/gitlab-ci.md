@@ -1,6 +1,5 @@
 # GitLab CI
 
-
 這是 GitLab 自家出的 CI server。即然是自家出的，整合度當然非常高。
 
 相對於 Jenkins，GitLab CI 的特色會是簡單快速的。
