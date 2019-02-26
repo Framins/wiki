@@ -5,9 +5,8 @@ IntelliJ
 Shortcut
 -----------
 
-To find any action inside the IDE use Find Action
-`⌘+Shift+A`
-
+Search Everywhere
+`Double-press Shift`
 
 #### Line
 
@@ -38,8 +37,8 @@ To find any action inside the IDE use Find Action
 #### Refactor
 
     Ctrl+T          refactor 光箱
-    ⌘＋Alt＋N        variable inline
-    ⌘＋Alt＋Ｍ       extract method
+    ⌥⌘V             variable inline
+    ⌥⌘Ｍ            extract method
     Shift+F6        rename parameter
     
     ⌘＋Alt＋L        排版spr2
