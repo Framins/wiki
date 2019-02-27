@@ -1,8 +1,8 @@
 # GitLab
 
-[Gitlab](https://www.gitlab.com/) 是一套 open source 的 Git 專案管理系統。其實就很像 vcs:git:github 的 Open Source 版。自己架設起來的話，等於有自己的 Git Server 了。
+[Gitlab](https://www.gitlab.com) 是一套 open source 的 Git 專案管理系統。其實就很像 GitHub 的 Open Source 版。自己架設起來的話，等於有自己的 Git Server 了。
 
-Gitlab 表面是使用 Rails 做網頁和專案管理，而背後是使用 grit(([grit](https://github.com/mojombo/grit) - 一個用 Ruby 寫的 Git 操作 Library)) + Gitlab Shell(([Gitlab Shell](https://github.com/gitlabhq/gitlab-shell) - Git Repositories 存取控制系統))來存取檔案層的 Git Repositoy。
+Gitlab 表面是使用 Rails 做網頁和專案管理，而背後是使用 [grit](https://github.com/mojombo/grit（一個用 Ruby 寫的 Git 操作 Library） + [Gitlab Shell](https://github.com/gitlabhq/gitlab-shell)（Git Repositories 存取控制系統）來存取檔案層的 Git Repositoy。
 
 * [Installation](installation.md)
 
