@@ -77,3 +77,4 @@
 * [AngularJS](https://angularjs.org)
 * [React](https://facebook.github.io/react/)
 * [Vue.js](https://vuejs.org/)
+* [Vanilla JS](http://vanilla-js.com/)
