@@ -1,5 +1,11 @@
 # Installation
 
+現在都流行用 Docker 了，可以考慮看 Docker 比較快
+
+https://hub.docker.com/r/gitlab/gitlab-ce/
+
+---
+
 GitLab 對 Ubuntu 支援度比較高
 
 * [官方 Deb Packages 下載與 VM Images](https://www.gitlab.com/downloads/)
