@@ -1,8 +1,6 @@
 Framins' wiki
 =============
 
-[Auth](https://github.com/MilesChou/articles/tree/master/auth)
-
 [Community](community.md)
 
 [Operation]()
