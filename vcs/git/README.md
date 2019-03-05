@@ -50,6 +50,7 @@ Git 裡每個東西都是互相有關係，學習上如果能靈活思考，就�
 * 進階
   * stash
   * submodule
+  * [tree-ish](http://stackoverflow.com/questions/4044368/what-does-tree-ish-mean-in-git)
 * GitHub/GitLab
   * SSH key
   * create repository
