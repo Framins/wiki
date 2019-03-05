@@ -1,9 +1,11 @@
 # Version Control System
 
+<!--
 備份
 
 https://github.com/stakater/developer-handbook/blob/master/git/tbd.md
 https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext
+-->
 
 程式開發的過程中，總是會遇到一種問題：「我上次到底做了什麼？」。通常會有這個問題都是原本程式 compile 很正常，一修改完就出現錯誤。情況輕微是程式執行發生 Fatal Error，還能看得出在哪一行錯誤。情況嚴重就是 compile 過，可是執行結果是錯誤的。
 

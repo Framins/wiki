@@ -40,32 +40,20 @@ git log --name-only                           # 顯示 commit 修改過哪些檔
 git blame <file>                              # 顯示該檔案的所有commit記錄
 ```
 
+## Commit
+
+```bash
+git add <file>                      # 新增檔案或修改檔案，都需要用add加入後才會被 commit
+git rm <file>                       # 將檔案移除追蹤
+git mv <source> <target>            # 移動檔案
+git commit
+git commit -m 'commit message'
+git commit -a -m 'commit -message'  # 將所有修改過的檔案都 commit
+git commit -a -v                    # -v 可以看檔案的詳細改變
+```
+
 <!--
 
-^  git commit  ||
-| git add <file> | 新增檔案或修改檔案，都需要用add加入後才會被 commit |
-| git rm <file> | 將檔案移除追蹤 |
-| git mv <source> <target> | 移動檔案 |
-| git commit | |
-| git commit -m 'commit message' | |
-| git commit -a -m 'commit -message' | 將所有修改過的檔案都 commit |
-| git commit -a -v | -v 可以看檔案的詳細改變 |
-
-^  git branch  ||
-| git branch | 列出目前本機的 branch |
-| git branch -a | 列出所有 branch，包括 remote |
-| git branch <Branch> | 建立新的 branch |
-| git branch <Branch> <Base> | 以 <Base> 為底，建立新的 branch |
-| git branch -d <Branch> | 刪除 branch |
-| git branch -D <Branch> | 強制刪除 branch |
-| git branch -f <Branch> <Position> | 強制移動 branch 到指定 commit |
-^  git checkout  ||
-| git checkout <Branch> | 切換到該branch，如果是本機端無branch，但遠端有的話會自動建 |
-| git checkout <SHA/branch/tag> <filename> | 把commit的檔案checkout出來，會無條件覆蓋，所以下這指令前要注意該檔案是否有做過修改 |
-| git checkout -b <Branch> | 建立並切換到該branch |
-| git checkout -b <Branch> <Base> | 建立以<Base>為底的branch，並切換到該branch |
-| git checkout <file> | 還原<file>為目前repository的狀態 |
-| git checkout . | 還原所有tracked file |
 ^  git merge  ||
 | %%git merge --abort%% | 取消merge |
 ^  git rebase  ||

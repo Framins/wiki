@@ -14,9 +14,7 @@
 
 ## change
 
-參考官方教學文： http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository
-
-因此可以得知，change 可以包括下列行為：
+參考[官方教學文](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository)可以得知，change 包括下列行為：
 
 * git add
 * git rm
