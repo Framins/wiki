@@ -50,6 +50,7 @@
 * [Node](node/README.md)
 * [PHP](php/README.md)
 * [Ruby](ruby/README.md)
+* [Elixir](elixir/README.md)
 
 ## Markup Language
 
