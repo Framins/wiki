@@ -50,7 +50,7 @@
 * [Node](node/README.md)
 * [PHP](php/README.md)
 * [Ruby](ruby/README.md)
-* [Elixir](elixir/README.md)
+* [Elixir](https://mileschou.github.io/elixir-notes/)
 
 ## Markup Language
 
