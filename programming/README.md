@@ -56,3 +56,4 @@
 ## References
 
 * [工程師生涯 30 年：真希望在菜鳥時期就懂得的這些事](https://buzzorange.com/techorange/2016/02/15/lessons-from-my-lifetime-of-being-a-programmer-during-30-years/)
+* [垃圾回收（英語：Garbage Collection，縮寫為GC）](https://zh.wikipedia.org/wiki/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6_(%E8%A8%88%E7%AE%97%E6%A9%9F%E7%A7%91%E5%AD%B8))
