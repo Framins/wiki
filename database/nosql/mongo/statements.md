@@ -43,7 +43,7 @@ MySQL
       
 Mongo
     
-    db.user.find({'age'  {$in  [25, 35, 45]}})
+    db.user.find({'age' : {$in : [25, 35, 45]}})
 
 ORDER
 -----
@@ -52,7 +52,7 @@ MySQL
     SELECT * FROM user ORDER BY age DESC
 Mongo
         
-    db.user.find().sort({'age'  -1})
+    db.user.find().sort({'age': -1})
 
 MySQL
 
@@ -60,7 +60,7 @@ MySQL
     
 Mongo
 
-    db.user.find({'name'  'starlee'}).count()
+    db.user.find({'name' : 'starlee'}).count()
 
 DISTINCT
 -----
@@ -70,7 +70,7 @@ MySQL
     
 Mongo
 
-    db.user.distinct('name', {'age' {$lt  20}})
+    db.user.distinct('name', {'age': {$lt : 20}})
 
 WHERE
 -----
@@ -80,7 +80,28 @@ MySQL
     
 Mongo
     
-    db.user.find({'name'  'starlee'})
+    db.user.find({'name' : 'starlee'})
+ 
+AND
+----- 
+MySQL
+
+    SELECT * FROM people WHERE status = "A" OR age = 50
+    
+Mongo
+
+    db.people.find({ status: "A", age: 50 })
+    
+OR    
+----- 
+MySQL
+
+    SELECT * FROM people WHERE status = "A" AND age = 50
+    
+Mongo
+
+    db.people.find({ $or: [ { status: "A" } , { age: 50 } ] })
+    
 
 INSERT：
 -----
@@ -90,11 +111,11 @@ MySQL
     
 Mongo
 
-    db.user.insert({'name'  'starlee', 'age'  25})
+    db.user.insert({'name' : 'starlee', 'age' : 25})
 
 ALTER
 -----
-    db.user.insert({'name'  'starlee', 'age'  25, 'email'  'starlee@starlee.com'})
+    db.user.insert({'name' : 'starlee', 'age' : 25, 'email' : 'starlee@starlee.com'})
 
 DELETE：
 -----
@@ -112,7 +133,7 @@ MySQL
     
 Mongo
     
-    db.user.remove({'age'  {$lt  30}})
+    db.user.remove({'age' : {$lt : 30}})
 
 
 UPDATE
@@ -123,7 +144,7 @@ MySQL
     
 Mongo
 
-    db.user.update({'name'  'starlee'}, {$set  {'age'  36}})
+    db.user.update({'name' : 'starlee'}, {$set : {'age': 36}})
 
 MySQL
 
@@ -131,11 +152,11 @@ MySQL
      
 Mongo
 
-    db.user.update({'name'  'starlee'}, {$inc  {'age'  3}})
+    db.user.update({'name' : 'starlee'}, {$inc : {'age' : 3}})
 
 
 References
 ----------
 
-* [SQL 到 MongoDB 對應表](http//calvert.logdown.com/posts/2013/11/14/sql-to-mongodb-mapping-chart)
-* [官網 sql-comparison](https//docs.mongodb.com/manual/reference/sql-comparison/)
+* [SQL 到 MongoDB 對應表](http://calvert.logdown.com/posts/2013/11/14/sql-to-mongodb-mapping-chart)
+* [官網 sql-comparison](https://docs.mongodb.com/manual/reference/sql-comparison/)
