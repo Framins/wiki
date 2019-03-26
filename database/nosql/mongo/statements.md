@@ -19,11 +19,11 @@ SELECT
 -------
 MySQL
 
-    SELECT * FROM user
+    SELECT user_id, status FROM user
 
 Mongo
 
-    db.user.find()
+    db.user.find({ },{ user_id: 1, status: 1 })
 
 limit
 -----
@@ -44,7 +44,10 @@ MySQL
 Mongo
         
     db.user.find().sort({'age': -1})
-
+    
+    
+COUNT
+-----
 MySQL
 
     SELECT COUNT(*) FROM user WHERE `name` = 'starlee'
