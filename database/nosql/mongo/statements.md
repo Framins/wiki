@@ -35,15 +35,6 @@ Mongo
 
     db.user.find().skip(10).limit(20)
 
-IN
------
-MySQL
-    
-    SELECT * FROM user WHERE `age` IN (25, 35,45)
-      
-Mongo
-    
-    db.user.find({'age' : {$in : [25, 35, 45]}})
 
 ORDER
 -----
@@ -86,7 +77,7 @@ AND
 ----- 
 MySQL
 
-    SELECT * FROM people WHERE status = "A" OR age = 50
+    SELECT * FROM people WHERE status = "A" AND age = 50
     
 Mongo
 
@@ -96,13 +87,22 @@ OR
 ----- 
 MySQL
 
-    SELECT * FROM people WHERE status = "A" AND age = 50
+    SELECT * FROM people WHERE status = "A" OR age = 50
     
 Mongo
 
     db.people.find({ $or: [ { status: "A" } , { age: 50 } ] })
     
-
+IN
+-----
+MySQL
+    
+    SELECT * FROM user WHERE `age` IN (25, 35,45)
+      
+Mongo
+    
+    db.user.find({'age' : {$in : [25, 35, 45]}})
+    
 INSERT：
 -----
 MySQL
