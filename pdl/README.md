@@ -49,6 +49,7 @@
   + [MoonScript](http://moonscript.org/)
 * [Node](node/README.md)
 * [PHP](php/README.md)
+  + [Zephir](https://zephir-lang.com/) | 用來做 PHP extension 的特殊語言
 * [Ruby](ruby/README.md)
 * [Elixir](https://mileschou.github.io/elixir-notes/)
 
