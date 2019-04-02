@@ -26,5 +26,6 @@ A -> B，這表示如果同時用到這兩個授權的話，要以 B 為主。�
 
 ## References
 
+* https://www.hi-linux.com/posts/45101.html
 * [如何选择和使用开源许可协议](http://eleveneat.com/2015/12/15/License/)
 * [五種開源授權規範的比較 (BSD, Apache, GPL, LGPL, MIT)](http://inspiregate.com/internet/trends/74-comparison-of-five-kinds-of-standard-open-source-license-bsd-apache-gpl-lgpl-mit.html)
