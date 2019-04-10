@@ -68,3 +68,15 @@
 
     pecl install xdebug
     echo "zend_extension=/usr/local/lib/php/extensions/no-debug-non-zts-20121212/xdebug.so" > /usr/local/etc/php/conf.d/xdebug.ini 
+
+## Troubleshooting
+
+### Docker 官方 PHP 5.5 版無法使用 `apt-get update`
+
+下面是一個 workaround 方法，[參考網站](https://unix.stackexchange.com/questions/508724/failed-to-fetch-jessie-backports-repository/508791)  
+
+```dockerfile
+RUN sed -i '/deb http:\/\/httpredir.debian.org\/debian jessie-updates main/d' /etc/apt/sources.list
+
+RUN apt-get update
+```
