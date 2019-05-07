@@ -68,6 +68,12 @@ https://github.com/docker/docker/blob/master/pkg/namesgenerator/names-generator.
 
 基本上就是形容詞對人名，但最後面有個很有趣的限外規則
 
+### Docker stop vs pause
+
+主要是送出信號的差異
+
+https://stackoverflow.com/questions/51466148/pause-vs-stop-in-docker
+
 ## References
 
 * [Docker](https://www.docker.com/)
