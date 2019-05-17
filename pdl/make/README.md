@@ -25,6 +25,8 @@ targets : prerequisites
 
 - 命令必須要以 Tab 鍵開始，可以使用 `\` 表示續行。注意，`\` 之後不能有空格！
 - 在 makefile 中，行尾如果有一個空白，會造成 make 命令執行錯誤
+- Makefile是設計是當有錯誤發生時停止。以`tab`開頭的，都會用shell執行，若失敗，即停止編譯。也因此所有指令需在一行完成。
+on general principles makefiles should always `&&` rather than `;`
 
 ## SUFFIXS & PHONY
 
@@ -61,7 +63,7 @@ ifndef <var>  # 測試 var 是否沒有設定值
 ## References
 
 * [A short intro of Makefile](https://www3.nd.edu/~zxu2/acms60212-40212/Makefile.pdf)
-* [跟我一起寫Makefile:MakeFile介紹](http://wiki.ubuntu.org.cn/index.php?title=%E8%B7%9F%E6%88%91%E4%B8%80%E8%B5%B7%E5%86%99Makefile:%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0&variant=zh-hant)
+* [kezeodsnx:MakeFile介紹](https://kezeodsnx.pixnet.net/blog/post/25125766-makefile)
 * http://maxubuntu.blogspot.tw/2010/02/makefile.html
 * [How to Use Variables](https://ftp.gnu.org/old-gnu/Manuals/make-3.79.1/html_chapter/make_6.html)
 * http://dywang.csie.cyut.edu.tw/moodle23/dywang/linuxProgram/node39.html
