@@ -6,19 +6,26 @@
 
 ## Installation
 
+Note: Rails 在啟動內建 server 時（`rails s`），需要依賴 [Node](/pdl/node)，所以下面會附加說明如何安裝 nodejs。
+
 ### Mac
 
-先用 brew 安裝 Ruby，預設是 2.3
+先用 brew 安裝 Ruby，預設是 2.3：
 
     brew update
     brew install ruby
     brew link --overwrite ruby
 
-接著用 Gem 安裝 rails 套件
+接著用 Gem 安裝 rails 套件：
 
     sudo gem install rails
 
-再來重開終端機應該就會有了
+再來重開終端機應該就會有 `rails` 的指令了。
+
+Node，可以使用 brew 直接裝 node，或是裝 nvm 再調整：
+
+    brew install node
+    brew install nvm 
 
 ### Docker
 
@@ -32,7 +39,7 @@
 
 > `rails new` 會提醒不能用 root 身分，不過 Docker 這個時候通常是拿來測試的，所以可以暫時不理會。
 
-Rails 在啟動內建 server 時（`rails s`），需要依賴 [nodejs](/pdl/node)，所以要再另外安裝
+Node 的安裝方法如下：
 
     apt update
     apt install nodejs
