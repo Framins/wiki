@@ -53,7 +53,8 @@ Framins' wiki
 * [Resource](resource.md)
 * [License](license.md)
 * [Wiki Engine](wiki-engine.md)
-* [Mac](mac.md)
+* [PMIS](pmis.md)
+* [Mac](os/mac.md)
 
 [gimmick:theme (inverse: false)](journal)
 
