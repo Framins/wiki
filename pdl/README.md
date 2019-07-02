@@ -31,7 +31,7 @@
 
 * [Android](android/README.md) - Based on Java / Kotlin
 * [Crystal](https://crystal-lang.org/)
-* [Go](go/README.md)
+* [Go](https://golang.org/)
 * [Java](https://www.java.com/)
 * [Kotlin](https://kotlinlang.org/)
 * [Swift](swift/README.md)

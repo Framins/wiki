@@ -1,7 +1,0 @@
-# Go
-
-## References
-
-* [Go 的相關專案](https://github.com/golang/go/wiki/Projects)
-* [GVM](https://github.com/moovweb/gvm) | Go Version Manager
-* https://yami.io/php-to-golang/
