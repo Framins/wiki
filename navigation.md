@@ -1,5 +1,4 @@
-Framins' wiki
-=============
+# Framins' wiki
 
 [Community](community.md)
 
@@ -24,7 +23,6 @@ Framins' wiki
 * [Editors](editors/README.md)
 * [VCS](vcs/README.md)
 * [Programming](programming/README.md)
-* [Algorithm](algorithm.md)
 * [Program Design Language](pdl/README.md)
 * [Library](library/README.md)
 * [Framework](framework/README.md)
