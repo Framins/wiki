@@ -2,23 +2,24 @@
 
 ## Install on MacOS
 
-#### Install Python & Powerline
+### Install Python & Powerline
 
 ```
 $ brew install python
-$ easy_install pip
-$ pip install --user powerline-status
+$ pip3 install powerline-status
 ```
 
-#### Find powerline install Location: 
-   
+> Default Python version is 3.7
+
+### Find powerline install Location:
+
 ```
-$ pip show powerline-status
+$ pip3 show powerline-status
 ```
 
 there is a line like Location: {path}
 
-#### Install Fonts
+### Install Fonts
 
 ```
 $ git clone https://github.com/powerline/fonts.git
@@ -28,23 +29,25 @@ $ ./install.sh
 
 > Terminal use `Inconsolata-g for Powerline`
 
-#### Config bash
+### Config bash
 
 Add follow command in `~/.bash_profile` file
 
 ```
 . {path}/powerline/bindings/bash/powerline.sh
 ```
-> Trouble shooting
- ```  
- if appear 
- ../../../scripts/powerline-config: No such file or directory
- need to find where is `powerline-config`
- then add the inlclude path to $PATH
- e.g. PATH=$PATH:/Users/kaihan.chang/Library/Python/3.7/bin
- ```
 
-#### Config Vim
+> Trouble shooting
+
+```
+if appear
+../../../scripts/powerline-config: No such file or directory
+need to find where is `powerline-config`
+then add the inlclude path to $PATH
+e.g. PATH=$PATH:/Users/kaihan.chang/Library/Python/3.7/bin
+```
+
+### Config Vim
 
 ```
 brew install vim
@@ -60,9 +63,6 @@ set nocompatible
 set t_Co=256
 
 let g:minBufExplForceSyntaxEnable = 1
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
 
 if ! has('gui_running')
    set ttimeoutlen=10
@@ -80,7 +80,7 @@ set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusl
 syntax on
 ```
 
-#### Create config directory
+### Create config directory
 
 ```
 $ mkdir -p ~/.config/powerline/themes/shell
