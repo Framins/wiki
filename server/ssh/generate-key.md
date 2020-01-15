@@ -2,7 +2,9 @@
 
 產生 SSH Keys 的方法很簡單，在終端機下輸入下面指令即可：
 
-    $ ssh-keygen -t rsa -C "youremail@example.com"
+> 參考 [GitHub 產生新 key 的說明](https://help.github.com/en/enterprise/2.18/user/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
+
+    $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
     Generating public/private rsa key pair.
     Enter file in which to save the key (/home/username/.ssh/id_rsa):     // 存放 key 的位置，使用預設的就好，除非很多不一樣的 key 要做管理....
     Created directory '/home/username/.ssh'.
