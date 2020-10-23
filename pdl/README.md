@@ -29,7 +29,6 @@
 
 靜態語言，特色是需要先編譯才能執行程式碼。
 
-* [Android](android/README.md) - Based on Java / Kotlin
 * [Crystal](https://crystal-lang.org/)
 * [Go](https://golang.org/)
 * [Java](https://www.java.com/)

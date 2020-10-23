@@ -48,7 +48,6 @@
 
 ---
 
-* [Resource](resource.md)
 * [License](license.md)
 * [Wiki Engine](wiki-engine.md)
 * [PMIS](pmis.md)
