@@ -1,4 +1,3 @@
-Wiki
-====
+Archived
 
-[Git Repository](https://github.com/Framins/wiki)
+see https://mileschou.github.io/

@@ -1,3 +1,5 @@
 # Framins' wiki
 
-see http://wiki.framins.com/
+Archived
+
+see https://mileschou.github.io/
