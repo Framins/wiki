@@ -11,7 +11,6 @@
 * [Docker](docker/README.md)
 * [Container](container/README.md)
 * [Cloud](cloud/README.md)
-* [Service-Oriented Architecture](soa/README.md)
 
 ---
 
@@ -23,9 +22,7 @@
 * [Editors](editors/README.md)
 * [VCS](vcs/README.md)
 * [Programming](programming/README.md)
-* [Program Design Language](pdl/README.md)
 * [Library](library/README.md)
-* [Framework](framework/README.md)
 * [Design Pattern](design-pattern/README.md)
 * [Testing](testing/README.md)
 * [Data Structure](data-structure/README.md)
