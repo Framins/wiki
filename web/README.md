@@ -23,8 +23,6 @@ Stash:
 
 合理的使用方法包括了：把用戶轉到指定的網頁版本；域名變更或刪除轉到新網域，等。如果不合理使用的話，搜索引擎會認為這是對使用者的誤導，而對這種網站施以懲戒。
 
-* [HTML 實作法](/pdl/html.md)
-
 ## WTF
 
 * [Spiral](https://codepen.io/Francext/full/ogAqH)

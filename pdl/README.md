@@ -34,8 +34,6 @@
 * [Java](https://www.java.com/)
 * [Kotlin](https://kotlinlang.org/)
 * [Swift](swift/README.md)
-* [Rust](https://mileschou.gitbooks.io/rust-note/content/) - 另開 Gitbook 來寫筆記
-  * 參考資料1 ： http://cwchen.tw/tutorial/rust-prog/about/
 
 ## Dynamically Typed Language
 
@@ -50,18 +48,13 @@
 * [PHP](php/README.md)
   + [Zephir](https://zephir-lang.com/) | 用來做 PHP extension 的特殊語言
 * [Ruby](ruby/README.md)
-* [Elixir](https://mileschou.github.io/elixir-notes/)
 
 ## Markup Language
 
 [Markup Language][]，標記式語言。將文字和文字相關的其他訊息結合，以表現出文件結構和資料處理細節。而文字外的訊息是使用標記來標識，所以稱之為標記式語言。
 
-* [HTML](html.md)
-* [YAML](yaml.md)
 * [TOML](https://github.com/toml-lang/toml) - Tom's Obvious, Minimal Language, by Tom.
-* [Tex](tex.md)
 * [CSS](css/README.md)
-  + [SASS](sass.md)
 
 有一些也蠻像標記語言，但不完全像，如：
 
@@ -69,31 +62,11 @@
   
 [Markup Language]: https://en.wikipedia.org/wiki/Markup_language
 
-## Lightweight Markup Language
-
-[Lightweight Markup Language][]，輕量標記語言。比起標記語言，輕量標記語言比較簡單，也貼近自然語言，閱讀較容易。
-
-* [Markdown](https://markdown.tw/)
-* [JSON](json.md)
-
-[Lightweight Markup Language]: https://en.wikipedia.org/wiki/Lightweight_Markup_Language
-
-## Structured Query Language
-
-[Structured Query Language][]，結構化查詢語言，簡稱 SQL，是用於資料庫的標準查詢語言。
-
-[Structured Query Language]: https://en.wikipedia.org/wiki/SQL
-
 ## Scripting Language
 
 [Scripting Language][]，指令碼語言，通常使用在電腦自動化上。
 
 * [Bash](bash/README.md)
-* [Batch File](batch-file.md)
 * [Make](make/README.md)
 
 [Scripting Language]: https://en.wikipedia.org/wiki/Scripting_language
-
-## Functional Programming
-
-* [Clojure](clojure.md)
